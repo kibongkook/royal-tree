@@ -1,25 +1,25 @@
 {
-  "persons_total": 18897,
+  "persons_total": 43770,
   "by_source": {
     "github": 8291,
-    "wikidata": 10606,
-    "huggingface": 10606
+    "wikidata": 35479,
+    "huggingface": 35479
   },
   "by_role": {
-    "member": 18611,
+    "member": 43484,
     "founder": 186,
     "current_head": 100
   },
   "by_gender": {
-    "M": 12833,
-    "F": 4366,
-    "unknown": 1681,
-    "other": 17
+    "M": 33626,
+    "F": 8410,
+    "unknown": 1700,
+    "other": 34
   },
   "families_total": 100108,
-  "families_with_member": 3151,
-  "families_with_head_current": 2896,
-  "head_current_filled_this_run": 2646,
+  "families_with_member": 7007,
+  "families_with_head_current": 6127,
+  "head_current_filled_this_run": 1345,
   "top30_families_by_member_count": [
     {
       "family_id": "royals:royalconstellations:cc-robert-0",
@@ -72,13 +72,13 @@
     {
       "family_id": "Q157217",
       "name_en": "House of Hanover",
-      "person_count": 141,
+      "person_count": 146,
       "head_current": "royal92:I1050"
     },
     {
       "family_id": "Q112707",
       "name_en": "House of Romanov",
-      "person_count": 129,
+      "person_count": 130,
       "head_current": "Maria Vladimirovna"
     },
     {
@@ -88,118 +88,118 @@
       "head_current": null
     },
     {
-      "family_id": "Q179840",
-      "name_en": "House of Stuart",
-      "person_count": 68,
-      "head_current": null
+      "family_id": "Q2470830",
+      "name_en": "Origin theories of Christopher Columbus",
+      "person_count": 103,
+      "head_current": "Q125230239"
     },
     {
-      "family_id": "royals:islamic-atlas:3",
-      "name_en": "royals:islamic-atlas:3",
-      "person_count": 65,
-      "head_current": null
+      "family_id": "Q663278",
+      "name_en": "Counts of Freiburg",
+      "person_count": 99,
+      "head_current": "Q19843373"
     },
     {
-      "family_id": "royals:ctm-bench:five-dynasties",
-      "name_en": "Five Dynasties",
-      "person_count": 64,
-      "head_current": null
+      "family_id": "Q642301",
+      "name_en": "Seventeenth Dynasty of Egypt",
+      "person_count": 99,
+      "head_current": "Q280109"
     },
     {
-      "family_id": "Q81589",
-      "name_en": "House of Windsor",
-      "person_count": 60,
-      "head_current": "Charles III"
+      "family_id": "Q81101908",
+      "name_en": "Coordination of Parties Youth and Politicians",
+      "person_count": 99,
+      "head_current": "Q27893074"
     },
     {
-      "family_id": "royals:royal92:howard",
-      "name_en": "House of Howard",
-      "person_count": 58,
-      "head_current": null
+      "family_id": "Q3356284",
+      "name_en": "Oriental Research Institute & Manuscripts Library",
+      "person_count": 95,
+      "head_current": "Q5041246"
     },
     {
-      "family_id": "royals:ctm-bench:sui",
-      "name_en": "Sui",
-      "person_count": 48,
-      "head_current": null
+      "family_id": "Q2590017",
+      "name_en": "Association of Boxing Commissions",
+      "person_count": 91,
+      "head_current": "Q717674"
     },
     {
-      "family_id": "Q2275875",
-      "name_en": "House of Seymour",
-      "person_count": 40,
-      "head_current": "John Seymour, 19th Duke of Somerset"
+      "family_id": "Q30645522",
+      "name_en": "The Chitral Campaign: A Narrative of Events in Chitral, Swat and Bajour",
+      "person_count": 89,
+      "head_current": "Q5544797"
     },
     {
-      "family_id": "Q101978",
-      "name_en": "House of Tudor",
-      "person_count": 39,
-      "head_current": null
+      "family_id": "Q137265974",
+      "name_en": "Tribune Group",
+      "person_count": 88,
+      "head_current": "Q24270968"
     },
     {
-      "family_id": "Q83969",
-      "name_en": "House of Hohenzollern",
-      "person_count": 38,
-      "head_current": "Georg Friedrich, Prince of Prussia"
+      "family_id": "Q6888500",
+      "name_en": "Moderate Students",
+      "person_count": 87,
+      "head_current": "Q5580727"
     },
     {
-      "family_id": "royals:ctm-bench:pre-qin",
-      "name_en": "Pre-Qin",
-      "person_count": 37,
-      "head_current": null
+      "family_id": "Q1432122",
+      "name_en": "Front for the Advancement and Progress of Haïti",
+      "person_count": 82,
+      "head_current": "Q1952473"
     },
     {
-      "family_id": "Q155594",
-      "name_en": "House of Oldenburg",
-      "person_count": 36,
-      "head_current": "royal92:I1061"
+      "family_id": "Q4821336",
+      "name_en": "Augusto and Michaela Odone",
+      "person_count": 81,
+      "head_current": "Q108265925"
     },
     {
-      "family_id": "royals:royal92:wurttemberg",
-      "name_en": "House of Wurttemberg",
-      "person_count": 36,
-      "head_current": "royal92:I1093"
+      "family_id": "Q1771841",
+      "name_en": "Abortion Opponents' List",
+      "person_count": 81,
+      "head_current": "Q3265837"
     },
     {
-      "family_id": "royals:islamic-atlas:5",
-      "name_en": "Mulūk al-Tawā'if",
-      "person_count": 33,
-      "head_current": null
+      "family_id": "Q58433302",
+      "name_en": "apostolic family",
+      "person_count": 78,
+      "head_current": "Q785103"
     },
     {
-      "family_id": "Q2604888",
-      "name_en": "House of Spencer",
-      "person_count": 30,
-      "head_current": "Charles Spencer, 9th Earl Spencer"
+      "family_id": "Q829881",
+      "name_en": "Waterloo Medal (Nassau)",
+      "person_count": 78,
+      "head_current": "Q5042445"
     },
     {
-      "family_id": "Q813367",
-      "name_en": "House of Beaufort",
-      "person_count": 30,
-      "head_current": null
+      "family_id": "Q7691082",
+      "name_en": "Tea Party Express",
+      "person_count": 76,
+      "head_current": "Q4853374"
     },
     {
-      "family_id": "royals:islamic-atlas:7",
-      "name_en": "royals:islamic-atlas:7",
-      "person_count": 30,
-      "head_current": null
+      "family_id": "Q2124259",
+      "name_en": "RIT Capital Partners",
+      "person_count": 75,
+      "head_current": "Q5534157"
     },
     {
-      "family_id": "royals:royal92:lascelles",
-      "name_en": "House of Lascelles",
-      "person_count": 30,
-      "head_current": "royal92:I950"
+      "family_id": "Q2032400",
+      "name_en": "Guggenheim family",
+      "person_count": 75,
+      "head_current": "Q5757723"
     },
     {
-      "family_id": "royals:royal92:mortimer",
-      "name_en": "House of Mortimer",
-      "person_count": 30,
-      "head_current": null
+      "family_id": "Q105091408",
+      "name_en": "Fight 2 Win Promotions",
+      "person_count": 74,
+      "head_current": "Q7505400"
     },
     {
-      "family_id": "Q131621",
-      "name_en": "House of Wittelsbach",
-      "person_count": 29,
-      "head_current": "Franz, Duke of Bavaria"
+      "family_id": "Q75611631",
+      "name_en": "Georgina Coleridge",
+      "person_count": 73,
+      "head_current": "Q228875"
     }
   ]
 }

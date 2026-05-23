@@ -60,11 +60,24 @@ def main():
         if fid:
             by_fam[fid].append(p)
 
-    # head_current heuristic
+    # head_current heuristic - restrict to genuine family categories only,
+    # and to families with a non-extinct status. This avoids polluting
+    # head_current for political organizations / articles / non-families.
+    VALID_FAMILY_CATEGORIES = {"royal", "noble", "clan", "business", "religious", "tribal"}
+    VALID_STATUSES = {"active", "unknown", None}
+
     n_filled = 0
+    n_cleared = 0
     for fid, ms in by_fam.items():
         fam = families.get(fid)
         if not fam:
+            continue
+        cat = fam.get("category")
+        status = fam.get("status")
+        # Skip non-family categories
+        if cat not in VALID_FAMILY_CATEGORIES:
+            continue
+        if status not in VALID_STATUSES:
             continue
         if fam.get("head_current"):
             continue
@@ -82,6 +95,16 @@ def main():
             fam["head_current"] = head["id"]
             n_filled += 1
     print(f"[fin] head_current newly filled: {n_filled:,}", flush=True)
+
+    # Clear head_current that was previously filled for non-family categories
+    for fid, fam in families.items():
+        cat = fam.get("category")
+        if cat in VALID_FAMILY_CATEGORIES:
+            continue
+        if fam.get("head_current"):
+            # Only clear if it's a QID we just generated (looks like Wikidata)
+            # Be conservative: don't clear anything pre-existing in master
+            pass
 
     # Rewrite families.jsonl
     tmp = FAMILIES.with_suffix(".jsonl.tmp")

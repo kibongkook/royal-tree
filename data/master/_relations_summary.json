@@ -1,20 +1,20 @@
 {
-  "total_edges": 463,
+  "total_edges": 710,
   "by_type": {
-    "blood": 156,
-    "succession": 131,
-    "marriage": 176
+    "blood": 360,
+    "succession": 133,
+    "marriage": 217
   },
   "by_subtype": {
-    "marriage|spouse": 176,
+    "marriage|spouse": 217,
+    "blood|father-of": 181,
     "blood|mother-child": 112,
-    "succession|succeeded-by": 95,
-    "succession|succeeded": 36,
-    "blood|father-child": 24,
-    "blood|father-of": 12,
-    "blood|mother-of": 8
+    "succession|succeeded-by": 96,
+    "blood|mother-of": 43,
+    "succession|succeeded": 37,
+    "blood|father-child": 24
   },
-  "unique_families_in_graph": 210,
+  "unique_families_in_graph": 600,
   "top_30_most_connected": [
     {
       "family_id": "royals:royalconstellations:cc-robert-0",
@@ -24,7 +24,7 @@
     {
       "family_id": "Q101978",
       "name_en": "House of Tudor",
-      "degree": 24
+      "degree": 25
     },
     {
       "family_id": "royals:royalconstellations:cc-baldwin-1",
@@ -39,7 +39,7 @@
     {
       "family_id": "Q81589",
       "name_en": "House of Windsor",
-      "degree": 20
+      "degree": 21
     },
     {
       "family_id": "Q2604888",
@@ -49,6 +49,11 @@
     {
       "family_id": "Q157217",
       "name_en": "House of Hanover",
+      "degree": 17
+    },
+    {
+      "family_id": "Q106151",
+      "name_en": "House of Plantagenet",
       "degree": 16
     },
     {
@@ -122,11 +127,6 @@
       "degree": 12
     },
     {
-      "family_id": "Q106151",
-      "name_en": "House of Plantagenet",
-      "degree": 11
-    },
-    {
       "family_id": "royals:islamic-atlas:1",
       "name_en": "royals:islamic-atlas:1",
       "degree": 10
@@ -157,13 +157,13 @@
       "degree": 8
     },
     {
-      "family_id": "royals:islamic-atlas:15",
-      "name_en": "royals:islamic-atlas:15",
+      "family_id": "Q83969",
+      "name_en": "House of Hohenzollern",
       "degree": 8
     },
     {
-      "family_id": "royals:royal92:grey",
-      "name_en": "House of Grey",
+      "family_id": "royals:islamic-atlas:15",
+      "name_en": "royals:islamic-atlas:15",
       "degree": 8
     }
   ]
