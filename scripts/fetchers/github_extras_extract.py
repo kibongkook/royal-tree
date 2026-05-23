@@ -219,7 +219,7 @@ def emit_islamic_atlas():
             founded = parse_int(row.get("date_start_ce"))
             extinct = parse_int(row.get("date_end_ce"))
             # Prefer canonical Wikidata QID when known so the dedup step can merge.
-            canonical_id = ATLAS_DYNID_TO_QID.get(did) or f"royals:islamic-atlas:{did}"
+            canonical_id = ATLAS_DYNID_TO_QID.get(did) or f"royal-tree:islamic-atlas:{did}"
             canonical_en = (
                 ATLAS_DYNID_TO_EN_CANON.get(did)
                 or clean_atlas_en(name_en)
@@ -267,8 +267,8 @@ def emit_islamic_atlas():
                 if not pid:
                     continue
                 rec = {
-                    "id": f"royals:islamic-atlas:person:{pid}",
-                    "dynasty_id_link": f"royals:islamic-atlas:{did}" if did else None,
+                    "id": f"royal-tree:islamic-atlas:person:{pid}",
+                    "dynasty_id_link": f"royal-tree:islamic-atlas:{did}" if did else None,
                     "dynasty_name": (row.get("dynasty_name") or "").strip() or None,
                     "sub_branch": (row.get("sub_branch") or "").strip() or None,
                     "full_name_original": (row.get("full_name_original") or "").strip() or None,
@@ -355,7 +355,7 @@ def emit_ctm_bench():
         for dyn, items in grouped.items():
             for name, v in items:
                 rec = {
-                    "id": f"royals:ctm-bench:figure:{name}",
+                    "id": f"royal-tree:ctm-bench:figure:{name}",
                     "name_zh": name,
                     "dynasty_zh": dyn,
                     "dynasty_en": CTM_DYN_EN.get(dyn),
@@ -382,7 +382,7 @@ def emit_ctm_bench():
             en_name = CTM_DYN_EN.get(dyn)
             slug = slugify_zh(dyn) or dyn
             rec = {
-                "id": f"royals:ctm-bench:{slug}" if slug != dyn else f"royals:ctm-bench:dyn-{n_dyn+1}",
+                "id": f"royal-tree:ctm-bench:{slug}" if slug != dyn else f"royal-tree:ctm-bench:dyn-{n_dyn+1}",
                 "names": {k: v for k, v in [("zh", dyn), ("en", en_name)] if v},
                 "country": ["CN"],
                 "category": "royal",

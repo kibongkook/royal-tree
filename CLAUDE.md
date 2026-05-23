@@ -1,4 +1,4 @@
-# CLAUDE.md — Royals
+# CLAUDE.md — Royal-Tree
 
 > 전세계 각 국가의 **모든 가문(왕가·귀족·씨족·기업가문)**을 빠짐없이 수집하고, 가문 간 혈연·혼인·사업 연결 관계를 매핑해 현재까지의 연결고리와 사업 현황을 추적하는 데이터 프로젝트.
 
@@ -62,7 +62,7 @@
 ## 디렉토리 구조
 
 ```
-Royals/
+Royal-Tree/
 ├── CLAUDE.md
 ├── data/
 │   ├── raw/                # 소스별 원본 덤프
@@ -90,7 +90,7 @@ Royals/
 ## 자율 실행 원칙 (이 프로젝트 특수)
 
 - **누락 < 중복** — 의심스러우면 일단 포함, 나중에 Wikidata QID로 자동 dedup
-- **canonical ID는 Wikidata QID** — QID 없으면 임시 ID `royals:<country>:<slug>` 부여 후 나중에 QID 발견 시 머지
+- **canonical ID는 Wikidata QID** — QID 없으면 임시 ID `royal-tree:<source>:<slug>` 부여 후 나중에 QID 발견 시 머지
 - **국가 코드는 ISO 3166-1 alpha-2**, 다국적 가문은 배열로
 - **수집 결과는 JSONL** (스트리밍·머지 용이), 사람이 보는 요약은 Markdown 별도
 

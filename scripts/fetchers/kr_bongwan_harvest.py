@@ -76,7 +76,7 @@ SUR_ROM = {
 
 def fetch():
     req = urllib.request.Request(URL, headers={
-        "User-Agent": "Royals-research/0.1 (kibongkook@gmail.com)"
+        "User-Agent": "RoyalTree-research/0.1 (kibongkook@gmail.com)"
     })
     with urllib.request.urlopen(req, timeout=60) as r:
         return json.load(r)

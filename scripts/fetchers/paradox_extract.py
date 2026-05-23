@@ -968,10 +968,10 @@ def main():
         "ck2_elder_kings": Path("/tmp/paradox_repos/ck2_elder_kings"),
         "ck3_kingdom_heaven": Path("/tmp/paradox_repos/kingdom_heaven"),
     }
-    out_root = Path("/Users/sidewalkai2/Claude/Royals/data/raw")
+    out_root = Path("/Users/sidewalkai2/Claude/royal-tree/data/raw")
 
     # Write the culture->country CSV
-    csv_path = Path("/Users/sidewalkai2/Claude/Royals/scripts/normalize/ck3_culture_to_country.csv")
+    csv_path = Path("/Users/sidewalkai2/Claude/royal-tree/scripts/normalize/ck3_culture_to_country.csv")
     write_culture_csv(csv_path)
     print(f"[normalize] wrote culture mapping CSV: {csv_path}")
 

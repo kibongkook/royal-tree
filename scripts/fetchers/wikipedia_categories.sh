@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Wikipedia category crawler for the Royals project.
+# Wikipedia category crawler for the Royal-Tree project.
 #
 # - Walks a list of seed categories per language Wikipedia.
 # - Recurses subcategories ONE level deep (seed level 0 + subcats level 1).
@@ -25,7 +25,7 @@ mkdir -p "$OUT_DIR" "$TMP_DIR"
 : > "$CAT_STATS"
 : > "$LOG_FILE"
 
-UA='Royals-research/0.1 (kibongkook@gmail.com)'
+UA='RoyalTree-research/0.1 (kibongkook@gmail.com)'
 
 log() { printf '[%s] %s\n' "$(date +%H:%M:%S)" "$*" | tee -a "$LOG_FILE" >&2; }
 

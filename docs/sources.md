@@ -1,4 +1,4 @@
-# Sources — Royals Phase 1
+# Sources — Royal-Tree Phase 1
 
 수집에 사용한 모든 외부 소스의 레지스트리. 재현 가능성·라이선스 추적 목적.
 

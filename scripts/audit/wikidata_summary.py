@@ -5,7 +5,7 @@ import json
 from collections import Counter
 from pathlib import Path
 
-PATH = Path("/Users/sidewalkai2/Claude/Royals/data/raw/wikidata/families.jsonl")
+PATH = Path("/Users/sidewalkai2/Claude/royal-tree/data/raw/wikidata/families.jsonl")
 
 
 def main() -> None:

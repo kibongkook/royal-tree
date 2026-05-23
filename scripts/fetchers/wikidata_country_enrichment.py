@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Wikidata country enrichment for Royals master file.
+Wikidata country enrichment for Royal-Tree master file.
 
 Reads:  data/master/families.jsonl
 Finds:  every entry with empty country AND a real Wikidata QID
@@ -39,7 +39,7 @@ OUT    = ROOT / "data" / "master" / "_country_enrichment.jsonl"
 CHECKPOINT = ROOT / "data" / "master" / "_country_enrichment.checkpoint.json"
 
 WIKIDATA_API = "https://www.wikidata.org/w/api.php"
-USER_AGENT = "Royals-research/0.2 (kibongkook@gmail.com)"
+USER_AGENT = "RoyalTree-research/0.2 (kibongkook@gmail.com)"
 
 BATCH_SIZE = 50
 MAX_WORKERS = 5

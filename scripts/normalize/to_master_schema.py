@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-Normalize every raw source into the common Royals master schema:
+Normalize every raw source into the common Royal-Tree master schema:
 
   {
-    "id": "Q44613",                        # Wikidata QID (canonical) | royals:<src>:<slug>
+    "id": "Q44613",                        # Wikidata QID (canonical) | royal-tree:<src>:<slug>
     "names": {"en": "...", "ko": "...", ...},
     "country": ["AT", "ES", ...],          # ISO 3166-1 alpha-2
     "category": "royal|noble|clan|business|religious|tribal|political|unknown",
@@ -231,7 +231,7 @@ def from_wikipedia(out, fp):
                 nf += 1; continue
             qid = r.get("qid")
             country = resolve_country([r.get("country_hint")] if r.get("country_hint") else [])
-            wpid = qid or f"royals:wp:{r.get('wikipedia_lang','x')}:{slugify(title)}"
+            wpid = qid or f"royal-tree:wp:{r.get('wikipedia_lang','x')}:{slugify(title)}"
             cat_hint = (r.get("category") or "").lower()
             cat = (
                 "clan" if "clan" in cat_hint or "氏" in cat_hint or "성씨" in cat_hint or "본관" in cat_hint
@@ -275,7 +275,7 @@ def from_ck3(out, fp, game="ck3"):
                     names[lang] = v
             if not names and r.get("key"):
                 names["en"] = r["key"]
-            rid = f"royals:{game}:{r.get('id') or r.get('key')}"
+            rid = f"royal-tree:{game}:{r.get('id') or r.get('key')}"
             rec = {
                 "id": rid,
                 "names": names,
@@ -301,7 +301,7 @@ def from_eu4(out, fp):
             tag = r.get("tag")
             if not tag:
                 continue
-            rid = f"royals:eu4:{tag}"
+            rid = f"royal-tree:eu4:{tag}"
             rec = {
                 "id": rid,
                 "names": {"en": r.get("name_file","").replace("countries/","").replace(".txt","") or tag},
@@ -377,7 +377,7 @@ def from_manual(out, fp):
                 if isinstance(av, str) and av:
                     names.setdefault(ak, av)
             country = resolve_country(r.get("country"))
-            rid = qid or f"royals:manual:{slugify((names.get('en') or names.get('ko') or names.get('ja') or 'x'))}"
+            rid = qid or f"royal-tree:manual:{slugify((names.get('en') or names.get('ko') or names.get('ja') or 'x'))}"
             period = r.get("period") or {}
             rec = {
                 "id": rid,

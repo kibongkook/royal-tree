@@ -199,7 +199,7 @@ def main():
     with OUT_IND.open("w", encoding="utf-8") as f:
         for iid, p in individuals.items():
             sn_key = (p.get("surname") or "").strip()
-            family_slug = f"royals:royal92:{slugify(sn_key)}" if sn_key and len(by_surname.get(sn_key, [])) >= 3 else None
+            family_slug = f"royal-tree:royal92:{slugify(sn_key)}" if sn_key and len(by_surname.get(sn_key, [])) >= 3 else None
             par = parents_of.get(iid, {})
             rec = {
                 "id": p["id"],
@@ -247,7 +247,7 @@ def main():
             # Emit name as "House of <surname>" so name-key cross-link in merge_by_qid
             # catches Wikidata "House of X" records. Also keep raw surname in `raw`.
             rec = {
-                "id": f"royals:royal92:{slug}",
+                "id": f"royal-tree:royal92:{slug}",
                 "names": {"en": f"House of {surname}"},
                 "country": [],
                 "category": "royal",

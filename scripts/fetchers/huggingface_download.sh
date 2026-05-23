@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Hugging Face dataset fetcher for the Royals project.
+# Hugging Face dataset fetcher for the Royal-Tree project.
 #
 # Discovers and downloads genealogy / royalty / nobility / world-leader datasets
 # from Hugging Face into data/raw/huggingface/<dataset-name>/ and writes a

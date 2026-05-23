@@ -92,7 +92,7 @@ def main():
             if key in seen:
                 continue
             seen.add(key)
-            slug = f"royals:forbes:{iso or 'xx'}-{slugify(surname)}"
+            slug = f"royal-tree:forbes:{iso or 'xx'}-{slugify(surname)}"
             rec = {
                 "id": None,
                 "name_en": f"{surname} family ({name})",

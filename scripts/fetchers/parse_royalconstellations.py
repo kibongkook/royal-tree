@@ -146,7 +146,7 @@ def main():
     for sn, members in by_surname.items():
         if len(members) < 3:
             continue
-        slug = f"royals:royalconstellations:{slugify(sn)}"
+        slug = f"royal-tree:royalconstellations:{slugify(sn)}"
         for iid in members:
             family_of[iid] = slug
         family_clusters.append((slug, sn, members))
@@ -165,7 +165,7 @@ def main():
         label_root = re.sub(r"\s+", " ", label_src).strip()
         first_token = label_root.split(" ")[0] if label_root else f"cluster{cc_idx}"
         # build a unique slug: "<first-token>-rc<idx>"
-        slug = f"royals:royalconstellations:cc-{slugify(first_token)}-{cc_idx}"
+        slug = f"royal-tree:royalconstellations:cc-{slugify(first_token)}-{cc_idx}"
         for iid in comp:
             family_of[iid] = slug
         family_clusters.append((slug, f"(kin-group: {label_root})", comp))

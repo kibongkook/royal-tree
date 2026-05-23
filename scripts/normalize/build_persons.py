@@ -31,7 +31,7 @@ OUT_BY_FAM  = ROOT / "data" / "master" / "persons_by_family"
 
 
 def load_alias_map() -> dict[str, str]:
-    """original_id -> canonical_id (QID or royals:... slug)"""
+    """original_id -> canonical_id (QID or royal-tree:... slug)"""
     m = {}
     if not ALIAS.exists():
         return m
@@ -216,16 +216,16 @@ def from_islamic_atlas(records: list, alias: dict, known: set):
 
 
 CTM_DYNASTY_TO_SLUG = {
-    "先秦": "royals:ctm-bench:pre-qin",
-    "汉":   "royals:ctm-bench:han",
-    "六朝": "royals:ctm-bench:six-dynasties",
-    "隋":   "royals:ctm-bench:sui",
-    "唐":   "royals:ctm-bench:tang",
-    "五代": "royals:ctm-bench:five-dynasties",
-    "宋":   "royals:ctm-bench:song",
-    "元":   "royals:ctm-bench:yuan",
-    "明":   "royals:ctm-bench:ming",
-    "清":   "royals:ctm-bench:qing",
+    "先秦": "royal-tree:ctm-bench:pre-qin",
+    "汉":   "royal-tree:ctm-bench:han",
+    "六朝": "royal-tree:ctm-bench:six-dynasties",
+    "隋":   "royal-tree:ctm-bench:sui",
+    "唐":   "royal-tree:ctm-bench:tang",
+    "五代": "royal-tree:ctm-bench:five-dynasties",
+    "宋":   "royal-tree:ctm-bench:song",
+    "元":   "royal-tree:ctm-bench:yuan",
+    "明":   "royal-tree:ctm-bench:ming",
+    "清":   "royal-tree:ctm-bench:qing",
 }
 
 

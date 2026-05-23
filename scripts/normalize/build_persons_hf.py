@@ -307,7 +307,7 @@ def step4(max_batches: int = 0, batch_size: int = 50, sleep_s: float = 0.5,
             try:
                 r = requests.get(
                     url,
-                    headers={"User-Agent": "RoyalsBot/0.2 (kibongkook@gmail.com)"},
+                    headers={"User-Agent": "RoyalTreeBot/0.2 (kibongkook@gmail.com)"},
                     timeout=30,
                 )
                 r.raise_for_status()

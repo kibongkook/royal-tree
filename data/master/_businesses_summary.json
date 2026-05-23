@@ -72,12 +72,12 @@
   },
   "top_30_families_by_company_count": [
     {
-      "family_id": "royals:manual:wang-chuanfu-family-byd",
+      "family_id": "royal-tree:manual:wang-chuanfu-family-byd",
       "name_en": "Wang Chuanfu family / BYD",
       "company_count": 42
     },
     {
-      "family_id": "royals:manual:zhang-juzheng-family",
+      "family_id": "royal-tree:manual:zhang-juzheng-family",
       "name_en": "Zhang Juzheng family",
       "company_count": 36
     },
@@ -87,27 +87,27 @@
       "company_count": 21
     },
     {
-      "family_id": "royals:manual:chen-daihe-family",
+      "family_id": "royal-tree:manual:chen-daihe-family",
       "name_en": "Chen Daihe family",
       "company_count": 21
     },
     {
-      "family_id": "royals:manual:booyoung-lee-family",
+      "family_id": "royal-tree:manual:booyoung-lee-family",
       "name_en": "Booyoung Lee Family",
       "company_count": 18
     },
     {
-      "family_id": "royals:manual:huang-zheng-colin-huang-family-pinduoduo",
+      "family_id": "royal-tree:manual:huang-zheng-colin-huang-family-pinduoduo",
       "name_en": "Huang Zheng (Colin Huang) family / Pinduoduo",
       "company_count": 17
     },
     {
-      "family_id": "royals:manual:liu-cangling-family-taiwan-plastic",
+      "family_id": "royal-tree:manual:liu-cangling-family-taiwan-plastic",
       "name_en": "Liu Cangling family / Taiwan plastic",
       "company_count": 16
     },
     {
-      "family_id": "royals:manual:mediatek-tsai-family",
+      "family_id": "royal-tree:manual:mediatek-tsai-family",
       "name_en": "MediaTek Tsai family",
       "company_count": 16
     },
@@ -117,12 +117,12 @@
       "company_count": 14
     },
     {
-      "family_id": "royals:manual:arnold-family-john-arnold",
+      "family_id": "royal-tree:manual:arnold-family-john-arnold",
       "name_en": "Arnold family (John Arnold)",
       "company_count": 13
     },
     {
-      "family_id": "royals:manual:zhou-hongyi-family-360-security",
+      "family_id": "royal-tree:manual:zhou-hongyi-family-360-security",
       "name_en": "Zhou Hongyi family / 360 Security",
       "company_count": 13
     },
@@ -137,12 +137,12 @@
       "company_count": 12
     },
     {
-      "family_id": "royals:manual:citrone-family-robert-citrone",
+      "family_id": "royal-tree:manual:citrone-family-robert-citrone",
       "name_en": "Citrone family (Robert Citrone)",
       "company_count": 12
     },
     {
-      "family_id": "royals:manual:rausing-family-hans-rausing",
+      "family_id": "royal-tree:manual:rausing-family-hans-rausing",
       "name_en": "Rausing family (Hans Rausing)",
       "company_count": 12
     },
@@ -152,52 +152,52 @@
       "company_count": 11
     },
     {
-      "family_id": "royals:manual:ackman-family-william-ackman",
+      "family_id": "royal-tree:manual:ackman-family-william-ackman",
       "name_en": "Ackman family (William Ackman)",
       "company_count": 10
     },
     {
-      "family_id": "royals:manual:jiang-family",
+      "family_id": "royal-tree:manual:jiang-family",
       "name_en": "Jiang family",
       "company_count": 10
     },
     {
-      "family_id": "royals:manual:persson-family-stefan-persson",
+      "family_id": "royal-tree:manual:persson-family-stefan-persson",
       "name_en": "Persson family (Stefan Persson)",
       "company_count": 10
     },
     {
-      "family_id": "royals:manual:sun-chuanfang-family",
+      "family_id": "royal-tree:manual:sun-chuanfang-family",
       "name_en": "Sun Chuanfang family",
       "company_count": 10
     },
     {
-      "family_id": "royals:manual:nicholas-pritzker-family-nicholas-pritzker-ii",
+      "family_id": "royal-tree:manual:nicholas-pritzker-family-nicholas-pritzker-ii",
       "name_en": "Nicholas Pritzker family (Nicholas Pritzker, II.)",
       "company_count": 9
     },
     {
-      "family_id": "royals:manual:benetton-family-carlo-benetton",
+      "family_id": "royal-tree:manual:benetton-family-carlo-benetton",
       "name_en": "Benetton family (Carlo Benetton)",
       "company_count": 8
     },
     {
-      "family_id": "royals:manual:breyer-family-jim-breyer",
+      "family_id": "royal-tree:manual:breyer-family-jim-breyer",
       "name_en": "Breyer family (Jim Breyer)",
       "company_count": 8
     },
     {
-      "family_id": "royals:manual:dlf-singh-family",
+      "family_id": "royal-tree:manual:dlf-singh-family",
       "name_en": "DLF Singh family",
       "company_count": 8
     },
     {
-      "family_id": "royals:manual:forrest-mars-family-forrest-mars-jr",
+      "family_id": "royal-tree:manual:forrest-mars-family-forrest-mars-jr",
       "name_en": "Forrest Mars family (Forrest Mars, Jr.)",
       "company_count": 8
     },
     {
-      "family_id": "royals:manual:hunt-family-ray-lee-hunt",
+      "family_id": "royal-tree:manual:hunt-family-ray-lee-hunt",
       "name_en": "Hunt family (Ray Lee Hunt)",
       "company_count": 8
     },
@@ -217,7 +217,7 @@
       "company_count": 7
     },
     {
-      "family_id": "royals:manual:bailey-family-thomas-bailey",
+      "family_id": "royal-tree:manual:bailey-family-thomas-bailey",
       "name_en": "Bailey family (Thomas Bailey)",
       "company_count": 7
     }

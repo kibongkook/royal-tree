@@ -1,4 +1,4 @@
-# Coverage — Royals Phase 1 + 1.5 + 2 + 3 + 4
+# Coverage — Royal-Tree Phase 1 + 1.5 + 2 + 3 + 4
 
 > 자동 생성 가능: `python3 scripts/normalize/split_indexes.py` 가 `data/master/_summary.json`을 갱신.
 

@@ -22,7 +22,7 @@ mkdir -p "$OUT_DIR" "$TMP_DIR"
 : > "$CAT_STATS"
 : > "$LOG_FILE"
 
-UA='Royals-research/0.1 (kibongkook@gmail.com)'
+UA='RoyalTree-research/0.1 (kibongkook@gmail.com)'
 MAX_DEPTH=${MAX_DEPTH:-3}
 
 log() { printf '[%s] %s\n' "$(date +%H:%M:%S)" "$*" | tee -a "$LOG_FILE" >&2; }

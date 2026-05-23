@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Wikidata harvest for Royals project.
+Wikidata harvest for Royal-Tree project.
 
 Pulls every family / dynasty / noble house / clan-like entity from Wikidata's
 SPARQL endpoint into data/raw/wikidata/families.jsonl.
@@ -34,11 +34,11 @@ try:
 except Exception:  # noqa: BLE001
     SSL_CTX = ssl.create_default_context()
 
-ROOT = Path("/Users/sidewalkai2/Claude/Royals")
+ROOT = Path("/Users/sidewalkai2/Claude/royal-tree")
 OUT_PATH = ROOT / "data/raw/wikidata/families.jsonl"
 LOG_PATH = ROOT / "data/raw/wikidata/_harvest.log"
 ENDPOINT = "https://query.wikidata.org/sparql"
-UA = "Royals-research/0.1 (kibongkook@gmail.com)"
+UA = "RoyalTree-research/0.1 (kibongkook@gmail.com)"
 TIMEOUT_S = 75
 MAX_PARALLEL = 5
 

@@ -22,49 +22,49 @@
   "head_current_filled_this_run": 1345,
   "top30_families_by_member_count": [
     {
-      "family_id": "royals:royalconstellations:cc-robert-0",
+      "family_id": "royal-tree:royalconstellations:cc-robert-0",
       "name_en": "(kin-group: Robert II)",
       "person_count": 827,
       "head_current": "rc:I3074"
     },
     {
-      "family_id": "royals:ctm-bench:six-dynasties",
+      "family_id": "royal-tree:ctm-bench:six-dynasties",
       "name_en": "Six Dynasties",
       "person_count": 392,
       "head_current": null
     },
     {
-      "family_id": "royals:royalconstellations:cc-baldwin-1",
+      "family_id": "royal-tree:royalconstellations:cc-baldwin-1",
       "name_en": "(kin-group: Baldwin V of Flanders)",
       "person_count": 240,
       "head_current": null
     },
     {
-      "family_id": "royals:ck2:1053100",
+      "family_id": "royal-tree:ck2:1053100",
       "name_en": "Song",
       "person_count": 200,
       "head_current": null
     },
     {
-      "family_id": "royals:ck2:1062562",
+      "family_id": "royal-tree:ck2:1062562",
       "name_en": "Tang",
       "person_count": 200,
       "head_current": null
     },
     {
-      "family_id": "royals:ck3:yuan_fictional",
+      "family_id": "royal-tree:ck3:yuan_fictional",
       "name_en": "Yuan",
       "person_count": 200,
       "head_current": null
     },
     {
-      "family_id": "royals:ctm-bench:ming",
+      "family_id": "royal-tree:ctm-bench:ming",
       "name_en": "Ming",
       "person_count": 200,
       "head_current": null
     },
     {
-      "family_id": "royals:ctm-bench:qing",
+      "family_id": "royal-tree:ctm-bench:qing",
       "name_en": "Qing",
       "person_count": 200,
       "head_current": null
@@ -82,7 +82,7 @@
       "head_current": "Maria Vladimirovna"
     },
     {
-      "family_id": "royals:ck2:1055027",
+      "family_id": "royal-tree:ck2:1055027",
       "name_en": "Han",
       "person_count": 111,
       "head_current": null

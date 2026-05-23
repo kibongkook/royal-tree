@@ -217,7 +217,7 @@ def main():
     # Build a name → atlas_person_id index
     atlas_name_to_pid: dict[str, str] = {}
     for pid, p in persons.items():
-        if not pid.startswith("royals:islamic-atlas:person:"):
+        if not pid.startswith("royal-tree:islamic-atlas:person:"):
             continue
         names = p.get("names") or {}
         for n in [names.get("en"), names.get("tr")]:
@@ -227,7 +227,7 @@ def main():
                 atlas_name_to_pid.setdefault(key, pid)
     # Walk again: when predecessor_id is a string, see if it matches another dynasty's ruler
     for pid, p in persons.items():
-        if not pid.startswith("royals:islamic-atlas:person:"):
+        if not pid.startswith("royal-tree:islamic-atlas:person:"):
             continue
         fa = p.get("family_id")
         if not fa:

@@ -17,7 +17,7 @@
   "unique_families_in_graph": 600,
   "top_30_most_connected": [
     {
-      "family_id": "royals:royalconstellations:cc-robert-0",
+      "family_id": "royal-tree:royalconstellations:cc-robert-0",
       "name_en": "(kin-group: Robert II)",
       "degree": 57
     },
@@ -27,12 +27,12 @@
       "degree": 25
     },
     {
-      "family_id": "royals:royalconstellations:cc-baldwin-1",
+      "family_id": "royal-tree:royalconstellations:cc-baldwin-1",
       "name_en": "(kin-group: Baldwin V of Flanders)",
       "degree": 23
     },
     {
-      "family_id": "royals:islamic-atlas:10",
+      "family_id": "royal-tree:islamic-atlas:10",
       "name_en": "Midrārid",
       "degree": 21
     },
@@ -57,8 +57,8 @@
       "degree": 16
     },
     {
-      "family_id": "royals:islamic-atlas:16",
-      "name_en": "royals:islamic-atlas:16",
+      "family_id": "royal-tree:islamic-atlas:16",
+      "name_en": "royal-tree:islamic-atlas:16",
       "degree": 16
     },
     {
@@ -67,8 +67,8 @@
       "degree": 14
     },
     {
-      "family_id": "royals:islamic-atlas:12",
-      "name_en": "royals:islamic-atlas:12",
+      "family_id": "royal-tree:islamic-atlas:12",
+      "name_en": "royal-tree:islamic-atlas:12",
       "degree": 14
     },
     {
@@ -77,8 +77,8 @@
       "degree": 14
     },
     {
-      "family_id": "royals:islamic-atlas:21",
-      "name_en": "royals:islamic-atlas:21",
+      "family_id": "royal-tree:islamic-atlas:21",
+      "name_en": "royal-tree:islamic-atlas:21",
       "degree": 14
     },
     {
@@ -87,37 +87,37 @@
       "degree": 13
     },
     {
-      "family_id": "royals:islamic-atlas:5",
+      "family_id": "royal-tree:islamic-atlas:5",
       "name_en": "Mulūk al-Tawā'if",
       "degree": 13
     },
     {
-      "family_id": "royals:islamic-atlas:11",
-      "name_en": "royals:islamic-atlas:11",
+      "family_id": "royal-tree:islamic-atlas:11",
+      "name_en": "royal-tree:islamic-atlas:11",
       "degree": 13
     },
     {
-      "family_id": "royals:islamic-atlas:18",
-      "name_en": "royals:islamic-atlas:18",
+      "family_id": "royal-tree:islamic-atlas:18",
+      "name_en": "royal-tree:islamic-atlas:18",
       "degree": 13
     },
     {
-      "family_id": "royals:royal92:howard",
+      "family_id": "royal-tree:royal92:howard",
       "name_en": "House of Howard",
       "degree": 13
     },
     {
-      "family_id": "royals:royal92:mortimer",
+      "family_id": "royal-tree:royal92:mortimer",
       "name_en": "House of Mortimer",
       "degree": 13
     },
     {
-      "family_id": "royals:islamic-atlas:7",
-      "name_en": "royals:islamic-atlas:7",
+      "family_id": "royal-tree:islamic-atlas:7",
+      "name_en": "royal-tree:islamic-atlas:7",
       "degree": 13
     },
     {
-      "family_id": "royals:royal92:hamilton",
+      "family_id": "royal-tree:royal92:hamilton",
       "name_en": "House of Hamilton",
       "degree": 13
     },
@@ -127,17 +127,17 @@
       "degree": 12
     },
     {
-      "family_id": "royals:islamic-atlas:1",
-      "name_en": "royals:islamic-atlas:1",
+      "family_id": "royal-tree:islamic-atlas:1",
+      "name_en": "royal-tree:islamic-atlas:1",
       "degree": 10
     },
     {
-      "family_id": "royals:royal92:ferguson",
+      "family_id": "royal-tree:royal92:ferguson",
       "name_en": "House of Ferguson",
       "degree": 10
     },
     {
-      "family_id": "royals:royal92:stewart",
+      "family_id": "royal-tree:royal92:stewart",
       "name_en": "House of Stewart",
       "degree": 9
     },
@@ -147,12 +147,12 @@
       "degree": 8
     },
     {
-      "family_id": "royals:islamic-atlas:13",
+      "family_id": "royal-tree:islamic-atlas:13",
       "name_en": "Zīrids and Hammādid",
       "degree": 8
     },
     {
-      "family_id": "royals:royalconstellations:cc-edward-13",
+      "family_id": "royal-tree:royalconstellations:cc-edward-13",
       "name_en": "(kin-group: Edward IV)",
       "degree": 8
     },
@@ -162,8 +162,8 @@
       "degree": 8
     },
     {
-      "family_id": "royals:islamic-atlas:15",
-      "name_en": "royals:islamic-atlas:15",
+      "family_id": "royal-tree:islamic-atlas:15",
+      "name_en": "royal-tree:islamic-atlas:15",
       "degree": 8
     }
   ]

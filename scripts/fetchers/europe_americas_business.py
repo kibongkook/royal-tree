@@ -13,7 +13,7 @@ Scope:
 Output: data/raw/manual/europe_americas_business_families.jsonl
 Schema matches project master schema (CLAUDE.md). Each family record:
 {
-  "id": "Q...",                       # Wikidata QID if found, else royals:<slug>
+  "id": "Q...",                       # Wikidata QID if found, else royal-tree:<slug>
   "names": {"en": "..."},             # English label (others added if returned by search)
   "country": ["GB", "..."],           # ISO 3166-1 alpha-2 codes
   "category": "royal|noble|business|political|religious",
@@ -53,7 +53,7 @@ OUT_DIR = ROOT / "data" / "raw" / "manual"
 OUT_FILE = OUT_DIR / "europe_americas_business_families.jsonl"
 STATS_FILE = OUT_DIR / "europe_americas_business_stats.tsv"
 
-UA = "Royals-research/0.1 (kibongkook@gmail.com)"
+UA = "RoyalTree-research/0.1 (kibongkook@gmail.com)"
 
 # ---------------------------------------------------------------------------
 # Family list. Format: tuples of
@@ -1273,7 +1273,7 @@ add("Sandoz family", ["CH"], "business", "global-pharma", "extinct-control",
 add("Liebherr family", ["DE", "CH"], "business", "global-industrial", "active",
     1949, None, None, "Liebherr cranes.")
 
-# India (cross-listed since Royals project covers Asia too, but these are global)
+# India (cross-listed since Royal-Tree project covers Asia too, but these are global)
 add("Tata family", ["IN", "GB"], "business", "global-business-dynasty", "active",
     1868, None, "Ratan Tata heirs (Noel Tata)",
     "Tata Sons; Jaguar Land Rover.")
@@ -1736,7 +1736,7 @@ def build_record(row: tuple) -> dict:
             or wd.get("description")
 
     rec = {
-        "id": qid or f"royals:{countries[0].lower()}:{slugify(query)}",
+        "id": qid or f"royal-tree:{countries[0].lower()}:{slugify(query)}",
         "names": {"en": label or query},
         "country": countries,
         "category": category,
@@ -1774,7 +1774,7 @@ def main():
                 sys.stderr.write(f"[error] {row[0]}: {e}\n")
                 # fallback minimal record
                 records[i] = {
-                    "id": f"royals:{row[1][0].lower()}:{slugify(row[0])}",
+                    "id": f"royal-tree:{row[1][0].lower()}:{slugify(row[0])}",
                     "names": {"en": row[0]},
                     "country": row[1],
                     "category": row[2],
