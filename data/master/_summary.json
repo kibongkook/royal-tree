@@ -1,7 +1,7 @@
 {
-  "total_records": 98523,
+  "total_records": 100108,
   "by_category": {
-    "business": 944,
+    "business": 2529,
     "clan": 6310,
     "noble": 46167,
     "political": 4376,
@@ -11,118 +11,119 @@
     "unknown": 23760
   },
   "by_country": {
-    "_none": 39121,
-    "KR": 10836,
-    "JP": 6888,
-    "DE": 4977,
-    "RU": 4182,
-    "FR": 3391,
-    "IT": 2910,
-    "US": 2847,
-    "CH": 2297,
-    "GB": 2145,
-    "IN": 1901,
-    "SE": 1829,
-    "AT": 1787,
-    "CN": 1235,
-    "ES": 1174,
-    "GR": 826,
-    "BE": 775,
-    "IE": 693,
-    "PL": 595,
-    "NO": 482,
+    "_none": 39144,
+    "KR": 10845,
+    "JP": 6915,
+    "DE": 5077,
+    "RU": 4286,
+    "FR": 3430,
+    "US": 3374,
+    "IT": 2940,
+    "CH": 2332,
+    "GB": 2194,
+    "IN": 1931,
+    "SE": 1851,
+    "AT": 1796,
+    "CN": 1359,
+    "ES": 1198,
+    "GR": 830,
+    "BE": 777,
+    "IE": 701,
+    "PL": 601,
+    "NO": 496,
     "GB-SCT": 411,
+    "TR": 400,
     "UG": 398,
-    "TR": 378,
     "IR": 372,
-    "SA": 360,
-    "HU": 290,
-    "NL": 272,
-    "MA": 249,
-    "CA": 245,
-    "DK": 245,
+    "SA": 368,
+    "HU": 291,
+    "CA": 287,
+    "NL": 282,
+    "DK": 252,
+    "MA": 250,
     "q:Q55": 231,
-    "FI": 214,
-    "UA": 213,
+    "UA": 219,
+    "FI": 218,
     "SY": 198,
     "IQ": 177,
+    "BR": 174,
     "q:Q12548": 164,
-    "GE": 150,
-    "BR": 146,
-    "PT": 144,
+    "GE": 151,
+    "PT": 149,
     "PK": 141,
     "q:Q170174": 139,
     "q:Q212439": 138,
+    "ID": 137,
     "q:Q171150": 137,
     "MN": 135,
     "q:Q42585": 131,
+    "NG": 129,
     "ET": 128,
-    "NG": 128,
     "HR": 127,
+    "EG": 126,
     "AR-region": 125,
-    "EG": 125,
-    "ID": 119,
+    "AU": 121,
     "q:Q4948": 117,
     "SU": 117,
+    "AE": 111,
     "UZ": 110,
-    "AE": 106,
+    "RO": 106,
     "VA": 105,
-    "RO": 105,
-    "CZ": 96,
+    "TW": 102,
+    "CZ": 102,
     "q:Q174306": 96,
     "DZ": 92,
     "JO": 92,
     "BD": 91,
     "ML": 91,
-    "AU": 86,
-    "TW": 85,
+    "IL": 87,
     "AM": 85,
     "q:Q153529": 85,
+    "HK": 82,
     "TN": 81,
     "q:Q70972": 79,
     "RS": 78,
-    "AR": 71,
-    "IL": 71,
+    "AR": 76,
+    "PH": 74,
     "BG": 71,
     "SD": 70,
     "AF": 69,
     "q:Q209857": 68,
-    "PH": 67,
-    "OM": 66,
+    "OM": 67,
+    "TH": 67,
+    "MX": 66,
     "YE": 65,
+    "KW": 65,
     "q:Q6581823": 65,
-    "KW": 64,
+    "ZA": 64,
     "SO": 64,
     "q:Q173065": 64,
     "BH": 61,
     "q:Q223936": 60,
-    "ZA": 59,
+    "QA": 59,
     "q:Q180393": 59,
-    "QA": 58,
+    "MY": 58,
+    "CL": 57,
     "LT": 56,
+    "LB": 54,
     "q:Q179876": 54,
-    "LB": 53,
-    "MY": 53,
-    "MX": 53,
     "q:Q28513": 51,
     "AZ": 51,
     "q:Q28025": 50,
     "LK": 49,
-    "CL": 48,
-    "TH": 48,
+    "CO": 47,
     "q:Q723118": 47,
-    "CO": 46,
+    "PE": 45,
     "LU": 45,
     "q:Q213353": 45,
+    "KZ": 44,
     "q:Q156038": 44,
     "q:Q15180": 44,
     "q:Q729481": 43,
-    "PE": 42,
     "q:Q148540": 42,
     "GH": 41,
     "q:Q154849": 41,
     "q:Q12560": 40,
-    "KZ": 39,
     "q:Q188586": 39,
     "q:Q217196": 39,
     "q:Q208169": 39,
@@ -131,35 +132,35 @@
     "PS": 36,
     "MC": 36,
     "q:Q41304": 36,
+    "SG": 35,
     "SN": 35,
-    "HK": 34,
+    "VN": 35,
     "q:Q131964": 34,
     "EE": 34,
     "KG": 34,
     "TD": 34,
-    "VE": 32,
+    "VE": 33,
     "MM": 32,
-    "VN": 32,
     "q:Q207272": 32,
     "q:Q426025": 32,
     "LV": 32,
     "q:Q2981019": 31,
     "TJ": 31,
     "q:Q26": 30,
+    "NZ": 29,
     "DD": 29,
     "q:Q2252973": 29,
     "NP": 29,
     "q:Q183464": 28,
     "q:Q174193": 28,
-    "NZ": 27,
     "AL": 27,
     "q:Q12544": 27,
     "NE": 27,
     "q:Q746443": 26,
     "CI": 25,
     "LY": 25,
+    "SK": 24,
     "q:Q165154": 24,
-    "SK": 23,
     "SL": 22,
     "q:Q1206012": 22,
     "q:Q27306": 22,
@@ -171,6 +172,7 @@
     "q:Q463289": 21,
     "NA": 21,
     "BF": 21,
+    "CY": 19,
     "CS": 19,
     "q:Q204920": 19,
     "q:Q7318": 19,
@@ -184,7 +186,6 @@
     "BY": 14,
     "q:Q71084": 14,
     "q:Q230791": 14,
-    "CY": 14,
     "q:Q199442": 14,
     "q:Q1952": 14,
     "AO": 13,
@@ -195,12 +196,12 @@
     "MD": 13,
     "q:Q208404": 13,
     "GN": 12,
+    "TZ": 12,
     "q:Q45670": 12,
     "q:Q600093": 12,
     "q:Q215530": 12,
     "LS": 12,
     "BW": 12,
-    "TZ": 11,
     "ME": 11,
     "q:Q766501": 11,
     "q:Q1232887": 11,
@@ -209,6 +210,7 @@
     "SI": 11,
     "ZM": 11,
     "ZW": 10,
+    "IS": 10,
     "CM": 10,
     "q:Q1649871": 10,
     "q:Q43287": 10,
@@ -217,7 +219,6 @@
     "q:Q165040": 10,
     "q:Q193714": 10,
     "CU": 9,
-    "SG": 9,
     "KH": 9,
     "q:Q686971": 9,
     "BT": 9,
@@ -226,7 +227,6 @@
     "q:Q200262": 9,
     "q:Q2305208": 9,
     "q:Q3327860": 9,
-    "IS": 9,
     "PY": 9,
     "q:Q389004": 9,
     "TM": 9,
@@ -894,8 +894,8 @@
     "q:Q907112": 1
   },
   "by_status": {
+    "active": 55692,
     "unknown": 41103,
-    "active": 54107,
     "deposed": 1053,
     "extinct-control": 1,
     "extinct": 2258,
@@ -903,7 +903,7 @@
   },
   "country_category_matrix": {
     "_none": {
-      "business": 5,
+      "business": 28,
       "clan": 1545,
       "noble": 26979,
       "political": 702,
@@ -911,7 +911,7 @@
       "unknown": 6259
     },
     "AE": {
-      "business": 7,
+      "business": 12,
       "noble": 4,
       "royal": 10,
       "tribal": 5,
@@ -925,7 +925,7 @@
       "unknown": 48
     },
     "SA": {
-      "business": 11,
+      "business": 19,
       "noble": 16,
       "political": 1,
       "religious": 5,
@@ -950,7 +950,7 @@
       "unknown": 21
     },
     "AR": {
-      "business": 6,
+      "business": 11,
       "noble": 18,
       "political": 27,
       "royal": 11,
@@ -964,21 +964,21 @@
       "unknown": 42
     },
     "OM": {
-      "business": 3,
+      "business": 4,
       "noble": 1,
       "royal": 54,
       "tribal": 1,
       "unknown": 7
     },
     "AT": {
-      "business": 1,
+      "business": 10,
       "noble": 1649,
       "political": 8,
       "royal": 12,
       "unknown": 117
     },
     "CA": {
-      "business": 7,
+      "business": 49,
       "clan": 11,
       "noble": 123,
       "political": 19,
@@ -986,7 +986,7 @@
       "unknown": 64
     },
     "AU": {
-      "business": 3,
+      "business": 38,
       "clan": 12,
       "noble": 29,
       "political": 17,
@@ -994,7 +994,7 @@
       "unknown": 14
     },
     "IL": {
-      "business": 5,
+      "business": 21,
       "noble": 15,
       "political": 14,
       "religious": 2,
@@ -1009,7 +1009,7 @@
       "unknown": 9
     },
     "BE": {
-      "business": 1,
+      "business": 3,
       "noble": 581,
       "political": 78,
       "royal": 13,
@@ -1021,7 +1021,7 @@
       "royal": 4
     },
     "BR": {
-      "business": 12,
+      "business": 40,
       "clan": 2,
       "noble": 44,
       "political": 22,
@@ -1029,7 +1029,7 @@
       "unknown": 46
     },
     "GB": {
-      "business": 11,
+      "business": 60,
       "clan": 728,
       "noble": 247,
       "political": 166,
@@ -1037,7 +1037,7 @@
       "unknown": 462
     },
     "IT": {
-      "business": 8,
+      "business": 38,
       "clan": 2,
       "noble": 682,
       "political": 25,
@@ -1055,14 +1055,14 @@
       "royal": 4
     },
     "CH": {
-      "business": 5,
+      "business": 40,
       "noble": 2222,
       "political": 9,
       "royal": 11,
       "unknown": 50
     },
     "DE": {
-      "business": 8,
+      "business": 108,
       "clan": 1,
       "noble": 2738,
       "political": 95,
@@ -1070,7 +1070,7 @@
       "unknown": 1227
     },
     "ZA": {
-      "business": 9,
+      "business": 14,
       "noble": 5,
       "political": 9,
       "royal": 17,
@@ -1086,7 +1086,7 @@
       "unknown": 12
     },
     "CL": {
-      "business": 3,
+      "business": 12,
       "noble": 14,
       "political": 23,
       "royal": 3,
@@ -1100,7 +1100,7 @@
       "unknown": 11
     },
     "CN": {
-      "business": 230,
+      "business": 354,
       "clan": 10,
       "noble": 258,
       "political": 41,
@@ -1109,13 +1109,13 @@
       "unknown": 49
     },
     "HK": {
-      "business": 26,
+      "business": 74,
       "noble": 2,
       "political": 5,
       "royal": 1
     },
     "TW": {
-      "business": 21,
+      "business": 38,
       "noble": 4,
       "political": 6,
       "religious": 1,
@@ -1123,7 +1123,7 @@
       "unknown": 49
     },
     "US": {
-      "business": 24,
+      "business": 551,
       "clan": 28,
       "noble": 279,
       "political": 1967,
@@ -1131,7 +1131,7 @@
       "unknown": 366
     },
     "CO": {
-      "business": 4,
+      "business": 5,
       "noble": 16,
       "political": 6,
       "royal": 3,
@@ -1144,12 +1144,34 @@
       "royal": 1,
       "unknown": 1
     },
+    "CY": {
+      "business": 5,
+      "noble": 4,
+      "political": 1,
+      "royal": 3,
+      "unknown": 6
+    },
+    "CZ": {
+      "business": 6,
+      "clan": 2,
+      "noble": 24,
+      "political": 6,
+      "royal": 32,
+      "unknown": 32
+    },
     "VE": {
-      "business": 4,
+      "business": 5,
       "noble": 5,
       "political": 6,
       "royal": 4,
       "unknown": 13
+    },
+    "DK": {
+      "business": 7,
+      "noble": 95,
+      "political": 6,
+      "royal": 53,
+      "unknown": 91
     },
     "DZ": {
       "business": 5,
@@ -1159,7 +1181,7 @@
       "unknown": 24
     },
     "FR": {
-      "business": 6,
+      "business": 45,
       "clan": 10,
       "noble": 575,
       "political": 169,
@@ -1168,7 +1190,7 @@
       "unknown": 1485
     },
     "EG": {
-      "business": 9,
+      "business": 10,
       "noble": 17,
       "political": 8,
       "religious": 1,
@@ -1177,7 +1199,7 @@
       "unknown": 22
     },
     "LB": {
-      "business": 4,
+      "business": 5,
       "noble": 20,
       "political": 1,
       "religious": 4,
@@ -1192,7 +1214,7 @@
       "tribal": 1
     },
     "ES": {
-      "business": 1,
+      "business": 25,
       "noble": 228,
       "political": 209,
       "religious": 1,
@@ -1207,12 +1229,19 @@
       "unknown": 9
     },
     "SE": {
-      "business": 2,
+      "business": 24,
       "clan": 5,
       "noble": 1533,
       "political": 10,
       "royal": 186,
       "unknown": 93
+    },
+    "FI": {
+      "business": 4,
+      "noble": 99,
+      "political": 41,
+      "royal": 67,
+      "unknown": 7
     },
     "GA": {
       "business": 1,
@@ -1220,7 +1249,7 @@
       "unknown": 2
     },
     "IN": {
-      "business": 214,
+      "business": 244,
       "clan": 54,
       "noble": 251,
       "political": 12,
@@ -1229,7 +1258,7 @@
       "unknown": 364
     },
     "JP": {
-      "business": 63,
+      "business": 90,
       "clan": 1972,
       "noble": 2714,
       "political": 82,
@@ -1259,6 +1288,13 @@
       "royal": 5,
       "unknown": 2
     },
+    "GE": {
+      "business": 1,
+      "noble": 66,
+      "political": 1,
+      "royal": 55,
+      "unknown": 28
+    },
     "GN": {
       "business": 1,
       "clan": 1,
@@ -1270,8 +1306,15 @@
       "business": 2,
       "clan": 1
     },
+    "GR": {
+      "business": 4,
+      "noble": 44,
+      "political": 3,
+      "royal": 764,
+      "unknown": 15
+    },
     "MY": {
-      "business": 13,
+      "business": 18,
       "noble": 9,
       "political": 2,
       "religious": 1,
@@ -1279,25 +1322,33 @@
       "unknown": 11
     },
     "SG": {
-      "business": 1,
+      "business": 27,
       "religious": 4,
       "royal": 3,
       "unknown": 1
     },
     "HU": {
-      "business": 1,
+      "business": 2,
       "noble": 116,
       "political": 17,
       "royal": 131,
       "unknown": 25
     },
     "ID": {
-      "business": 25,
+      "business": 43,
       "noble": 18,
       "political": 4,
       "religious": 5,
       "royal": 59,
       "unknown": 8
+    },
+    "IE": {
+      "business": 8,
+      "clan": 37,
+      "noble": 95,
+      "political": 6,
+      "royal": 205,
+      "unknown": 350
     },
     "KE": {
       "business": 5,
@@ -1313,8 +1364,13 @@
       "royal": 11,
       "unknown": 25
     },
+    "IS": {
+      "business": 1,
+      "noble": 6,
+      "royal": 3
+    },
     "PE": {
-      "business": 2,
+      "business": 5,
       "noble": 12,
       "political": 13,
       "royal": 2,
@@ -1329,7 +1385,7 @@
       "unknown": 75
     },
     "KR": {
-      "business": 36,
+      "business": 45,
       "clan": 1731,
       "noble": 340,
       "political": 20,
@@ -1344,11 +1400,18 @@
       "royal": 3
     },
     "KW": {
-      "business": 4,
+      "business": 5,
       "noble": 3,
       "royal": 2,
       "tribal": 4,
       "unknown": 51
+    },
+    "KZ": {
+      "business": 5,
+      "noble": 7,
+      "political": 2,
+      "royal": 19,
+      "unknown": 11
     },
     "LK": {
       "business": 5,
@@ -1373,7 +1436,7 @@
       "unknown": 9
     },
     "MA": {
-      "business": 5,
+      "business": 6,
       "noble": 17,
       "political": 3,
       "religious": 2,
@@ -1388,14 +1451,14 @@
       "unknown": 2
     },
     "MX": {
-      "business": 5,
+      "business": 18,
       "noble": 17,
       "political": 8,
       "royal": 5,
       "unknown": 18
     },
     "NG": {
-      "business": 10,
+      "business": 11,
       "clan": 1,
       "noble": 22,
       "political": 4,
@@ -1403,14 +1466,30 @@
       "unknown": 15
     },
     "NL": {
-      "business": 2,
+      "business": 12,
       "noble": 79,
       "political": 2,
       "royal": 112,
       "unknown": 77
     },
+    "NO": {
+      "business": 14,
+      "clan": 3,
+      "noble": 53,
+      "political": 17,
+      "royal": 382,
+      "unknown": 27
+    },
+    "NZ": {
+      "business": 2,
+      "clan": 9,
+      "noble": 7,
+      "political": 3,
+      "royal": 4,
+      "unknown": 4
+    },
     "PH": {
-      "business": 25,
+      "business": 32,
       "noble": 14,
       "political": 1,
       "royal": 25,
@@ -1425,12 +1504,47 @@
       "tribal": 4,
       "unknown": 50
     },
+    "PL": {
+      "business": 6,
+      "noble": 214,
+      "political": 44,
+      "royal": 283,
+      "unknown": 54
+    },
+    "PT": {
+      "business": 5,
+      "noble": 14,
+      "political": 13,
+      "royal": 100,
+      "unknown": 17
+    },
     "QA": {
-      "business": 3,
+      "business": 4,
       "noble": 1,
       "royal": 2,
       "tribal": 2,
       "unknown": 50
+    },
+    "RO": {
+      "business": 1,
+      "noble": 37,
+      "political": 4,
+      "royal": 57,
+      "unknown": 7
+    },
+    "RU": {
+      "business": 104,
+      "noble": 3219,
+      "political": 49,
+      "royal": 477,
+      "unknown": 437
+    },
+    "SK": {
+      "business": 1,
+      "noble": 5,
+      "political": 2,
+      "royal": 14,
+      "unknown": 2
     },
     "SL": {
       "business": 3,
@@ -1461,7 +1575,7 @@
       "political": 1
     },
     "TH": {
-      "business": 17,
+      "business": 36,
       "noble": 13,
       "political": 4,
       "royal": 10,
@@ -1474,7 +1588,7 @@
       "unknown": 36
     },
     "TR": {
-      "business": 17,
+      "business": 39,
       "noble": 31,
       "political": 8,
       "religious": 1,
@@ -1482,14 +1596,21 @@
       "unknown": 82
     },
     "TZ": {
-      "business": 1,
+      "business": 2,
       "noble": 2,
       "religious": 2,
       "royal": 4,
       "unknown": 2
     },
+    "UA": {
+      "business": 6,
+      "noble": 19,
+      "political": 9,
+      "royal": 170,
+      "unknown": 15
+    },
     "VN": {
-      "business": 8,
+      "business": 11,
       "noble": 6,
       "political": 2,
       "royal": 15,
@@ -1518,42 +1639,14 @@
       "royal": 1,
       "tribal": 1
     },
-    "CZ": {
-      "clan": 2,
-      "noble": 24,
-      "political": 6,
-      "royal": 32,
-      "unknown": 32
-    },
-    "NZ": {
-      "clan": 9,
-      "noble": 7,
-      "political": 3,
-      "royal": 4,
-      "unknown": 4
-    },
     "GB-SCT": {
       "clan": 158,
       "noble": 253
-    },
-    "IE": {
-      "clan": 37,
-      "noble": 95,
-      "political": 6,
-      "royal": 205,
-      "unknown": 350
     },
     "KP": {
       "clan": 2,
       "noble": 4,
       "political": 1
-    },
-    "NO": {
-      "clan": 3,
-      "noble": 53,
-      "political": 17,
-      "royal": 382,
-      "unknown": 27
     },
     "AD": {
       "noble": 1,
@@ -1565,12 +1658,6 @@
     "GI": {
       "noble": 1,
       "unknown": 1
-    },
-    "PT": {
-      "noble": 14,
-      "political": 13,
-      "royal": 100,
-      "unknown": 17
     },
     "q:Q170024": {
       "noble": 1
@@ -1627,18 +1714,6 @@
     "q:Q8575586": {
       "noble": 1
     },
-    "GE": {
-      "noble": 66,
-      "political": 1,
-      "royal": 55,
-      "unknown": 28
-    },
-    "RU": {
-      "noble": 3219,
-      "political": 49,
-      "royal": 477,
-      "unknown": 437
-    },
     "AO": {
       "noble": 1,
       "royal": 6,
@@ -1649,18 +1724,6 @@
       "political": 5,
       "royal": 2,
       "unknown": 2
-    },
-    "PL": {
-      "noble": 214,
-      "political": 44,
-      "royal": 283,
-      "unknown": 54
-    },
-    "UA": {
-      "noble": 19,
-      "political": 9,
-      "royal": 170,
-      "unknown": 15
     },
     "q:Q12536": {
       "noble": 1
@@ -1772,12 +1835,6 @@
     },
     "q:Q221457": {
       "noble": 8
-    },
-    "SK": {
-      "noble": 5,
-      "political": 2,
-      "royal": 14,
-      "unknown": 2
     },
     "q:Q686971": {
       "noble": 9
@@ -1932,12 +1989,6 @@
     "q:Q230791": {
       "noble": 14
     },
-    "KZ": {
-      "noble": 7,
-      "political": 2,
-      "royal": 19,
-      "unknown": 11
-    },
     "MK": {
       "noble": 1,
       "royal": 1
@@ -2060,12 +2111,6 @@
     "CV": {
       "noble": 1
     },
-    "CY": {
-      "noble": 4,
-      "political": 1,
-      "royal": 3,
-      "unknown": 6
-    },
     "q:Q533534": {
       "noble": 2
     },
@@ -2077,18 +2122,6 @@
     },
     "q:Q153015": {
       "noble": 4
-    },
-    "DK": {
-      "noble": 95,
-      "political": 6,
-      "royal": 53,
-      "unknown": 91
-    },
-    "GR": {
-      "noble": 44,
-      "political": 3,
-      "royal": 764,
-      "unknown": 15
     },
     "q:Q209065": {
       "noble": 2
@@ -2168,12 +2201,6 @@
     "q:Q766543": {
       "noble": 6
     },
-    "FI": {
-      "noble": 99,
-      "political": 41,
-      "royal": 67,
-      "unknown": 7
-    },
     "q:Q1108445": {
       "noble": 2,
       "unknown": 1
@@ -2186,12 +2213,6 @@
     },
     "q:Q3137802": {
       "noble": 1
-    },
-    "RO": {
-      "noble": 37,
-      "political": 4,
-      "royal": 57,
-      "unknown": 7
     },
     "q:Q171150": {
       "noble": 137
@@ -2719,10 +2740,6 @@
     },
     "q:Q6395203": {
       "noble": 1
-    },
-    "IS": {
-      "noble": 6,
-      "royal": 3
     },
     "q:Q1235720": {
       "noble": 1

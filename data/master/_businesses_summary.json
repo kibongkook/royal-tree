@@ -1,74 +1,74 @@
 {
-  "total_business_records": 1071,
-  "families_with_businesses": 338,
+  "total_business_records": 3769,
+  "families_with_businesses": 1850,
   "manual_companies": 51,
-  "forbes_matched": 267,
-  "forbes_unmatched": 733,
-  "bloomberg_matched": 143,
-  "forbes_2019_matched": 611,
+  "forbes_matched": 989,
+  "forbes_unmatched": 11,
+  "bloomberg_matched": 459,
+  "forbes_2019_matched": 2272,
   "by_industry": {
-    "real estate": 103,
-    "diversified": 84,
-    "retail": 40,
-    "pharmaceuticals": 36,
-    "finance": 32,
-    "conglomerate": 26,
-    "media": 22,
-    "investments": 19,
-    "banking": 18,
-    "construction": 15,
-    "technology": 15,
-    "consumer goods": 14,
-    "wal-mart": 13,
-    "industrial": 12,
-    "telecom": 12,
-    "mining": 12,
-    "media & telecom": 10,
-    "money management": 10,
-    "commodities": 9,
-    "e-commerce": 8,
-    "chemicals": 8,
-    "consumer": 8,
-    "banking, minerals": 8,
-    "food": 8,
-    "agribusiness": 8,
-    "health care": 7,
-    "oil, investments": 7,
-    "beverages": 7,
-    "automobiles": 7,
-    "cleaning products": 7
+    "real estate": 287,
+    "diversified": 175,
+    "investments": 130,
+    "retail": 123,
+    "pharmaceuticals": 103,
+    "finance": 70,
+    "hedge funds": 65,
+    "technology": 64,
+    "banking": 55,
+    "industrial": 44,
+    "software": 42,
+    "media": 40,
+    "consumer goods": 40,
+    "private equity": 37,
+    "construction": 35,
+    "food & beverage": 33,
+    "consumer": 33,
+    "energy": 29,
+    "media & telecom": 28,
+    "health care": 28,
+    "chemicals": 28,
+    "conglomerate": 28,
+    "manufacturing": 25,
+    "telecom": 24,
+    "auto parts": 24,
+    "money management": 23,
+    "commodities": 22,
+    "mining": 22,
+    "cargill": 20,
+    "entertainment": 19
   },
   "by_country_hq": {
-    "CN": 338,
-    "IN": 146,
-    "US": 111,
-    "KR": 53,
-    "HK": 46,
-    "BR": 41,
-    "TW": 32,
-    "JP": 26,
-    "GB": 25,
-    "MY": 20,
-    "PH": 17,
-    "DE": 15,
-    "CA": 14,
-    "FR": 14,
-    "ID": 14,
-    "TH": 14,
-    "EG": 13,
-    "MX": 12,
-    "TR": 12,
-    "IT": 11,
-    "ZA": 10,
-    "SA": 10,
-    "IL": 10,
-    "CH": 9,
-    "LB": 8,
-    "AU": 8,
-    "NG": 5,
-    "CL": 5,
-    "SE": 5,
-    "CO": 5
+    "US": 1160,
+    "CN": 483,
+    "DE": 224,
+    "IN": 184,
+    "RU": 154,
+    "HK": 124,
+    "GB": 105,
+    "BR": 91,
+    "FR": 87,
+    "CA": 77,
+    "IT": 70,
+    "CH": 69,
+    "SE": 67,
+    "KR": 64,
+    "AU": 63,
+    "JP": 63,
+    "TW": 58,
+    "ES": 46,
+    "TR": 42,
+    "TH": 41,
+    "SG": 39,
+    "ID": 36,
+    "IL": 35,
+    "MX": 32,
+    "MY": 28,
+    "PH": 27,
+    "NO": 24,
+    "CL": 22,
+    "SA": 21,
+    "DK": 20
   },
   "top_30_families_by_company_count": [
     {
@@ -82,11 +82,6 @@
       "company_count": 36
     },
     {
-      "family_id": "Q683170",
-      "name_en": "S. C. Johnson & Son",
-      "company_count": 25
-    },
-    {
       "family_id": "Q12908",
       "name_en": "George Soros",
       "company_count": 21
@@ -95,11 +90,6 @@
       "family_id": "royals:manual:chen-daihe-family",
       "name_en": "Chen Daihe family",
       "company_count": 21
-    },
-    {
-      "family_id": "Q17343056",
-      "name_en": "Walton Enterprises",
-      "company_count": 20
     },
     {
       "family_id": "royals:manual:booyoung-lee-family",
@@ -122,9 +112,14 @@
       "company_count": 16
     },
     {
-      "family_id": "Q16201355",
-      "name_en": "John and Richard Marriot",
-      "company_count": 15
+      "family_id": "Q17343056",
+      "name_en": "Walton Enterprises",
+      "company_count": 14
+    },
+    {
+      "family_id": "royals:manual:arnold-family-john-arnold",
+      "name_en": "Arnold family (John Arnold)",
+      "company_count": 13
     },
     {
       "family_id": "royals:manual:zhou-hongyi-family-360-security",
@@ -132,13 +127,43 @@
       "company_count": 13
     },
     {
+      "family_id": "Q16201355",
+      "name_en": "John and Richard Marriot",
+      "company_count": 12
+    },
+    {
+      "family_id": "Q683170",
+      "name_en": "S. C. Johnson & Son",
+      "company_count": 12
+    },
+    {
+      "family_id": "royals:manual:citrone-family-robert-citrone",
+      "name_en": "Citrone family (Robert Citrone)",
+      "company_count": 12
+    },
+    {
+      "family_id": "royals:manual:rausing-family-hans-rausing",
+      "name_en": "Rausing family (Hans Rausing)",
+      "company_count": 12
+    },
+    {
       "family_id": "Q89053262",
       "name_en": "Moreira Salles Institute collection catalog",
-      "company_count": 12
+      "company_count": 11
+    },
+    {
+      "family_id": "royals:manual:ackman-family-william-ackman",
+      "name_en": "Ackman family (William Ackman)",
+      "company_count": 10
     },
     {
       "family_id": "royals:manual:jiang-family",
       "name_en": "Jiang family",
+      "company_count": 10
+    },
+    {
+      "family_id": "royals:manual:persson-family-stefan-persson",
+      "name_en": "Persson family (Stefan Persson)",
       "company_count": 10
     },
     {
@@ -147,18 +172,18 @@
       "company_count": 10
     },
     {
-      "family_id": "Q1752623",
-      "name_en": "Roberto Marinho",
+      "family_id": "royals:manual:nicholas-pritzker-family-nicholas-pritzker-ii",
+      "name_en": "Nicholas Pritzker family (Nicholas Pritzker, II.)",
       "company_count": 9
     },
     {
-      "family_id": "Q29678773",
-      "name_en": "Otto family House",
-      "company_count": 9
+      "family_id": "royals:manual:benetton-family-carlo-benetton",
+      "name_en": "Benetton family (Carlo Benetton)",
+      "company_count": 8
     },
     {
-      "family_id": "Q855533",
-      "name_en": "Lee Kum Kee",
+      "family_id": "royals:manual:breyer-family-jim-breyer",
+      "name_en": "Breyer family (Jim Breyer)",
       "company_count": 8
     },
     {
@@ -167,59 +192,34 @@
       "company_count": 8
     },
     {
+      "family_id": "royals:manual:forrest-mars-family-forrest-mars-jr",
+      "name_en": "Forrest Mars family (Forrest Mars, Jr.)",
+      "company_count": 8
+    },
+    {
+      "family_id": "royals:manual:hunt-family-ray-lee-hunt",
+      "name_en": "Hunt family (Ray Lee Hunt)",
+      "company_count": 8
+    },
+    {
       "family_id": "Q1133053",
       "name_en": "Sawiris family",
       "company_count": 7
     },
     {
-      "family_id": "Q27911",
-      "name_en": "bass",
+      "family_id": "Q1752623",
+      "name_en": "Roberto Marinho",
       "company_count": 7
     },
     {
-      "family_id": "royals:manual:boryung-kim-family",
-      "name_en": "Boryung Kim Family",
+      "family_id": "Q29678773",
+      "name_en": "Otto family House",
       "company_count": 7
     },
     {
-      "family_id": "royals:manual:essel-subhash-chandra-goenka-dup",
-      "name_en": "Essel / Subhash Chandra (Goenka, dup)",
+      "family_id": "royals:manual:bailey-family-thomas-bailey",
+      "name_en": "Bailey family (Thomas Bailey)",
       "company_count": 7
-    },
-    {
-      "family_id": "royals:manual:kwok-family-shk",
-      "name_en": "Kwok family (SHK)",
-      "company_count": 7
-    },
-    {
-      "family_id": "royals:manual:ofer-family",
-      "name_en": "Ofer family",
-      "company_count": 7
-    },
-    {
-      "family_id": "Q104431150",
-      "name_en": "Camargo",
-      "company_count": 6
-    },
-    {
-      "family_id": "Q4032057",
-      "name_en": "Ermírio de Moraes family",
-      "company_count": 6
-    },
-    {
-      "family_id": "Q484847",
-      "name_en": "Hyundai Chung Family",
-      "company_count": 6
-    },
-    {
-      "family_id": "Q518624",
-      "name_en": "Hinduja Group",
-      "company_count": 6
-    },
-    {
-      "family_id": "Q8071737",
-      "name_en": "ziff",
-      "company_count": 6
     }
   ]
 }

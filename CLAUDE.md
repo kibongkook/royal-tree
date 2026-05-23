@@ -109,21 +109,26 @@ Royals/
 | Phase 1.x Islamic Atlas + ctm_bench (+277, 26 QID merges) | ✅ 2026-05-23 |
 | Phase 1.5 country enrichment (8,596 'none' 해소) | ✅ 2026-05-23 |
 | Phase 1.5 CN/IN 갭 fill (+1,068) | ✅ 2026-05-23 |
-| **Phase 2 인물 그래프 (8,291 persons, 327 families, 53 head_current)** | ✅ 2026-05-23 |
-| **Phase 3 친족 그래프 (447 edges, 181 families)** | ✅ 2026-05-23 |
+| **Phase 2 인물 그래프 (8,291 banked persons)** | ✅ 2026-05-23 |
+| **Phase 2b Wikidata 인물 enrichment (+10,606 → 18,897 total, 2,829 families)** | ✅ 2026-05-23 |
+| **Phase 3 친족 그래프 (463 edges, 210 families)** | ✅ 2026-05-23 |
 | **Phase 4 사업 매핑 (1,071 records, 338 families)** | ✅ 2026-05-23 |
+| **Phase 4b Forbes-unmatched → +1,614 business families (master → 100,108)** | ✅ 2026-05-23 |
 | Phase 1.5 non-family 필터링 (0 drop — 입력이 이미 family-class 제한) | ✅ 2026-05-23 |
 
-### Phase 1-4 최종 산출물
+### 최종 산출물 (Phase 1-4 + 후속)
 
 | 산출물 | 규모 |
 |---|---:|
-| `data/master/families.jsonl` | **98,523** deduped (head_current/businesses 필드 포함) |
-| `data/master/persons.jsonl` | **8,291 persons** (Phase 2) |
-| `data/master/relations.jsonl` | **447 family-family edges** (Phase 3) |
-| `data/master/businesses.jsonl` | **1,071 business records** (Phase 4) |
-| `data/master/persons_by_family/<id>.jsonl` | 327 files |
+| `data/master/families.jsonl` | **100,108** deduped |
+| `data/master/persons.jsonl` | **18,897 persons** (banked 8,291 + Wikidata 10,606) |
+| `data/master/relations.jsonl` | **463 family-family edges** |
+| `data/master/businesses.jsonl` | **1,071 business records** |
+| `data/master/persons_by_family/<id>.jsonl` | 327 files (banked only; Wikidata persons in flat persons.jsonl) |
 | `data/master/_relations_graph.json` | D3-compatible node-link graph |
+| `data/master/_persons_wikidata.jsonl` | 10,670 fetched Wikidata claim rows (Phase 2b cache) |
+| `data/master/_persons_fetched.txt` | resume marker — list of fetched QIDs |
+| `data/master/_hf_candidates.jsonl` | 6,568 HF Wikidata-people 후보 (Phase 2b step 3) |
 | `data/by_country/<ISO>.jsonl` | 881 files |
 | `data/by_category/<cat>.jsonl` | 8 files |
 | `data/raw/*` | 121,113 raw entries (11 source channels) |
@@ -132,19 +137,17 @@ Royals/
 | `data/master/_filtered_non_families.jsonl` | (현재 빈 파일 — 입력 단계에서 이미 필터링) |
 | 다운로드 데이터 (`data/raw/huggingface/`, `data/raw/github/`) | 12.6GB (gitignored) |
 
-### Phase 2 핵심: 인물
+### Phase 2 + 2b 핵심: 인물
 
-- 8,291 persons across 327 families
-- 53 family.head_current 자동 채움 (eldest living member 휴리스틱)
-- 가장 많은 인물: Robert II kin-group (827), Six Dynasties (392), Baldwin V (240), Tang/Song/Yuan/Ming/Qing 200 each, Hanover (140), Romanov (129)
-- Banked but not yet processed: yale-cultural-heritage/wikidata-people 225k
+- **18,897 persons** across **2,829 families** (banked 8,291 + Wikidata 10,606)
+- Phase 2b는 yale-cultural-heritage/wikidata-people 225k → 6,568 candidates (string-match) → 10,670 wbgetentities 호출 → 5,508 family-linked persons (52% link rate)
+- 가장 많은 인물 (banked): Robert II kin-group(827), Six Dynasties(392), Tang/Song/Yuan/Ming/Qing(200 each), Hanover(140), Romanov(129)
 
-### Phase 3 핵심: 가문 관계
+### Phase 3 + 3b 핵심: 가문 관계
 
-- 447 edges across 181 families
-- type 분포: marriage 174 · blood 142 · succession 131
+- **463 edges across 210 families**
+- type 분포: marriage 176 · blood 156 · succession 131
 - 상위 연결: Robert II kin-group(57), House of Tudor(24), Baldwin V(23), Midrārid(21), Windsor(20), Spencer(18), Hanover(16), Beaufort(14)
-- Banked but not yet processed: willpowers/Wikidata-celebrity-parent (TSV)
 
 ### Phase 4 핵심: 사업
 

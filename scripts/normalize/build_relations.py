@@ -169,6 +169,44 @@ def main():
                     n_r92 += 1
     print(f"  emitted {n_r92:,} royal92 person-edges → {len(edges):,} cumulative")
 
+    # ---- 2b. Marriage + spouse edges from Wikidata-sourced persons ----
+    # Phase 2b adds persons with `source: wikidata` and spouse_ids that are QIDs.
+    print("\nLifting Wikidata person edges to family-edges...")
+    n_wd = 0
+    for pid, p in persons.items():
+        if "wikidata" not in p.get("sources", []):
+            continue
+        fa = p.get("family_id")
+        if not fa:
+            continue
+        for sp in p.get("spouse_ids") or []:
+            fb = person_to_family.get(sp)
+            if fb and fb != fa:
+                emit_edge(edges, fa, fb, "marriage", subtype="spouse",
+                          via_persons=[pid, sp], sources=["wikidata"])
+                n_wd += 1
+        for parent_key in ("father_id", "mother_id"):
+            par = p.get(parent_key)
+            if par:
+                fb = person_to_family.get(par)
+                if fb and fb != fa:
+                    emit_edge(edges, fb, fa, "blood",
+                              subtype=parent_key.replace("_id", "-of"),
+                              via_persons=[par, pid], sources=["wikidata"])
+                    n_wd += 1
+        # Predecessor / successor in different families = succession edge
+        for slot in ("predecessor_id", "successor_id"):
+            ref = p.get(slot)
+            if ref:
+                fb = person_to_family.get(ref)
+                if fb and fb != fa:
+                    sub = "succeeded-by" if slot == "successor_id" else "succeeded"
+                    emit_edge(edges, fa, fb, "succession", subtype=sub,
+                              via_persons=[pid, ref], weight=2,
+                              sources=["wikidata"])
+                    n_wd += 1
+    print(f"  emitted {n_wd:,} Wikidata person-edges → {len(edges):,} cumulative")
+
     # ---- 3. Succession edges between Islamic dynasties ----
     # If atlas#A succeeded atlas#B, both have explicit predecessor/successor strings;
     # cross-dynasty references are encoded as the relationship_to_prev mentioning another dynasty name.

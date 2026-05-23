@@ -1,170 +1,205 @@
 {
-  "total_persons": 8291,
-  "families_with_members": 327,
-  "head_current_filled": 0,
+  "persons_total": 18897,
+  "by_source": {
+    "github": 8291,
+    "wikidata": 10606,
+    "huggingface": 10606
+  },
   "by_role": {
-    "member": 8005,
+    "member": 18611,
     "founder": 186,
     "current_head": 100
   },
   "by_gender": {
-    "F": 2588,
-    "M": 4030,
-    "unknown": 1673
+    "M": 12833,
+    "F": 4366,
+    "unknown": 1681,
+    "other": 17
   },
-  "by_source": {
-    "github": 8291
-  },
-  "top_30_families_by_member_count": [
+  "families_total": 100108,
+  "families_with_member": 3151,
+  "families_with_head_current": 2896,
+  "head_current_filled_this_run": 2646,
+  "top30_families_by_member_count": [
     {
       "family_id": "royals:royalconstellations:cc-robert-0",
       "name_en": "(kin-group: Robert II)",
-      "members": 827
+      "person_count": 827,
+      "head_current": "rc:I3074"
     },
     {
       "family_id": "royals:ctm-bench:six-dynasties",
       "name_en": "Six Dynasties",
-      "members": 392
+      "person_count": 392,
+      "head_current": null
     },
     {
       "family_id": "royals:royalconstellations:cc-baldwin-1",
       "name_en": "(kin-group: Baldwin V of Flanders)",
-      "members": 240
-    },
-    {
-      "family_id": "royals:ck2:1062562",
-      "name_en": "Tang",
-      "members": 200
+      "person_count": 240,
+      "head_current": null
     },
     {
       "family_id": "royals:ck2:1053100",
       "name_en": "Song",
-      "members": 200
+      "person_count": 200,
+      "head_current": null
+    },
+    {
+      "family_id": "royals:ck2:1062562",
+      "name_en": "Tang",
+      "person_count": 200,
+      "head_current": null
     },
     {
       "family_id": "royals:ck3:yuan_fictional",
       "name_en": "Yuan",
-      "members": 200
+      "person_count": 200,
+      "head_current": null
     },
     {
       "family_id": "royals:ctm-bench:ming",
       "name_en": "Ming",
-      "members": 200
+      "person_count": 200,
+      "head_current": null
     },
     {
       "family_id": "royals:ctm-bench:qing",
       "name_en": "Qing",
-      "members": 200
+      "person_count": 200,
+      "head_current": null
     },
     {
       "family_id": "Q157217",
       "name_en": "House of Hanover",
-      "members": 140
+      "person_count": 141,
+      "head_current": "royal92:I1050"
     },
     {
       "family_id": "Q112707",
       "name_en": "House of Romanov",
-      "members": 129
+      "person_count": 129,
+      "head_current": "Maria Vladimirovna"
     },
     {
       "family_id": "royals:ck2:1055027",
       "name_en": "Han",
-      "members": 111
+      "person_count": 111,
+      "head_current": null
     },
     {
       "family_id": "Q179840",
       "name_en": "House of Stuart",
-      "members": 68
+      "person_count": 68,
+      "head_current": null
     },
     {
       "family_id": "royals:islamic-atlas:3",
       "name_en": "royals:islamic-atlas:3",
-      "members": 65
+      "person_count": 65,
+      "head_current": null
     },
     {
       "family_id": "royals:ctm-bench:five-dynasties",
       "name_en": "Five Dynasties",
-      "members": 64
+      "person_count": 64,
+      "head_current": null
     },
     {
       "family_id": "Q81589",
       "name_en": "House of Windsor",
-      "members": 58
+      "person_count": 60,
+      "head_current": "Charles III"
     },
     {
       "family_id": "royals:royal92:howard",
       "name_en": "House of Howard",
-      "members": 58
+      "person_count": 58,
+      "head_current": null
     },
     {
       "family_id": "royals:ctm-bench:sui",
       "name_en": "Sui",
-      "members": 48
+      "person_count": 48,
+      "head_current": null
     },
     {
       "family_id": "Q2275875",
       "name_en": "House of Seymour",
-      "members": 40
+      "person_count": 40,
+      "head_current": "John Seymour, 19th Duke of Somerset"
     },
     {
       "family_id": "Q101978",
       "name_en": "House of Tudor",
-      "members": 39
-    },
-    {
-      "family_id": "royals:ctm-bench:pre-qin",
-      "name_en": "Pre-Qin",
-      "members": 37
-    },
-    {
-      "family_id": "Q155594",
-      "name_en": "House of Oldenburg",
-      "members": 36
-    },
-    {
-      "family_id": "royals:royal92:wurttemberg",
-      "name_en": "House of Wurttemberg",
-      "members": 36
+      "person_count": 39,
+      "head_current": null
     },
     {
       "family_id": "Q83969",
       "name_en": "House of Hohenzollern",
-      "members": 35
+      "person_count": 38,
+      "head_current": "Georg Friedrich, Prince of Prussia"
+    },
+    {
+      "family_id": "royals:ctm-bench:pre-qin",
+      "name_en": "Pre-Qin",
+      "person_count": 37,
+      "head_current": null
+    },
+    {
+      "family_id": "Q155594",
+      "name_en": "House of Oldenburg",
+      "person_count": 36,
+      "head_current": "royal92:I1061"
+    },
+    {
+      "family_id": "royals:royal92:wurttemberg",
+      "name_en": "House of Wurttemberg",
+      "person_count": 36,
+      "head_current": "royal92:I1093"
     },
     {
       "family_id": "royals:islamic-atlas:5",
       "name_en": "Mulūk al-Tawā'if",
-      "members": 33
+      "person_count": 33,
+      "head_current": null
     },
     {
       "family_id": "Q2604888",
       "name_en": "House of Spencer",
-      "members": 30
-    },
-    {
-      "family_id": "royals:royal92:lascelles",
-      "name_en": "House of Lascelles",
-      "members": 30
-    },
-    {
-      "family_id": "royals:royal92:mortimer",
-      "name_en": "House of Mortimer",
-      "members": 30
+      "person_count": 30,
+      "head_current": "Charles Spencer, 9th Earl Spencer"
     },
     {
       "family_id": "Q813367",
       "name_en": "House of Beaufort",
-      "members": 30
+      "person_count": 30,
+      "head_current": null
     },
     {
       "family_id": "royals:islamic-atlas:7",
       "name_en": "royals:islamic-atlas:7",
-      "members": 30
+      "person_count": 30,
+      "head_current": null
+    },
+    {
+      "family_id": "royals:royal92:lascelles",
+      "name_en": "House of Lascelles",
+      "person_count": 30,
+      "head_current": "royal92:I950"
+    },
+    {
+      "family_id": "royals:royal92:mortimer",
+      "name_en": "House of Mortimer",
+      "person_count": 30,
+      "head_current": null
     },
     {
       "family_id": "Q131621",
       "name_en": "House of Wittelsbach",
-      "members": 29
+      "person_count": 29,
+      "head_current": "Franz, Duke of Bavaria"
     }
   ]
 }

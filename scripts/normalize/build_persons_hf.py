@@ -133,8 +133,18 @@ def build_family_index() -> tuple[dict, dict]:
     return families_by_id, dict(token_to_ids)
 
 
-def step3(min_token_len: int = 5, max_fams_per_token: int = 200):
-    """String-match HF bios against family-name tokens, write candidates."""
+def step3(min_token_len: int = 7, max_fams_per_token: int = 5,
+          generic_threshold_pct: float = 0.0004,
+          require_min_matches: int = 1):
+    """String-match HF bios against DISTINCTIVE family-name tokens.
+
+    Two-pass:
+      Pass A: sample bios to discover generic English tokens (appearing in
+              >= generic_threshold_pct of bios). Discard these from the family
+              token set.
+      Pass B: full scan; emit candidate only if any bio word intersects the
+              filtered family tokens.
+    """
     try:
         import pyarrow.parquet as pq
     except ImportError:
@@ -145,17 +155,43 @@ def step3(min_token_len: int = 5, max_fams_per_token: int = 200):
     fams_by_id, token_to_ids = build_family_index()
     print(f"[step3] families={len(fams_by_id):,}  tokens={len(token_to_ids):,}", flush=True)
 
-    keep_tokens = []
+    word_re = re.compile(r"[A-Za-zÀ-ɏ]+")
+
+    # ---- Pass A: discover generic tokens ----
+    print("[step3] pass A: sampling 50k bios for generic words ...", flush=True)
+    from collections import Counter
+    bio_freq = Counter()
+    sampled = 0
+    if HF_TRAIN.exists():
+        pf = pq.ParquetFile(HF_TRAIN)
+        for batch in pf.iter_batches(batch_size=5000, columns=["input"]):
+            for inp in batch.column("input").to_pylist():
+                if inp is None:
+                    continue
+                for w in word_re.findall(inp):
+                    wl = w.lower()
+                    if len(wl) >= min_token_len:
+                        bio_freq[wl] += 1
+            sampled += batch.num_rows
+            if sampled >= 50000:
+                break
+    thresh = max(50, int(sampled * generic_threshold_pct))
+    generic = {t for t, c in bio_freq.items() if c >= thresh}
+    print(f"[step3] sampled={sampled:,}  generic tokens (>= {thresh} occurrences): {len(generic):,}", flush=True)
+
+    # ---- Build keep_tokens ----
+    keep_tokens: set[str] = set()
     for tok, ids in token_to_ids.items():
         if len(tok) < min_token_len:
             continue
         if len(ids) > max_fams_per_token:
             continue
-        keep_tokens.append(tok)
-    print(f"[step3] usable tokens (>= {min_token_len} chars, <= {max_fams_per_token} fams each): {len(keep_tokens):,}", flush=True)
+        if tok in generic:
+            continue
+        keep_tokens.add(tok)
+    print(f"[step3] usable tokens (>= {min_token_len} chars, <= {max_fams_per_token} fams, not generic): {len(keep_tokens):,}", flush=True)
 
-    pattern = re.compile(r"\b(" + "|".join(re.escape(t) for t in keep_tokens) + r")\b", re.IGNORECASE)
-
+    # ---- Pass B: full scan ----
     n_total, n_kept = 0, 0
     HF_CANDIDATES.unlink(missing_ok=True)
     with HF_CANDIDATES.open("w") as fout:
@@ -163,31 +199,31 @@ def step3(min_token_len: int = 5, max_fams_per_token: int = 200):
             if not src_path.exists():
                 continue
             print(f"[step3] scanning {src_path.name} ...", flush=True)
-            t = pq.read_table(src_path, columns=["input", "output"])
-            inputs = t.column("input").to_pylist()
-            outputs = t.column("output").to_pylist()
-            for inp, qid in zip(inputs, outputs):
-                n_total += 1
-                if not inp or not qid:
-                    continue
-                m = pattern.search(inp)
-                if not m:
-                    continue
-                matches = set()
-                for mm in pattern.finditer(inp):
-                    matches.add(mm.group(1).lower())
-                fam_ids = []
-                for tok in matches:
-                    fam_ids.extend(token_to_ids.get(tok, []))
-                fam_ids = list(dict.fromkeys(fam_ids))[:30]
-                fout.write(json.dumps({
-                    "qid": qid,
-                    "input": inp[:500],
-                    "matched_tokens": sorted(matches),
-                    "candidate_family_ids": fam_ids,
-                }, ensure_ascii=False) + "\n")
-                n_kept += 1
-                if n_total % 25000 == 0:
+            pf = pq.ParquetFile(src_path)
+            for batch in pf.iter_batches(batch_size=5000, columns=["input", "output"]):
+                inputs = batch.column("input").to_pylist()
+                outputs = batch.column("output").to_pylist()
+                for inp, qid in zip(inputs, outputs):
+                    n_total += 1
+                    if not inp or not qid:
+                        continue
+                    bio_words = {w.lower() for w in word_re.findall(inp)}
+                    matches = bio_words & keep_tokens
+                    if len(matches) < require_min_matches:
+                        continue
+                    fam_ids: list[str] = []
+                    for tok in matches:
+                        fam_ids.extend(token_to_ids.get(tok, []))
+                    fam_ids = list(dict.fromkeys(fam_ids))[:30]
+                    fout.write(json.dumps({
+                        "qid": qid,
+                        "input": inp[:500],
+                        "matched_tokens": sorted(matches),
+                        "candidate_family_ids": fam_ids,
+                        "n_matches": len(matches),
+                    }, ensure_ascii=False) + "\n")
+                    n_kept += 1
+                if n_total % 25000 < 5000:
                     print(f"[step3] scanned={n_total:,} kept={n_kept:,}", flush=True)
     print(f"[step3] DONE scanned={n_total:,} kept={n_kept:,}", flush=True)
     return {"scanned": n_total, "kept": n_kept}
@@ -213,7 +249,7 @@ def step4(max_batches: int = 0, batch_size: int = 50, sleep_s: float = 0.5,
     family hit. This drastically reduces the API budget while still grabbing
     the highest-confidence rows.
     """
-    import urllib.request
+    import requests
 
     if not HF_CANDIDATES.exists():
         print("[step4] no _hf_candidates.jsonl; run step 3 first", file=sys.stderr)
@@ -223,8 +259,10 @@ def step4(max_batches: int = 0, batch_size: int = 50, sleep_s: float = 0.5,
     fams_set = set(fams_by_id.keys())
     aliases = load_alias_map()
 
-    high, low = [], []
+    # Score each candidate by (n_matches, hit-master-family). Higher = better.
+    scored: list[tuple[int, int, str]] = []  # (-score, idx_to_stabilize, qid)
     with HF_CANDIDATES.open() as f:
+        idx = 0
         for line in f:
             try:
                 r = json.loads(line)
@@ -235,15 +273,21 @@ def step4(max_batches: int = 0, batch_size: int = 50, sleep_s: float = 0.5,
                 continue
             cand_fams = r.get("candidate_family_ids") or []
             hit = any(aliases.get(c, c) in fams_set for c in cand_fams)
-            if hit:
-                high.append(q)
-            else:
-                low.append(q)
-    todo_order = high if priority_only else (high + low)
+            n_matches = r.get("n_matches", len(r.get("matched_tokens", [])))
+            # Confidence score: prioritize hits + match count + fewer ambiguous candidates
+            score = (1 if hit else 0) * 100 + n_matches * 10 + max(0, 30 - len(cand_fams))
+            scored.append((-score, idx, q))
+            idx += 1
+    scored.sort()
+    todo_order = [q for _, _, q in scored]
+    if priority_only:
+        # Drop very low-signal (n_matches=1 AND no high score)
+        # Already sorted desc; keep top half
+        todo_order = todo_order[: max(len(todo_order) // 2, 5000)]
     todo_order = list(dict.fromkeys(todo_order))
     fetched = load_fetched()
     todo = [q for q in todo_order if q not in fetched]
-    print(f"[step4] candidates: high={len(high):,}  low={len(low):,}  fetched={len(fetched):,}", flush=True)
+    print(f"[step4] candidates ranked: {len(todo_order):,}  fetched={len(fetched):,}", flush=True)
     print(f"[step4] todo this run: {len(todo):,}  max_batches={max_batches or 'unlimited'}", flush=True)
 
     n_batches = 0
@@ -261,9 +305,13 @@ def step4(max_batches: int = 0, batch_size: int = 50, sleep_s: float = 0.5,
                    "&format=json&props=labels|claims&languages=en|ko|ja|zh|de|fr|es|ru|ar"
                    "&ids=" + "|".join(batch))
             try:
-                req = urllib.request.Request(url, headers={"User-Agent": "RoyalsBot/0.2 (kibongkook@gmail.com)"})
-                with urllib.request.urlopen(req, timeout=30) as resp:
-                    data = json.loads(resp.read().decode("utf-8"))
+                r = requests.get(
+                    url,
+                    headers={"User-Agent": "RoyalsBot/0.2 (kibongkook@gmail.com)"},
+                    timeout=30,
+                )
+                r.raise_for_status()
+                data = r.json()
             except Exception as e:
                 print(f"[step4] batch {n_batches} error: {e!r}, sleep 3s", flush=True)
                 time.sleep(3.0)
