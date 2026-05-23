@@ -57,3 +57,6 @@ data/master/*.tmp
 data/by_country/*.tmp
 data/by_category/*.tmp
 /tmp_*
+
+# Phase-5 backups (recreated by scripts on each run)
+data/master/*.pre_*.jsonl

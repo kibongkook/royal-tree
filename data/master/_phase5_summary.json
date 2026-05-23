@@ -1,0 +1,1326 @@
+{
+  "tier_distribution": {
+    "past": {
+      "D": 30799,
+      "C": 51996,
+      "A": 170,
+      "S": 49,
+      "B": 17094
+    },
+    "current": {
+      "D": 88840,
+      "C": 7646,
+      "B": 654,
+      "A": 243,
+      "S": 38,
+      "X": 2687
+    },
+    "pair": {
+      "A->C": 70,
+      "A->D": 77,
+      "A->X": 23,
+      "B->C": 2244,
+      "B->D": 14361,
+      "B->X": 489,
+      "C->C": 4068,
+      "C->D": 46152,
+      "C->X": 1776,
+      "D->A": 243,
+      "D->B": 654,
+      "D->C": 1258,
+      "D->D": 28219,
+      "D->S": 32,
+      "D->X": 393,
+      "S->C": 6,
+      "S->D": 31,
+      "S->S": 6,
+      "S->X": 6
+    }
+  },
+  "current_S_by_country": {
+    "US": 21,
+    "CN": 4,
+    "JP": 3,
+    "FR": 2,
+    "SA": 2,
+    "ES": 1,
+    "HK": 1,
+    "HU": 1,
+    "IN": 1,
+    "MX": 1,
+    "SE": 1,
+    "AR-region": 1,
+    "GB": 1,
+    "RU": 1
+  },
+  "rising_count": 2187,
+  "falling_count": 16839,
+  "rising_examples": [
+    {
+      "id": "royal-tree:wp:en:brennan-family",
+      "name": "Brennan family",
+      "past": "D",
+      "current": "C",
+      "reasons": [
+        "has current head"
+      ]
+    },
+    {
+      "id": "royal-tree:manual:chaudhary-family-binod-chaudhary",
+      "name": "Chaudhary family (Binod Chaudhary)",
+      "past": "D",
+      "current": "C",
+      "reasons": [
+        "has current head + recent persons or active status"
+      ]
+    },
+    {
+      "id": "royal-tree:manual:lansdown-family-stephen-lansdown",
+      "name": "Lansdown family (Stephen Lansdown)",
+      "past": "D",
+      "current": "C",
+      "reasons": [
+        "has current head + recent persons or active status"
+      ]
+    },
+    {
+      "id": "Q22906517",
+      "name": "List of wealthiest families",
+      "past": "D",
+      "current": "C",
+      "reasons": [
+        "has current head"
+      ]
+    },
+    {
+      "id": "Q81180329",
+      "name": "Bulgheroni U. Rino sas (numero REA 41025 Va), Saronno (VA)",
+      "past": "D",
+      "current": "B",
+      "reasons": [
+        "aggregate valuation $5.3B ($1-10B)"
+      ]
+    },
+    {
+      "id": "Q106616359",
+      "name": "Galperin configuration",
+      "past": "D",
+      "current": "C",
+      "reasons": [
+        "aggregate valuation $0M (<$1B)"
+      ]
+    },
+    {
+      "id": "Q1883014",
+      "name": "Macri",
+      "past": "D",
+      "current": "C",
+      "reasons": [
+        "has current head + recent persons or active status"
+      ]
+    },
+    {
+      "id": "royal-tree:manual:graf-family-johann-graf",
+      "name": "Graf family (Johann Graf)",
+      "past": "D",
+      "current": "A",
+      "reasons": [
+        "aggregate valuation $12.6B ($10-50B)"
+      ]
+    },
+    {
+      "id": "royal-tree:manual:horten-family-heidi-horten",
+      "name": "Horten family (Heidi Horten)",
+      "past": "D",
+      "current": "B",
+      "reasons": [
+        "aggregate valuation $2.7B ($1-10B)"
+      ]
+    },
+    {
+      "id": "royal-tree:manual:leitner-family-wolfgang-leitner",
+      "name": "Leitner family (Wolfgang Leitner)",
+      "past": "D",
+      "current": "C",
+      "reasons": [
+        "aggregate valuation $0M (<$1B)"
+      ]
+    },
+    {
+      "id": "royal-tree:manual:mateschitz-family-dietrich-mateschitz",
+      "name": "Mateschitz family (Dietrich Mateschitz)",
+      "past": "D",
+      "current": "A",
+      "reasons": [
+        "aggregate valuation $24.4B ($10-50B)"
+      ]
+    },
+    {
+      "id": "royal-tree:manual:sohmen-family-helmut-sohmen",
+      "name": "Sohmen family (Helmut Sohmen)",
+      "past": "D",
+      "current": "B",
+      "reasons": [
+        "aggregate valuation $2.1B ($1-10B)"
+      ]
+    },
+    {
+      "id": "royal-tree:manual:wlaschek-family-karl-wlaschek",
+      "name": "Wlaschek family (Karl Wlaschek)",
+      "past": "D",
+      "current": "B",
+      "reasons": [
+        "aggregate valuation $4.2B ($1-10B)"
+      ]
+    },
+    {
+      "id": "Q27429892",
+      "name": "Stronach",
+      "past": "D",
+      "current": "C",
+      "reasons": [
+        "has current head + recent persons or active status"
+      ]
+    },
+    {
+      "id": "royal-tree:manual:ainsworth-family-len-ainsworth",
+      "name": "Ainsworth family (Len Ainsworth)",
+      "past": "D",
+      "current": "C",
+      "reasons": [
+        "has current head + recent persons or active status"
+      ]
+    },
+    {
+      "id": "royal-tree:manual:cannon-brookes-family-mike-cannon-brookes",
+      "name": "Cannon-Brookes family (Mike Cannon-Brookes)",
+      "past": "D",
+      "current": "B",
+      "reasons": [
+        "aggregate valuation $6.3B ($1-10B)"
+      ]
+    },
+    {
+      "id": "royal-tree:manual:farquhar-family-scott-farquhar",
+      "name": "Farquhar family (Scott Farquhar)",
+      "past": "D",
+      "current": "B",
+      "reasons": [
+        "aggregate valuation $6.3B ($1-10B)"
+      ]
+    },
+    {
+      "id": "Q491221",
+      "name": "Forrest County",
+      "past": "D",
+      "current": "B",
+      "reasons": [
+        "aggregate valuation $2.2B ($1-10B)"
+      ]
+    },
+    {
+      "id": "royal-tree:manual:fox-family-lindsay-fox",
+      "name": "Fox family (Lindsay Fox)",
+      "past": "D",
+      "current": "B",
+      "reasons": [
+        "aggregate valuation $2.8B ($1-10B)"
+      ]
+    },
+    {
+      "id": "royal-tree:manual:gandel-family-john-gandel",
+      "name": "Gandel family (John Gandel)",
+      "past": "D",
+      "current": "B",
+      "reasons": [
+        "aggregate valuation $7.7B ($1-10B)"
+      ]
+    },
+    {
+      "id": "royal-tree:manual:geminder-family-fiona-geminder",
+      "name": "Geminder family (Fiona Geminder)",
+      "past": "D",
+      "current": "B",
+      "reasons": [
+        "aggregate valuation $2.0B ($1-10B)"
+      ]
+    },
+    {
+      "id": "royal-tree:manual:hains-family-david-hains",
+      "name": "Hains family (David Hains)",
+      "past": "D",
+      "current": "B",
+      "reasons": [
+        "aggregate valuation $2.0B ($1-10B)"
+      ]
+    },
+    {
+      "id": "royal-tree:manual:lew-family-solomon-lew",
+      "name": "Lew family (Solomon Lew)",
+      "past": "D",
+      "current": "C",
+      "reasons": [
+        "aggregate valuation $0M (<$1B)"
+      ]
+    },
+    {
+      "id": "royal-tree:manual:lieshout-family-john-van-lieshout",
+      "name": "Lieshout family (John Van Lieshout)",
+      "past": "D",
+      "current": "C",
+      "reasons": [
+        "has current head + recent persons or active status"
+      ]
+    },
+    {
+      "id": "royal-tree:manual:lowy-family-frank-lowy",
+      "name": "Lowy family (Frank Lowy)",
+      "past": "D",
+      "current": "B",
+      "reasons": [
+        "aggregate valuation $9.4B ($1-10B)"
+      ]
+    },
+    {
+      "id": "royal-tree:manual:neilson-family-kerr-neilson",
+      "name": "Neilson family (Kerr Neilson)",
+      "past": "D",
+      "current": "B",
+      "reasons": [
+        "aggregate valuation $3.2B ($1-10B)"
+      ]
+    },
+    {
+      "id": "royal-tree:manual:packer-family-james-packer",
+      "name": "Packer family (James Packer)",
+      "past": "D",
+      "current": "B",
+      "reasons": [
+        "aggregate valuation $5.2B ($1-10B)"
+      ]
+    },
+    {
+      "id": "royal-tree:manual:pratt-family-anthony-pratt",
+      "name": "Pratt family (Anthony Pratt)",
+      "past": "D",
+      "current": "B",
+      "reasons": [
+        "aggregate valuation $8.2B ($1-10B)"
+      ]
+    },
+    {
+      "id": "Q7334658",
+      "name": "Rinehart & Company",
+      "past": "D",
+      "current": "A",
+      "reasons": [
+        "aggregate valuation $27.3B ($10-50B)"
+      ]
+    },
+    {
+      "id": "royal-tree:manual:sehgal-family-vivek-chaand-sehgal",
+      "name": "Sehgal family (Vivek Chaand Sehgal)",
+      "past": "D",
+      "current": "B",
+      "reasons": [
+        "aggregate valuation $9.2B ($1-10B)"
+      ]
+    }
+  ],
+  "falling_examples": [
+    {
+      "id": "Q3041239",
+      "name": "Donnchad I, Earl of Fife",
+      "past": "C",
+      "current": "X"
+    },
+    {
+      "id": "Q67198963",
+      "name": "Adelmann von und zu Adelsmannsfelden",
+      "past": "C",
+      "current": "X"
+    },
+    {
+      "id": "Q131389617",
+      "name": "Afghani Royal Family",
+      "past": "C",
+      "current": "X"
+    },
+    {
+      "id": "Q2602572",
+      "name": "Afrighids",
+      "past": "C",
+      "current": "X"
+    },
+    {
+      "id": "Q4699159",
+      "name": "Aishanids",
+      "past": "C",
+      "current": "X"
+    },
+    {
+      "id": "Q125464205",
+      "name": "Akaraphongpreecha family",
+      "past": "C",
+      "current": "X"
+    },
+    {
+      "id": "Q2840824",
+      "name": "Amadio",
+      "past": "C",
+      "current": "X"
+    },
+    {
+      "id": "Q69806066",
+      "name": "Andromachus the Elder and Andromachus the Younger",
+      "past": "C",
+      "current": "X"
+    },
+    {
+      "id": "Q581531",
+      "name": "Antipatrid dynasty",
+      "past": "C",
+      "current": "X"
+    },
+    {
+      "id": "Q538849",
+      "name": "Argead dynasty",
+      "past": "C",
+      "current": "X"
+    },
+    {
+      "id": "Q4794368",
+      "name": "Armytage baronets",
+      "past": "C",
+      "current": "X"
+    },
+    {
+      "id": "Q1133431",
+      "name": "Artuqids",
+      "past": "C",
+      "current": "X"
+    },
+    {
+      "id": "Q686722",
+      "name": "Ashina",
+      "past": "C",
+      "current": "X"
+    },
+    {
+      "id": "Q321029",
+      "name": "Attalid dynasty",
+      "past": "C",
+      "current": "X"
+    },
+    {
+      "id": "Q1077960",
+      "name": "Awan dynasty",
+      "past": "C",
+      "current": "X"
+    },
+    {
+      "id": "Q108782597",
+      "name": "Azlin Arujunah and Ridzuan Mega Abdul Rahman",
+      "past": "C",
+      "current": "X"
+    },
+    {
+      "id": "Q138770856",
+      "name": "Azzolini family",
+      "past": "C",
+      "current": "X"
+    },
+    {
+      "id": "Q138769257",
+      "name": "Bambini Borgogelli family",
+      "past": "C",
+      "current": "X"
+    },
+    {
+      "id": "Q1096374",
+      "name": "Banu Ilyas",
+      "past": "C",
+      "current": "X"
+    },
+    {
+      "id": "Q659457",
+      "name": "Banu Qasi",
+      "past": "C",
+      "current": "X"
+    },
+    {
+      "id": "Q2472640",
+      "name": "Bavand dynasty",
+      "past": "C",
+      "current": "X"
+    },
+    {
+      "id": "Q138767800",
+      "name": "Bellucci family",
+      "past": "C",
+      "current": "X"
+    },
+    {
+      "id": "Q3638031",
+      "name": "Benedetti",
+      "past": "C",
+      "current": "X"
+    },
+    {
+      "id": "Q2261321",
+      "name": "Beylik of Adana",
+      "past": "C",
+      "current": "X"
+    },
+    {
+      "id": "Q17150787",
+      "name": "Bharshiva dynasty",
+      "past": "C",
+      "current": "X"
+    },
+    {
+      "id": "Q892505",
+      "name": "Bonifaci",
+      "past": "C",
+      "current": "X"
+    },
+    {
+      "id": "Q10435101",
+      "name": "Brenner",
+      "past": "C",
+      "current": "X"
+    },
+    {
+      "id": "Q2925051",
+      "name": "Briani",
+      "past": "C",
+      "current": "X"
+    },
+    {
+      "id": "Q12443072",
+      "name": "Brihadrath Dynasty",
+      "past": "C",
+      "current": "X"
+    },
+    {
+      "id": "Q110910588",
+      "name": "Bruch",
+      "past": "C",
+      "current": "X"
+    }
+  ],
+  "top_current": {
+    "S": [
+      {
+        "id": "royal-tree:manual:bezos-family-jeff-bezos",
+        "name": "Bezos family (Jeff Bezos)",
+        "past": "D",
+        "valuation_usd_total": 177060003758.0,
+        "country": [
+          "US"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:gates-family-bill-gates",
+        "name": "Gates family (Bill Gates)",
+        "past": "D",
+        "valuation_usd_total": 172500000405.0,
+        "country": [
+          "US"
+        ]
+      },
+      {
+        "id": "Q17343056",
+        "name": "Walton Enterprises",
+        "past": "D",
+        "valuation_usd_total": 167380000719.0,
+        "country": [
+          "US"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:buffett-family-warren-buffett",
+        "name": "Buffett family (Warren Buffett)",
+        "past": "D",
+        "valuation_usd_total": 153300000819.0,
+        "country": [
+          "US"
+        ]
+      },
+      {
+        "id": "Q2395368",
+        "name": "Carlos Hank González",
+        "past": "D",
+        "valuation_usd_total": 138500000000.0,
+        "country": [
+          "MX"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:ortega-family-amancio-ortega",
+        "name": "Ortega family (Amancio Ortega)",
+        "past": "D",
+        "valuation_usd_total": 125600000275.0,
+        "country": [
+          "ES"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:breyer-family-jim-breyer",
+        "name": "Breyer family (Jim Breyer)",
+        "past": "D",
+        "valuation_usd_total": 114000000462.0,
+        "country": [
+          "US"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:fraisse-family-bernard-fraisse",
+        "name": "Fraisse family (Bernard Fraisse)",
+        "past": "D",
+        "valuation_usd_total": 108800000000.0,
+        "country": [
+          "FR"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:ellison-family-larry-ellison",
+        "name": "Ellison family (Larry Ellison)",
+        "past": "D",
+        "valuation_usd_total": 106600000088.0,
+        "country": [
+          "US"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:zuckerberg-family-mark-zuckerberg",
+        "name": "Zuckerberg family (Mark Zuckerberg)",
+        "past": "D",
+        "valuation_usd_total": 90300001568.0,
+        "country": [
+          "US"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:bonderman-family-david-bonderman",
+        "name": "Bonderman family (David Bonderman)",
+        "past": "D",
+        "valuation_usd_total": 89900000018.0,
+        "country": [
+          "US"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:koch-family-charles-koch",
+        "name": "Koch family (Charles Koch)",
+        "past": "D",
+        "valuation_usd_total": 87300000000.0,
+        "country": [
+          "US"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:schwartz-family-alice-schwartz",
+        "name": "Schwartz family (Alice Schwartz)",
+        "past": "D",
+        "valuation_usd_total": 86200000445.0,
+        "country": [
+          "US"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:page-family-larry-page",
+        "name": "Page family (Larry Page)",
+        "past": "D",
+        "valuation_usd_total": 82000001250.0,
+        "country": [
+          "US"
+        ]
+      },
+      {
+        "id": "Q12908",
+        "name": "George Soros",
+        "past": "D",
+        "valuation_usd_total": 81830000037.0,
+        "country": [
+          "HU",
+          "US"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:brin-family-sergey-brin",
+        "name": "Brin family (Sergey Brin)",
+        "past": "D",
+        "valuation_usd_total": 80100001207.0,
+        "country": [
+          "US"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:arnold-family-john-arnold",
+        "name": "Arnold family (John Arnold)",
+        "past": "D",
+        "valuation_usd_total": 77050000000.0,
+        "country": [
+          "US"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:ballmer-family-steve-ballmer",
+        "name": "Ballmer family (Steve Ballmer)",
+        "past": "D",
+        "valuation_usd_total": 72700000821.0,
+        "country": [
+          "US"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:solow-family-sheldon-solow",
+        "name": "Solow family (Sheldon Solow)",
+        "past": "D",
+        "valuation_usd_total": 66700000250.0,
+        "country": [
+          "US"
+        ]
+      },
+      {
+        "id": "Q298547",
+        "name": "Mukesh Ambani",
+        "past": "D",
+        "valuation_usd_total": 63900001226.0,
+        "country": [
+          "IN",
+          "JP"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:ka-shing-family-li-ka-shing",
+        "name": "Ka-shing family (Li Ka-shing)",
+        "past": "D",
+        "valuation_usd_total": 63400000536.0,
+        "country": [
+          "HK"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:knight-family-phil-knight",
+        "name": "Knight family (Phil Knight)",
+        "past": "D",
+        "valuation_usd_total": 63100000493.0,
+        "country": [
+          "US"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:ma-yun-jack-ma-family-alibaba",
+        "name": "Ma Yun (Jack Ma) family / Alibaba",
+        "past": "D",
+        "valuation_usd_total": 60500000249.0,
+        "country": [
+          "CN"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:mars-family-jacqueline-mars",
+        "name": "Mars family (Jacqueline Mars)",
+        "past": "D",
+        "valuation_usd_total": 60200000000.0,
+        "country": [
+          "US"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:rausing-family-hans-rausing",
+        "name": "Rausing family (Hans Rausing)",
+        "past": "D",
+        "valuation_usd_total": 57690000016.0,
+        "country": [
+          "SE"
+        ]
+      }
+    ],
+    "A": [
+      {
+        "id": "Q855533",
+        "name": "Lee Kum Kee",
+        "past": "D",
+        "valuation_usd_total": 49900000244.0,
+        "country": [
+          "CN",
+          "HK"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:persson-family-stefan-persson",
+        "name": "Persson family (Stefan Persson)",
+        "past": "D",
+        "valuation_usd_total": 48300000000.0,
+        "country": [
+          "SE"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:fast-retailing-yanai-family",
+        "name": "Fast Retailing Yanai family",
+        "past": "D",
+        "valuation_usd_total": 46500000000.0,
+        "country": [
+          "JP"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:kwok-family-shk",
+        "name": "Kwok family (SHK)",
+        "past": "D",
+        "valuation_usd_total": 46300000353.0,
+        "country": [
+          "HK"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:lemann-family-jorge-paulo-lemann",
+        "name": "Lemann family (Jorge Paulo Lemann)",
+        "past": "D",
+        "valuation_usd_total": 46300000109.0,
+        "country": [
+          "BR"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:quandt-family-stefan-quandt",
+        "name": "Quandt family (Stefan Quandt)",
+        "past": "D",
+        "valuation_usd_total": 46300000008.0,
+        "country": [
+          "DE"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:dell-family-michael-dell",
+        "name": "Dell family (Michael Dell)",
+        "past": "D",
+        "valuation_usd_total": 45800000286.0,
+        "country": [
+          "US"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:meyers-family-francoise-bettencourt-meyers",
+        "name": "Meyers family (Francoise Bettencourt Meyers)",
+        "past": "D",
+        "valuation_usd_total": 45500000212.0,
+        "country": [
+          "FR"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:djarum-hartono-family",
+        "name": "Djarum Hartono family",
+        "past": "D",
+        "valuation_usd_total": 45300000308.0,
+        "country": [
+          "ID"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:feuillet-family-francois-feuillet",
+        "name": "Feuillet family (Francois Feuillet)",
+        "past": "D",
+        "valuation_usd_total": 44900000000.0,
+        "country": [
+          "FR"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:murdoch-family-rupert-murdoch",
+        "name": "Murdoch family (Rupert Murdoch)",
+        "past": "D",
+        "valuation_usd_total": 42740000026.0,
+        "country": [
+          "US"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:schnabel-family-dieter-schnabel",
+        "name": "Schnabel family (Dieter Schnabel)",
+        "past": "D",
+        "valuation_usd_total": 42500000000.0,
+        "country": [
+          "DE"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:icahn-family-carl-icahn",
+        "name": "Icahn family (Carl Icahn)",
+        "past": "D",
+        "valuation_usd_total": 42300000226.0,
+        "country": [
+          "US"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:wang-jianlin-family-wanda",
+        "name": "Wang Jianlin family / Wanda",
+        "past": "D",
+        "valuation_usd_total": 42100000001.0,
+        "country": [
+          "CN"
+        ]
+      },
+      {
+        "id": "Q5253017",
+        "name": "Casa Del Vecchio",
+        "past": "D",
+        "valuation_usd_total": 41300000000.0,
+        "country": [
+          "IT"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:albrecht-family-beate-heister-karl-albrecht-jr",
+        "name": "Albrecht family (Beate Heister & Karl Albrecht Jr.)",
+        "past": "D",
+        "valuation_usd_total": 40260000000.0,
+        "country": [
+          "DE"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:bettencourt-family-liliane-bettencourt",
+        "name": "Bettencourt family (Liliane Bettencourt)",
+        "past": "D",
+        "valuation_usd_total": 40100000000.0,
+        "country": [
+          "FR"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:blavatnik-family-len-blavatnik",
+        "name": "Blavatnik family (Len Blavatnik)",
+        "past": "D",
+        "valuation_usd_total": 38900000000.0,
+        "country": [
+          "US"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:schaeffler-family-georg-schaeffler",
+        "name": "Schaeffler family (Georg Schaeffler)",
+        "past": "D",
+        "valuation_usd_total": 37900000108.0,
+        "country": [
+          "DE"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:jobs-family-laurene-powell-jobs",
+        "name": "Jobs family (Laurene Powell Jobs)",
+        "past": "D",
+        "valuation_usd_total": 37800000065.0,
+        "country": [
+          "US"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:cheriton-family-david-cheriton",
+        "name": "Cheriton family (David Cheriton)",
+        "past": "D",
+        "valuation_usd_total": 37530000274.0,
+        "country": [
+          "CA"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:musk-family-elon-musk",
+        "name": "Musk family (Elon Musk)",
+        "past": "D",
+        "valuation_usd_total": 37500000391.0,
+        "country": [
+          "US"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:klatten-family-susanne-klatten",
+        "name": "Klatten family (Susanne Klatten)",
+        "past": "D",
+        "valuation_usd_total": 36800000008.0,
+        "country": [
+          "DE"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:xu-jiayin-hui-ka-yan-family-evergrande",
+        "name": "Xu Jiayin (Hui Ka Yan) family / Evergrande",
+        "past": "D",
+        "valuation_usd_total": 36300000918.0,
+        "country": [
+          "CN"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:mistry-family-pallonji-mistry",
+        "name": "Mistry family (Pallonji Mistry)",
+        "past": "D",
+        "valuation_usd_total": 36300000334.0,
+        "country": [
+          "IE"
+        ]
+      }
+    ],
+    "B": [
+      {
+        "id": "royal-tree:manual:wobben-family-aloys-wobben",
+        "name": "Wobben family (Aloys Wobben)",
+        "past": "D",
+        "valuation_usd_total": 9940000000.0,
+        "country": [
+          "DE"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:lin-family-banciao",
+        "name": "Lin family (Banciao)",
+        "past": "D",
+        "valuation_usd_total": 9900000015.0,
+        "country": [
+          "TW"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:prokhorov-family-mikhail-prokhorov",
+        "name": "Prokhorov family (Mikhail Prokhorov)",
+        "past": "D",
+        "valuation_usd_total": 9900000005.0,
+        "country": [
+          "RU"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:engelhorn-family-curt-engelhorn",
+        "name": "Engelhorn family (Curt Engelhorn)",
+        "past": "D",
+        "valuation_usd_total": 9900000000.0,
+        "country": [
+          "DE"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:castel-family-pierre-castel",
+        "name": "Castel family (Pierre Castel)",
+        "past": "D",
+        "valuation_usd_total": 9900000000.0,
+        "country": [
+          "FR"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:povlsen-family-anders-holch-povlsen",
+        "name": "Povlsen family (Anders Holch Povlsen)",
+        "past": "D",
+        "valuation_usd_total": 9880000000.0,
+        "country": [
+          "DK"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:benioff-family-marc-benioff",
+        "name": "Benioff family (Marc Benioff)",
+        "past": "D",
+        "valuation_usd_total": 9840000118.0,
+        "country": [
+          "US"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:schroder-family-bruno-schroder",
+        "name": "Schroder family (Bruno Schroder)",
+        "past": "D",
+        "valuation_usd_total": 9750000000.0,
+        "country": [
+          "GB"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:mcaulay-family-ronald-mcaulay",
+        "name": "McAulay family (Ronald McAulay)",
+        "past": "D",
+        "valuation_usd_total": 9690000020.0,
+        "country": [
+          "HK"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:arison-family-shari-arison",
+        "name": "Arison family (Shari Arison)",
+        "past": "D",
+        "valuation_usd_total": 9690000004.0,
+        "country": [
+          "IL"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:reitan-family-odd-reitan",
+        "name": "Reitan family (Odd Reitan)",
+        "past": "D",
+        "valuation_usd_total": 9670000000.0,
+        "country": [
+          "NO"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:dolan-family-charles-dolan",
+        "name": "Dolan family (Charles Dolan)",
+        "past": "D",
+        "valuation_usd_total": 9640000000.0,
+        "country": [
+          "US"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:ho-family-pansy-ho",
+        "name": "Ho family (Pansy Ho)",
+        "past": "D",
+        "valuation_usd_total": 9620000033.0,
+        "country": [
+          "HK"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:adi-godrej-family-industries",
+        "name": "Adi Godrej family (Industries)",
+        "past": "D",
+        "valuation_usd_total": 9600000012.0,
+        "country": [
+          "IN"
+        ]
+      },
+      {
+        "id": "Q1352708",
+        "name": "Saputo",
+        "past": "D",
+        "valuation_usd_total": 9560000000.0,
+        "country": [
+          "CA",
+          "IT"
+        ]
+      },
+      {
+        "id": "Q484847",
+        "name": "Hyundai Chung Family",
+        "past": "D",
+        "valuation_usd_total": 9500000235.0,
+        "country": [
+          "KR"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:khan-family-german-khan",
+        "name": "Khan family (German Khan)",
+        "past": "D",
+        "valuation_usd_total": 9500000026.0,
+        "country": [
+          "RU"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:cheng-family-lee-shin-cheng",
+        "name": "Cheng family (Lee Shin Cheng)",
+        "past": "D",
+        "valuation_usd_total": 9490000062.0,
+        "country": [
+          "MY"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:louis-hansen-family-niels-peter-louis-hansen",
+        "name": "Louis-Hansen family (Niels Peter Louis-Hansen)",
+        "past": "D",
+        "valuation_usd_total": 9480000000.0,
+        "country": [
+          "DK"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:jagtiani-family-micky-jagtiani",
+        "name": "Jagtiani family (Micky Jagtiani)",
+        "past": "D",
+        "valuation_usd_total": 9450000000.0,
+        "country": [
+          "IN"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:graff-family-laurence-graff",
+        "name": "Graff family (Laurence Graff)",
+        "past": "D",
+        "valuation_usd_total": 9440000000.0,
+        "country": [
+          "GB"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:kabeer-family-sultan-al-kabeer",
+        "name": "Kabeer family (Sultan Al Kabeer)",
+        "past": "D",
+        "valuation_usd_total": 9420000000.0,
+        "country": [
+          "SA"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:lowy-family-frank-lowy",
+        "name": "Lowy family (Frank Lowy)",
+        "past": "D",
+        "valuation_usd_total": 9390000003.0,
+        "country": [
+          "AU"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:spielberg-family-steven-spielberg",
+        "name": "Spielberg family (Steven Spielberg)",
+        "past": "D",
+        "valuation_usd_total": 9330000000.0,
+        "country": [
+          "US"
+        ]
+      },
+      {
+        "id": "royal-tree:manual:bangur-family",
+        "name": "Bangur family",
+        "past": "D",
+        "valuation_usd_total": 9280000045.0,
+        "country": [
+          "IN"
+        ]
+      }
+    ]
+  },
+  "relations": {
+    "active_today": 60,
+    "historical": 511,
+    "unknown_date": 139,
+    "top_active": [
+      {
+        "summary": "House of Windsor ↔ (kin-group: Catherine) [blood/father-child] · latest link c. 2015 — likely active via Charlotte, George",
+        "latest_year": 2015
+      },
+      {
+        "summary": "Graziani family ↔ Meléndez–Quiñónez dynasty [blood/father-of] · latest link c. 1995 — likely active via Carlos Gruezo, Carlos Armando Gruezo Quiñónez",
+        "latest_year": 1995
+      },
+      {
+        "summary": "Sanchez family (Carlos Sanchez) ↔ Sabrina Guinness [blood/father-of] · latest link c. 1994 — likely active via Luca Masso, Eduardo Masso",
+        "latest_year": 1994
+      },
+      {
+        "summary": "Shields and Yarnell ↔ Raynald of Châtillon [blood/father-of] · latest link c. 1993 — likely active via Ray Cooper III",
+        "latest_year": 1993
+      },
+      {
+        "summary": "House of Ferguson ↔ House of Windsor [blood/mother-child] · latest link c. 1990 — likely active via Eugenie Victoria HelenaWindsor, Eugenie Victoria Helen (Windsor)",
+        "latest_year": 1990
+      },
+      {
+        "summary": "House of Ferguson ↔ House of Makim [blood/mother-child] · latest link c. 1986 — likely active via Ayesha Makim, Ayesha  (Makim)",
+        "latest_year": 1986
+      },
+      {
+        "summary": "(kin-group: Zorka of Montenegro) ↔ House of George [blood/father-child] · latest link c. 1984 — likely active via George K. (George), Dimitrye K. (George)",
+        "latest_year": 1984
+      },
+      {
+        "summary": "House of Spencer ↔ House of Windsor [blood/mother-child] · latest link c. 1984 — likely active via Henry Charles AlbertWindsor, Henry Charles Alber (Windsor)",
+        "latest_year": 1984
+      },
+      {
+        "summary": "Pearson baronets ↔ Mónika Cristina Echavarria Pedraza [marriage/spouse] · latest link c. 1982 — likely active via Rebecca Hall, Morgan Spector",
+        "latest_year": 1982
+      },
+      {
+        "summary": "(kin-group: Catherine) ↔ House of Windsor [marriage/spouse] · latest link c. 1982 — likely active via Catherine, William Arthur Phili (Windsor)",
+        "latest_year": 1982
+      },
+      {
+        "summary": "House of Windsor ↔ House of Phillips [blood/mother-child] · latest link c. 1981 — likely active via Zara Anne ElizabethPhillips, Zara Anne Elizabet (Phillips)",
+        "latest_year": 1981
+      },
+      {
+        "summary": "House of Montagu-Douglas- ↔ House of Ferguson [blood/mother-child] · latest link c. 1980 — likely active via Marian -Scott Montagu-Douglas-, Marian -Scott (Montagu-Douglas-)",
+        "latest_year": 1980
+      },
+      {
+        "summary": "House of Montagu-Douglas- ↔ House of Ferguson [marriage/spouse] · latest link c. 1980 — likely active via Marian -Scott Montagu-Douglas-, Marian -Scott (Montagu-Douglas-)",
+        "latest_year": 1980
+      },
+      {
+        "summary": "House of Spencer ↔ House of Fellowes [blood/mother-child] · latest link c. 1980 — likely active via Laura Jane Fellowes, Laura Jane (Fellowes)",
+        "latest_year": 1980
+      },
+      {
+        "summary": "Democratic Muslims in Denmark ↔ Syed Mokhtar Albukhary [blood/father-of] · latest link c. 1977 — likely active via Muhammad Khalil Abdul Hadi, Abdul Hadi Awang",
+        "latest_year": 1977
+      },
+      {
+        "summary": "House of von_Arbin ↔ House of Ryding [blood/mother-of] · latest link c. 1974 — likely active via Charlotte Ryding, Gustaf Ryding",
+        "latest_year": 1974
+      },
+      {
+        "summary": "House of von Arbin ↔ House of Ryding [blood/mother-child] · latest link c. 1974 — likely active via Charlotte  (Ryding), Gustaf  (Ryding)",
+        "latest_year": 1974
+      },
+      {
+        "summary": "House of Bonaparte ↔ Remy Auberjonois [blood/father-of] · latest link c. 1974 — likely active via Remy Auberjonois, René Auberjonois",
+        "latest_year": 1974
+      },
+      {
+        "summary": "(kin-group: Robert II) ↔ House of Reutersward [blood/mother-child] · latest link c. 1973 — likely active via Anna  (Reutersward), Gustaf  (Reutersward)",
+        "latest_year": 1973
+      },
+      {
+        "summary": "Hashemites ↔ Clan MacDonald of Glencoe [blood/father-of] · latest link c. 1973 — likely active via Princess Abir Muhaisen, Hussein I of Jordan",
+        "latest_year": 1973
+      },
+      {
+        "summary": "Philippine Dynasty ↔ d'Alcantara [blood/mother-of] · latest link c. 1973 — likely active via Casimiro Ynares III, Rebecca Ynares",
+        "latest_year": 1973
+      },
+      {
+        "summary": "(kin-group: Robert II) ↔ House of Ferner [blood/mother-child] · latest link c. 1972 — likely active via Carl Christian (Ferner), Elisabeth  (Ferner)",
+        "latest_year": 1972
+      },
+      {
+        "summary": "(kin-group: Robert II) ↔ House of Ullens [blood/mother-child] · latest link c. 1972 — likely active via Sophie  (Ullens), Astrid  (Ullens)",
+        "latest_year": 1972
+      },
+      {
+        "summary": "(kin-group: Robert II) ↔ House of Bauscher [blood/mother-child] · latest link c. 1971 — likely active via Johan  (Bauscher), Berthold  (Bauscher)",
+        "latest_year": 1971
+      },
+      {
+        "summary": "Umbrella Parents ↔ Democratic Intervention [succession/succeeded-by] · latest link c. 1971 — likely active via Abu Bakr al-Baghdadi, Abu Omar al-Baghdadi",
+        "latest_year": 1971
+      },
+      {
+        "summary": "Democratic Intervention ↔ Umbrella Parents [succession/succeeded] · latest link c. 1971 — likely active via Abu Bakr al-Baghdadi, Abu Omar al-Baghdadi",
+        "latest_year": 1971
+      },
+      {
+        "summary": "Q18418790 ↔ No Borders Surf Crew [blood/father-of] · latest link c. 1971 — likely active via Carolina Punset, Eduard Punset",
+        "latest_year": 1971
+      },
+      {
+        "summary": "Q12222136 ↔ Temporary Committee of Polish Emigration [blood/father-of] · latest link c. 1970 — likely active via Muhammad Gaddafi, Muammar Gaddafi",
+        "latest_year": 1970
+      },
+      {
+        "summary": "(kin-group: Robert II) ↔ House of Oldenburg [blood/father-child] · latest link c. 1969 — likely active via Nicholas  (Oldenburg), Philip of Asturias",
+        "latest_year": 1969
+      },
+      {
+        "summary": "House of Dlamini ↔ Leona M. and Harry B. Helmsley Charitable Trust [marriage/spouse] · latest link c. 1969 — likely active via Sibonelo Mngometulu, Mswati III",
+        "latest_year": 1969
+      }
+    ]
+  }
+}
