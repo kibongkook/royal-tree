@@ -1,87 +1,93 @@
-# Coverage — Royals Phase 1 baseline
+# Coverage — Royals Phase 1 + 1.5
 
-> 자동 생성 가능: `python3 scripts/normalize/split_indexes.py` 가 `data/master/_summary.json`을 갱신하면 이 문서도 같이 재생성하는 것을 권장.
+> 자동 생성 가능: `python3 scripts/normalize/split_indexes.py` 가 `data/master/_summary.json`을 갱신.
 
 ## 최종 마스터 통계 (2026-05-23)
 
-| 지표 | 값 |
-|---|---:|
-| **마스터 레코드 (deduped)** | **97,648** |
-| 정규화 입력 (raw, 중복 포함) | 119,631 |
-| Wikidata QID로 canonical 머지된 entries | 80,140 |
-| QID 없는 잔여 (manual·CK3·Wikipedia) | 17,508 |
-| 가상 인물 필터링 (Wikidata) | 68 |
+| 지표 | Phase 1 baseline | Phase 1.5 최종 |
+|---|---:|---:|
+| **마스터 레코드 (deduped)** | 97,648 | **98,835** |
+| 정규화 입력 (raw, 중복 포함) | 119,631 | 121,113 |
+| Wikidata QID로 canonical 머지된 entries | 80,140 | ~80,500 |
+| 가상 인물 필터링 (Wikidata) | 68 | 68 |
+| 국가 없음 (`(none)`) | 47,738 | **39,231** (-8,507) |
 
-## 카테고리
+## 카테고리 (Phase 1 → 1.5)
 
-| Category | Count |
-|---|---:|
-| noble | 45,841 |
-| unknown | 23,952 |
-| royal | 16,282 |
-| clan | 6,524 |
-| political | 4,376 |
-| business | 598 |
-| religious | 39 |
-| tribal | 36 |
+| Category | Phase 1 | Phase 1.5 | Δ |
+|---|---:|---:|---:|
+| noble | 45,841 | 46,170 | +329 |
+| unknown | 23,952 | 23,853 | -99 |
+| royal | 16,282 | **16,893** | +611 |
+| clan | 6,524 | 6,524 | 0 |
+| political | 4,376 | 4,376 | 0 |
+| business | 598 | **945** | +347 |
+| religious | 39 | 38 | -1 |
+| tribal | 36 | 36 | 0 |
 
-**개선 필요 카테고리:**
-- `unknown` 23,952 — 대부분 Wikipedia 크롤에서 카테고리 힌트 없이 들어온 페이지. 2차 패스에서 위키데이터 instance_of로 재분류.
-- `business` 598, `religious` 39, `tribal` 36 — 절대 수치 낮음. 다음 단계 수집 우선순위.
+## 국가별 — 상위 30 (Phase 1.5)
 
-## 국가별 — 상위 30 (ISO 3166-1 alpha-2)
+| ISO | Phase 1 | Phase 1.5 | Δ |
+|---|---:|---:|---:|
+| (none) | 47,738 | 39,231 | **-8,507** |
+| KR | 10,918 | 10,930 | +12 |
+| JP | 6,254 | 6,990 | +736 |
+| DE | 3,695 | **4,979** | +1,284 |
+| RU | 4,077 | 4,184 | +107 |
+| FR | 1,825 | **3,391** | +1,566 |
+| IT | 1,815 | **2,911** | +1,096 |
+| US | 2,480 | 2,847 | +367 |
+| CH | 2,242 | 2,297 | +55 |
+| GB | 973 | **2,145** | +1,172 |
+| IN | 1,021 | **1,901** | +880 |
+| SE | 1,723 | 1,829 | +106 |
+| AT | 1,720 | 1,787 | +67 |
+| CN | 699 | **1,236** | +537 |
+| ES | 941 | 1,174 | +233 |
+| GR | 804 | 826 | +22 |
+| BE | 646 | 775 | +129 |
+| IE | 537 | 693 | +156 |
+| PL | 544 | 595 | +51 |
+| NO | 454 | 482 | +28 |
+| GB-SCT | 411 | 411 | 0 |
+| UG | 395 | 398 | +3 |
+| TR | 287 | 378 | +91 |
+| IR | 285 | 372 | +87 |
+| SA | 277 | 360 | +83 |
+| HU | 272 | 290 | +18 |
+| NL | — | 272 | — |
+| MA | 215 | 249 | +34 |
+| DK | — | 245 | — |
+| CA | 196 | 245 | +49 |
 
-| ISO | Count |
-|---|---:|
-| (none) | 47,738 |
-| KR | 10,918 |
-| JP | 6,254 |
-| RU | 4,077 |
-| DE | 3,695 |
-| US | 2,480 |
-| CH | 2,242 |
-| FR | 1,825 |
-| IT | 1,815 |
-| SE | 1,723 |
-| AT | 1,720 |
-| IN | 1,021 |
-| GB | 973 |
-| ES | 941 |
-| GR | 804 |
-| CN | 699 |
-| BE | 646 |
-| PL | 544 |
-| IE | 537 |
-| NO | 454 |
-| GB-SCT | 411 |
-| UG | 395 |
-| TR | 287 |
-| IR | 285 |
-| SA | 277 |
-| HU | 272 |
-| MA | 215 |
-| FI | 205 |
-| CA | 196 |
-| BR | 166 |
+## Phase 1.5 변경 요약
 
-## 핵심 갭
+| 작업 | 결과 |
+|---|---|
+| **royal92 + royalconstellations 통합** | +282 families, 17 QID 자동 cross-link (Windsor→Q81589, Romanov→Q112707, Hohenzollern→Q83969 등) |
+| **Islamic Atlas + ctm_bench 통합** | 186 이슬람 왕조 + 10 중국 왕조, 26 QID merges (Umayyad→Q45646, Abbasid→Q4437641, Almoravid→Q132922 등) |
+| **Wikidata country enrichment** | 44,256 QID 쿼리 → 8,596 country 획득 (19.4%). P27 5,241 · P19 1,656 · P17 1,592 · P495 359 · P276 211 · P131 46 |
+| **CN/IN 갭 fill** | CN 510 entries (五代十国 10, 五胡十六国 20, Zhou 30, 八旗 37, 唐 51, 본관 52, A-share 220 등). IN 558 entries (worldstatesmen 123 + Rajasthan 140 + Saurashtra 97 + MP/Bundelkhand 57 + 비즈니스 141) |
+
+## 핵심 갭 (Phase 2 이후)
 
 | 갭 | 규모 | 해결책 |
 |---|---|---|
-| `(none)` 47,738개 | 매우 큼 | (a) Wikidata `P495 country of origin` + `P276 location` 으로 2차 enrichment, (b) Wikipedia 페이지 본문에서 country 추출 |
-| `unknown` 카테고리 23,952개 | 큼 | Wikidata `P31 instance_of` 재조회 후 매핑 확장 |
-| `q:Q...` 미해석 ISO | ~수십 | `QID_TO_ISO` 테이블 확장 (현재 30개 매핑) |
-| 중국 가문 | 699개 (저평가) | zh.wp `中国家族列表` + 청대 八旗 + 唐 五姓七族 깊이 확장 |
-| 인도 thikana | 1,021개 (목표 562+ princely states 도달했으나 작은 thikana 누락) | worldstatesmen.org 스크레이프 |
-| 사하라이남 아프리카 | UG 395 외 모두 100 이하 | List_of_current_traditional_African_leaders 본문 파싱 |
-| 기업 가문 | 598 (저조) | Forbes Billionaires API + Bloomberg 가문 트래커 |
+| `(none)` 39,231개 | 큼 | SPARQL traversal `wdt:P53 family ▶ wdt:P17`; Wikipedia 본문 추출 |
+| `unknown` 카테고리 23,853개 | 큼 | Wikidata `P31 instance_of` 재조회 매핑 확장 |
+| Phase 2 인물 그래프 | 7,461 banked + 225k yale-cultural-heritage/wikidata-people 미통합 | 별도 person graph 빌드 단계 |
+| Phase 3 친족 관계 | 4,601 banked + willpowers/celebrity-parent | 별도 relation graph |
+| Phase 4 사업 매핑 | 945 business families만; Forbes 실시간 미연동 | komed3/rtb-api sparse-checkout |
 
 ## 산출물 인덱스
 
 ```
-data/master/families.jsonl       # 마스터 (97,648 lines)
+data/master/families.jsonl       # 마스터 98,835 lines
 data/master/_alias_map.tsv       # 원본 ID → canonical ID
 data/master/_summary.json        # 통계 (이 문서의 소스)
-data/by_country/<ISO>.jsonl      # 870 files
+data/master/_country_enrichment.jsonl  # 44,256 audit rows
+data/by_country/<ISO>.jsonl      # 881 files
 data/by_category/<cat>.jsonl     # 8 files
+data/raw/github/_*_individuals.jsonl   # Phase 2 banks (7,461 people)
+data/raw/github/_*_relations.jsonl     # Phase 3 banks (4,601 edges)
 ```

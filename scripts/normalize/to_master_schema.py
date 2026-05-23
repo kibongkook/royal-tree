@@ -316,6 +316,42 @@ def from_eu4(out, fp):
             emit(out, rec); n += 1
     return n, 0
 
+def from_github_extra(out, fp):
+    """data/raw/github/_*.jsonl — pre-clustered family-level records emitted by
+    parse_royal92_gedcom.py and parse_royalconstellations.py. They already conform
+    to the master schema; we just pass them through with light validation.
+    """
+    n = 0
+    with fp.open(encoding="utf-8") as f:
+        for line in f:
+            try:
+                r = json.loads(line)
+            except json.JSONDecodeError:
+                continue
+            rid = r.get("id")
+            if not rid:
+                continue
+            # Normalize names/country/period fields defensively
+            names = r.get("names") or {}
+            if not isinstance(names, dict):
+                names = {}
+            country = resolve_country(r.get("country") or [])
+            period = r.get("period") or {}
+            rec = {
+                "id": rid,
+                "names": names,
+                "country": country,
+                "category": r.get("category") or "royal",
+                "period": {"founded": period.get("founded"), "extinct": period.get("extinct")},
+                "status": r.get("status") or "unknown",
+                "head_current": r.get("head_current"),
+                "sources": r.get("sources") or [f"github:{fp.name}"],
+                "raw": r.get("raw") or {},
+            }
+            emit(out, rec); n += 1
+    return n, 0
+
+
 def from_manual(out, fp):
     """data/raw/manual/*.jsonl — multiple shapes"""
     n = 0
@@ -370,6 +406,10 @@ def main():
             ("ck3_koh_delta",   [RAW / "ck3" / "dynasties_kingdom_heaven.jsonl"], lambda o,f: from_ck3(o,f,"ck3")),
             ("ck2_dynasties",   [RAW / "ck2" / "dynasties.jsonl"], lambda o,f: from_ck3(o,f,"ck2")),
             ("eu4_countries",   [RAW / "eu4" / "countries.jsonl"], from_eu4),
+            ("github_royal92",  [RAW / "github" / "_royal92_families.jsonl"], from_github_extra),
+            ("github_royalcons",[RAW / "github" / "_royalconstellations_families.jsonl"], from_github_extra),
+            ("github_islamic_atlas", [RAW / "github" / "_islamic_atlas_dynasties.jsonl"], from_github_extra),
+            ("github_ctm_bench",     [RAW / "github" / "_ctm_bench_dynasties.jsonl"], from_github_extra),
             ("manual",          sorted((RAW / "manual").glob("*.jsonl")), from_manual),
         ]:
             tot = filt = 0

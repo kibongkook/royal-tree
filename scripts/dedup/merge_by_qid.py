@@ -130,12 +130,18 @@ def main():
     print(f"  loaded {n_in:,} records → {len(by_qid):,} unique QIDs, {len(non_qid):,} non-QID")
 
     # Build name->qid index for cross-link
+    # by_name_country: (name_key, country)
+    # by_name_only:    name_key -> qid (fallback when one side has no country)
+    by_name_only: dict[str, str] = {}
     for qid, r in by_qid.items():
         nk = name_key(r)
         if not nk:
             continue
         for c in (r["country"] or [None]):
             by_name_country[(nk, c)] = qid
+        # also expose a name-only fallback (last-write-wins; that's fine — we
+        # only use it when the non-QID record has no country to match against)
+        by_name_only[nk] = qid
 
     print("Pass 2: cross-link non-QID records by name+country...")
     linked = 0
@@ -149,6 +155,9 @@ def main():
                 if (nk, c) in by_name_country:
                     matched_qid = by_name_country[(nk, c)]
                     break
+            # fallback: non-QID has no country → match on name alone
+            if not matched_qid and not r.get("country") and nk in by_name_only:
+                matched_qid = by_name_only[nk]
         if matched_qid:
             # merge sources + alt names into the canonical QID record
             tgt = by_qid[matched_qid]

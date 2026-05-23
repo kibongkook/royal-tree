@@ -1,0 +1,14 @@
+geographic_zone,iso_primary,iso_all,notes
+Anadolu,TR,TR,Anatolia
+Güney Asya,IN,"IN,PK,BD,AF",South Asia
+Kuzey Afrika,MA,"MA,DZ,TN,LY,EG",North Africa (Maghreb + Egypt)
+Arap Yarımadası,SA,"SA,YE,OM,AE,KW,QA,BH",Arabian Peninsula
+Moğol/Tatar Dünyası,MN,"MN,RU,UZ,KZ",Mongol/Tatar world (Golden Horde + successors)
+Kafkasya/Batı İran,IR,"IR,AZ,AM,GE",Caucasus/Western Iran
+Selçuklu Dünyası,IR,"IR,TR,IQ,SY",Seljuk world (Greater Iran/Anatolia/Mesopotamia)
+Doğu İran/Mâverâünnehir,UZ,"UZ,TM,TJ,IR,AF,KZ",Eastern Iran/Transoxiana
+Mısır/Şam,EG,"EG,SY,LB,IL,JO,PS",Egypt/Levant
+Irak/Cezîre,IQ,"IQ,SY,TR",Iraq/Jazira
+Doğu/Batı Afrika,ML,"ML,NE,NG,SD,SO,ET",East/West Africa (Sub-Saharan Islamic)
+Güneydoğu Asya,ID,"ID,MY,BN,PH",Southeast Asia
+Batı İslam (İspanya/Mağrib),ES,"ES,PT,MA,DZ",Western Islam (Iberia/Maghreb)

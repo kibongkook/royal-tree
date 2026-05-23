@@ -104,20 +104,44 @@ Royals/
 |------|------|
 | 프로젝트 부트스트랩 | ✅ 2026-05-23 |
 | Phase 1 병렬 수집 1차 (8개 소스 동시) | ✅ 2026-05-23 |
-| Phase 1 통합·dedup (97,648 master records) | ✅ 2026-05-23 |
-| Phase 1.5 country 갭 enrichment (47,738 'none') | ⏳ |
-| Phase 2 인물 그래프 (`yale-cultural-heritage/wikidata-people` 22.5만) | ⏳ |
-| Phase 3 친족 관계 (`willpowers/Wikidata-celebrity-parent` 시드) | ⏳ |
+| Phase 1 통합·dedup | ✅ 2026-05-23 |
+| Phase 1.x royal92 + royalconstellations 통합 (+282, 17 QID merges) | ✅ 2026-05-23 |
+| Phase 1.x Islamic Atlas + ctm_bench 통합 (+277, 26 QID merges) | ✅ 2026-05-23 |
+| Phase 1.5 country enrichment (8,596 'none' 해소) | ✅ 2026-05-23 |
+| Phase 1.5 CN/IN 갭 fill (+1,068 raw, +1,417 net to master) | ✅ 2026-05-23 |
+| Phase 2 인물 그래프 (banked: 7,461 individuals, 4,601 relations) | 🔄 시드 확보 |
+| Phase 3 친족 관계 (banked + `willpowers/celebrity-parent`) | ⏳ |
 | Phase 4 사업 매핑 (Forbes/Bloomberg 가문) | ⏳ |
 
-### Phase 1 산출물
+### Phase 1.5 최종 산출물
 
 | 산출물 | 규모 |
 |---|---:|
-| `data/master/families.jsonl` | 97,648 deduped |
-| `data/by_country/<ISO>.jsonl` | 870 files |
-| `data/by_category/<cat>.jsonl` | 8 files (noble/royal/clan/political/business/religious/tribal/unknown) |
-| `data/raw/*` | 119,631 raw entries from 8 source channels |
-| 다운로드 데이터 (`data/raw/huggingface/`, `data/raw/github/`) | 12.6GB (gitignored, 재현 가능) |
+| `data/master/families.jsonl` | **98,835** deduped |
+| `data/by_country/<ISO>.jsonl` | 881 files |
+| `data/by_category/<cat>.jsonl` | 8 files |
+| `data/raw/*` | 121,113 raw entries (11 source channels) |
+| `data/master/_country_enrichment.jsonl` | 44,256 audit rows (8,596 country resolved) |
+| `data/raw/github/_royal92_individuals.jsonl` (Phase 2 bank) | 3,010 |
+| `data/raw/github/_royalconstellations_individuals.jsonl` (Phase 2 bank) | 2,799 |
+| `data/raw/github/_islamic_atlas_rulers.jsonl` (Phase 2 bank) | 830 |
+| `data/raw/github/_ctm_bench_figures.jsonl` (Phase 2 bank) | 1,652 |
+| `data/raw/github/_royalconstellations_relations.jsonl` (Phase 3 bank) | 4,601 (father/mother/spouse) |
+| 다운로드 데이터 (`data/raw/huggingface/`, `data/raw/github/`) | 12.6GB (gitignored) |
+
+### 최종 상위 국가 (Phase 1.5)
+
+KR 10,930 · JP 6,990 · DE 4,979 · RU 4,184 · FR 3,391 · IT 2,911 · US 2,847 · CH 2,297 · GB 2,145 · IN 1,901 · SE 1,829 · AT 1,787 · CN 1,236 · ES 1,174
+
+### Phase 1.5 파이프라인 (재현용)
+
+```bash
+# raw 추가/변경 시 — 백업을 지운 후 fresh 통합
+rm -f data/master/_normalized.pre_enrich.jsonl
+python3 scripts/normalize/to_master_schema.py    # raw → _normalized.jsonl
+python3 scripts/normalize/apply_enrichment.py    # P17/P27/P495 overlay
+python3 scripts/dedup/merge_by_qid.py            # QID dedup → families.jsonl
+python3 scripts/normalize/split_indexes.py       # by_country/ + by_category/
+```
 
 자세한 통계는 `docs/coverage.md`, 소스 레지스트리는 `docs/sources.md`.
