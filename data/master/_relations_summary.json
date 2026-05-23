@@ -1,0 +1,169 @@
+{
+  "total_edges": 447,
+  "by_type": {
+    "blood": 142,
+    "succession": 131,
+    "marriage": 174
+  },
+  "by_subtype": {
+    "marriage|spouse": 174,
+    "blood|mother-child": 112,
+    "succession|succeeded-by": 95,
+    "succession|succeeded": 36,
+    "blood|father-child": 24,
+    "blood|mother-of": 6
+  },
+  "unique_families_in_graph": 181,
+  "top_30_most_connected": [
+    {
+      "family_id": "royals:royalconstellations:cc-robert-0",
+      "name_en": "(kin-group: Robert II)",
+      "degree": 57
+    },
+    {
+      "family_id": "Q101978",
+      "name_en": "House of Tudor",
+      "degree": 24
+    },
+    {
+      "family_id": "royals:royalconstellations:cc-baldwin-1",
+      "name_en": "(kin-group: Baldwin V of Flanders)",
+      "degree": 23
+    },
+    {
+      "family_id": "royals:islamic-atlas:10",
+      "name_en": "Midrārid",
+      "degree": 21
+    },
+    {
+      "family_id": "Q81589",
+      "name_en": "House of Windsor",
+      "degree": 20
+    },
+    {
+      "family_id": "Q2604888",
+      "name_en": "House of Spencer",
+      "degree": 18
+    },
+    {
+      "family_id": "Q157217",
+      "name_en": "House of Hanover",
+      "degree": 16
+    },
+    {
+      "family_id": "royals:islamic-atlas:16",
+      "name_en": "royals:islamic-atlas:16",
+      "degree": 16
+    },
+    {
+      "family_id": "Q813367",
+      "name_en": "House of Beaufort",
+      "degree": 14
+    },
+    {
+      "family_id": "royals:islamic-atlas:12",
+      "name_en": "royals:islamic-atlas:12",
+      "degree": 14
+    },
+    {
+      "family_id": "Q2275875",
+      "name_en": "House of Seymour",
+      "degree": 14
+    },
+    {
+      "family_id": "royals:islamic-atlas:21",
+      "name_en": "royals:islamic-atlas:21",
+      "degree": 14
+    },
+    {
+      "family_id": "Q179840",
+      "name_en": "House of Stuart",
+      "degree": 13
+    },
+    {
+      "family_id": "royals:islamic-atlas:5",
+      "name_en": "Mulūk al-Tawā'if",
+      "degree": 13
+    },
+    {
+      "family_id": "royals:islamic-atlas:11",
+      "name_en": "royals:islamic-atlas:11",
+      "degree": 13
+    },
+    {
+      "family_id": "royals:islamic-atlas:18",
+      "name_en": "royals:islamic-atlas:18",
+      "degree": 13
+    },
+    {
+      "family_id": "royals:royal92:howard",
+      "name_en": "House of Howard",
+      "degree": 13
+    },
+    {
+      "family_id": "royals:royal92:mortimer",
+      "name_en": "House of Mortimer",
+      "degree": 13
+    },
+    {
+      "family_id": "royals:islamic-atlas:7",
+      "name_en": "royals:islamic-atlas:7",
+      "degree": 13
+    },
+    {
+      "family_id": "royals:royal92:hamilton",
+      "name_en": "House of Hamilton",
+      "degree": 13
+    },
+    {
+      "family_id": "Q112707",
+      "name_en": "House of Romanov",
+      "degree": 12
+    },
+    {
+      "family_id": "Q106151",
+      "name_en": "House of Plantagenet",
+      "degree": 10
+    },
+    {
+      "family_id": "royals:islamic-atlas:1",
+      "name_en": "royals:islamic-atlas:1",
+      "degree": 10
+    },
+    {
+      "family_id": "royals:royal92:ferguson",
+      "name_en": "House of Ferguson",
+      "degree": 10
+    },
+    {
+      "family_id": "royals:royal92:stewart",
+      "name_en": "House of Stewart",
+      "degree": 9
+    },
+    {
+      "family_id": "Q155594",
+      "name_en": "House of Oldenburg",
+      "degree": 8
+    },
+    {
+      "family_id": "royals:islamic-atlas:13",
+      "name_en": "Zīrids and Hammādid",
+      "degree": 8
+    },
+    {
+      "family_id": "royals:royalconstellations:cc-edward-13",
+      "name_en": "(kin-group: Edward IV)",
+      "degree": 8
+    },
+    {
+      "family_id": "royals:islamic-atlas:15",
+      "name_en": "royals:islamic-atlas:15",
+      "degree": 8
+    },
+    {
+      "family_id": "royals:royal92:grey",
+      "name_en": "House of Grey",
+      "degree": 8
+    }
+  ]
+}

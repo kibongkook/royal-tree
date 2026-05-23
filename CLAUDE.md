@@ -105,29 +105,54 @@ Royals/
 | 프로젝트 부트스트랩 | ✅ 2026-05-23 |
 | Phase 1 병렬 수집 1차 (8개 소스 동시) | ✅ 2026-05-23 |
 | Phase 1 통합·dedup | ✅ 2026-05-23 |
-| Phase 1.x royal92 + royalconstellations 통합 (+282, 17 QID merges) | ✅ 2026-05-23 |
-| Phase 1.x Islamic Atlas + ctm_bench 통합 (+277, 26 QID merges) | ✅ 2026-05-23 |
+| Phase 1.x royal92 + royalconstellations (+282, 17 QID merges) | ✅ 2026-05-23 |
+| Phase 1.x Islamic Atlas + ctm_bench (+277, 26 QID merges) | ✅ 2026-05-23 |
 | Phase 1.5 country enrichment (8,596 'none' 해소) | ✅ 2026-05-23 |
-| Phase 1.5 CN/IN 갭 fill (+1,068 raw, +1,417 net to master) | ✅ 2026-05-23 |
-| Phase 2 인물 그래프 (banked: 7,461 individuals, 4,601 relations) | 🔄 시드 확보 |
-| Phase 3 친족 관계 (banked + `willpowers/celebrity-parent`) | ⏳ |
-| Phase 4 사업 매핑 (Forbes/Bloomberg 가문) | ⏳ |
+| Phase 1.5 CN/IN 갭 fill (+1,068) | ✅ 2026-05-23 |
+| **Phase 2 인물 그래프 (8,291 persons, 327 families, 53 head_current)** | ✅ 2026-05-23 |
+| **Phase 3 친족 그래프 (447 edges, 181 families)** | ✅ 2026-05-23 |
+| **Phase 4 사업 매핑 (1,071 records, 338 families)** | ✅ 2026-05-23 |
+| Phase 1.5 non-family 필터링 (0 drop — 입력이 이미 family-class 제한) | ✅ 2026-05-23 |
 
-### Phase 1.5 최종 산출물
+### Phase 1-4 최종 산출물
 
 | 산출물 | 규모 |
 |---|---:|
-| `data/master/families.jsonl` | **98,835** deduped |
+| `data/master/families.jsonl` | **98,523** deduped (head_current/businesses 필드 포함) |
+| `data/master/persons.jsonl` | **8,291 persons** (Phase 2) |
+| `data/master/relations.jsonl` | **447 family-family edges** (Phase 3) |
+| `data/master/businesses.jsonl` | **1,071 business records** (Phase 4) |
+| `data/master/persons_by_family/<id>.jsonl` | 327 files |
+| `data/master/_relations_graph.json` | D3-compatible node-link graph |
 | `data/by_country/<ISO>.jsonl` | 881 files |
 | `data/by_category/<cat>.jsonl` | 8 files |
 | `data/raw/*` | 121,113 raw entries (11 source channels) |
-| `data/master/_country_enrichment.jsonl` | 44,256 audit rows (8,596 country resolved) |
-| `data/raw/github/_royal92_individuals.jsonl` (Phase 2 bank) | 3,010 |
-| `data/raw/github/_royalconstellations_individuals.jsonl` (Phase 2 bank) | 2,799 |
-| `data/raw/github/_islamic_atlas_rulers.jsonl` (Phase 2 bank) | 830 |
-| `data/raw/github/_ctm_bench_figures.jsonl` (Phase 2 bank) | 1,652 |
-| `data/raw/github/_royalconstellations_relations.jsonl` (Phase 3 bank) | 4,601 (father/mother/spouse) |
+| `data/master/_country_enrichment.jsonl` | 44,256 audit rows |
+| `data/master/_forbes_unmatched.tsv` | 733 Forbes 미매칭 (Phase 4 후속 leads) |
+| `data/master/_filtered_non_families.jsonl` | (현재 빈 파일 — 입력 단계에서 이미 필터링) |
 | 다운로드 데이터 (`data/raw/huggingface/`, `data/raw/github/`) | 12.6GB (gitignored) |
+
+### Phase 2 핵심: 인물
+
+- 8,291 persons across 327 families
+- 53 family.head_current 자동 채움 (eldest living member 휴리스틱)
+- 가장 많은 인물: Robert II kin-group (827), Six Dynasties (392), Baldwin V (240), Tang/Song/Yuan/Ming/Qing 200 each, Hanover (140), Romanov (129)
+- Banked but not yet processed: yale-cultural-heritage/wikidata-people 225k
+
+### Phase 3 핵심: 가문 관계
+
+- 447 edges across 181 families
+- type 분포: marriage 174 · blood 142 · succession 131
+- 상위 연결: Robert II kin-group(57), House of Tudor(24), Baldwin V(23), Midrārid(21), Windsor(20), Spencer(18), Hanover(16), Beaufort(14)
+- Banked but not yet processed: willpowers/Wikidata-celebrity-parent (TSV)
+
+### Phase 4 핵심: 사업
+
+- 1,071 business records / 338 families
+- 50 hand-curated canonical companies (Samsung/LG/Hyundai 등 한국 chaebol 8, 일본 zaibatsu 6, 미국 Walton/Koch/Mars 등 7, 유럽 LVMH/Hermès/L'Oréal 등 12, 인도 Tata/Reliance/Adani 6, HK/SE Asia 6, LatAm 3, 왕가 자산 3)
+- Forbes top-1000 (1014-15) 매칭 267/1000
+- Bloomberg billionaires (2018-19) 매칭 143
+- Forbes World 2019 매칭 611
 
 ### 최종 상위 국가 (Phase 1.5)
 

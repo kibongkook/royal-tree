@@ -1,6 +1,32 @@
-# Coverage — Royals Phase 1 + 1.5
+# Coverage — Royals Phase 1 + 1.5 + 2 + 3 + 4
 
 > 자동 생성 가능: `python3 scripts/normalize/split_indexes.py` 가 `data/master/_summary.json`을 갱신.
+
+## Phase 2/3/4 — 인물·관계·사업 그래프 (2026-05-23 신규)
+
+| Phase | 산출물 | 규모 |
+|---|---|---:|
+| **Phase 2** | `data/master/persons.jsonl` | 8,291 persons / 327 families |
+| **Phase 2** | family.head_current 자동 채움 | 53 |
+| **Phase 3** | `data/master/relations.jsonl` | 447 edges / 181 families |
+| **Phase 3** | marriage 174 · blood 142 · succession 131 | — |
+| **Phase 4** | `data/master/businesses.jsonl` | 1,071 records / 338 families |
+| **Phase 4** | manual canonical + Forbes/Bloomberg matches | 50 + 1,021 |
+
+## Phase 2/3/4 빌더
+
+```bash
+python3 scripts/normalize/build_persons.py       # persons.jsonl
+python3 scripts/normalize/build_relations.py     # relations.jsonl + _relations_graph.json
+python3 scripts/normalize/build_businesses.py    # businesses.jsonl + families.jsonl update
+python3 scripts/normalize/filter_non_families.py # (no-op until raw.instance_of contamination)
+python3 scripts/normalize/split_indexes.py       # regen by_country/by_category
+```
+
+Phase 2-4는 모두 banked raw files + manual curation만 사용. Wikidata API 호출 없는 데이터 변환 단계. 후속 enrichment(yale wikidata-people 225k, willpowers parent-child, Wikidata P26/P53 traversal)는 Phase 2b/3b/4b로 분리.
+
+---
+
 
 ## 최종 마스터 통계 (2026-05-23)
 

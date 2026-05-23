@@ -1,0 +1,170 @@
+{
+  "total_persons": 8291,
+  "families_with_members": 327,
+  "head_current_filled": 0,
+  "by_role": {
+    "member": 8005,
+    "founder": 186,
+    "current_head": 100
+  },
+  "by_gender": {
+    "F": 2588,
+    "M": 4030,
+    "unknown": 1673
+  },
+  "by_source": {
+    "github": 8291
+  },
+  "top_30_families_by_member_count": [
+    {
+      "family_id": "royals:royalconstellations:cc-robert-0",
+      "name_en": "(kin-group: Robert II)",
+      "members": 827
+    },
+    {
+      "family_id": "royals:ctm-bench:six-dynasties",
+      "name_en": "Six Dynasties",
+      "members": 392
+    },
+    {
+      "family_id": "royals:royalconstellations:cc-baldwin-1",
+      "name_en": "(kin-group: Baldwin V of Flanders)",
+      "members": 240
+    },
+    {
+      "family_id": "royals:ck2:1062562",
+      "name_en": "Tang",
+      "members": 200
+    },
+    {
+      "family_id": "royals:ck2:1053100",
+      "name_en": "Song",
+      "members": 200
+    },
+    {
+      "family_id": "royals:ck3:yuan_fictional",
+      "name_en": "Yuan",
+      "members": 200
+    },
+    {
+      "family_id": "royals:ctm-bench:ming",
+      "name_en": "Ming",
+      "members": 200
+    },
+    {
+      "family_id": "royals:ctm-bench:qing",
+      "name_en": "Qing",
+      "members": 200
+    },
+    {
+      "family_id": "Q157217",
+      "name_en": "House of Hanover",
+      "members": 140
+    },
+    {
+      "family_id": "Q112707",
+      "name_en": "House of Romanov",
+      "members": 129
+    },
+    {
+      "family_id": "royals:ck2:1055027",
+      "name_en": "Han",
+      "members": 111
+    },
+    {
+      "family_id": "Q179840",
+      "name_en": "House of Stuart",
+      "members": 68
+    },
+    {
+      "family_id": "royals:islamic-atlas:3",
+      "name_en": "royals:islamic-atlas:3",
+      "members": 65
+    },
+    {
+      "family_id": "royals:ctm-bench:five-dynasties",
+      "name_en": "Five Dynasties",
+      "members": 64
+    },
+    {
+      "family_id": "Q81589",
+      "name_en": "House of Windsor",
+      "members": 58
+    },
+    {
+      "family_id": "royals:royal92:howard",
+      "name_en": "House of Howard",
+      "members": 58
+    },
+    {
+      "family_id": "royals:ctm-bench:sui",
+      "name_en": "Sui",
+      "members": 48
+    },
+    {
+      "family_id": "Q2275875",
+      "name_en": "House of Seymour",
+      "members": 40
+    },
+    {
+      "family_id": "Q101978",
+      "name_en": "House of Tudor",
+      "members": 39
+    },
+    {
+      "family_id": "royals:ctm-bench:pre-qin",
+      "name_en": "Pre-Qin",
+      "members": 37
+    },
+    {
+      "family_id": "Q155594",
+      "name_en": "House of Oldenburg",
+      "members": 36
+    },
+    {
+      "family_id": "royals:royal92:wurttemberg",
+      "name_en": "House of Wurttemberg",
+      "members": 36
+    },
+    {
+      "family_id": "Q83969",
+      "name_en": "House of Hohenzollern",
+      "members": 35
+    },
+    {
+      "family_id": "royals:islamic-atlas:5",
+      "name_en": "Mulūk al-Tawā'if",
+      "members": 33
+    },
+    {
+      "family_id": "Q2604888",
+      "name_en": "House of Spencer",
+      "members": 30
+    },
+    {
+      "family_id": "royals:royal92:lascelles",
+      "name_en": "House of Lascelles",
+      "members": 30
+    },
+    {
+      "family_id": "royals:royal92:mortimer",
+      "name_en": "House of Mortimer",
+      "members": 30
+    },
+    {
+      "family_id": "Q813367",
+      "name_en": "House of Beaufort",
+      "members": 30
+    },
+    {
+      "family_id": "royals:islamic-atlas:7",
+      "name_en": "royals:islamic-atlas:7",
+      "members": 30
+    },
+    {
+      "family_id": "Q131621",
+      "name_en": "House of Wittelsbach",
+      "members": 29
+    }
+  ]
+}

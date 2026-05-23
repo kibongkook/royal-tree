@@ -1,0 +1,225 @@
+{
+  "total_business_records": 1071,
+  "families_with_businesses": 338,
+  "manual_companies": 51,
+  "forbes_matched": 267,
+  "forbes_unmatched": 733,
+  "bloomberg_matched": 143,
+  "forbes_2019_matched": 611,
+  "by_industry": {
+    "real estate": 103,
+    "diversified": 84,
+    "retail": 40,
+    "pharmaceuticals": 36,
+    "finance": 32,
+    "conglomerate": 26,
+    "media": 22,
+    "investments": 19,
+    "banking": 18,
+    "construction": 15,
+    "technology": 15,
+    "consumer goods": 14,
+    "wal-mart": 13,
+    "industrial": 12,
+    "telecom": 12,
+    "mining": 12,
+    "media & telecom": 10,
+    "money management": 10,
+    "commodities": 9,
+    "e-commerce": 8,
+    "chemicals": 8,
+    "consumer": 8,
+    "banking, minerals": 8,
+    "food": 8,
+    "agribusiness": 8,
+    "health care": 7,
+    "oil, investments": 7,
+    "beverages": 7,
+    "automobiles": 7,
+    "cleaning products": 7
+  },
+  "by_country_hq": {
+    "CN": 338,
+    "IN": 146,
+    "US": 111,
+    "KR": 53,
+    "HK": 46,
+    "BR": 41,
+    "TW": 32,
+    "JP": 26,
+    "GB": 25,
+    "MY": 20,
+    "PH": 17,
+    "DE": 15,
+    "CA": 14,
+    "FR": 14,
+    "ID": 14,
+    "TH": 14,
+    "EG": 13,
+    "MX": 12,
+    "TR": 12,
+    "IT": 11,
+    "ZA": 10,
+    "SA": 10,
+    "IL": 10,
+    "CH": 9,
+    "LB": 8,
+    "AU": 8,
+    "NG": 5,
+    "CL": 5,
+    "SE": 5,
+    "CO": 5
+  },
+  "top_30_families_by_company_count": [
+    {
+      "family_id": "royals:manual:wang-chuanfu-family-byd",
+      "name_en": "Wang Chuanfu family / BYD",
+      "company_count": 42
+    },
+    {
+      "family_id": "royals:manual:zhang-juzheng-family",
+      "name_en": "Zhang Juzheng family",
+      "company_count": 36
+    },
+    {
+      "family_id": "Q683170",
+      "name_en": "S. C. Johnson & Son",
+      "company_count": 25
+    },
+    {
+      "family_id": "Q12908",
+      "name_en": "George Soros",
+      "company_count": 21
+    },
+    {
+      "family_id": "royals:manual:chen-daihe-family",
+      "name_en": "Chen Daihe family",
+      "company_count": 21
+    },
+    {
+      "family_id": "Q17343056",
+      "name_en": "Walton Enterprises",
+      "company_count": 20
+    },
+    {
+      "family_id": "royals:manual:booyoung-lee-family",
+      "name_en": "Booyoung Lee Family",
+      "company_count": 18
+    },
+    {
+      "family_id": "royals:manual:huang-zheng-colin-huang-family-pinduoduo",
+      "name_en": "Huang Zheng (Colin Huang) family / Pinduoduo",
+      "company_count": 17
+    },
+    {
+      "family_id": "royals:manual:liu-cangling-family-taiwan-plastic",
+      "name_en": "Liu Cangling family / Taiwan plastic",
+      "company_count": 16
+    },
+    {
+      "family_id": "royals:manual:mediatek-tsai-family",
+      "name_en": "MediaTek Tsai family",
+      "company_count": 16
+    },
+    {
+      "family_id": "Q16201355",
+      "name_en": "John and Richard Marriot",
+      "company_count": 15
+    },
+    {
+      "family_id": "royals:manual:zhou-hongyi-family-360-security",
+      "name_en": "Zhou Hongyi family / 360 Security",
+      "company_count": 13
+    },
+    {
+      "family_id": "Q89053262",
+      "name_en": "Moreira Salles Institute collection catalog",
+      "company_count": 12
+    },
+    {
+      "family_id": "royals:manual:jiang-family",
+      "name_en": "Jiang family",
+      "company_count": 10
+    },
+    {
+      "family_id": "royals:manual:sun-chuanfang-family",
+      "name_en": "Sun Chuanfang family",
+      "company_count": 10
+    },
+    {
+      "family_id": "Q1752623",
+      "name_en": "Roberto Marinho",
+      "company_count": 9
+    },
+    {
+      "family_id": "Q29678773",
+      "name_en": "Otto family House",
+      "company_count": 9
+    },
+    {
+      "family_id": "Q855533",
+      "name_en": "Lee Kum Kee",
+      "company_count": 8
+    },
+    {
+      "family_id": "royals:manual:dlf-singh-family",
+      "name_en": "DLF Singh family",
+      "company_count": 8
+    },
+    {
+      "family_id": "Q1133053",
+      "name_en": "Sawiris family",
+      "company_count": 7
+    },
+    {
+      "family_id": "Q27911",
+      "name_en": "bass",
+      "company_count": 7
+    },
+    {
+      "family_id": "royals:manual:boryung-kim-family",
+      "name_en": "Boryung Kim Family",
+      "company_count": 7
+    },
+    {
+      "family_id": "royals:manual:essel-subhash-chandra-goenka-dup",
+      "name_en": "Essel / Subhash Chandra (Goenka, dup)",
+      "company_count": 7
+    },
+    {
+      "family_id": "royals:manual:kwok-family-shk",
+      "name_en": "Kwok family (SHK)",
+      "company_count": 7
+    },
+    {
+      "family_id": "royals:manual:ofer-family",
+      "name_en": "Ofer family",
+      "company_count": 7
+    },
+    {
+      "family_id": "Q104431150",
+      "name_en": "Camargo",
+      "company_count": 6
+    },
+    {
+      "family_id": "Q4032057",
+      "name_en": "Ermírio de Moraes family",
+      "company_count": 6
+    },
+    {
+      "family_id": "Q484847",
+      "name_en": "Hyundai Chung Family",
+      "company_count": 6
+    },
+    {
+      "family_id": "Q518624",
+      "name_en": "Hinduja Group",
+      "company_count": 6
+    },
+    {
+      "family_id": "Q8071737",
+      "name_en": "ziff",
+      "company_count": 6
+    }
+  ]
+}

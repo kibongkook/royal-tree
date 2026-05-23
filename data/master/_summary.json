@@ -1,30 +1,30 @@
 {
-  "total_records": 98835,
+  "total_records": 98523,
   "by_category": {
-    "business": 945,
-    "clan": 6524,
-    "noble": 46170,
+    "business": 944,
+    "clan": 6310,
+    "noble": 46167,
     "political": 4376,
     "religious": 38,
-    "royal": 16893,
+    "royal": 16892,
     "tribal": 36,
-    "unknown": 23853
+    "unknown": 23760
   },
   "by_country": {
-    "_none": 39231,
-    "KR": 10930,
-    "JP": 6990,
-    "DE": 4979,
-    "RU": 4184,
+    "_none": 39121,
+    "KR": 10836,
+    "JP": 6888,
+    "DE": 4977,
+    "RU": 4182,
     "FR": 3391,
-    "IT": 2911,
+    "IT": 2910,
     "US": 2847,
     "CH": 2297,
     "GB": 2145,
     "IN": 1901,
     "SE": 1829,
     "AT": 1787,
-    "CN": 1236,
+    "CN": 1235,
     "ES": 1174,
     "GR": 826,
     "BE": 775,
@@ -894,8 +894,8 @@
     "q:Q907112": 1
   },
   "by_status": {
-    "unknown": 41414,
-    "active": 54108,
+    "unknown": 41103,
+    "active": 54107,
     "deposed": 1053,
     "extinct-control": 1,
     "extinct": 2258,
@@ -904,10 +904,10 @@
   "country_category_matrix": {
     "_none": {
       "business": 5,
-      "clan": 1654,
+      "clan": 1545,
       "noble": 26979,
       "political": 702,
-      "royal": 3632,
+      "royal": 3631,
       "unknown": 6259
     },
     "AE": {
@@ -1039,7 +1039,7 @@
     "IT": {
       "business": 8,
       "clan": 2,
-      "noble": 683,
+      "noble": 682,
       "political": 25,
       "royal": 1139,
       "unknown": 1054
@@ -1064,7 +1064,7 @@
     "DE": {
       "business": 8,
       "clan": 1,
-      "noble": 2740,
+      "noble": 2738,
       "political": 95,
       "royal": 908,
       "unknown": 1227
@@ -1100,7 +1100,7 @@
       "unknown": 11
     },
     "CN": {
-      "business": 231,
+      "business": 230,
       "clan": 10,
       "noble": 258,
       "political": 41,
@@ -1230,11 +1230,11 @@
     },
     "JP": {
       "business": 63,
-      "clan": 2073,
+      "clan": 1972,
       "noble": 2714,
       "political": 82,
       "royal": 1199,
-      "unknown": 859
+      "unknown": 858
     },
     "IQ": {
       "business": 1,
@@ -1330,12 +1330,12 @@
     },
     "KR": {
       "business": 36,
-      "clan": 1735,
+      "clan": 1731,
       "noble": 340,
       "political": 20,
       "religious": 1,
       "royal": 23,
-      "unknown": 8775
+      "unknown": 8685
     },
     "KH": {
       "business": 1,
@@ -1637,7 +1637,7 @@
       "noble": 3219,
       "political": 49,
       "royal": 477,
-      "unknown": 439
+      "unknown": 437
     },
     "AO": {
       "noble": 1,
