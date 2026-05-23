@@ -227,8 +227,32 @@ def load_family_titles() -> dict[str, list[str]]:
     return out
 
 
+def _parse_year(value) -> int | None:
+    if isinstance(value, int):
+        return value
+    if isinstance(value, str) and value:
+        s = value.strip()
+        neg = False
+        if s.startswith("-"):
+            neg = True
+            s = s[1:]
+        i = 0
+        while i < len(s) and s[i].isdigit():
+            i += 1
+        if i > 0:
+            try:
+                y = int(s[:i])
+                return -y if neg else y
+            except ValueError:
+                return None
+    return None
+
+
 def load_family_recent_persons() -> dict[str, dict]:
-    """For each family: max birth year of any attached person + count post-1900."""
+    """For each family: max birth year of any attached person + count post-1900.
+
+    Accepts int years, 'YYYY', and 'YYYY-MM-DD' style birth values.
+    """
     out: dict[str, dict] = defaultdict(lambda: {"max_birth": None, "post1900": 0, "post1950": 0, "total": 0})
     if not PERSONS_BY_FAM.exists():
         return out
@@ -244,13 +268,13 @@ def load_family_recent_persons() -> dict[str, dict]:
                 except json.JSONDecodeError:
                     continue
                 rec["total"] += 1
-                birth = p.get("birth")
-                if isinstance(birth, int):
-                    if rec["max_birth"] is None or birth > rec["max_birth"]:
-                        rec["max_birth"] = birth
-                    if birth >= 1900:
+                y = _parse_year(p.get("birth"))
+                if y is not None:
+                    if rec["max_birth"] is None or y > rec["max_birth"]:
+                        rec["max_birth"] = y
+                    if y >= 1900:
                         rec["post1900"] += 1
-                    if birth >= 1950:
+                    if y >= 1950:
                         rec["post1950"] += 1
     return out
 

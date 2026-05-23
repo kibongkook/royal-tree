@@ -11,7 +11,8 @@
 | Phase 3 | 가문 ↔ 가문 관계 그래프 (혼인·혈연·사업·정치) |
 | Phase 4 | 가문 보유/지배 사업체 매핑 (지분·이사회·재단) |
 | Phase 5 | tier(과거/현재) + display payload(origin/middle/recent 2-3대) + 부인 족보 + relations 최근성 |
-| **Phase 6 (현재)** | SAB-tier QID 가문 인물 그래프 BFS 확장 (SPARQL P53 시드 + wbgetentities 3-hop 상하 + spouse) |
+| Phase 6 | SAB-tier QID 가문 인물 그래프 BFS 확장 (SPARQL P53 시드 + wbgetentities 3-hop 상하 + spouse) |
+| **Phase 7 (현재)** | 가문 영향력 ranking — **국가별 부호 순(경제) + 통치/旧宮家 별도 섹션(정치)** |
 
 ## 수집 범위 (Phase 1)
 
@@ -140,6 +141,8 @@ Royal-Tree/
 | **Phase 6 SPARQL P53 시드 (4,015 SAB QID 가문 → 4,846 페어, 96 family P53-rich)** | ✅ 2026-05-23 |
 | **Phase 6 BFS 확장 (3-hop ↑/↓ + spouse, 4,015 family → 5,872 new entities)** | ✅ 2026-05-23 |
 | **Phase 6 merge → persons 43,770 → 49,333 / families-with-persons 7,007 → 8,583** | ✅ 2026-05-23 |
+| Fok 가문 enrichment + tier classifier 날짜파싱 버그 수정 (current:X -493) | ✅ 2026-05-24 |
+| **Phase 7 ranking — 100,108 가문 점수화 / 880 국가별 / Top-50 글로벌** | ✅ 2026-05-24 |
 
 ### 최종 산출물 (Phase 1-4 + 후속)
 
@@ -214,6 +217,27 @@ KR 10,930 · JP 6,990 · DE 4,979 · RU 4,184 · FR 3,391 · IT 2,911 · US 2,84
 display 페이로드는 7,587 family에 부여 (persons 또는 businesses 보유 가문 전체).
 `spouses_lineage`는 head_current 또는 latest known person의 spouse를 starting point로 로컬 persons에서 trace.
 
+### Phase 7 핵심: 영향력 ranking
+
+**산출물**:
+- `data/master/_ranking_global.jsonl` — top 2,000 (경제 우선)
+- `data/master/_ranking_by_country.json` — 880 국가 × top 50
+- `data/master/_ranking.md` — 사람이 보는 요약 (글로벌 Top 50 + 정치 영향력 60 + 국가별 30개국 × Top 15)
+- families.jsonl의 각 record에 `ranking.{political_score, economic_score, influence_score, rank_global, rank_in_country}` 추가
+
+**정렬 기준**:
+- 1차: economic_score (USD valuation) desc — "지금 부호 순"
+- tie-break: political_score (통치 royal · 旧宮家 · 폐위 황실 · past:S/A/B+active)
+- 글로벌 부호 Top 5: Bezos $177B · Gates $172B · Walton $167B · Buffett $153B · Hank González $138B
+- 일본 부호 Top 5: Yanai (Fast Retailing) $46.5B · Son (SoftBank) $27B · Takizaki (Keyence) $22B · Mikitani (Rakuten) $13B · Nagamori (Nidec) $8B
+- 한국 부호 Top 5: Booyoung Lee $27B · Hyundai Chung $9.5B · Amorepacific Suh $7.2B · SK Chey $3.5B · Boryung Kim $2.9B
+
+**정치 영향력 별도 섹션**:
+- 통치 royal S (1e15): Windsor · Imperial Japan · Saud · Bourbon-Spain · Bernadotte · Glücksburg · Orange · Hashemite · Alaouites
+- 통치 royal A (5e14): Liechtenstein · Monaco · Qatar · Kuwait · Bahrain · Oman · UAE · Dubai · Chakri · Wangchuck
+- 旧宮家 / former imperial (5e13): Akishino · Fushimi · Higashikuni · Kuni · Yamashina · Takeda 등 17개
+- 폐위 황실 (1e13): Romanov · Habsburg · Hohenzollern · Qing · Ottoman · Pahlavi 등 51개
+
 ### 파이프라인 (재현용)
 
 ```bash
@@ -236,6 +260,9 @@ python3 scripts/tier/classify.py            # families.tier 갱신
 python3 scripts/display/build_display.py    # families.display + spouses_lineage 갱신
 python3 scripts/relations/annotate_recency.py  # relations.recency 갱신
 python3 scripts/tier/summary.py             # _phase5_summary.{json,md}
+
+# 4. Phase 7 ranking
+python3 scripts/ranking/build_ranking.py    # _ranking_*.{jsonl,json,md} + families.ranking
 ```
 
 자세한 통계는 `data/master/_phase5_summary.md`, 소스 레지스트리는 `docs/sources.md`.
