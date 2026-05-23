@@ -1,20 +1,20 @@
 {
-  "total_edges": 710,
+  "total_edges": 922,
   "by_type": {
-    "blood": 360,
-    "succession": 133,
-    "marriage": 217
+    "blood": 488,
+    "succession": 135,
+    "marriage": 299
   },
   "by_subtype": {
-    "marriage|spouse": 217,
-    "blood|father-of": 181,
+    "marriage|spouse": 299,
+    "blood|father-of": 218,
+    "blood|mother-of": 134,
     "blood|mother-child": 112,
-    "succession|succeeded-by": 96,
-    "blood|mother-of": 43,
+    "succession|succeeded-by": 98,
     "succession|succeeded": 37,
     "blood|father-child": 24
   },
-  "unique_families_in_graph": 600,
+  "unique_families_in_graph": 751,
   "top_30_most_connected": [
     {
       "family_id": "royal-tree:royalconstellations:cc-robert-0",
@@ -22,9 +22,19 @@
       "degree": 57
     },
     {
+      "family_id": "Q106151",
+      "name_en": "House of Plantagenet",
+      "degree": 32
+    },
+    {
       "family_id": "Q101978",
       "name_en": "House of Tudor",
-      "degree": 25
+      "degree": 28
+    },
+    {
+      "family_id": "Q81589",
+      "name_en": "House of Windsor",
+      "degree": 26
     },
     {
       "family_id": "royal-tree:royalconstellations:cc-baldwin-1",
@@ -37,9 +47,24 @@
       "degree": 21
     },
     {
-      "family_id": "Q81589",
-      "name_en": "House of Windsor",
+      "family_id": "Q58389",
+      "name_en": "House of Bourbon",
       "degree": 21
+    },
+    {
+      "family_id": "Q157217",
+      "name_en": "House of Hanover",
+      "degree": 20
+    },
+    {
+      "family_id": "Q179840",
+      "name_en": "House of Stuart",
+      "degree": 19
+    },
+    {
+      "family_id": "Q131621",
+      "name_en": "House of Wittelsbach",
+      "degree": 18
     },
     {
       "family_id": "Q2604888",
@@ -47,13 +72,8 @@
       "degree": 18
     },
     {
-      "family_id": "Q157217",
-      "name_en": "House of Hanover",
-      "degree": 17
-    },
-    {
-      "family_id": "Q106151",
-      "name_en": "House of Plantagenet",
+      "family_id": "Q813367",
+      "name_en": "House of Beaufort",
       "degree": 16
     },
     {
@@ -62,9 +82,9 @@
       "degree": 16
     },
     {
-      "family_id": "Q813367",
-      "name_en": "House of Beaufort",
-      "degree": 14
+      "family_id": "Q182135",
+      "name_en": "House of Valois",
+      "degree": 16
     },
     {
       "family_id": "royal-tree:islamic-atlas:12",
@@ -82,11 +102,6 @@
       "degree": 14
     },
     {
-      "family_id": "Q179840",
-      "name_en": "House of Stuart",
-      "degree": 13
-    },
-    {
       "family_id": "royal-tree:islamic-atlas:5",
       "name_en": "Mulūk al-Tawā'if",
       "degree": 13
@@ -99,6 +114,11 @@
     {
       "family_id": "royal-tree:islamic-atlas:18",
       "name_en": "royal-tree:islamic-atlas:18",
+      "degree": 13
+    },
+    {
+      "family_id": "Q83969",
+      "name_en": "House of Hohenzollern",
       "degree": 13
     },
     {
@@ -127,6 +147,11 @@
       "degree": 12
     },
     {
+      "family_id": "Q3642350",
+      "name_en": "House of Bourbon in France",
+      "degree": 12
+    },
+    {
       "family_id": "royal-tree:islamic-atlas:1",
       "name_en": "royal-tree:islamic-atlas:1",
       "degree": 10
@@ -140,31 +165,6 @@
       "family_id": "royal-tree:royal92:stewart",
       "name_en": "House of Stewart",
       "degree": 9
-    },
-    {
-      "family_id": "Q155594",
-      "name_en": "House of Oldenburg",
-      "degree": 8
-    },
-    {
-      "family_id": "royal-tree:islamic-atlas:13",
-      "name_en": "Zīrids and Hammādid",
-      "degree": 8
-    },
-    {
-      "family_id": "royal-tree:royalconstellations:cc-edward-13",
-      "name_en": "(kin-group: Edward IV)",
-      "degree": 8
-    },
-    {
-      "family_id": "Q83969",
-      "name_en": "House of Hohenzollern",
-      "degree": 8
-    },
-    {
-      "family_id": "royal-tree:islamic-atlas:15",
-      "name_en": "royal-tree:islamic-atlas:15",
-      "degree": 8
     }
   ]
 }

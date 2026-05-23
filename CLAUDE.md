@@ -10,7 +10,8 @@
 | Phase 2 | 가문 내부 인물·세대 그래프 (creator → current head) |
 | Phase 3 | 가문 ↔ 가문 관계 그래프 (혼인·혈연·사업·정치) |
 | Phase 4 | 가문 보유/지배 사업체 매핑 (지분·이사회·재단) |
-| **Phase 5 (현재)** | tier(과거/현재) + display payload(origin/middle/recent 2-3대) + 부인 족보 + relations 최근성 |
+| Phase 5 | tier(과거/현재) + display payload(origin/middle/recent 2-3대) + 부인 족보 + relations 최근성 |
+| **Phase 6 (현재)** | SAB-tier QID 가문 인물 그래프 BFS 확장 (SPARQL P53 시드 + wbgetentities 3-hop 상하 + spouse) |
 
 ## 수집 범위 (Phase 1)
 
@@ -133,9 +134,12 @@ Royal-Tree/
 | **Phase 4b Forbes-unmatched → +1,614 business families (master → 100,108)** | ✅ 2026-05-23 |
 | Phase 1.5 non-family 필터링 (0 drop — 입력이 이미 family-class 제한) | ✅ 2026-05-23 |
 | **Phase 5 tier 분류 (past+current S-X)** | ✅ 2026-05-23 |
-| **Phase 5 display payload (7,587 families · origin/middle/recent + head_card)** | ✅ 2026-05-23 |
+| **Phase 5 display payload (7,587 → 10,129 families)** | ✅ 2026-05-23 |
 | **Phase 5 부인 족보 (로컬 persons 트레이스)** | ✅ 2026-05-23 |
-| **Phase 5 relations 최근성 (60 active / 511 historical / 139 date-unknown)** | ✅ 2026-05-23 |
+| **Phase 5 relations 최근성** | ✅ 2026-05-23 |
+| **Phase 6 SPARQL P53 시드 (4,015 SAB QID 가문 → 4,846 페어, 96 family P53-rich)** | ✅ 2026-05-23 |
+| **Phase 6 BFS 확장 (3-hop ↑/↓ + spouse, 4,015 family → 5,872 new entities)** | ✅ 2026-05-23 |
+| **Phase 6 merge → persons 43,770 → 49,333 / families-with-persons 7,007 → 8,583** | ✅ 2026-05-23 |
 
 ### 최종 산출물 (Phase 1-4 + 후속)
 
@@ -183,16 +187,23 @@ Royal-Tree/
 
 KR 10,930 · JP 6,990 · DE 4,979 · RU 4,184 · FR 3,391 · IT 2,911 · US 2,847 · CH 2,297 · GB 2,145 · IN 1,901 · SE 1,829 · AT 1,787 · CN 1,236 · ES 1,174
 
-### Phase 5 핵심: tier + display + recency
+### Phase 5+6 핵심: tier + display + recency + 인물 그래프 확장
 
 | Tier | past | current |
 |---|---:|---:|
-| S | 49 | 38 |
-| A | 170 | 243 |
-| B | 17,094 | 654 |
-| C | 51,996 | 7,646 |
-| D | 30,799 | 88,840 |
-| X | 0 | 2,687 |
+| S | 51 | 38 |
+| A | 236 | 243 |
+| B | 16,966 | 654 |
+| C | 52,045 | 6,332 |
+| D | 30,810 | 88,556 |
+| X | 0 | 4,285 |
+
+**Phase 6 coverage delta**:
+- 인물 그래프 있는 가문: 5,805 → **8,557** (+47%)
+- display.recent 풍부 채움: 2,140 → 2,871
+- 부인 조상 체인 4세대까지: 5 → **117** (23배 증가, 예: Higashikuni-no-miya↔히로히토→Taishō→Meiji→Kōmei, Bourbon Grand Dauphin↔Wittelsbach 4대)
+- relations edges: 710 → 922 (+30%)
+- 관계도 등장 가문: 600 → 751
 
 - **Rising** (past < current): 2,187 가문 — 대부분 현대 기업가문 (Bezos·Gates·Walton·Mars 등이 past:D → current:S)
 - **Falling** (past ≫ current): 16,839 가문 — 폐위된 왕가·소멸 귀족
@@ -213,10 +224,17 @@ python3 scripts/normalize/apply_enrichment.py
 python3 scripts/dedup/merge_by_qid.py
 python3 scripts/normalize/split_indexes.py
 
-# 2. Phase 5 enrichment (families/relations 갱신 후 항상 이 순서)
-python3 scripts/tier/classify.py            # families.tier 추가 (backup → families.pre_tier.jsonl)
-python3 scripts/display/build_display.py    # families.display + spouses_lineage (backup → families.pre_display.jsonl)
-python3 scripts/relations/annotate_recency.py  # relations.recency (backup → relations.pre_recency.jsonl)
+# 2. Phase 6 인물 그래프 확장 (Wikidata 호출)
+python3 scripts/fetchers/wikidata_sparql_seeds.py --tiers SAB     # P53 멤버 시드 (4,846 페어)
+python3 scripts/fetchers/wikidata_kin_expand.py --tiers SAB --max-batches 800 --per-family-cap 80  # BFS 3-hop ↑/↓ + spouse
+python3 scripts/normalize/merge_phase6_persons.py                 # _persons_wikidata.jsonl → persons.jsonl + persons_by_family/
+python3 scripts/normalize/build_relations.py                      # 가문↔가문 edge 재구축
+
+# 3. Phase 5 enrichment (인물/관계 갱신 후 항상 이 순서)
+rm -f data/master/families.pre_tier.jsonl data/master/families.pre_display.jsonl data/master/relations.pre_recency.jsonl
+python3 scripts/tier/classify.py            # families.tier 갱신
+python3 scripts/display/build_display.py    # families.display + spouses_lineage 갱신
+python3 scripts/relations/annotate_recency.py  # relations.recency 갱신
 python3 scripts/tier/summary.py             # _phase5_summary.{json,md}
 ```
 

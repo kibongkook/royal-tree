@@ -60,3 +60,4 @@ data/by_category/*.tmp
 
 # Phase-5 backups (recreated by scripts on each run)
 data/master/*.pre_*.jsonl
+.claude/

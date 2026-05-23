@@ -4,12 +4,12 @@
 
 | Tier | past | current |
 |---|---:|---:|
-| S | 49 | 38 |
-| A | 170 | 243 |
-| B | 17,094 | 654 |
-| C | 51,996 | 7,646 |
-| D | 30,799 | 88,840 |
-| X | 0 | 2,687 |
+| S | 51 | 38 |
+| A | 236 | 243 |
+| B | 16,966 | 654 |
+| C | 52,045 | 6,332 |
+| D | 30,810 | 88,556 |
+| X | 0 | 4,285 |
 
 ## Current-S by country
 
@@ -28,7 +28,7 @@
 - GB: 1
 - RU: 1
 
-**Rising** (current > past): 2,187  ·  **Falling** (current << past): 16,839
+**Rising** (current > past): 2,193  ·  **Falling** (current << past): 18,333
 
 
 ## Top current-S families (by aggregate valuation)
@@ -56,12 +56,13 @@
 
 ## Relations recency
 
-- active_today: 60
-- historical:   511
-- unknown date: 139
+- active_today: 64
+- historical:   718
+- unknown date: 140
 
 ### Top-15 active edges
 
+- [2026]  Fatimid Caliphate ↔ Warfajuma conquest of Ifriqiya [blood/father-of] · latest link c. 2026 — likely active via Al-Mu'izz li-Din Allah, Abdallah ibn al-Muizz
 - [2015]  House of Windsor ↔ (kin-group: Catherine) [blood/father-child] · latest link c. 2015 — likely active via Charlotte, George
 - [1995]  Graziani family ↔ Meléndez–Quiñónez dynasty [blood/father-of] · latest link c. 1995 — likely active via Carlos Gruezo, Carlos Armando Gruezo Quiñónez
 - [1994]  Sanchez family (Carlos Sanchez) ↔ Sabrina Guinness [blood/father-of] · latest link c. 1994 — likely active via Luca Masso, Eduardo Masso
@@ -76,4 +77,3 @@
 - [1980]  House of Montagu-Douglas- ↔ House of Ferguson [blood/mother-child] · latest link c. 1980 — likely active via Marian -Scott Montagu-Douglas-, Marian -Scott (Montagu-Douglas-)
 - [1980]  House of Montagu-Douglas- ↔ House of Ferguson [marriage/spouse] · latest link c. 1980 — likely active via Marian -Scott Montagu-Douglas-, Marian -Scott (Montagu-Douglas-)
 - [1980]  House of Spencer ↔ House of Fellowes [blood/mother-child] · latest link c. 1980 — likely active via Laura Jane Fellowes, Laura Jane (Fellowes)
-- [1977]  Democratic Muslims in Denmark ↔ Syed Mokhtar Albukhary [blood/father-of] · latest link c. 1977 — likely active via Muhammad Khalil Abdul Hadi, Abdul Hadi Awang

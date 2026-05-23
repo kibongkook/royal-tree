@@ -1,40 +1,40 @@
 {
   "tier_distribution": {
     "past": {
-      "D": 30799,
-      "C": 51996,
-      "A": 170,
-      "S": 49,
-      "B": 17094
+      "D": 30810,
+      "C": 52045,
+      "A": 236,
+      "S": 51,
+      "B": 16966
     },
     "current": {
-      "D": 88840,
-      "C": 7646,
+      "D": 88556,
+      "C": 6332,
+      "X": 4285,
       "B": 654,
       "A": 243,
-      "S": 38,
-      "X": 2687
+      "S": 38
     },
     "pair": {
-      "A->C": 70,
-      "A->D": 77,
-      "A->X": 23,
-      "B->C": 2244,
-      "B->D": 14361,
-      "B->X": 489,
-      "C->C": 4068,
-      "C->D": 46152,
-      "C->X": 1776,
+      "A->C": 83,
+      "A->D": 51,
+      "A->X": 102,
+      "B->C": 888,
+      "B->D": 14290,
+      "B->X": 1788,
+      "C->C": 4089,
+      "C->D": 45982,
+      "C->X": 1974,
       "D->A": 243,
       "D->B": 654,
-      "D->C": 1258,
-      "D->D": 28219,
+      "D->C": 1264,
+      "D->D": 28205,
       "D->S": 32,
-      "D->X": 393,
-      "S->C": 6,
-      "S->D": 31,
+      "D->X": 412,
+      "S->C": 8,
+      "S->D": 28,
       "S->S": 6,
-      "S->X": 6
+      "S->X": 9
     }
   },
   "current_S_by_country": {
@@ -53,8 +53,8 @@
     "GB": 1,
     "RU": 1
   },
-  "rising_count": 2187,
-  "falling_count": 16839,
+  "rising_count": 2193,
+  "falling_count": 18333,
   "rising_examples": [
     {
       "id": "royal-tree:wp:en:brennan-family",
@@ -365,6 +365,12 @@
       "current": "X"
     },
     {
+      "id": "royal-tree:ck3:house_almoravid",
+      "name": "Almoravid",
+      "past": "C",
+      "current": "X"
+    },
+    {
       "id": "Q2840824",
       "name": "Amadio",
       "past": "C",
@@ -403,6 +409,12 @@
     {
       "id": "Q686722",
       "name": "Ashina",
+      "past": "C",
+      "current": "X"
+    },
+    {
+      "id": "Q124054884",
+      "name": "Askania",
       "past": "C",
       "current": "X"
     },
@@ -449,8 +461,20 @@
       "current": "X"
     },
     {
+      "id": "Q808354",
+      "name": "Barmakids",
+      "past": "C",
+      "current": "X"
+    },
+    {
       "id": "Q2472640",
       "name": "Bavand dynasty",
+      "past": "C",
+      "current": "X"
+    },
+    {
+      "id": "royal-tree:ck3:house_bavandid",
+      "name": "Bavandid",
       "past": "C",
       "current": "X"
     },
@@ -479,32 +503,8 @@
       "current": "X"
     },
     {
-      "id": "Q892505",
-      "name": "Bonifaci",
-      "past": "C",
-      "current": "X"
-    },
-    {
-      "id": "Q10435101",
-      "name": "Brenner",
-      "past": "C",
-      "current": "X"
-    },
-    {
-      "id": "Q2925051",
-      "name": "Briani",
-      "past": "C",
-      "current": "X"
-    },
-    {
-      "id": "Q12443072",
-      "name": "Brihadrath Dynasty",
-      "past": "C",
-      "current": "X"
-    },
-    {
-      "id": "Q110910588",
-      "name": "Bruch",
+      "id": "Q4939398",
+      "name": "Boleyn family",
       "past": "C",
       "current": "X"
     }
@@ -1197,10 +1197,14 @@
     ]
   },
   "relations": {
-    "active_today": 60,
-    "historical": 511,
-    "unknown_date": 139,
+    "active_today": 64,
+    "historical": 718,
+    "unknown_date": 140,
     "top_active": [
+      {
+        "summary": "Fatimid Caliphate ↔ Warfajuma conquest of Ifriqiya [blood/father-of] · latest link c. 2026 — likely active via Al-Mu'izz li-Din Allah, Abdallah ibn al-Muizz",
+        "latest_year": 2026
+      },
       {
         "summary": "House of Windsor ↔ (kin-group: Catherine) [blood/father-child] · latest link c. 2015 — likely active via Charlotte, George",
         "latest_year": 2015
@@ -1262,6 +1266,10 @@
         "latest_year": 1977
       },
       {
+        "summary": "Spanish House of Bourbon ↔ House of Bourbon [blood/father-of] · latest link c. 1975 — likely active via Louis Alphonse de Bourbon, Prince Alfonso de Bourbon, Duke of Cádiz",
+        "latest_year": 1975
+      },
+      {
         "summary": "House of von_Arbin ↔ House of Ryding [blood/mother-of] · latest link c. 1974 — likely active via Charlotte Ryding, Gustaf Ryding",
         "latest_year": 1974
       },
@@ -1312,14 +1320,6 @@
       {
         "summary": "Q12222136 ↔ Temporary Committee of Polish Emigration [blood/father-of] · latest link c. 1970 — likely active via Muhammad Gaddafi, Muammar Gaddafi",
         "latest_year": 1970
-      },
-      {
-        "summary": "(kin-group: Robert II) ↔ House of Oldenburg [blood/father-child] · latest link c. 1969 — likely active via Nicholas  (Oldenburg), Philip of Asturias",
-        "latest_year": 1969
-      },
-      {
-        "summary": "House of Dlamini ↔ Leona M. and Harry B. Helmsley Charitable Trust [marriage/spouse] · latest link c. 1969 — likely active via Sibonelo Mngometulu, Mswati III",
-        "latest_year": 1969
       }
     ]
   }
