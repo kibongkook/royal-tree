@@ -1,0 +1,59 @@
+# 시크릿 / 자격증명
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+credentials.json
+secrets.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+
+# 로그 / 임시
+*.log
+*.tmp
+tmp/
+.cache/
+
+# 의존성 (스택 확정 시 추가)
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+dist/
+build/
+
+# Chrome 자동화 (프로파일은 ~/Library에 두지만, 프로젝트 루트에 부산물 떨어지면 제외)
+_cookie_backups/
+chrome_user_data/
+
+# 대용량 클론·다운로드 (재현 가능 — scripts/fetchers/ 로 재취득)
+data/raw/huggingface/
+data/raw/github/
+# 단, 카탈로그 메타데이터는 보존
+!data/raw/huggingface/catalog.jsonl
+!data/raw/github/catalog.jsonl
+
+# Wikipedia 임시 / 중간 산출물
+data/raw/wikipedia/_tmp/
+data/raw/wikipedia/*.run*
+data/raw/wikipedia/_crawl*.log
+data/raw/wikidata/_harvest.log
+data/raw/wikipedia/_category_stats*
+
+# 마스터 통합 부산물 (재생성 가능)
+data/master/*.tmp
+data/by_country/*.tmp
+data/by_category/*.tmp
+/tmp_*
