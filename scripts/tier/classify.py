@@ -279,7 +279,14 @@ def load_family_recent_persons() -> dict[str, dict]:
     return out
 
 
+FAMILY_WEALTH_ROW_CAP = 3e11  # 단일 row >$300B는 회사 시가총액으로 간주 — family wealth 합에서 제외
+FAMILY_WEALTH_TOTAL_CAP = 4e11  # 한 가문 누적 자산 cap = $400B (현실적 max — Musk 수준)
+
+
 def load_family_valuations() -> dict[str, float]:
+    """가문 누적 자산을 sum. 단일 row $400B↑는 회사 시총이거나 데이터 오류로 보고
+    skip; 누적이 $500B 넘으면 cap.
+    """
     out: dict[str, float] = defaultdict(float)
     if not BUSINESSES.exists():
         return out
@@ -291,8 +298,16 @@ def load_family_valuations() -> dict[str, float]:
                 continue
             fid = b.get("family_id")
             v = b.get("valuation_usd") or 0
-            if fid and v:
-                out[fid] += float(v)
+            if not fid or not v:
+                continue
+            v = float(v)
+            if v > FAMILY_WEALTH_ROW_CAP:
+                continue  # likely a company-cap row, not family wealth
+            out[fid] += v
+    # cap each family total
+    for fid in list(out.keys()):
+        if out[fid] > FAMILY_WEALTH_TOTAL_CAP:
+            out[fid] = FAMILY_WEALTH_TOTAL_CAP
     return out
 
 

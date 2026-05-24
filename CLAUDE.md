@@ -143,6 +143,7 @@ Royal-Tree/
 | **Phase 6 merge → persons 43,770 → 49,333 / families-with-persons 7,007 → 8,583** | ✅ 2026-05-23 |
 | Fok 가문 enrichment + tier classifier 날짜파싱 버그 수정 (current:X -493) | ✅ 2026-05-24 |
 | **Phase 7 ranking — 100,108 가문 점수화 / 880 국가별 / Top-50 글로벌** | ✅ 2026-05-24 |
+| **Phase 7b 데이터 정제 — valuation 단위 정정(×1e9) · forbes-2019 owner→family 매핑 fix · cap $400B** | ✅ 2026-05-24 |
 
 ### 최종 산출물 (Phase 1-4 + 후속)
 
@@ -230,7 +231,8 @@ display 페이로드는 7,587 family에 부여 (persons 또는 businesses 보유
 - tie-break: political_score (통치 royal · 旧宮家 · 폐위 황실 · past:S/A/B+active)
 - 글로벌 부호 Top 5: Bezos $177B · Gates $172B · Walton $167B · Buffett $153B · Hank González $138B
 - 일본 부호 Top 5: Yanai (Fast Retailing) $46.5B · Son (SoftBank) $27B · Takizaki (Keyence) $22B · Mikitani (Rakuten) $13B · Nagamori (Nidec) $8B
-- 한국 부호 Top 5: Booyoung Lee $27B · Hyundai Chung $9.5B · Amorepacific Suh $7.2B · SK Chey $3.5B · Boryung Kim $2.9B
+- 한국 부호 Top 5 (Phase 7b 후): Hyundai Chung $221B · Samsung Lee $94B · SK Chey Tae-Won $89B · Shinsegae Lee $52B · Chey Ki-Won $36B
+  · 일부 cap에 걸린 값 — forbes-2019 raw에 회사 시총 row noise 남아있음, 추가 정제 시 정확도 ↑
 
 **정치 영향력 별도 섹션**:
 - 통치 royal S (1e15): Windsor · Imperial Japan · Saud · Bourbon-Spain · Bernadotte · Glücksburg · Orange · Hashemite · Alaouites
@@ -262,6 +264,10 @@ python3 scripts/relations/annotate_recency.py  # relations.recency 갱신
 python3 scripts/tier/summary.py             # _phase5_summary.{json,md}
 
 # 4. Phase 7 ranking
+python3 scripts/normalize/fix_valuation_units.py        # USD billions → USD (idempotent)
+python3 scripts/normalize/fix_forbes_family_mapping.py  # owner→family 정정
+python3 scripts/normalize/seed_manual_valuations.py     # chaebol/zaibatsu/HK 4대 시드
+# (위 3개 후 다시 tier→display 재실행)
 python3 scripts/ranking/build_ranking.py    # _ranking_*.{jsonl,json,md} + families.ranking
 ```
 
