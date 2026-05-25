@@ -1,0 +1,1552 @@
+{
+  "_meta": "Curated overlay merged by scripts/web/export_web_data.py. 'pantheons' assigns families to 통치/자본/은부 sections in display order. 'families' patches existing records or adds new ones missing from the base dataset.",
+  "pantheons": {
+    "sovereign": [
+      {
+        "id": "Q165687",
+        "founded": 1727,
+        "headline": "사우디 통치 + Aramco + 메카·메디나 수호",
+        "narrative": "1932년 압둘아지즈가 통일한 사우디아라비아를 5대째 직접 통치. Saudi Aramco(시총 $2T) 거의 100% 보유, 이슬람 양대 성지의 보호자. 무함마드 빈 살만(MBS)이 사실상 후계.",
+        "peak_era": "1973–현재 (석유 부흥기)"
+      },
+      {
+        "id": "Q81589",
+        "headline": "영연방 15국 국가원수",
+        "narrative": "1066년 정복왕 윌리엄으로부터 이어진 영국 군주. 찰스 3세가 영연방 15개국의 국가원수 — 상징권력은 세계 1위. 공식 부동산 $33B + Crown Estate 별도.",
+        "founded": 1917,
+        "peak_era": "1880–1914 (Victoria 빅토리아 황금기)"
+      },
+      {
+        "id": "Q186040",
+        "headline": "2,000년 단일 황통 — 신화에서 헌법까지",
+        "narrative": "신화상 기원전 660년 진무천황으로부터 한 핏줄로 이어진 세계 최장수 군주가문. 나루히토 천황(126대), 사적 자산보다 상징성·종교적 권위가 핵심.",
+        "founded": -660,
+        "peak_era": "794–1185 (헤이안 시대)"
+      },
+      {
+        "id": "Q895180",
+        "headline": "스페인 입헌군주 — 펠리페 6세",
+        "narrative": "프랑스 부르봉의 스페인 분가. 1700년 펠리페 5세 즉위 이래 단절·복위를 거쳐 1975년 후안 카를로스 1세 즉위. 펠리페 6세가 입헌군주, 부친의 사우디 자금 스캔들 청산 중.",
+        "founded": 1700,
+        "peak_era": "1701–1808 (펠리페 5세-카를로스 4세)"
+      },
+      {
+        "id": "Q201625",
+        "headline": "스웨덴 — 옛 나폴레옹 원수의 후예",
+        "narrative": "1818년 나폴레옹의 원수 장 베르나도트가 스웨덴 왕(칼 14세 요한)으로 추대된 후 칼 16세 구스타프까지. 산업가문 발렌베리와 함께 스웨덴 국체 두 축.",
+        "founded": 1818
+      },
+      {
+        "id": "Q111201485",
+        "headline": "덴마크 — 마르그레테 2세 → 프레데리크 10세",
+        "narrative": "Schleswig-Holstein-Sonderburg-Glücksburg 분가가 1863년 덴마크 왕위 계승. 2024년 마르그레테 2세 양위로 프레데리크 10세 즉위 — 유럽에서 드문 활성 양위.",
+        "founded": 1863
+      },
+      {
+        "id": "Q155483",
+        "headline": "네덜란드 입헌군주",
+        "narrative": "1815년 빌럼 1세 즉위 이래 네덜란드 왕가. 빌럼-알렉산더가 현 국왕, Royal Dutch Shell·필립스의 oranje pension 자산과 결합돼 은밀히 거대.",
+        "founded": 1544
+      },
+      {
+        "id": "Q1774915",
+        "headline": "요르단 하심가 — 예언자 무함마드 후예",
+        "narrative": "메카의 샤리프 후세인의 후예, 1921년 이래 요르단 왕위. 압둘라 2세 → 후세인 왕세자(미국 조지타운 졸업)로 이어지는 친서방 입헌군주.",
+        "founded": 1916,
+        "peak_era": "1916–1924 (대아랍 봉기·헤자즈)"
+      },
+      {
+        "id": "Q698530",
+        "headline": "리히텐슈타인 — 유럽 최후의 절대왕가",
+        "narrative": "신성로마제국 직속 후예, 1719년 공국(公國) 성립. 한스-아담 2세가 헌법에 의회 거부권 보유 — 유럽에서 유일한 실질적 권력을 쥔 군주. 가족 자산 $5B+ (LGT Bank).",
+        "founded": 1140
+      },
+      {
+        "id": "Q2615540",
+        "headline": "UAE 아부다비 통치 — 무함마드 빈 자이드",
+        "narrative": "1761년 이래 아부다비 통치. 무함마드 빈 자이드(MBZ)가 UAE 대통령, ADIA·Mubadala 등 $1.5T 국부펀드 사실상 통제. 걸프 지정학의 새 중심.",
+        "founded": 1761
+      },
+      {
+        "id": "Q1158126",
+        "headline": "바레인 — 1783년 이래 통치",
+        "narrative": "Khalifa가는 1783년 페르시아로부터 바레인 정복 후 통치. 함마드 빈 이사 현 국왕, 수니파 왕가 / 시아파 다수 인구라는 종파 긴장의 중심.",
+        "founded": 1783
+      },
+      {
+        "id": "Q2502270",
+        "headline": "카타르 — 알자지라·LNG·월드컵 2022",
+        "narrative": "1851년 이래 카타르 통치. 타밈 빈 하마드 현 에미르, 카타르 투자청 $475B 운용 — 영국 해러즈·바클레이즈·파리 생제르맹의 실질 소유주.",
+        "founded": 1851
+      },
+      {
+        "id": "Q25539146",
+        "headline": "태국 마히돌(Chakri) — 정치·종교 양권력",
+        "narrative": "라마 1세(1782)부터 라마 10세(와치라롱꼰)까지. 정치적 입헌이지만 lèse-majesté 법으로 사실상 신성. Crown Property Bureau $40B+ 보유.",
+        "founded": 1929
+      },
+      {
+        "id": "royal-tree:overlay:wangchuck-bhutan",
+        "headline": "부탄 — 행복지수의 입헌군주",
+        "narrative": "1907년 위계엄 왕축이 부탄 왕가 창건. 5대 지미 케사르 남기엘 왕축이 GNH(국민총행복) 노선 견지, 2008년 자발적 입헌화. 단순한 부보다 통치 철학으로 영향력.",
+        "founded": 1907
+      },
+      {
+        "id": "royal-tree:overlay:alaouites-morocco",
+        "headline": "모로코 알라위 — 예언자 후예 통치",
+        "narrative": "1666년 이래 모로코 왕가. 무함마드 6세 현 국왕, 예언자 무함마드 후예(샤리프) 칭호로 종교적 권위 + 입헌군주 + 사하라 분쟁의 키플레이어.",
+        "founded": 1666,
+        "peak_era": "1672–1727 (이스마일 술탄)"
+      },
+      {
+        "id": "royal-tree:overlay:sabah-kuwait",
+        "headline": "쿠웨이트 알사바 — 석유 왕정의 원형",
+        "narrative": "1752년 이래 쿠웨이트 통치. 메슈알 알아마드 현 에미르, KIA(쿠웨이트 투자청) $850B 운용 — 세계에서 가장 오래된 국부펀드의 주인.",
+        "founded": 1752
+      },
+      {
+        "id": "royal-tree:overlay:bolkiah-brunei",
+        "headline": "브루나이 — 절대군주 + 동남아 최대 석유",
+        "narrative": "1363년 이래 브루나이 통치, 세계 최장수 단일 왕가 중 하나. 하사날 볼키아 술탄은 한때 세계 최고 부자, 사적 자산 $20B+ 추정.",
+        "founded": 1363,
+        "peak_era": "1485–1521 (Bolkiah 5대 술탄)"
+      }
+    ],
+    "capital": [
+      {
+        "id": "royal-tree:manual:bezos-family-jeff-bezos",
+        "headline": "Amazon · Blue Origin · WaPo",
+        "narrative": "Jeff Bezos가 1994년 시애틀 차고에서 Amazon 창업. e-커머스·AWS 클라우드로 미국 GDP의 1%를 점유. 형제 Mark·아버지 Mike에게 초기 $245K 투자가 지금 $1B+로 — 가족 합산 $180B.",
+        "founded": 1994
+      },
+      {
+        "id": "royal-tree:manual:gates-family-bill-gates",
+        "headline": "Microsoft · 게이츠 재단 $75B",
+        "narrative": "Bill Gates가 1975년 폴 앨런과 Microsoft 창업, 2000년 게이츠 재단(현 $75B)으로 영향력 이동. 자녀 Jennifer·Rory·Phoebe는 사업 불관여 — '한 세대로 끊는' 가풍.",
+        "founded": 1975
+      },
+      {
+        "id": "Q17343056",
+        "headline": "Walmart — Forbes 가족부 부동의 1위",
+        "narrative": "Sam Walton이 1962년 아칸소에서 시작한 할인점이 전 세계 매장 10,500개. 자녀 4명·손주 7명 합산 $400B+ — Walton Family Trust는 미국 단일 가족 사적 부의 최대치.",
+        "founded": 1962
+      },
+      {
+        "id": "royal-tree:manual:buffett-family-warren-buffett",
+        "headline": "Berkshire Hathaway · 시너지 투자",
+        "narrative": "1965년 Berkshire Hathaway 인수 이래 60년간 연 19.8% 복리. 자산의 99%를 사회 환원 서약 — 자녀 Howard·Susie·Peter는 사업이 아닌 재단을 운영.",
+        "founded": 1965
+      },
+      {
+        "id": "royal-tree:manual:ortega-family-amancio-ortega",
+        "headline": "Zara · Inditex — 패스트패션의 제국",
+        "narrative": "Amancio Ortega가 갈리시아 봉제공장에서 시작한 Inditex(Zara·Pull&Bear·Massimo Dutti). 딸 Marta Ortega가 2022년 회장 — 부동산 자회사 Pontegadea가 별도 $20B 포트폴리오.",
+        "founded": 1975
+      },
+      {
+        "id": "royal-tree:manual:koch-family-charles-koch",
+        "headline": "Koch Industries · 미국 보수정치 자금",
+        "narrative": "Charles & David Koch가 부친 Fred로부터 물려받은 정유·소재 기업. 형제 사후에도 사적 보유 $130B+, 미국 보수정치 (Americans for Prosperity 등)의 가장 큰 사적 자금줄.",
+        "founded": 1940
+      },
+      {
+        "id": "royal-tree:manual:ellison-family-larry-ellison",
+        "headline": "Oracle · 클라우드 · 정치 자금",
+        "narrative": "1977년 Oracle 창업, 데이터베이스 왕좌. 자녀 David Ellison이 Skydance Media(파라마운트 인수)로 헐리우드 진입, Megan Ellison은 Annapurna로 예술 영화 — 다음 세대가 미디어로 확장.",
+        "founded": 1977
+      },
+      {
+        "id": "royal-tree:manual:zuckerberg-family-mark-zuckerberg",
+        "headline": "Meta · 챈 저커버그 이니셔티브",
+        "narrative": "Mark Zuckerberg가 2004년 하버드 기숙사에서 Facebook 창업, 현 Meta(시총 $1.5T+). 부인 Priscilla Chan(소아과 의사)과 CZI로 30년 99% 환원 서약 — 다음 세대는 자선·과학.",
+        "founded": 2004
+      },
+      {
+        "id": "royal-tree:manual:page-family-larry-page",
+        "headline": "Google 공동창업 — 알파벳 지배",
+        "narrative": "Stanford 박사과정에서 Sergey Brin과 1998년 Google 창업, 2019년 CEO 사임 후 의도적 익명. 자녀에 관한 정보 거의 비공개 — '두 번째 세대로의 침묵 이전'.",
+        "founded": 1998
+      },
+      {
+        "id": "royal-tree:manual:brin-family-sergey-brin",
+        "headline": "Google 공동창업 — 자선·X 프로젝트",
+        "narrative": "모스크바 출신 유대인 망명자 가정, 6세 미국 이주. Google 공동창업 후 Alphabet의 X(Moonshot Factory) 주도. 전 부인 Anne Wojcicki와 결혼·이혼은 실리콘밸리 두 가문의 결합의 상징.",
+        "founded": 1998
+      },
+      {
+        "id": "Q12908",
+        "headline": "Open Society · 정치 영향력의 사적 자본",
+        "narrative": "헝가리 출생 홀로코스트 생존자. 1992년 파운드 공매도($1B 수익) 후 Open Society Foundations로 동유럽 민주화·미국 진보정치에 $32B+ 투자. 아들 Alexander Soros가 후계.",
+        "founded": 1969
+      },
+      {
+        "id": "Q298547",
+        "headline": "Reliance Industries — 인도 GDP의 5%",
+        "narrative": "부친 Dhirubhai Ambani의 폴리에스터 무역에서 출발. Mukesh가 정제·통신(Jio)으로 인도 1위 재벌, 자녀 Akash·Isha·Anant 3명이 각자 사업부 분장. 동생 Anil은 별도 ADAG로 분가 후 침체.",
+        "founded": 1966
+      },
+      {
+        "id": "royal-tree:manual:ka-shing-family-li-ka-shing",
+        "headline": "CK Hutchison · 항만·통신·에너지",
+        "narrative": "조주(潮州) 난민 출신, 12살부터 일해 '超人'으로 불린 홍콩 최고 거상. 장남 Victor가 CK Hutchison/CK Asset, 차남 Richard가 PCCW로 분장 — 부친 살아있을 때 분가한 드문 케이스.",
+        "founded": 1950
+      },
+      {
+        "id": "royal-tree:manual:mars-family-jacqueline-mars",
+        "headline": "Mars Inc · 비공개 거대 제과·페트푸드",
+        "narrative": "Frank Mars가 1911년 타코마에서 캔디 시작. 3세대 John·Jacqueline·Forrest Jr. 합산 $180B+, 100년간 100% 비공개 유지 — '조용한 제국'의 표본.",
+        "founded": 1911
+      },
+      {
+        "id": "Q4680631",
+        "headline": "Adani Group — 인도 모디 시대의 인프라 거인",
+        "narrative": "Gautam Adani가 1988년 무역 회사로 출발, 항만·발전·공항·시멘트로 인도 인프라 장악. 2023년 Hindenburg 공매도 보고서로 흔들렸으나 회복 — 모디 정권과의 정치 결속이 핵심 자산.",
+        "founded": 1988
+      },
+      {
+        "id": "royal-tree:overlay:arnault-lvmh",
+        "headline": "LVMH — 유럽 최대 사적 부",
+        "narrative": "Bernard Arnault가 1984년 Boussac(Dior 모회사) 인수 후 LVMH 제국 구축(Louis Vuitton·Dior·Tiffany·Bulgari·Moët-Hennessy). 자녀 5명이 각 브랜드 분장 — 유럽 사적 부 $200B+ 부동의 1위.",
+        "founded": 1984,
+        "peak_era": "1989–현재 (Bernard Arnault 인수극)"
+      }
+    ],
+    "quiet": [
+      {
+        "id": "Q1064438",
+        "headline": "Wallenberg — 스웨덴 산업의 절반을 100년간",
+        "narrative": "1856년 André Oscar Wallenberg가 SEB 은행 창업. ABB·Atlas Copco·Ericsson·AstraZeneca·SAAB·Electrolux 등 스웨덴 대형 산업체 대부분을 Investor AB로 지배. Marcus·Jacob 형제 후 5세대 — 5대(代) 동안 SEB 회장직 세습. 공시 자산은 작아 보이지만 실질 영향력 유럽 톱.",
+        "founded": 1856
+      },
+      {
+        "id": "royal-tree:overlay:reimann-jab",
+        "headline": "Reimann — JAB Holding · Krispy Kreme·Panera·코티",
+        "narrative": "독일 화학(Benckiser, 현 Reckitt) 가문. 1980년대 사적 지주 JAB로 전환 후 Krispy Kreme·Panera·Pret a Manger·코티·Keurig Dr Pepper 인수. 4세대 4가지(Wolfgang·Renate·Stefan·Matthias)가 익명 유지하며 사적 자산 $50B+. 2019년 나치 노동 강제 동원 과거를 자발 공개·배상.",
+        "founded": 1823
+      },
+      {
+        "id": "royal-tree:manual:wertheimer-family-alain-wertheimer",
+        "headline": "Wertheimer — Chanel을 가족이 통째로",
+        "narrative": "Coco Chanel의 향수 사업 파트너 Pierre Wertheimer 가문이 1924년 이래 Chanel 100% 보유. 손자 Alain·Gérard 형제, 사적 자산 $80B+, 회사를 절대 상장 안 함 — '브랜드는 가족의 것'.",
+        "founded": 1924
+      },
+      {
+        "id": "Q843887",
+        "headline": "Hermès — 200년 사적 가문 사업",
+        "narrative": "1837년 마구상으로 시작, 6세대 200명 후손이 H51 holding으로 결속해 LVMH의 적대적 인수를 막아낸 가문. Axel Dumas가 현 CEO, 사적 가문 자산 $150B+ — 한 가족이 가진 가장 큰 럭셔리 제국.",
+        "founded": 1837,
+        "peak_era": "1837–1880 (마구상 전성)"
+      },
+      {
+        "id": "Q159386",
+        "headline": "Rothschild — 5개국 분가 250년",
+        "narrative": "1810년대 Mayer Amschel의 다섯 아들이 프랑크푸르트·런던·파리·빈·나폴리에 분점 — 나폴레옹 전쟁 정보망으로 부 축적. 분가별로 N M Rothschild(런던)·Edmond de Rothschild(스위스)·Rothschild & Co(파리) 등 분리, 합산 자산 비공개.",
+        "founded": 1760,
+        "peak_era": "1814–1880 (5형제 분업 시대)"
+      },
+      {
+        "id": "royal-tree:manual:keinath-family-pauline-macmillan-keinath",
+        "headline": "Cargill-MacMillan — 미국 최대 비공개 식량 제국",
+        "narrative": "1865년 W.W. Cargill 창업. 150년 100% 비공개 — Cargill(곡물·식육·금융)은 미국 최대 사기업, 가족 합산 $50B+, 14명 억만장자. 곡물 트레이딩의 ABCD(Archer Daniels·Bunge·Cargill·Dreyfus) 중 가장 큰.",
+        "founded": 1865
+      },
+      {
+        "id": "royal-tree:overlay:mulliez-auchan",
+        "headline": "Mulliez — Auchan·Decathlon·Leroy Merlin",
+        "narrative": "1900년대 초 북부 프랑스 섬유 가문에서 출발, 700명 후손이 AFM(Association Familiale Mulliez)으로 결속. Auchan·Decathlon·Leroy Merlin·Norauto·Boulanger·Kiabi 등 50+ 브랜드 보유. 가문 합산 자산 $40B+, '집단으로 사고 결정한다.'",
+        "founded": 1900
+      },
+      {
+        "id": "royal-tree:manual:carvalho-heineken-family-charlene-de-carvalho-heineken",
+        "headline": "Heineken — 4세대를 잇는 양조 명가",
+        "narrative": "Gerard Heineken이 1864년 암스테르담에서 양조. 4세대 Charlene de Carvalho-Heineken이 25.9% 지분을 Heineken Holding으로 보유. 비공개 가문 자산 $26B.",
+        "founded": 1864
+      },
+      {
+        "id": "royal-tree:manual:kadoorie-family-michael-kadoorie",
+        "headline": "Kadoorie — 바그다드에서 홍콩으로 — 100년 유대인 명가",
+        "narrative": "1880년 바그다드에서 봄베이 → 상하이 → 홍콩으로 이동한 유대인 가문. Hong Kong Electric·Peninsula Hotels·CLP Power. Michael Kadoorie 경(영국 작위) 4세대, 가문 자산 $20B+.",
+        "founded": 1880
+      },
+      {
+        "id": "Q1069911",
+        "headline": "鄭裕彤家 — New World · Chow Tai Fook",
+        "narrative": "1929년 광저우 출생, 1956년 홍콩으로 이주해 周大福 보석점 인수. 손자 Adrian Cheng·Henry Cheng이 현재 New World Development·Chow Tai Fook Enterprises 운영. 홍콩 4대 가문 — 본토 부동산 80% 노출.",
+        "founded": 1971
+      },
+      {
+        "id": "royal-tree:manual:kwok-family-shk",
+        "headline": "郭家 — Sun Hung Kai 부동산",
+        "narrative": "Kwok Tak-seng이 1972년 SHK Properties 창업. 1990년 사망 후 3형제(Walter·Thomas·Raymond) 공동승계 — 2014년 형제간 권력 다툼 후 Raymond가 단독 CEO. 자산 $50B+.",
+        "founded": 1972
+      },
+      {
+        "id": "royal-tree:manual:fok-family",
+        "headline": "霍家 — Henry Fok · Kenneth Fok",
+        "narrative": "Henry Fok이 한국전쟁기 對중국 무역으로 부 축적, 1980년대 광저우 白天鵝·南沙 개발로 본토와 함께 성장. 3대 Kenneth Fok이 다이빙 영웅 郭晶晶과 결혼해 본토-홍콩 정치·체육·자본 결합.",
+        "founded": 1953
+      },
+      {
+        "id": "Q3515994",
+        "headline": "Tata — 인도 산업 帝國, 신탁 구조",
+        "narrative": "1868년 Jamsetji Tata가 파르시 무역상으로 시작. TCS·Tata Steel·Jaguar Land Rover·Tata Motors·Tetley 등 30+ 회사. 회사 지분 66%가 Tata Trusts(자선)에 — 가족 사적 자산 의도적으로 낮춤, 영향력은 인도 GDP 2%.",
+        "founded": 1868
+      },
+      {
+        "id": "Q3630546",
+        "headline": "Birla — 인도 마르와리 종가",
+        "narrative": "Ghanshyam Das Birla가 20세기 초 자무나 종이공장에서 시작. 직계는 Aditya Birla Group(Kumar Mangalam이 현 회장), 분가는 BK Birla·CK Birla 그룹으로 — 인도 시멘트·금속·통신 1위.",
+        "founded": 1857
+      },
+      {
+        "id": "Q21055394",
+        "headline": "Agnelli-Elkann — Fiat → Stellantis · Ferrari · Juventus",
+        "narrative": "Giovanni Agnelli가 1899년 토리노에서 FIAT 창업. 손자 Gianni Agnelli '이탈리아의 비공식 왕'. 외손 John Elkann(어머니가 Agnelli 가문 출신)이 현재 Exor 회장 — Stellantis·Ferrari·Juventus·The Economist 지배.",
+        "founded": 1899,
+        "peak_era": "1899–1980 (Giovanni Agnelli·Gianni)"
+      },
+      {
+        "id": "Q17556752",
+        "headline": "Newhouse — Advance · Condé Nast",
+        "narrative": "Samuel I. Newhouse가 1922년 신문 인수 시작. Advance Publications가 Condé Nast(Vogue·Vanity Fair·New Yorker·GQ)·디스커버리·Reddit 보유. 두 가문 brothers(Si·Donald) 후 2세대 Steven·Jonathan, 사적 가문 자산 $30B.",
+        "founded": 1922
+      }
+    ]
+  },
+  "families": [
+    {
+      "id": "royal-tree:manual:fok-family",
+      "names": {
+        "en": "Fok family (Henry Fok)",
+        "zh": "霍英東家族",
+        "ko": "곽씨 가문 (홍콩 霍家)"
+      },
+      "country": [
+        "HK",
+        "CN"
+      ],
+      "category": "business",
+      "status": "active",
+      "head_current": "Timothy Fok",
+      "tier": {
+        "past": "B",
+        "current": "A",
+        "past_reasons": [
+          "1950–70년대 홍콩 부동산·해운으로 형성된 거대 자산",
+          "Henry Fok은 중국 정협 부주석(1993–2006) — 본토와 홍콩 사이 정치 가교"
+        ],
+        "current_reasons": [
+          "Timothy Fok이 IOC 위원·홍콩 정협 위원으로 활동",
+          "Kenneth Fok이 광둥성 정협·홍콩 입법회·중화전국청년연합회 부주석",
+          "쿼크그룹·南光 등 부동산·관광·체육 자산 지속",
+          "가문 합산 추정 자산 $8B (Henry Fok 직계 + 재단 + 광저우 부동산 + Mainland 합작)"
+        ],
+        "valuation_usd_total": 8000000000,
+        "person_max_birth": 1979,
+        "person_count_post1950": 6
+      },
+      "display": {
+        "origin": [
+          {
+            "id": "fok:henry",
+            "name": "霍英東 (Henry Fok Ying-tung)",
+            "birth": "1923-05-10",
+            "death": "2006-10-28",
+            "titles": [
+              "중화인민공화국 정협 부주석",
+              "Fok Ying-tung 그룹 창업"
+            ],
+            "spouses": [
+              "呂燕妮 (Lui Yin-nei)",
+              "馮堅妮",
+              "林淑端"
+            ],
+            "children": [
+              "霍震霆 (Timothy Fok)",
+              "霍震寰 (Ian Fok)",
+              "霍震宇 (Eric Fok)"
+            ]
+          }
+        ],
+        "middle_summary": "Henry Fok은 한국전쟁기 對중국 물자 무역으로 자본을 일군 뒤 1953년 부동산업에 진입, 1980–90년대 광저우 白天鵝 호텔과 番禺·南沙 개발로 본토와 함께 성장.",
+        "recent": [
+          {
+            "id": "fok:timothy",
+            "name": "霍震霆 (Timothy Fok Tsun-ting)",
+            "birth": "1946-04-19",
+            "titles": [
+              "IOC 위원",
+              "홍콩 정협 위원",
+              "Fok Ying-tung 그룹 회장"
+            ],
+            "spouses": [
+              "朱玲玲 (Lisa Chu, 1977 미스 홍콩)"
+            ],
+            "children": [
+              "霍啟剛 (Kenneth Fok)",
+              "霍啟山 (Eric Fok)",
+              "霍啟人 (Eddy Fok)"
+            ],
+            "country": [
+              "HK"
+            ]
+          },
+          {
+            "id": "fok:kenneth",
+            "name": "霍啟剛 (Kenneth Fok Kai-kong)",
+            "birth": "1979-02-22",
+            "titles": [
+              "광둥성 정협 위원",
+              "홍콩 입법회 의원 (2021– )",
+              "중화전국청년연합회 부주석",
+              "홍콩 에스포츠 총회 회장"
+            ],
+            "spouses": [
+              "郭晶晶 (Guo Jingjing — 다이빙 올림픽 4金)"
+            ],
+            "children": [
+              "霍中曦 (Kenneth Jr., 2013)",
+              "霍中妍 (Yannie, 2014)",
+              "霍中怡 (2017)"
+            ],
+            "country": [
+              "HK",
+              "CN"
+            ]
+          },
+          {
+            "id": "fok:ian",
+            "name": "霍震寰 (Ian Fok Chun-wan)",
+            "birth": "1949",
+            "titles": [
+              "Henry Fok Foundation 회장",
+              "홍콩총상회 부회장 역임"
+            ],
+            "country": [
+              "HK"
+            ]
+          }
+        ],
+        "head_card": {
+          "name": "霍震霆 (Timothy Fok)",
+          "birth": "1946-04-19",
+          "titles": [
+            "IOC 위원",
+            "Fok Ying-tung Group 회장"
+          ],
+          "spouses": [
+            "朱玲玲 Lisa Chu"
+          ],
+          "children": [
+            "霍啟剛 Kenneth Fok",
+            "霍啟山 Eric Fok",
+            "霍啟人 Eddy Fok"
+          ],
+          "country": [
+            "HK"
+          ],
+          "business": {
+            "count": 4,
+            "total_valuation_usd": 8000000000,
+            "industries": [
+              "부동산",
+              "관광·호텔",
+              "체육·이벤트",
+              "투자"
+            ],
+            "top": [
+              {
+                "name": "Fok Ying Tung Group (霍英東集團)",
+                "industry": "부동산·투자 지주",
+                "country_hq": [
+                  "HK"
+                ],
+                "valuation_usd": 4500000000,
+                "control_type": "family-controlled"
+              },
+              {
+                "name": "Nansha Free Trade Zone 개발 (番禺南沙)",
+                "industry": "부동산·인프라",
+                "country_hq": [
+                  "CN"
+                ],
+                "valuation_usd": 1800000000,
+                "control_type": "founding-family"
+              },
+              {
+                "name": "Henry Fok Foundation (霍英東基金會)",
+                "industry": "체육·교육 재단",
+                "country_hq": [
+                  "HK",
+                  "CN"
+                ],
+                "valuation_usd": 900000000,
+                "control_type": "family-foundation"
+              },
+              {
+                "name": "White Swan Hotel (白天鵝賓館)",
+                "industry": "관광·호텔",
+                "country_hq": [
+                  "CN"
+                ],
+                "valuation_usd": 800000000,
+                "control_type": "founding-family"
+              }
+            ]
+          }
+        }
+      },
+      "spouses_lineage": [
+        {
+          "name": "郭晶晶 (Guo Jingjing)",
+          "family_of_origin": "guo-jingjing-family",
+          "family_name": "허베이 바오딩 郭家 (Guo of Baoding, Hebei)",
+          "summary": "중국 다이빙 국가대표, 올림픽 금메달 4·은메달 2. 2012년 Kenneth Fok과 결혼해 Fok家 며느리가 되며 본토-홍콩 정치·체육·자본을 잇는 상징적 혼인."
+        },
+        {
+          "name": "朱玲玲 (Lisa Chu Ling-ling)",
+          "family_of_origin": "chu-lingling-family",
+          "family_name": "朱家 (1977 미스 홍콩)",
+          "summary": "1977 미스 홍콩. 1977년 Timothy Fok과 결혼, 2010년 이혼."
+        }
+      ],
+      "relations": [
+        {
+          "with": "郭晶晶 본가 (Guo family of Hebei)",
+          "with_id": "royal-tree:overlay:guo-jingjing-family",
+          "type": "marriage",
+          "subtype": "spouse-cross-region",
+          "year": 2012,
+          "active": true,
+          "summary": "Kenneth Fok ↔ Guo Jingjing 2012 결혼 — 본토 스포츠 영웅 ↔ 홍콩 정치·재벌 가문의 결합."
+        },
+        {
+          "with": "Cheng Yu-tung 家 (New World)",
+          "with_id": "Q1069911",
+          "type": "business",
+          "subtype": "hk-tycoon-ring",
+          "year": 1990,
+          "active": true,
+          "summary": "1980–90년대 광저우 番禺·南沙 개발에서 共同 출자한 홍콩 타이쿤 동맹."
+        },
+        {
+          "with": "Kwok family (SHK)",
+          "with_id": "royal-tree:manual:kwok-family-shk",
+          "type": "business",
+          "subtype": "hk-tycoon-ring",
+          "year": 1985,
+          "active": true,
+          "summary": "홍콩 부동산 카르텔 동세대로 활동."
+        }
+      ],
+      "notes": "Henry Fok(1923–2006)가 한국전쟁기 對중국 물자 무역으로 자본을 일군 뒤 부동산·관광으로 확장한 홍콩-광둥 기반 가문. 3대(Henry → Timothy → Kenneth)에 걸쳐 사업·체육(IOC)·정치(정협·입법회) 三軸을 유지.",
+      "sources": [
+        "manual:hk-tycoons",
+        "wikipedia:zh:霍英東",
+        "wikipedia:zh:霍震霆",
+        "wikipedia:zh:霍啟剛",
+        "wikipedia:zh:郭晶晶"
+      ]
+    },
+    {
+      "id": "royal-tree:overlay:guo-jingjing-family",
+      "names": {
+        "en": "Guo family (Guo Jingjing, of Baoding Hebei)",
+        "zh": "郭家 (郭晶晶 本家, 河北保定)",
+        "ko": "곽정정 본가"
+      },
+      "country": [
+        "CN"
+      ],
+      "category": "political",
+      "status": "active",
+      "head_current": "郭晶晶 (Guo Jingjing)",
+      "tier": {
+        "past": "D",
+        "current": "B",
+        "past_reasons": [
+          "일반 평민 가정"
+        ],
+        "current_reasons": [
+          "Guo Jingjing 올림픽 4金 · 광둥성 정협",
+          "Kenneth Fok과 결혼으로 Fok家 결합"
+        ],
+        "valuation_usd_total": 2000000000,
+        "person_max_birth": 1981
+      },
+      "display": {
+        "origin": [],
+        "middle_summary": "",
+        "recent": [
+          {
+            "id": "guo:jingjing",
+            "name": "郭晶晶 (Guo Jingjing)",
+            "birth": "1981-10-15",
+            "titles": [
+              "올림픽 다이빙 4金",
+              "광둥성 정협 위원",
+              "FINA 다이빙 기술위원"
+            ],
+            "spouses": [
+              "霍啟剛 Kenneth Fok"
+            ],
+            "children": [
+              "霍中曦 (2013)",
+              "霍中妍 (2014)",
+              "霍中怡 (2017)"
+            ],
+            "country": [
+              "CN",
+              "HK"
+            ]
+          }
+        ],
+        "head_card": {
+          "name": "郭晶晶 (Guo Jingjing)",
+          "birth": "1981-10-15",
+          "titles": [
+            "다이빙 올림픽 금메달 4·은메달 2"
+          ],
+          "spouses": [
+            "霍啟剛 Kenneth Fok"
+          ],
+          "children": [
+            "霍中曦",
+            "霍中妍",
+            "霍中怡"
+          ],
+          "country": [
+            "CN",
+            "HK"
+          ],
+          "business": {
+            "count": 0,
+            "total_valuation_usd": 2000000000,
+            "industries": [
+              "체육·국가대표 출신"
+            ],
+            "top": []
+          }
+        }
+      },
+      "relations": [
+        {
+          "with": "Fok family (Henry Fok)",
+          "with_id": "royal-tree:manual:fok-family",
+          "type": "marriage",
+          "subtype": "spouse-cross-region",
+          "year": 2012,
+          "active": true,
+          "summary": "Guo Jingjing ↔ Kenneth Fok 2012 결혼."
+        }
+      ],
+      "notes": "보통 가정 출신이지만 본인 운동 경력+홍콩 Fok家 결혼으로 정치·체육·자본 네트워크 진입.",
+      "sources": [
+        "manual:overlay:guo-jingjing",
+        "wikipedia:zh:郭晶晶"
+      ]
+    },
+    {
+      "id": "royal-tree:overlay:wangchuck-bhutan",
+      "names": {
+        "en": "House of Wangchuck (Bhutan)",
+        "ko": "왕축 왕가 (부탄)"
+      },
+      "country": [
+        "BT"
+      ],
+      "category": "royal",
+      "status": "active",
+      "head_current": "Jigme Khesar Namgyel Wangchuck (5대 왕)",
+      "tier": {
+        "past": "A",
+        "current": "A",
+        "past_reasons": [
+          "1907년 위계엄 왕축 통일 이래 부탄 왕가"
+        ],
+        "current_reasons": [
+          "입헌군주이나 행정 영향력 큼",
+          "GNH 정책으로 글로벌 소프트파워"
+        ],
+        "valuation_usd_total": null,
+        "person_max_birth": 1980
+      },
+      "display": {
+        "origin": [
+          {
+            "id": "bt:ugyen",
+            "name": "Ugyen Wangchuck (위계엄 왕축, 1대)",
+            "birth": "1862",
+            "death": "1926",
+            "titles": [
+              "부탄 초대 국왕"
+            ],
+            "children": [
+              "Jigme Wangchuck"
+            ]
+          }
+        ],
+        "middle_summary": "5代에 걸쳐 입헌화·근대화 — 4대 지미 싱계가 GNH(국민총행복) 개념 정립, 5대 지미 케사르가 2008년 입헌 군주제 도입.",
+        "recent": [
+          {
+            "id": "bt:k5",
+            "name": "Jigme Khesar Namgyel Wangchuck (지미 케사르, 5대)",
+            "birth": "1980-02-21",
+            "titles": [
+              "부탄 국왕(2006– )"
+            ],
+            "spouses": [
+              "Jetsun Pema"
+            ],
+            "children": [
+              "Jigme Namgyel (황태자, 2016)",
+              "Jigme Ugyen (2020)"
+            ],
+            "country": [
+              "BT"
+            ]
+          },
+          {
+            "id": "bt:k4",
+            "name": "Jigme Singye Wangchuck (지미 싱계, 4대)",
+            "birth": "1955-11-11",
+            "titles": [
+              "부탄 국왕(1972–2006)",
+              "GNH 개념 정립"
+            ],
+            "country": [
+              "BT"
+            ]
+          }
+        ],
+        "head_card": {
+          "name": "Jigme Khesar Namgyel Wangchuck",
+          "birth": "1980-02-21",
+          "titles": [
+            "부탄 국왕"
+          ],
+          "spouses": [
+            "Jetsun Pema (왕비)"
+          ],
+          "children": [
+            "Jigme Namgyel 황태자",
+            "Jigme Ugyen"
+          ],
+          "country": [
+            "BT"
+          ],
+          "business": {
+            "count": 0,
+            "total_valuation_usd": null,
+            "industries": [],
+            "top": []
+          }
+        }
+      },
+      "notes": "근대 부탄 왕정의 5代. GNH(Gross National Happiness) 노선으로 단순한 부 외에 국가 철학을 수출한 드문 왕가.",
+      "sources": [
+        "manual:overlay:wangchuck",
+        "wikipedia:en:House_of_Wangchuck"
+      ]
+    },
+    {
+      "id": "royal-tree:overlay:alaouites-morocco",
+      "names": {
+        "en": "Alaouite Dynasty (Morocco)",
+        "ko": "알라위 왕가 (모로코)"
+      },
+      "country": [
+        "MA"
+      ],
+      "category": "royal",
+      "status": "active",
+      "head_current": "Mohammed VI",
+      "tier": {
+        "past": "S",
+        "current": "A",
+        "past_reasons": [
+          "1666년 이래 모로코 통치",
+          "예언자 무함마드 후예(샤리프)"
+        ],
+        "current_reasons": [
+          "무함마드 6세 국왕 + Amir al-Mu'minin (신자들의 사령관) 종교 권위",
+          "사하라 분쟁 키플레이어"
+        ],
+        "valuation_usd_total": 8000000000,
+        "person_max_birth": 2003
+      },
+      "display": {
+        "origin": [
+          {
+            "id": "ma:moulay-rashid",
+            "name": "Moulay Rashid",
+            "birth": "1631",
+            "death": "1672",
+            "titles": [
+              "알라위 왕가 창건"
+            ],
+            "children": [
+              "Ismail of Morocco"
+            ]
+          }
+        ],
+        "middle_summary": "1666년 이래 모로코 왕위. 1956년 프랑스로부터 독립 후 무함마드 5세 → 하산 2세 → 무함마드 6세.",
+        "recent": [
+          {
+            "id": "ma:m6",
+            "name": "Mohammed VI (무함마드 6세)",
+            "birth": "1963-08-21",
+            "titles": [
+              "모로코 국왕(1999– )",
+              "Amir al-Mu'minin"
+            ],
+            "spouses": [
+              "Lalla Salma (2002 결혼, 2018 별거설)"
+            ],
+            "children": [
+              "Moulay Hassan (황태자, 2003)",
+              "Lalla Khadija (2007)"
+            ],
+            "country": [
+              "MA"
+            ]
+          },
+          {
+            "id": "ma:hassan-iii",
+            "name": "Moulay Hassan (황태자)",
+            "birth": "2003-05-08",
+            "titles": [
+              "모로코 황태자"
+            ],
+            "country": [
+              "MA"
+            ]
+          }
+        ],
+        "head_card": {
+          "name": "Mohammed VI",
+          "birth": "1963-08-21",
+          "titles": [
+            "모로코 국왕",
+            "Amir al-Mu'minin"
+          ],
+          "spouses": [
+            "Lalla Salma"
+          ],
+          "children": [
+            "Moulay Hassan 황태자",
+            "Lalla Khadija"
+          ],
+          "country": [
+            "MA"
+          ],
+          "business": {
+            "count": 1,
+            "total_valuation_usd": 8000000000,
+            "industries": [
+              "국왕 사적 자산 + Royal Holding"
+            ],
+            "top": [
+              {
+                "name": "Société Nationale d'Investissement (SNI/Al Mada)",
+                "industry": "지주회사",
+                "country_hq": [
+                  "MA"
+                ],
+                "valuation_usd": 8000000000,
+                "control_type": "royal-controlled"
+              }
+            ]
+          }
+        }
+      },
+      "notes": "예언자 무함마드 후예(샤리프) + 입헌군주 + 사하라 분쟁의 정치 카드.",
+      "sources": [
+        "manual:overlay:alaouites",
+        "wikipedia:en:Alaouite_dynasty"
+      ]
+    },
+    {
+      "id": "royal-tree:overlay:sabah-kuwait",
+      "names": {
+        "en": "House of Al-Sabah (Kuwait)",
+        "ko": "알사바 왕가 (쿠웨이트)"
+      },
+      "country": [
+        "KW"
+      ],
+      "category": "royal",
+      "status": "active",
+      "head_current": "Meshal Al-Ahmad Al-Jaber Al-Sabah",
+      "tier": {
+        "past": "A",
+        "current": "A",
+        "past_reasons": [
+          "1752년 이래 쿠웨이트 통치"
+        ],
+        "current_reasons": [
+          "KIA $850B 운용 — 세계 최고(古) 국부펀드"
+        ],
+        "valuation_usd_total": null,
+        "person_max_birth": 1980
+      },
+      "display": {
+        "origin": [
+          {
+            "id": "kw:sabah1",
+            "name": "Sabah I bin Jaber",
+            "birth": "1700",
+            "death": "1762",
+            "titles": [
+              "쿠웨이트 알사바 창건"
+            ]
+          }
+        ],
+        "middle_summary": "1752년 이래 쿠웨이트 통치. 18·19세기 진주·해상교역, 20세기 석유로 부 축적.",
+        "recent": [
+          {
+            "id": "kw:meshal",
+            "name": "Meshal Al-Ahmad Al-Jaber Al-Sabah",
+            "birth": "1940-09-27",
+            "titles": [
+              "쿠웨이트 에미르(2023– )"
+            ],
+            "country": [
+              "KW"
+            ]
+          }
+        ],
+        "head_card": {
+          "name": "Meshal Al-Ahmad Al-Jaber Al-Sabah",
+          "birth": "1940-09-27",
+          "titles": [
+            "쿠웨이트 에미르"
+          ],
+          "country": [
+            "KW"
+          ],
+          "business": {
+            "count": 1,
+            "total_valuation_usd": 850000000000,
+            "industries": [
+              "국부펀드"
+            ],
+            "top": [
+              {
+                "name": "Kuwait Investment Authority (KIA)",
+                "industry": "sovereign wealth fund (세계 최고古)",
+                "country_hq": [
+                  "KW"
+                ],
+                "valuation_usd": 850000000000,
+                "control_type": "royal-controlled"
+              }
+            ]
+          }
+        }
+      },
+      "notes": "1752년 이래 쿠웨이트 통치 가문, KIA를 통해 세계 최장수 국부펀드 운용.",
+      "sources": [
+        "manual:overlay:sabah",
+        "wikipedia:en:House_of_Sabah"
+      ]
+    },
+    {
+      "id": "royal-tree:overlay:bolkiah-brunei",
+      "names": {
+        "en": "House of Bolkiah (Brunei)",
+        "ko": "볼키아 왕가 (브루나이)"
+      },
+      "country": [
+        "BN"
+      ],
+      "category": "royal",
+      "status": "active",
+      "head_current": "Hassanal Bolkiah",
+      "tier": {
+        "past": "S",
+        "current": "A",
+        "past_reasons": [
+          "1363년 이래 브루나이 통치 — 세계 최장수 단일 왕가 중 하나"
+        ],
+        "current_reasons": [
+          "절대군주 + 사적 자산 $20B+ 추정"
+        ],
+        "valuation_usd_total": 28000000000,
+        "person_max_birth": 1974
+      },
+      "display": {
+        "origin": [
+          {
+            "id": "bn:muhammad-shah",
+            "name": "Muhammad Shah of Brunei",
+            "birth": "1325",
+            "death": "1402",
+            "titles": [
+              "브루나이 술탄국 창건"
+            ]
+          }
+        ],
+        "middle_summary": "1363년 이래 브루나이 통치, 29代 술탄까지 단절 없이 이어짐.",
+        "recent": [
+          {
+            "id": "bn:hassanal",
+            "name": "Hassanal Bolkiah (29대 술탄)",
+            "birth": "1946-07-15",
+            "titles": [
+              "브루나이 술탄(1967– )",
+              "절대군주"
+            ],
+            "spouses": [
+              "Saleha",
+              "Mariam Aziz (이혼)",
+              "Azrinaz Mazhar Hakim (이혼)"
+            ],
+            "children": [
+              "Al-Muhtadee Billah (황태자)",
+              "Abdul Malik",
+              "Abdul Azim",
+              "Abdul Mateen"
+            ],
+            "country": [
+              "BN"
+            ]
+          },
+          {
+            "id": "bn:mateen",
+            "name": "Abdul Mateen (압둘 마틴 왕자)",
+            "birth": "1991-08-10",
+            "titles": [
+              "브루나이 왕자",
+              "조종사 · 양궁선수"
+            ],
+            "country": [
+              "BN"
+            ]
+          }
+        ],
+        "head_card": {
+          "name": "Hassanal Bolkiah",
+          "birth": "1946-07-15",
+          "titles": [
+            "브루나이 술탄",
+            "절대군주"
+          ],
+          "spouses": [
+            "Saleha"
+          ],
+          "children": [
+            "Al-Muhtadee Billah 황태자",
+            "Abdul Mateen 왕자"
+          ],
+          "country": [
+            "BN"
+          ],
+          "business": {
+            "count": 1,
+            "total_valuation_usd": 28000000000,
+            "industries": [
+              "술탄 사적 자산"
+            ],
+            "top": [
+              {
+                "name": "Brunei Investment Agency + 술탄 사적 자산",
+                "industry": "석유·국부펀드",
+                "country_hq": [
+                  "BN"
+                ],
+                "valuation_usd": 28000000000,
+                "control_type": "royal-controlled"
+              }
+            ]
+          }
+        }
+      },
+      "notes": "1363년 이래 660년 단일 왕가. 한때 세계 최고 부자였던 술탄.",
+      "sources": [
+        "manual:overlay:bolkiah",
+        "wikipedia:en:Hassanal_Bolkiah"
+      ]
+    },
+    {
+      "id": "royal-tree:overlay:arnault-lvmh",
+      "names": {
+        "en": "Arnault family (LVMH)",
+        "fr": "Famille Arnault",
+        "ko": "아르노 가문 (LVMH)"
+      },
+      "country": [
+        "FR"
+      ],
+      "category": "business",
+      "status": "active",
+      "head_current": "Bernard Arnault",
+      "tier": {
+        "past": "C",
+        "current": "S",
+        "past_reasons": [
+          "1984년 Boussac 인수 전까지 평범한 건설업 가문"
+        ],
+        "current_reasons": [
+          "LVMH 시총 $400B+",
+          "유럽 사적 부 1위",
+          "5자녀가 각 브랜드 분장 — 후계 정비 완료"
+        ],
+        "valuation_usd_total": 200000000000,
+        "person_max_birth": 1995
+      },
+      "display": {
+        "origin": [
+          {
+            "id": "lvmh:jean",
+            "name": "Jean Arnault",
+            "birth": "1909",
+            "death": "2001",
+            "titles": [
+              "Ferret-Savinel 건설사 운영"
+            ],
+            "children": [
+              "Bernard Arnault"
+            ]
+          }
+        ],
+        "middle_summary": "1984년 Bernard Arnault가 파산한 Boussac(Dior 모회사)을 정부 도움으로 인수, 이후 LVMH 합병·인수로 帝國 구축.",
+        "recent": [
+          {
+            "id": "lvmh:bernard",
+            "name": "Bernard Arnault",
+            "birth": "1949-03-05",
+            "titles": [
+              "LVMH 회장·CEO",
+              "유럽 사적 부 1위"
+            ],
+            "spouses": [
+              "Anne Dewavrin (이혼)",
+              "Hélène Mercier (현 부인)"
+            ],
+            "children": [
+              "Delphine Arnault (Dior CEO)",
+              "Antoine Arnault (Berluti·홀딩)",
+              "Alexandre Arnault (Tiffany 부사장)",
+              "Frédéric Arnault (TAG Heuer·LVMH Watches)",
+              "Jean Arnault (Louis Vuitton 시계)"
+            ],
+            "country": [
+              "FR"
+            ]
+          },
+          {
+            "id": "lvmh:delphine",
+            "name": "Delphine Arnault",
+            "birth": "1975-04-04",
+            "titles": [
+              "Christian Dior CEO(2023– )",
+              "장녀"
+            ],
+            "country": [
+              "FR"
+            ]
+          },
+          {
+            "id": "lvmh:antoine",
+            "name": "Antoine Arnault",
+            "birth": "1977-06-04",
+            "titles": [
+              "LVMH 부회장",
+              "Berluti 회장"
+            ],
+            "spouses": [
+              "Natalia Vodianova (러시아 슈퍼모델)"
+            ],
+            "country": [
+              "FR"
+            ]
+          }
+        ],
+        "head_card": {
+          "name": "Bernard Arnault",
+          "birth": "1949-03-05",
+          "titles": [
+            "LVMH 회장·CEO"
+          ],
+          "spouses": [
+            "Hélène Mercier"
+          ],
+          "children": [
+            "Delphine (Dior CEO)",
+            "Antoine (Berluti)",
+            "Alexandre (Tiffany)",
+            "Frédéric (TAG Heuer)",
+            "Jean (LV Watches)"
+          ],
+          "country": [
+            "FR"
+          ],
+          "business": {
+            "count": 4,
+            "total_valuation_usd": 200000000000,
+            "industries": [
+              "luxury fashion",
+              "wines & spirits",
+              "perfumes & cosmetics",
+              "watches & jewelry"
+            ],
+            "top": [
+              {
+                "name": "LVMH Moët Hennessy Louis Vuitton SE",
+                "industry": "luxury conglomerate",
+                "country_hq": [
+                  "FR"
+                ],
+                "valuation_usd": 180000000000,
+                "control_type": "family-controlled (47.6%)"
+              },
+              {
+                "name": "Christian Dior SE",
+                "industry": "지주회사",
+                "country_hq": [
+                  "FR"
+                ],
+                "valuation_usd": 15000000000,
+                "control_type": "family-controlled"
+              },
+              {
+                "name": "Berluti",
+                "industry": "men's leather",
+                "country_hq": [
+                  "FR"
+                ],
+                "valuation_usd": 3000000000,
+                "control_type": "family-controlled"
+              },
+              {
+                "name": "Les Echos · Le Parisien (미디어)",
+                "industry": "media",
+                "country_hq": [
+                  "FR"
+                ],
+                "valuation_usd": 1000000000,
+                "control_type": "family-controlled"
+              }
+            ]
+          }
+        }
+      },
+      "spouses_lineage": [
+        {
+          "name": "Natalia Vodianova",
+          "family_of_origin": "vodianova-russian",
+          "family_name": "Vodianova 가문 (러시아 슈퍼모델)",
+          "summary": "러시아 니즈니 노브고로드 출생, 모델로 성공해 Antoine Arnault와 결혼."
+        }
+      ],
+      "relations": [],
+      "notes": "1984년 인수 후 40년 만에 유럽 사적 부 1위. 자녀 5명이 각 그룹 브랜드를 분장하는 명확한 후계 구도가 특징.",
+      "sources": [
+        "manual:overlay:arnault-lvmh",
+        "wikipedia:fr:Famille_Arnault",
+        "wikipedia:en:Bernard_Arnault"
+      ]
+    },
+    {
+      "id": "royal-tree:overlay:reimann-jab",
+      "names": {
+        "en": "Reimann family (JAB Holding)",
+        "de": "Familie Reimann",
+        "ko": "라이만 가문 (JAB)"
+      },
+      "country": [
+        "DE",
+        "AT"
+      ],
+      "category": "business",
+      "status": "active",
+      "head_current": "Wolfgang Reimann · Stefan Reimann · Renate Reimann-Haas · Matthias Reimann-Andersen",
+      "tier": {
+        "past": "B",
+        "current": "S",
+        "past_reasons": [
+          "19세기 독일 화학(Benckiser) 가문"
+        ],
+        "current_reasons": [
+          "JAB Holding으로 글로벌 소비재 인수 — 사적 자산 $50B+",
+          "100% 비공개 유지"
+        ],
+        "valuation_usd_total": 50000000000,
+        "person_max_birth": 1965
+      },
+      "display": {
+        "origin": [
+          {
+            "id": "jab:johann",
+            "name": "Johann Adam Benckiser",
+            "birth": "1782",
+            "titles": [
+              "Benckiser 화학 창업(1823)"
+            ]
+          }
+        ],
+        "middle_summary": "Benckiser는 후에 Reckitt Benckiser로 합병, Reimann가는 별도로 JAB Holding을 설립해 비공개 소비재 인수 전략 추구.",
+        "recent": [
+          {
+            "id": "jab:peter",
+            "name": "Peter Harf",
+            "birth": "1946",
+            "titles": [
+              "JAB Holding 회장(가문 신탁관)"
+            ],
+            "country": [
+              "DE"
+            ]
+          },
+          {
+            "id": "jab:wolfgang",
+            "name": "Wolfgang Reimann",
+            "birth": "1952",
+            "titles": [
+              "JAB 4대 공동 상속인 중 1인"
+            ],
+            "country": [
+              "DE"
+            ]
+          },
+          {
+            "id": "jab:matthias",
+            "name": "Matthias Reimann-Andersen",
+            "birth": "1965",
+            "titles": [
+              "JAB 4대 공동 상속인 중 1인"
+            ],
+            "country": [
+              "DE"
+            ]
+          }
+        ],
+        "head_card": {
+          "name": "4 공동 상속인 (Reimann siblings)",
+          "titles": [
+            "JAB Holding 사적 보유"
+          ],
+          "country": [
+            "DE"
+          ],
+          "business": {
+            "count": 6,
+            "total_valuation_usd": 50000000000,
+            "industries": [
+              "coffee",
+              "consumer goods",
+              "cosmetics",
+              "QSR"
+            ],
+            "top": [
+              {
+                "name": "JAB Holding Company",
+                "industry": "private investment holding",
+                "country_hq": [
+                  "AT"
+                ],
+                "valuation_usd": 50000000000,
+                "control_type": "family-trust"
+              },
+              {
+                "name": "Keurig Dr Pepper",
+                "industry": "음료",
+                "country_hq": [
+                  "US"
+                ],
+                "valuation_usd": 15000000000,
+                "control_type": "controlling-stake"
+              },
+              {
+                "name": "Krispy Kreme",
+                "industry": "QSR",
+                "country_hq": [
+                  "US"
+                ],
+                "valuation_usd": 1500000000,
+                "control_type": "controlling-stake"
+              },
+              {
+                "name": "Panera Brands (Panera·Caribou·Einstein)",
+                "industry": "QSR",
+                "country_hq": [
+                  "US"
+                ],
+                "valuation_usd": 7500000000,
+                "control_type": "family-owned"
+              },
+              {
+                "name": "Pret a Manger",
+                "industry": "QSR",
+                "country_hq": [
+                  "GB"
+                ],
+                "valuation_usd": 2000000000,
+                "control_type": "family-owned"
+              },
+              {
+                "name": "Coty Inc.",
+                "industry": "cosmetics",
+                "country_hq": [
+                  "US"
+                ],
+                "valuation_usd": 5000000000,
+                "control_type": "controlling-stake"
+              }
+            ]
+          }
+        }
+      },
+      "notes": "독일 화학(Benckiser) 가문 4세대가 JAB로 익명 유지. 2019년 나치 강제노동 동원 과거를 자발 공개·배상한 드문 사례.",
+      "sources": [
+        "manual:overlay:reimann",
+        "wikipedia:de:Familie_Reimann"
+      ]
+    },
+    {
+      "id": "royal-tree:overlay:mulliez-auchan",
+      "names": {
+        "en": "Mulliez family (Auchan / Decathlon / Leroy Merlin)",
+        "fr": "Famille Mulliez",
+        "ko": "뮬리에 가문"
+      },
+      "country": [
+        "FR"
+      ],
+      "category": "business",
+      "status": "active",
+      "head_current": "AFM (Association Familiale Mulliez, 700+ members)",
+      "tier": {
+        "past": "C",
+        "current": "S",
+        "past_reasons": [
+          "20세기 초 북부 프랑스 섬유 가문"
+        ],
+        "current_reasons": [
+          "50+ 브랜드 합산 가족 자산 $40B+",
+          "700명 후손이 가족 신탁(AFM)으로 집단 결속"
+        ],
+        "valuation_usd_total": 40000000000,
+        "person_max_birth": 1970
+      },
+      "display": {
+        "origin": [
+          {
+            "id": "mlz:louis",
+            "name": "Louis Mulliez (시조)",
+            "birth": "1864",
+            "titles": [
+              "Phildar 섬유 창업"
+            ]
+          }
+        ],
+        "middle_summary": "Louis Mulliez 시조 이래 5代, 700명 후손이 AFM(Association Familiale Mulliez)으로 결속해 어떤 브랜드도 가족 외부에 매각하지 않는다는 가족 헌장 유지.",
+        "recent": [
+          {
+            "id": "mlz:gerard",
+            "name": "Gérard Mulliez",
+            "birth": "1931-05-13",
+            "titles": [
+              "Auchan 창업자(1961)"
+            ],
+            "country": [
+              "FR"
+            ]
+          },
+          {
+            "id": "mlz:michel",
+            "name": "Michel Leclercq (창업 일가)",
+            "birth": "1934",
+            "titles": [
+              "Decathlon 창업자(1976)"
+            ],
+            "country": [
+              "FR"
+            ]
+          }
+        ],
+        "head_card": {
+          "name": "AFM (Association Familiale Mulliez)",
+          "titles": [
+            "가족 신탁 — 700+ 회원"
+          ],
+          "country": [
+            "FR"
+          ],
+          "business": {
+            "count": 6,
+            "total_valuation_usd": 40000000000,
+            "industries": [
+              "retail",
+              "sporting goods",
+              "DIY",
+              "auto"
+            ],
+            "top": [
+              {
+                "name": "Auchan (대형마트)",
+                "industry": "retail",
+                "country_hq": [
+                  "FR"
+                ],
+                "valuation_usd": 12000000000,
+                "control_type": "family-trust"
+              },
+              {
+                "name": "Decathlon (스포츠)",
+                "industry": "sporting goods retail",
+                "country_hq": [
+                  "FR"
+                ],
+                "valuation_usd": 14000000000,
+                "control_type": "family-trust"
+              },
+              {
+                "name": "Leroy Merlin (DIY)",
+                "industry": "home improvement",
+                "country_hq": [
+                  "FR"
+                ],
+                "valuation_usd": 10000000000,
+                "control_type": "family-trust"
+              },
+              {
+                "name": "Norauto (자동차 서비스)",
+                "industry": "auto services",
+                "country_hq": [
+                  "FR"
+                ],
+                "valuation_usd": 1500000000,
+                "control_type": "family-trust"
+              },
+              {
+                "name": "Boulanger (가전)",
+                "industry": "electronics retail",
+                "country_hq": [
+                  "FR"
+                ],
+                "valuation_usd": 1500000000,
+                "control_type": "family-trust"
+              },
+              {
+                "name": "Kiabi (의류)",
+                "industry": "fashion retail",
+                "country_hq": [
+                  "FR"
+                ],
+                "valuation_usd": 1000000000,
+                "control_type": "family-trust"
+              }
+            ]
+          }
+        }
+      },
+      "notes": "프랑스 북부 출신 카톨릭 섬유 가문이 700명 단일 신탁으로 결속한 사적 부의 표본. 한 사람의 부보다 가문 전체의 결속이 핵심.",
+      "sources": [
+        "manual:overlay:mulliez",
+        "wikipedia:fr:Famille_Mulliez"
+      ]
+    }
+  ]
+}

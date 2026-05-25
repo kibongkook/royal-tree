@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Royal-Tree · 名門誌</title>
+  <meta name="description" content="현존하는 통치 가문 · 자본 가문 · 조용한 부 — 가문의 계보와 결혼 · 관계를 따라가는 가문誌." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Inter:wght@300;400;500;600&family=Noto+Serif+KR:wght@200;300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="legacy-style.css?v=5" />
+</head>
+<body>
+
+  <header class="masthead">
+    <div class="masthead-inner">
+      <div class="imprint">Almanach · Anno MMXXVI · 名門誌</div>
+      <h1 class="title">Royal<em>Tree</em></h1>
+      <div class="strapline">
+        An Almanac of Living Houses — Reigning, Capital, and Quiet.
+        <span class="kr">살아있는 가문(家門)들에 대한 한 권의 색인 — 통치 · 자본 · 침묵의 부</span>
+      </div>
+      <nav class="masthead-nav">
+        <a href="#prologue">序</a>
+        <a href="#sovereign">I</a>
+        <a href="#capital">II</a>
+        <a href="#quiet">III</a>
+        <a href="#browse">IV</a>
+        <a href="#colophon">尾</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="search-bar" aria-label="검색">
+    <div class="search-inner">
+      <div class="search-row">
+        <div class="search-input-wrap">
+          <svg class="search-icon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+            <circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="1.4"/>
+            <path d="M20 20 L16 16" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+          </svg>
+          <input id="q" type="search" placeholder="가문 · 인물 · 사업 · 산업 · 국가 · 관계 — 무엇이든" autocomplete="off" />
+          <button id="clearq" class="iconbtn" title="지우기" aria-label="검색 지우기">×</button>
+        </div>
+        <select id="country-filter" class="country-filter" aria-label="국가">
+          <option value="">전체 국가</option>
+        </select>
+      </div>
+      <div class="facets" id="facets">
+        <button class="facet" data-facet="money:100b+">$100B+</button>
+        <span class="facet-divider">|</span>
+        <button class="facet" data-facet="money:50-100b">$50–100B</button>
+        <span class="facet-divider">|</span>
+        <button class="facet" data-facet="money:10-50b">$10–50B</button>
+        <span class="facet-divider">|</span>
+        <button class="facet" data-facet="money:1-10b">$1–10B</button>
+        <span class="facet-divider">|</span>
+        <button class="facet" data-facet="cat:royal">왕가</button>
+        <button class="facet" data-facet="cat:noble">귀족</button>
+        <button class="facet" data-facet="cat:business">기업</button>
+        <button class="facet" data-facet="cat:clan">씨족</button>
+        <button class="facet" data-facet="cat:political">정치</button>
+        <span class="facet-divider">|</span>
+        <button class="facet" data-facet="status:active">현존</button>
+        <button class="facet" data-facet="status:deposed">폐위</button>
+        <span class="facet-divider">|</span>
+        <button class="facet" data-facet="pantheon:sovereign">통치</button>
+        <button class="facet" data-facet="pantheon:capital">자본</button>
+        <button class="facet" data-facet="pantheon:quiet">조용한 부</button>
+      </div>
+      <div class="search-meta" id="searchmeta"></div>
+    </div>
+  </section>
+
+  <main>
+    <!-- (Prologue/definition moved to homepage hint section.) -->
+
+    <!-- I. SOVEREIGN -->
+    <section class="section" id="sovereign">
+      <div class="section-head">
+        <div class="section-numeral">I.</div>
+        <div class="section-head-text">
+          <div class="section-kicker">Reigning Houses · 通治</div>
+          <h2 class="section-title">왕좌에 <em>지금도 앉아 있는</em> 가문</h2>
+          <p class="section-lede">한 나라의 국가원수를 가족이 세습하는 살아있는 가계. 절대권력에서 입헌군주, 종교적 권위까지 — 형태는 달라도 한 가족이 한 나라의 상징을 쥔다는 점에서 모두 같다.</p>
+        </div>
+      </div>
+      <div class="pantheon-list" id="pantheon-sovereign"></div>
+    </section>
+
+    <!-- II. CAPITAL -->
+    <section class="section" id="capital">
+      <div class="section-head">
+        <div class="section-numeral">II.</div>
+        <div class="section-head-text">
+          <div class="section-kicker">Houses of Capital · 資本</div>
+          <h2 class="section-title">한 세대에 <em>왕가를 일군</em> 가문</h2>
+          <p class="section-lede">당대의 신문 표지를 장식하는 거대한 부. 창업 한 세대 안에 인류 역사 최대치의 자산을 모은 가문들이며, 이제 다음 세대로 그것을 어떻게 넘길지가 모두의 과제다.</p>
+        </div>
+      </div>
+      <div class="pantheon-list" id="pantheon-capital"></div>
+    </section>
+
+    <!-- III. QUIET WEALTH -->
+    <section class="section" id="quiet">
+      <div class="section-head">
+        <div class="section-numeral">III.</div>
+        <div class="section-head-text">
+          <div class="section-kicker">Quiet Wealth · 隱富</div>
+          <h2 class="section-title">표지에 <em>드러나지 않는</em> 가문</h2>
+          <p class="section-lede">순위표에는 거의 등장하지 않지만, 사적 보유 구조와 가족 신탁으로 100년 · 200년에 걸쳐 부와 권력을 이어온 가문. 침묵이 곧 권력인 집단들이다.</p>
+        </div>
+      </div>
+      <div class="pantheon-list" id="pantheon-quiet"></div>
+    </section>
+
+    <!-- IV. BROWSE (country + tier) -->
+    <section class="section" id="browse">
+      <div class="section-head">
+        <div class="section-numeral">IV.</div>
+        <div class="section-head-text">
+          <div class="section-kicker">Index · 색인</div>
+          <h2 class="section-title">국가별 · <em>위계별</em> 색인</h2>
+          <p class="section-lede">데이터에 수록된 살아있는 가문 9,840家. 어느 나라든 같은 출발선에서 출발한다. 카드 하나를 누르면 가문 안으로 들어가 혼인·관계 가문을 따라 계속 가지를 옮겨갈 수 있다.</p>
+        </div>
+      </div>
+
+      <div class="browse-section">
+        <div class="browse-head">
+          <h3 class="browse-title">By Country <span class="kr">국가별</span></h3>
+        </div>
+        <div class="country-chips" id="country-chips"></div>
+        <div id="country-section"></div>
+      </div>
+
+      <div class="browse-section">
+        <div class="browse-head">
+          <h3 class="browse-title">By Tier <span class="kr">현재 위계별</span></h3>
+        </div>
+        <div class="tier-block">
+          <div class="tier-label"><span class="roman">S</span>현존 S위계 <em id="tier-S-count"></em></div>
+          <div class="cards" id="tier-S"></div>
+          <div class="more-row"><button class="more-btn" data-more="S">→ 다음 12가문</button></div>
+        </div>
+        <div class="tier-block">
+          <div class="tier-label"><span class="roman">A</span>현존 A위계 <em id="tier-A-count"></em></div>
+          <div class="cards" id="tier-A"></div>
+          <div class="more-row"><button class="more-btn" data-more="A">→ 다음 12가문</button></div>
+        </div>
+        <div class="tier-block">
+          <div class="tier-label"><span class="roman">B</span>현존 B위계 <em id="tier-B-count"></em></div>
+          <div class="cards" id="tier-B"></div>
+          <div class="more-row"><button class="more-btn" data-more="B">→ 다음 12가문</button></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Search results (replaces sections when active) -->
+    <section class="section" id="results" hidden>
+      <div class="section-head">
+        <div class="section-numeral">⌕</div>
+        <div class="section-head-text">
+          <div class="section-kicker">Search</div>
+          <h2 class="section-title" id="results-title">검색 결과</h2>
+        </div>
+      </div>
+      <div class="cards" id="results-grid"></div>
+      <div class="more-row"><button id="more-results" class="more-btn">→ 다음 24가문</button></div>
+    </section>
+
+    <section class="colophon" id="colophon">
+      <div class="imprint-line">Colophon · 서지</div>
+      <p><span id="exported-count"></span>가문을 색인. 전체 100,108가문 중 정보가 풍부한 우선 노출분.</p>
+      <p>출처 — Wikidata SPARQL · Wikipedia categories · Royal92/Royal Constellations GEDCOM · Forbes/Bloomberg billionaires · 한국 본관 통계 · 일본 氏族 자료, 보강은 직접 큐레이션.</p>
+      <p class="fineprint">데이터는 공개 출처에서 집계됐으며, 학술·연구 목적으로 공유된다. 부정확함을 발견하면 issue로 알려달라.</p>
+    </section>
+  </main>
+
+  <!-- detail drawer -->
+  <aside id="drawer" class="drawer" hidden aria-hidden="true">
+    <div class="drawer-backdrop" data-close></div>
+    <div class="drawer-panel" role="dialog" aria-label="가문 상세">
+      <button class="drawer-close" data-close aria-label="닫기">×</button>
+      <div class="drawer-content" id="drawer-content"></div>
+    </div>
+  </aside>
+
+  <script src="legacy-app.js?v=5" defer></script>
+</body>
+</html>

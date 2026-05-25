@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>RoyalTree — 살아있는 가문의 색인</title>
+  <meta name="description" content="오늘 세상을 움직이는 가문을 한 권의 색인으로 정리한 명문지(名門誌)." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@1,400;1,500&family=Noto+Serif+KR:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css?v=9" />
+</head>
+<body>
+
+  <!-- ================= TOP BAR ================= -->
+  <header class="topbar" id="topbar">
+    <div class="topbar-inner">
+      <a href="#" class="brand">RoyalTree<span class="brand-dot">.</span></a>
+
+      <form class="topbar-search" id="topbar-search" autocomplete="off" role="search">
+        <svg class="search-glass" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+          <circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="1.6"/>
+          <path d="M20 20 L16.5 16.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+        </svg>
+        <input id="q" type="text" placeholder="가문 · 인물 · 브랜드 · 회사 · 국가 — 무엇이든" aria-label="검색" />
+        <button type="button" id="clear-q" class="clear-x" aria-label="검색 지우기" hidden>×</button>
+        <kbd class="kbd-hint">⌘ K</kbd>
+        <ul class="search-pop" id="search-pop" hidden role="listbox"></ul>
+      </form>
+
+      <nav class="topbar-nav">
+        <a href="#" data-go="home">홈</a>
+        <a href="#sectors-anchor">분야</a>
+        <a href="#categories-anchor">분류</a>
+        <a href="#regions-anchor">지역</a>
+        <a href="#paths-anchor">길</a>
+        <a href="legacy.html?v=5#countries">전체</a>
+      </nav>
+
+      <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="메뉴">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ================= BROWSE VIEW (hash-routed; hidden on home) ================= -->
+    <section class="browse-view" id="browse-view" hidden></section>
+
+    <!-- ================= HOME (collection of sections, hidden when browsing) ================= -->
+    <div id="home-view">
+
+    <!-- ================= HERO ================= -->
+    <section class="hero">
+      <div class="hero-band">
+        <p class="eyebrow"><span>Anno MMXXVI</span> · <span>오늘, 세상을 움직이는 가문</span></p>
+        <h1 class="hero-title">
+          The Living Houses<br>
+          <em>of Our Age.</em>
+        </h1>
+        <p class="hero-lede">
+          왕좌에 앉아 있는, 자본을 일군, 침묵 속에서 권력을 이어가는 가문 — 한 권의 살아있는 색인.
+        </p>
+      </div>
+
+      <div class="featured" id="featured">
+        <header class="featured-head">
+          <h2>오늘의 명문</h2>
+          <span class="featured-sub">globally recognised · 9家</span>
+        </header>
+        <div class="featured-grid" id="featured-grid">
+          <!-- 9 cards injected by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SECTORS (분야별 리더) ================= -->
+    <section class="sectors" id="sectors">
+      <a id="sectors-anchor" class="anchor" aria-hidden="true"></a>
+      <header class="section-head">
+        <p class="kicker">분야별 리더 · Leaders by Domain</p>
+        <h2 class="section-title">각 분야에서 <em>세상을 이끄는</em> 가문</h2>
+      </header>
+      <div class="sector-grid" id="sector-grid"><!-- tiles injected by JS --></div>
+    </section>
+
+    <!-- ================= PATHS (3 categories) ================= -->
+    <a id="paths-anchor" class="anchor" aria-hidden="true"></a>
+    <section class="paths" id="paths">
+      <header class="section-head">
+        <p class="kicker">세 가지 길 · Three Paths</p>
+        <h2 class="section-title">어떤 가문을 보고 싶으신가요</h2>
+      </header>
+      <div class="paths-grid">
+        <a class="path-card" href="#pantheon/sovereign">
+          <span class="path-roman">I.</span>
+          <div>
+            <h3 class="path-title">통치</h3>
+            <p class="path-sub">왕좌에 지금도 앉아 있는 가문</p>
+          </div>
+          <span class="path-count" data-count="sovereign"></span>
+        </a>
+        <a class="path-card" href="#pantheon/capital">
+          <span class="path-roman">II.</span>
+          <div>
+            <h3 class="path-title">자본</h3>
+            <p class="path-sub">한 세대에 왕가를 일군 가문</p>
+          </div>
+          <span class="path-count" data-count="capital"></span>
+        </a>
+        <a class="path-card" href="#pantheon/quiet">
+          <span class="path-roman">III.</span>
+          <div>
+            <h3 class="path-title">조용한 부</h3>
+            <p class="path-sub">표지에 드러나지 않는 가문</p>
+          </div>
+          <span class="path-count" data-count="quiet"></span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ================= CATEGORIES (분류별 인덱스) ================= -->
+    <a id="categories-anchor" class="anchor" aria-hidden="true"></a>
+    <section class="categories" id="categories">
+      <header class="section-head">
+        <p class="kicker">분류로 보기 · By Category</p>
+        <h2 class="section-title">가문 <em>유형별</em>로 정리</h2>
+        <p class="section-sub">각 분류 안에서 자산순·HOT·이름순·국가별로 즉시 정렬할 수 있어요</p>
+      </header>
+      <div class="cat-grid">
+        <a class="cat-card" href="#cat/business"><strong>기업가문</strong><span data-cat-count="business"></span></a>
+        <a class="cat-card" href="#cat/royal"><strong>왕가</strong><span data-cat-count="royal"></span></a>
+        <a class="cat-card" href="#cat/noble"><strong>귀족가문</strong><span data-cat-count="noble"></span></a>
+        <a class="cat-card" href="#cat/clan"><strong>씨족</strong><span data-cat-count="clan"></span></a>
+        <a class="cat-card" href="#cat/political"><strong>정치가문</strong><span data-cat-count="political"></span></a>
+        <a class="cat-card" href="#cat/religious"><strong>종교가문</strong><span data-cat-count="religious"></span></a>
+        <a class="cat-card" href="#cat/tribal"><strong>부족</strong><span data-cat-count="tribal"></span></a>
+        <a class="cat-card" href="#cat/unknown"><strong>기타</strong><span data-cat-count="unknown"></span></a>
+      </div>
+    </section>
+
+    <!-- ================= REGIONS ================= -->
+    <a id="regions-anchor" class="anchor" aria-hidden="true"></a>
+    <section class="regions" id="regions">
+      <header class="section-head">
+        <p class="kicker">지역으로 보기 · By Region</p>
+        <h2 class="section-title">대륙을 펼쳐 보세요</h2>
+      </header>
+      <div class="region-grid" id="region-grid">
+        <!-- region tiles injected by JS -->
+      </div>
+    </section>
+
+    <!-- ================= EUROPEAN HINT (the one luxury moment) ================= -->
+    <section class="hint">
+      <div class="hint-inner">
+        <div class="hint-left">
+          <p class="hint-kicker">In the margin · 한 마디</p>
+          <p class="hint-quote">
+            <em>“Nomen est omen.”</em>
+          </p>
+          <p class="hint-trans">이름이 곧 운명이다.</p>
+          <p class="hint-attr">— Plautus, <i>Persa</i> (BC 4세기)</p>
+        </div>
+        <div class="hint-right" aria-hidden="true">
+          <svg viewBox="0 0 120 160" class="crest">
+            <!-- minimal heraldic seal: shield + crown lines -->
+            <path d="M60 12 L100 28 L100 84 Q100 132 60 152 Q20 132 20 84 L20 28 Z"
+                  fill="none" stroke="currentColor" stroke-width="1.2"/>
+            <path d="M30 50 L90 50 M30 78 L90 78 M30 106 L90 106"
+                  stroke="currentColor" stroke-width="0.7" opacity="0.55"/>
+            <circle cx="60" cy="78" r="9" fill="none" stroke="currentColor" stroke-width="1"/>
+            <path d="M60 24 L60 36 M52 30 L68 30" stroke="currentColor" stroke-width="0.9"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ARCHIVE LINK ================= -->
+    <section class="archive" id="archive">
+      <header class="section-head">
+        <p class="kicker">전체 색인 · The Archive</p>
+        <h2 class="section-title">전체 가문 색인</h2>
+        <p class="section-lede">데이터에 수록된 살아있는 가문 9,840家. 어느 지역이든 같은 출발선에서 시작합니다.</p>
+      </header>
+      <div class="archive-actions">
+        <a class="archive-btn primary" href="legacy.html?v=5">국가별 · 위계별 색인 →</a>
+        <button class="archive-btn" id="focus-search">검색으로 시작하기</button>
+      </div>
+    </section>
+
+    </div><!-- /#home-view -->
+
+  </main>
+
+  <footer class="foot">
+    <div class="foot-inner">
+      <div class="foot-left">
+        <span class="foot-brand">RoyalTree</span>
+        <span class="foot-sep">·</span>
+        <span>Anno MMXXVI · 名門誌</span>
+      </div>
+      <div class="foot-right">
+        <a href="legacy.html">옛 색인</a>
+        <span class="foot-sep">·</span>
+        <a href="#topbar">맨 위로</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- drawer -->
+  <aside id="drawer" class="drawer" hidden aria-hidden="true">
+    <div class="drawer-backdrop" data-close></div>
+    <div class="drawer-panel" role="dialog" aria-label="가문 상세">
+      <button class="drawer-close" data-close aria-label="닫기">×</button>
+      <div class="drawer-content" id="drawer-content"></div>
+    </div>
+  </aside>
+
+  <script src="app.js?v=9" defer></script>
+</body>
+</html>
