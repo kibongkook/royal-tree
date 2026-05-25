@@ -113,6 +113,11 @@ Royal-Tree/
 - **국가 코드는 ISO 3166-1 alpha-2**, 다국적 가문은 배열로
 - **수집 결과는 JSONL** (스트리밍·머지 용이), 사람이 보는 요약은 Markdown 별도
 
+## 로컬 서버 포트
+
+- **8775** — 정적 web 서버 (`python3 -m http.server 8775` in `web/`)
+- 글로벌 포트 레지스트리는 `~/.claude/CLAUDE.md` §1-2 참조. 8765는 Possirak-Gov hwp-bridge가 점유하므로 사용 금지.
+
 ## 글로벌 규칙 적용
 
 자율 실행, Chrome 자동화 표준, "커밋" 단축 워크플로우(MD→stage→commit→push), 시크릿 자동 거부 — 글로벌 `~/.claude/CLAUDE.md` 그대로 적용.
