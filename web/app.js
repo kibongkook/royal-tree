@@ -27,9 +27,21 @@ const COUNTRY_NAMES = {
   LT:"리투아니아", LV:"라트비아", EE:"에스토니아", IS:"아이슬란드", MT:"몰타", CY:"키프로스",
 };
 
+// Blacklist — historical-figure families that absorbed modern same-surname
+// billionaire data via faulty dedup. Hidden from web until source dedup is fixed.
+// (See memory/feedback_data_quality.md)
+const BLACKLIST_IDS = new Set([
+  "royal-tree:manual:zhang-juzheng-family",   // 张居正 (Ming politician) ← ByteDance/TAL/Weiqiao Zhang
+]);
+
 const CAT_LABEL = { royal:"왕가", noble:"귀족", clan:"씨족", business:"기업", political:"정치", religious:"종교", tribal:"부족", unknown:"불명" };
 const STATUS_LABEL = { active:"현존", extinct:"단절", deposed:"폐위", merged:"합방", unknown:"불명" };
-const PANTHEON_LABEL = { sovereign:"통치 · Reigning Houses", capital:"자본 · Houses of Capital", quiet:"조용한 부 · Quiet Wealth" };
+const PANTHEON_LABEL = {
+  sovereign: "통치 · Reigning Houses",
+  capital:   "자본 · Houses of Capital",
+  quiet:     "조용한 부 · Quiet Wealth",
+  rule:      "政權 · Political Dynasties",
+};
 const TIER_ORDER = ["S","A","B","C","D","X"];
 
 const REGIONS = {
@@ -45,7 +57,7 @@ const REGIONS = {
 const SECTORS = {
   tech: {
     ko: "테크", en: "Technology",
-    kw: ["technology","tech","software","internet","e-commerce","ecommerce","cloud","ai","social","mobile games","semiconductor","반도체","ai/data","platform"],
+    kw: ["technology","tech","software","internet","e-commerce","ecommerce","cloud","ai","social","mobile games","semiconductor","반도체","ai/data","platform","electronics","computer services","computer hardware","display","display panels","internet media","online services","online games","video games","online gaming","biometrics","enterprise software","business software","drones","telecom services","telecommunications"],
   },
   finance: {
     ko: "금융", en: "Finance",
@@ -81,7 +93,7 @@ const SECTORS = {
   },
   industrial: {
     ko: "산업·제조", en: "Industrial",
-    kw: ["industrial","manufacturing","machinery","chemical","cement","conglomerate","conglomerates","luxury conglomerate","conglomerate / various","industrial conglomerate","diversified"],
+    kw: ["industrial","manufacturing","machinery","chemical","chemicals","cement","conglomerate","conglomerates","luxury conglomerate","conglomerate / various","industrial conglomerate","diversified","electronics","semiconductor","반도체","electronics components","precision machinery","hydraulic machinery","industrial machines","industrial machinery","appliance","appliances","home appliances","appliance retailer","display panels","shipbuilding","valves","aluminum","aluminum products","tires","steel","steel smelting","paper","paper & related products","electrical equipment","lighting","auto parts","heavy industry","batteries","batteries, automobiles"],
   },
   hospitality: {
     ko: "관광·호텔", en: "Hospitality",
@@ -166,6 +178,24 @@ function countryLabel(c) {
   if (/^[A-Z]{2}(-[A-Z]{2,4})?$/.test(c)) return c;
   return "";
 }
+// Country code → regional-indicator emoji flag. Returns "" if not 2-letter.
+function flagEmoji(c) {
+  if (!c) return "";
+  if (c === "GB-SCT") return "🏴󠁧󠁢󠁳󠁣󠁴󠁿"; // 🏴󠁧󠁢󠁳󠁣󠁴󠁿
+  if (c === "GB-WLS") return "🏴󠁧󠁢󠁷󠁬󠁳󠁿"; // 🏴󠁧󠁢󠁷󠁬󠁳󠁿
+  if (c === "GB-ENG") return "🏴󠁧󠁢󠁥󠁮󠁧󠁿";
+  if (c === "VA") return "🇻🇦";
+  if (!/^[A-Z]{2}$/.test(c)) return "";
+  const A = 0x1F1E6, a = "A".charCodeAt(0);
+  return String.fromCodePoint(A + c.charCodeAt(0) - a) + String.fromCodePoint(A + c.charCodeAt(1) - a);
+}
+// First displayable country (skips q: pseudo-codes).
+function primaryCountry(f) {
+  for (const c of (f.c || [])) {
+    if (c && !c.startsWith("q:") && c !== "AR-region") return c;
+  }
+  return null;
+}
 function lifeSpan(p) {
   const b = p.birth ? String(p.birth).slice(0,4) : "?";
   const d = p.death ? String(p.death).slice(0,4) : (p.birth ? "" : "?");
@@ -194,8 +224,10 @@ function regionOf(countries) {
 /* ============ load ============ */
 
 async function loadIndex() {
-  const res = await fetch("families.index.json?v=8");
+  const res = await fetch("families.index.json?v=14");
   STATE.index = await res.json();
+  // Drop blacklisted (data-pollution) families before any indexing.
+  STATE.index.families = STATE.index.families.filter(f => !BLACKLIST_IDS.has(f.id));
   STATE.index.families.forEach(f => {
     STATE.byId.set(f.id, f);
     // country
@@ -251,7 +283,7 @@ async function loadIndex() {
 async function loadDetail() {
   if (STATE.detail) return STATE.detail;
   if (STATE.detailPromise) return STATE.detailPromise;
-  STATE.detailPromise = fetch("families.detail.json?v=8").then(r => r.json()).then(d => { STATE.detail = d; return d; });
+  STATE.detailPromise = fetch("families.detail.json?v=14").then(r => r.json()).then(d => { STATE.detail = d; return d; });
   return STATE.detailPromise;
 }
 
@@ -259,9 +291,12 @@ async function loadDetail() {
 
 function featCardHTML(f, n) {
   const alt = altOf(f);
-  const country = (f.c || []).map(countryLabel).filter(Boolean)[0] || "";
+  const pc = primaryCountry(f);
+  const flag = pc ? flagEmoji(pc) : "";
+  const country = pc ? countryLabel(pc) : ((f.c || []).map(countryLabel).filter(Boolean)[0] || "");
   const founded = f.founded ? `est ${String(f.founded).slice(0,4)}` : "";
-  const meta = [country, founded].filter(Boolean).join(" · ");
+  const countryHtml = country ? `<span class="fc-country">${flag ? `<span class="fc-flag" aria-hidden="true">${flag}</span>` : ""}${escapeHtml(country)}</span>` : "";
+  const meta = founded ? `${countryHtml}${countryHtml ? ' · ' : ''}<span>${founded}</span>` : countryHtml;
   const val = f.v ? `<span class="v">${fmtUSD(f.v)}</span>` : "";
   return `
     <article class="feat-card" data-id="${f.id}">
@@ -288,7 +323,7 @@ function renderFeatured() {
 /* ============ paths ============ */
 
 function renderPathCounts() {
-  for (const p of ["sovereign", "capital", "quiet"]) {
+  for (const p of ["sovereign", "capital", "quiet", "rule"]) {
     const n = STATE.index.families.filter(f => f.pantheon === p).length;
     const el = document.querySelector(`[data-count="${p}"]`);
     if (el) el.textContent = `${n}家 →`;
@@ -613,9 +648,12 @@ let BROWSE_STATE = null;
 
 function browseCardHTML(f) {
   const alt = altOf(f);
-  const country = (f.c || []).map(countryLabel).filter(Boolean)[0] || "";
+  const pc = primaryCountry(f);
+  const flag = pc ? flagEmoji(pc) : "";
+  const country = pc ? countryLabel(pc) : ((f.c || []).map(countryLabel).filter(Boolean)[0] || "");
   const founded = f.founded ? `est ${String(f.founded).slice(0,4)}` : "";
-  const meta = [country, founded].filter(Boolean).join(" · ");
+  const countryHtml = country ? `<span class="fc-country">${flag ? `<span class="fc-flag" aria-hidden="true">${flag}</span>` : ""}${escapeHtml(country)}</span>` : "";
+  const meta = founded ? `${countryHtml}${countryHtml ? ' · ' : ''}<span>${founded}</span>` : countryHtml;
   const val = f.v ? `<span class="v">${fmtUSD(f.v)}</span>` : "";
   const inds = (f.inds || []).slice(0, 2).join(" · ");
   return `
@@ -626,7 +664,7 @@ function browseCardHTML(f) {
         ${f.headline ? `<p class="fc-headline" style="color:var(--bordeaux);font-family:var(--display);font-style:italic">${escapeHtml(f.headline)}</p>` : (inds ? `<p class="fc-headline">${escapeHtml(inds)}</p>` : "")}
       </div>
       <div class="fc-meta">
-        <span>${escapeHtml(meta)}</span>${val}
+        <span>${meta}</span>${val}
       </div>
     </article>`;
 }
@@ -641,7 +679,12 @@ function browseTitle(type, value) {
     return def ? { eyebrow: def.en, title: def.ko, sub: "분야별 리더" } : null;
   }
   if (type === "pantheon") {
-    const labels = { sovereign: { ko:"통치", en:"Reigning Houses" }, capital:{ko:"자본",en:"Houses of Capital"}, quiet:{ko:"조용한 부",en:"Quiet Wealth"} };
+    const labels = {
+      sovereign: { ko:"통치", en:"Reigning Houses" },
+      capital:   { ko:"자본", en:"Houses of Capital" },
+      quiet:     { ko:"조용한 부", en:"Quiet Wealth" },
+      rule:      { ko:"政權", en:"Political Dynasties" },
+    };
     const def = labels[value];
     return def ? { eyebrow: def.en, title: def.ko, sub: "세 가지 길" } : null;
   }
@@ -713,9 +756,14 @@ function renderBrowseInner() {
   // sort
   list = list.slice();
   if (sortBy === "hot") {
-    list.sort((a,b) => (b.hot || 0) - (a.hot || 0));
+    // "최근 HOT" = recently-active families: latest known person birth desc,
+    // then valuation desc (covers both modern billionaires and active dynasties).
+    list.sort((a,b) =>
+      (b.yr || 0) - (a.yr || 0)
+      || (b.v || 0) - (a.v || 0)
+      || TIER_ORDER.indexOf(a.tc || "X") - TIER_ORDER.indexOf(b.tc || "X"));
   } else if (sortBy === "name") {
-    list.sort((a,b) => (a.n || "").localeCompare(b.n || ""));
+    list.sort((a,b) => (a.n || "").localeCompare(b.n || "", "ko"));
   } else { // wealth (default)
     list.sort((a,b) => (b.v || 0) - (a.v || 0)
       || TIER_ORDER.indexOf(a.tc || "X") - TIER_ORDER.indexOf(b.tc || "X"));
@@ -764,11 +812,12 @@ function renderBrowseInner() {
         ${sub || countryFilter ? `<button class="sf-chip sf-clear" data-sub="clear">× 필터 지우기</button>` : ""}
       </div>
       ${topCountries.length > 1 ? `
-      <div class="browse-subfilter">
+      <div class="browse-subfilter browse-countrybar">
         <span class="sf-label">국가</span>
-        ${topCountries.map(([cc, n]) =>
-          `<button class="sf-chip ${countryFilter===cc?'active':''}" data-country="${cc}">${countryLabel(cc) || cc} (${n})</button>`
-        ).join("")}
+        ${topCountries.map(([cc, n]) => {
+          const fe = flagEmoji(cc);
+          return `<button class="sf-chip sf-country ${countryFilter===cc?'active':''}" data-country="${cc}">${fe ? `<span class="sf-flag" aria-hidden="true">${fe}</span>` : ""}${escapeHtml(countryLabel(cc) || cc)} <span class="sf-count">${n}</span></button>`;
+        }).join("")}
       </div>` : ""}
 
       ${list.length === 0

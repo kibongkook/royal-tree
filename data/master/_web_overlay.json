@@ -209,6 +209,41 @@
         "narrative": "Bernard Arnault가 1984년 Boussac(Dior 모회사) 인수 후 LVMH 제국 구축(Louis Vuitton·Dior·Tiffany·Bulgari·Moët-Hennessy). 자녀 5명이 각 브랜드 분장 — 유럽 사적 부 $200B+ 부동의 1위.",
         "founded": 1984,
         "peak_era": "1989–현재 (Bernard Arnault 인수극)"
+      },
+      {
+        "id": "royal-tree:manual:trump-family-donald-trump",
+        "founded": 1885,
+        "peak_era": "2017–2021, 2025–현재 (2회 美 대통령)",
+        "headline": "Trump — 부동산·미디어·45·47대 美 대통령",
+        "narrative": "1885년 독일 Kallstadt에서 이민 온 Friedrich Drumpf의 손자 Donald J. Trump이 美 대통령 2회 역임(2017–21, 2025– ). 가문은 부동산·미디어·골프 리조트로 추정 $7.5B. 2025.7 어머니 故鄕 Aberdeen에 Mary Anne MacLeod 코스 개장. 2026.4 Daily Mail 계보 조사로 Charles 3세와 15촌(공통 조상 3rd Earl of Lennox)으로 화제."
+      },
+      {
+        "id": "royal-tree:overlay:vingroup-vuong",
+        "founded": 2000,
+        "peak_era": "2010–현재 (베트남 첫 빌리어네어)",
+        "headline": "Vingroup — 베트남 첫·최대 빌리어네어",
+        "narrative": "Phạm Nhật Vượng이 우크라이나 라면 사업으로 첫 자본, 2000년 베트남 귀국 후 Vingroup으로 부동산·자동차·교육·헬스 帝國 구축. Forbes 2024 $8.4B로 베트남 1위. VinFast가 2023.8 美 나스닥 상장."
+      },
+      {
+        "id": "royal-tree:overlay:salim-indonesia",
+        "founded": 1979,
+        "peak_era": "1980년대 Suharto 시기 + 2020년대 부활",
+        "headline": "Salim 家 — Indomie와 First Pacific의 인도네시아 1위",
+        "narrative": "부친 Liem Sioe Liong이 Suharto 정권기 사업 帝國 구축, 1998 IMF 위기 후 장남 Anthoni가 First Pacific(HK)으로 재건. Forbes 2024 $10.5B로 ID 1위. Indomie 라면이 세계 2위."
+      },
+      {
+        "id": "royal-tree:overlay:ng-far-east-singapore",
+        "founded": 1960,
+        "peak_era": "1960–현재 (SG·HK 兄弟 분장)",
+        "headline": "Ng 家 (Far East Org) — 싱가포르 1위 가족 합산",
+        "narrative": "Ng Teng Fong이 1960 Far East Organization 창업, 1971 차남을 HK에 보내 Sino Group 분장. 가족 합산 $14.7B로 싱가포르 1위 (Robert HK + Philip SG). 3대 Daryl Ng이 후계 정비 中."
+      },
+      {
+        "id": "royal-tree:overlay:quek-hong-leong-singapore",
+        "founded": 1941,
+        "peak_era": "1970년대–현재 (양국 사촌 분장)",
+        "headline": "Quek/Kwek 家 — Hong Leong MY·SG 兄弟 가문 $23.5B",
+        "narrative": "1941 Kwek Hong Png이 Hong Leong 창업, 2대 사촌이 양국 분장. Quek Leng Chan(MY) $14.2B + Kwek Leng Beng(SG) $9.3B = 합산 $23.5B. 양국 부동산·은행·호텔의 최상위 가문."
       }
     ],
     "quiet": [
@@ -310,6 +345,120 @@
         "headline": "Newhouse — Advance · Condé Nast",
         "narrative": "Samuel I. Newhouse가 1922년 신문 인수 시작. Advance Publications가 Condé Nast(Vogue·Vanity Fair·New Yorker·GQ)·디스커버리·Reddit 보유. 두 가문 brothers(Si·Donald) 후 2세대 Steven·Jonathan, 사적 가문 자산 $30B.",
         "founded": 1922
+      },
+      {
+        "id": "royal-tree:overlay:higashikuni",
+        "founded": 1906,
+        "peak_era": "1906–1947 (황실 분가) · 1945 戰後 첫 총리",
+        "headline": "東久邇 — 1945 戰後 첫 총리·천황 가장 가까운 분가",
+        "narrative": "메이지 천황의 9녀와 결혼한 稔彦 王이 1906년 창건. 1945년 8월 패전 직후 일본 첫 戰後 총리(64일)로서 항복문서를 처리. 손자 信彦은 히로히토 천황의 외손자 — 11 旧宮家 중 황실 男系 혈통이 가장 가까운 가문이며, 2024년 황실 復帰 후보군의 한 축."
+      },
+      {
+        "id": "royal-tree:overlay:kaya",
+        "founded": 1900,
+        "peak_era": "1900–1947 (久邇 분가)",
+        "headline": "賀陽 — 旧宮家 황실 復帰 1순위 후보",
+        "narrative": "1900년 久邇宮에서 분가. 1947년 신적강하 후 3대 章典은 IBJ 은행원으로 활동. 2024년 自民党 旧宮家 황실 復帰안에서 男系 미혼 남성 3명이 존재하는 賀陽家가 養子 후보 1순위로 거론된다."
+      },
+      {
+        "id": "royal-tree:overlay:takeda",
+        "founded": 1906,
+        "peak_era": "1906–1947 (황실 분가) · 1991– JOC 회장직",
+        "headline": "竹田 — JOC 회장과 男系 천황 옹호 논객",
+        "narrative": "메이지 천황 6녀의 사위 恒久 王이 1906년 창건. 3대 恒和는 JOC 회장(1991–2019)·IOC 위원으로 일본 스포츠 외교를 대표했고, 4대 恒泰는 헌법학자·TV 논객으로 男系 천황 보존론을 가장 적극 주창. 11 旧宮家 중 미디어 노출 1위."
+      },
+      {
+        "id": "royal-tree:overlay:kuni",
+        "founded": 1875,
+        "peak_era": "1875–1989 (香淳皇后 시대 정점)",
+        "headline": "久邇 — 香淳皇后의 본가 · 伊勢神宮 大宮司",
+        "narrative": "朝彦親王이 1875년 창건. 5개 황실 분가(賀陽·梨本·朝香·東久邇)의 母家. 2대 邦彦의 장녀 良子가 1924년 히로히토 황태자와 결혼해 香淳皇后가 됨 — 아키히토 上皇·나루히토 천황의 모계. 4대 邦昭는 伊勢神宮 大宮司(1991–2007)로 神道 최고위직 역임."
+      },
+      {
+        "id": "royal-tree:manual:kuok-family-robert-kuok",
+        "founded": 1949,
+        "peak_era": "1970년대–현재 (亞洲 설탕왕에서 中 진출까지)",
+        "headline": "Kuok 家 — 동남아 화교 1위 $11.8B",
+        "narrative": "Robert Kuok이 1949 설탕 무역으로 시작 → '亞洲 설탕왕' → 1971 Shangri-La 호텔 → 1990년대 中 진출. Wilmar(팜오일 세계 1위) + Shangri-La + Kerry Group. 100세가 넘은 현재까지 명예회장직 유지."
+      },
+      {
+        "id": "royal-tree:overlay:wee-uob-singapore",
+        "founded": 1935,
+        "peak_era": "1974–2007 (Wee Cho Yaw 33년 회장)",
+        "headline": "Wee 家 — UOB 90년 3代 세습",
+        "narrative": "1935 Wee Kheng Chiang이 UOB 창업, 2대 Wee Cho Yaw가 33년 회장으로 가문 사업 정비. 2024.2 Cho Yaw 95세 사망 후 3대 Wee Ee Cheong(2007– CEO)가 가문 대표. UOB는 싱가포르 3대 은행."
+      },
+      {
+        "id": "royal-tree:overlay:khoo-singapore",
+        "founded": 1959,
+        "peak_era": "2004 사망 시 동남아 최대 富",
+        "headline": "Khoo 家 — Standard Chartered 13% 가족 보유",
+        "narrative": "Khoo Teck Puat이 Maybank 부행장 → Brunei 컨설팅 → Standard Chartered 13% 매입. 2004 사망 시 동남아 최대 富, 14남매에 분할 상속. 가족 합산 $7.5B로 SG 5위."
+      },
+      {
+        "id": "royal-tree:overlay:ng-sermiang-singapore",
+        "founded": 1949,
+        "peak_era": "2009–2013 (IOC 부위원장)",
+        "headline": "Ng Ser Miang — 싱가포르의 IOC 부위원장",
+        "narrative": "前 노르웨이·싱가포르 駐 대사, IOC 부위원장 2009–2013, 2010 청소년 올림픽 조직위원장. 2013 IOC 위원장 선거 출마(Thomas Bach에 패배, 5명 중 4위). 亞洲 체육 외교의 핵심."
+      }
+    ],
+    "rule": [
+      {
+        "id": "royal-tree:overlay:lee-singapore-lky",
+        "founded": 1959,
+        "peak_era": "1959–2024 (LKY 31년 + 장남 20년)",
+        "headline": "Lee 家 — 싱가포르 65년 정치 왕조",
+        "narrative": "Lee Kuan Yew가 1959 자치 총리 → 31년 통치 → 장남 Lee Hsien Loong이 20년 총리(2004–2024). 2024.5 형식적 권력 이양됐으나 上級상 직위로 영향력 잔존. 차남은 형과 결별·英 망명."
+      },
+      {
+        "id": "royal-tree:overlay:hun-cambodia",
+        "founded": 1985,
+        "peak_era": "1985–현재 (Hun Sen 38년 + 장남)",
+        "headline": "Hun 家 — 캄보디아 40년 정치 왕조",
+        "narrative": "Hun Sen이 1985년부터 38년간 총리 — 세계 최장수 정부 수반. 2023.8 西點 사관학교 졸업한 장남 Hun Manet에게 권력 이양, 차남(군 정보)·삼남(국회·청년부)이 분장."
+      },
+      {
+        "id": "royal-tree:overlay:marcos-philippines",
+        "founded": 1965,
+        "peak_era": "1965–1986 (Ferdinand 21년) · 2022–현재 (Bongbong 부활)",
+        "headline": "Marcos 家 — 36년 망명 후 2022 부활",
+        "narrative": "Ferdinand가 1965–1986 21년간 통치(1972–81 계엄), 1986 People Power 혁명으로 망명. 2022.5 장남 Bongbong이 대통령 압승으로 36년 만에 가문 권력 복권 — 정치 왕조의 '회복력' 표본."
+      },
+      {
+        "id": "royal-tree:manual:duterte-family",
+        "founded": 1988,
+        "peak_era": "2016–현재 (Rodrigo 대통령 + Sara 부통령)",
+        "headline": "Duterte 家 — 다바오에서 청와대까지",
+        "narrative": "Rodrigo가 다바오 시장 22년 → 2016 대통령. 딸 Sara가 2022 부통령. 막내 Sebastian이 다바오 시장 세습. 2025.3 Rodrigo의 ICC 송환으로 가문 위기, Marcos와 연합 → 분쟁."
+      },
+      {
+        "id": "royal-tree:overlay:aquino-philippines",
+        "founded": 1986,
+        "peak_era": "1986–2016 (Cory + Noynoy 2代 대통령)",
+        "headline": "Aquino 家 — 民主주의 상징, Marcos의 대척점",
+        "narrative": "Ninoy 암살(1983) → Cory 대통령(1986) → Noynoy 대통령(2010) 2代 대통령 가문. Marcos 가문의 35년 대척점. 2022 Marcos 부활로 가문 직계 권력 단절."
+      },
+      {
+        "id": "royal-tree:manual:shinawatra-family-thaksin-shinawatra",
+        "founded": 2001,
+        "peak_era": "2001–현재 (三代 총리, 全員 임기 중 축출)",
+        "headline": "Shinawatra 家 — 三代 총리, 모두 강제 종료",
+        "narrative": "Thaksin(2001–06) → 여동생 Yingluck(2011–14) → 딸 Paetongtarn(2024–25). 全員 軍 쿠데타·헌재 해임으로 임기 중 축출. 2023.8 Thaksin 15년 망명 종료, 그러나 2025.8 딸 해임으로 가문 3차 정권 종료."
+      },
+      {
+        "id": "royal-tree:manual:suharto-family",
+        "founded": 1967,
+        "peak_era": "1967–1998 (Suharto 32년 절대 통치)",
+        "headline": "Suharto 家 — 20세기 최대 약탈정권 가문",
+        "narrative": "Suharto가 1967–1998 32년 절대 통치, Transparency International 추정 약탈자산 $15–35B로 20세기 1위. 1998 失脚 후 6남매 사업 분장, 2024 Prabowo(딸 Titiek의 전남편)의 대통령 당선으로 영향력 부분 복권."
+      },
+      {
+        "id": "royal-tree:overlay:widodo-indonesia",
+        "founded": 2014,
+        "peak_era": "2014–현재 (Jokowi 대통령 + 아들 부통령)",
+        "headline": "Widodo 家 — 평민에서 1세대 정치 왕조로",
+        "narrative": "평민 가구 사업자 → 솔로 시장 → 자카르타 주지사 → 대통령 2014–2024. 2024.10 아들 Gibran을 부통령, 차남 Kaesang을 PSI 당대표, 사위 Bobby를 메단 시장으로 — 1세대 만에 정치 왕조 형성. '亞洲의 새 Marcos' 비판."
       }
     ]
   },
@@ -1546,6 +1695,3351 @@
       "sources": [
         "manual:overlay:mulliez",
         "wikipedia:fr:Famille_Mulliez"
+      ]
+    },
+    {
+      "id": "royal-tree:overlay:higashikuni",
+      "names": {
+        "en": "Higashikuni branch (former imperial cadet)",
+        "ja": "東久邇宮家",
+        "ko": "히가시쿠니 (旧宮家)",
+        "zh": "東久邇宮"
+      },
+      "country": [
+        "JP"
+      ],
+      "category": "noble",
+      "status": "active",
+      "head_current": "東久邇家 후예 (post-1947 신적강하)",
+      "tier": {
+        "past": "S",
+        "current": "B",
+        "past_reasons": [
+          "1906년 메이지 천황의 9녀 聡子 内親王과 결혼한 稔彦 王이 창건한 황실 분가",
+          "稔彦 王은 1945년 패전 직후 일본 戰後 초대 총리(64일) — 항복문서 체결과 점령 인수를 지휘"
+        ],
+        "current_reasons": [
+          "1947년 신적강하로 평민",
+          "稔彦 王의 손자 信彦은 히로히토 천황의 외손자 (어머니 照宮成子内親王) — 황실 혈맥 가장 근접",
+          "재단 운영 · 황실 복귀 후보군 (男系 미혼 남성 2명 존재)"
+        ],
+        "valuation_usd_total": 200000000,
+        "person_max_birth": 1989,
+        "person_count_post1950": 8
+      },
+      "display": {
+        "origin": [
+          {
+            "id": "hk:naruhiko",
+            "name": "東久邇宮稔彦王 (Higashikuni Naruhiko)",
+            "birth": "1887-12-03",
+            "death": "1990-01-20",
+            "titles": [
+              "東久邇宮 창건 (1906)",
+              "陸軍 大將",
+              "日本 戰後 초대 총리 (1945.8.17 – 10.9, 64일)",
+              "1947 신적강하 후 평민 — 雀荘 운영 등 평민 사업 시도"
+            ],
+            "spouses": [
+              "聡子 内親王 (메이지 천황의 9녀)"
+            ],
+            "children": [
+              "盛厚 王 (Morihiro)",
+              "師正 王",
+              "彰常 王",
+              "俊彦 王"
+            ]
+          }
+        ],
+        "middle_summary": "稔彦 王(메이지 천황 사위) → 장남 盛厚는 히로히토 천황의 장녀 照宮成子와 결혼 → 손자 信彦은 천황 외손자. 4代가 황실 가장 가까운 분가로 자리.",
+        "recent": [
+          {
+            "id": "hk:morihiro",
+            "name": "東久邇盛厚 (Higashikuni Morihiro)",
+            "birth": "1916-05-06",
+            "death": "1969-02-01",
+            "titles": [
+              "稔彦 王의 장남",
+              "1943 히로히토 천황의 장녀 照宮成子内親王과 결혼"
+            ],
+            "spouses": [
+              "照宮成子内親王 (1925–1961, 히로히토 천황 장녀)"
+            ],
+            "children": [
+              "信彦 (Nobuhiko)",
+              "文子",
+              "秀彦",
+              "眞彦",
+              "優子"
+            ]
+          },
+          {
+            "id": "hk:nobuhiko",
+            "name": "東久邇信彦 (Higashikuni Nobuhiko)",
+            "birth": "1945-03-10",
+            "death": "2019-11-21",
+            "titles": [
+              "稔彦 王의 손자 · 히로히토 천황의 외손자",
+              "東久邇 재단 운영",
+              "외삼촌이 아키히토 上皇"
+            ],
+            "children": [
+              "征彦 (Yukihiko)",
+              "睦彦 (Mutsuhiko)"
+            ]
+          },
+          {
+            "id": "hk:yuko",
+            "name": "東久邇優子 (Higashikuni Yuko)",
+            "birth": "1989",
+            "titles": [
+              "稔彦 王의 증손녀",
+              "클래식 피아니스트 (도쿄 음대)"
+            ],
+            "country": [
+              "JP"
+            ]
+          }
+        ],
+        "head_card": {
+          "name": "東久邇家 후예 (post-1947 신적강하)",
+          "titles": [
+            "旧宮家",
+            "황실 男系 혈통 가장 근접 분가"
+          ],
+          "country": [
+            "JP"
+          ],
+          "business": {
+            "count": 1,
+            "total_valuation_usd": 200000000,
+            "industries": [
+              "family foundation",
+              "arts",
+              "kyū-miyake legacy"
+            ],
+            "top": [
+              {
+                "name": "東久邇 기념 재단 (Higashikuni Memorial Foundation)",
+                "industry": "family foundation",
+                "country_hq": [
+                  "JP"
+                ],
+                "valuation_usd": 200000000,
+                "control_type": "family-foundation"
+              }
+            ]
+          }
+        }
+      },
+      "spouses_lineage": [
+        {
+          "name": "聡子 内親王 (Toshiko Naishinnō)",
+          "family_of_origin": "imperial-japan",
+          "family_name": "Imperial House of Japan (天皇家)",
+          "summary": "메이지 천황의 9녀. 1915년 稔彦 王과 결혼하며 東久邇宮家 창건. 황실과의 혈연 결합의 출발점."
+        },
+        {
+          "name": "照宮成子内親王 (Teru-no-miya Shigeko)",
+          "family_of_origin": "imperial-japan",
+          "family_name": "Imperial House of Japan (天皇家)",
+          "summary": "히로히토 천황의 장녀. 1943년 東久邇盛厚와 결혼하며 황녀 신분 상실. 손자 信彦은 천황 외손자."
+        }
+      ],
+      "relations": [
+        {
+          "with": "Imperial House of Japan (天皇家)",
+          "with_id": "Q186040",
+          "type": "blood",
+          "subtype": "imperial-cadet",
+          "year": 1947,
+          "active": true,
+          "summary": "근대 일본 황실 분가. 1947년 GHQ 개혁으로 신적강하되어 평민이 됐지만, 男系 혈통은 천황가와 동일."
+        },
+        {
+          "with": "賀陽家 (Kaya)",
+          "with_id": "royal-tree:overlay:kaya",
+          "type": "blood",
+          "subtype": "kyū-miyake-peer",
+          "year": 1947,
+          "active": false,
+          "summary": "1947년 GHQ 개혁으로 같이 신적강하된 旧宮家 11家 중 하나."
+        },
+        {
+          "with": "竹田家 (Takeda)",
+          "with_id": "royal-tree:overlay:takeda",
+          "type": "blood",
+          "subtype": "kyū-miyake-peer",
+          "year": 1947,
+          "active": false,
+          "summary": "1947년 GHQ 개혁으로 같이 신적강하된 旧宮家 11家 중 하나."
+        },
+        {
+          "with": "久邇家 (Kuni)",
+          "with_id": "royal-tree:overlay:kuni",
+          "type": "blood",
+          "subtype": "kyū-miyake-peer",
+          "year": 1947,
+          "active": false,
+          "summary": "1947년 GHQ 개혁으로 같이 신적강하된 旧宮家 11家 중 하나."
+        }
+      ],
+      "notes": "1906년 창건. 황실 분가 중 천황가에 가장 인접한 혈맥(2대에 걸쳐 황녀와 결혼). 稔彦 王은 戰後 첫 총리로서 GHQ 인수·항복 문서 처리. 1947년 신적강하 후 평민이 됐지만 후예들은 재단·예술계 활동. 2024년 旧宮家 황실 復帰 논의의 핵심 후보군 중 하나.",
+      "sources": [
+        "manual:overlay:higashikuni",
+        "wikipedia:ja:東久邇宮",
+        "wikipedia:ja:東久邇宮稔彦王"
+      ]
+    },
+    {
+      "id": "royal-tree:overlay:kaya",
+      "names": {
+        "en": "Kaya branch (former imperial cadet)",
+        "ja": "賀陽宮家",
+        "ko": "카야 (旧宮家)",
+        "zh": "賀陽宮"
+      },
+      "country": [
+        "JP"
+      ],
+      "category": "noble",
+      "status": "active",
+      "head_current": "賀陽正憲 외 男系 후예 (旧宮家 황실 復帰 1순위 후보)",
+      "tier": {
+        "past": "S",
+        "current": "B",
+        "past_reasons": [
+          "1900년 邦憲 王이 久邇宮 분가로 창건",
+          "戰前 황실 11 분가 중 하나"
+        ],
+        "current_reasons": [
+          "1947년 신적강하",
+          "章典 (1929–2024) — IBJ(日本興業銀行) 임원으로 활동",
+          "**2024년 自民党 안: 男系 미혼 남성 3명이 황실 養子 復帰 후보 1순위**"
+        ],
+        "valuation_usd_total": 80000000,
+        "person_max_birth": 2000
+      },
+      "display": {
+        "origin": [
+          {
+            "id": "kaya:kuninori",
+            "name": "賀陽宮邦憲王 (Kaya Kuninori)",
+            "birth": "1867-01-28",
+            "death": "1909-12-08",
+            "titles": [
+              "賀陽宮 창건 (1900)",
+              "久邇宮 朝彦親王의 차남"
+            ],
+            "children": [
+              "恒憲 (Tsunenori)",
+              "邦壽 (Kunihisa)"
+            ]
+          }
+        ],
+        "middle_summary": "1900년 邦憲 王이 久邇宮에서 분가. 2대 恒憲(1900–78)은 신적강하 후 학자 활동. 3대 章典(IBJ 임원) → 4·5대 男系 후예 3명이 미혼 청년으로 현재 황실 복귀 후보군.",
+        "recent": [
+          {
+            "id": "kaya:tsunenori",
+            "name": "賀陽恒憲 (Kaya Tsunenori)",
+            "birth": "1900-01-27",
+            "death": "1978-01-03",
+            "titles": [
+              "賀陽宮 2대",
+              "신적강하 후 학자 · 자영 활동"
+            ],
+            "children": [
+              "邦壽",
+              "治憲",
+              "章憲",
+              "文憲",
+              "宗憲"
+            ]
+          },
+          {
+            "id": "kaya:akinori",
+            "name": "賀陽章典 (Kaya Akinori)",
+            "birth": "1929",
+            "death": "2024",
+            "titles": [
+              "일본흥업은행(IBJ) 임원",
+              "賀陽 가문 3대 가주"
+            ],
+            "country": [
+              "JP"
+            ]
+          },
+          {
+            "id": "kaya:masanori",
+            "name": "賀陽正憲 (Kaya Masanori) 외 男系 후예 3명",
+            "birth": "1990s–2000s",
+            "titles": [
+              "미혼 男系 후예",
+              "2024 自民党 旧宮家 황실 養子 復帰 후보군 1순위"
+            ],
+            "country": [
+              "JP"
+            ]
+          }
+        ],
+        "head_card": {
+          "name": "賀陽家 男系 후예 (3명)",
+          "titles": [
+            "旧宮家",
+            "황실 男系 復帰 최우선 후보 가문"
+          ],
+          "country": [
+            "JP"
+          ],
+          "business": {
+            "count": 1,
+            "total_valuation_usd": 80000000,
+            "industries": [
+              "finance (legacy)",
+              "kyū-miyake legacy"
+            ],
+            "top": [
+              {
+                "name": "賀陽 가문 사적 자산 (구 일본흥업은행 임원 경력)",
+                "industry": "finance / private holdings",
+                "country_hq": [
+                  "JP"
+                ],
+                "valuation_usd": 80000000,
+                "control_type": "private-family"
+              }
+            ]
+          }
+        }
+      },
+      "relations": [
+        {
+          "with": "Imperial House of Japan (天皇家)",
+          "with_id": "Q186040",
+          "type": "blood",
+          "subtype": "imperial-cadet",
+          "year": 1947,
+          "active": true,
+          "summary": "근대 일본 황실 분가. 1947년 GHQ 개혁으로 신적강하되어 평민이 됐지만, 男系 혈통은 천황가와 동일."
+        },
+        {
+          "with": "東久邇家 (Higashikuni)",
+          "with_id": "royal-tree:overlay:higashikuni",
+          "type": "blood",
+          "subtype": "kyū-miyake-peer",
+          "year": 1947,
+          "active": false,
+          "summary": "1947년 GHQ 개혁으로 같이 신적강하된 旧宮家 11家 중 하나."
+        },
+        {
+          "with": "竹田家 (Takeda)",
+          "with_id": "royal-tree:overlay:takeda",
+          "type": "blood",
+          "subtype": "kyū-miyake-peer",
+          "year": 1947,
+          "active": false,
+          "summary": "1947년 GHQ 개혁으로 같이 신적강하된 旧宮家 11家 중 하나."
+        },
+        {
+          "with": "久邇家 (Kuni)",
+          "with_id": "royal-tree:overlay:kuni",
+          "type": "blood",
+          "subtype": "kyū-miyake-peer",
+          "year": 1947,
+          "active": false,
+          "summary": "1947년 GHQ 개혁으로 같이 신적강하된 旧宮家 11家 중 하나."
+        }
+      ],
+      "notes": "1900년 久邇宮에서 분가한 황실 곁가지. 1947년 신적강하 후 3대 章典은 IBJ 은행원으로 활동. 가장 주목받는 점은 2024년 自民党이 검토 중인 旧宮家 황실 復帰안 — 賀陽家에는 미혼 男系 남성 3명이 존재해 후보 1순위로 거론된다.",
+      "sources": [
+        "manual:overlay:kaya",
+        "wikipedia:ja:賀陽宮",
+        "news:2024:LDP-kyū-miyake-revival"
+      ]
+    },
+    {
+      "id": "royal-tree:overlay:takeda",
+      "names": {
+        "en": "Takeda branch (former imperial cadet)",
+        "ja": "竹田宮家",
+        "ko": "타케다 (旧宮家)",
+        "zh": "竹田宮"
+      },
+      "country": [
+        "JP"
+      ],
+      "category": "noble",
+      "status": "active",
+      "head_current": "竹田恒和 (Takeda Tsunekazu) · 竹田恒泰 (Takeda Tsuneyasu)",
+      "tier": {
+        "past": "S",
+        "current": "A",
+        "past_reasons": [
+          "1906년 메이지 천황의 6녀 昌子 内親王과 결혼한 恒久 王이 창건한 황실 분가"
+        ],
+        "current_reasons": [
+          "竹田恒和 (b.1947) — JOC(日本 올림픽 위원회) 회장 1991–2019, IOC 위원",
+          "竹田恒泰 (b.1975) — 헌법학자 · 우익 논객 · TV 인사, 男系 천황 보존론 대표",
+          "11 旧宮家 중 가장 미디어 노출 高, 황실 復帰 논의 핵심 옹호자"
+        ],
+        "valuation_usd_total": 150000000,
+        "person_max_birth": 1975
+      },
+      "display": {
+        "origin": [
+          {
+            "id": "tk:tsunehisa",
+            "name": "竹田宮恒久王 (Takeda Tsunehisa)",
+            "birth": "1882-09-22",
+            "death": "1919-04-23",
+            "titles": [
+              "竹田宮 창건 (1906)",
+              "北白川宮 能久親王의 장남"
+            ],
+            "spouses": [
+              "昌子 内親王 (메이지 천황의 6녀)"
+            ],
+            "children": [
+              "恒徳 (Tsuneyoshi)"
+            ]
+          }
+        ],
+        "middle_summary": "메이지 천황 6녀 昌子와 결혼한 恒久 王이 1906년 창건. 2대 恒徳은 戰前 육군 장교, 戰後 신적강하. 3대 恒和는 JOC·IOC, 4대 恒泰는 헌법학자·우익 논객으로 미디어 활동 大.",
+        "recent": [
+          {
+            "id": "tk:tsuneyoshi",
+            "name": "竹田恒徳 (Takeda Tsuneyoshi)",
+            "birth": "1909-03-04",
+            "death": "1992-05-11",
+            "titles": [
+              "竹田宮 2대 · 陸軍 大佐",
+              "1947 신적강하",
+              "戰後 競技體育 행정 · JOC 명예회장"
+            ],
+            "children": [
+              "恒正 (Tsunemasa)",
+              "恒治",
+              "恒和 (Tsunekazu)"
+            ]
+          },
+          {
+            "id": "tk:tsunekazu",
+            "name": "竹田恒和 (Takeda Tsunekazu)",
+            "birth": "1947-11-01",
+            "titles": [
+              "JOC(일본 올림픽위원회) 회장 1991–2019",
+              "IOC 위원 2012–2019",
+              "전 승마 국가대표 (1976 몬트리올 올림픽)"
+            ],
+            "children": [
+              "恒泰 (Tsuneyasu)",
+              "恒貴"
+            ],
+            "country": [
+              "JP"
+            ]
+          },
+          {
+            "id": "tk:tsuneyasu",
+            "name": "竹田恒泰 (Takeda Tsuneyasu)",
+            "birth": "1975-04-20",
+            "titles": [
+              "헌법학자 · 게이오대 비상근 강사",
+              "우익 논객 · TV 패널리스트",
+              "男系 천황 보존론 대표 주창자",
+              "여러 자민당 후보로 출마 시도"
+            ],
+            "country": [
+              "JP"
+            ]
+          }
+        ],
+        "head_card": {
+          "name": "竹田恒和 (JOC) · 竹田恒泰 (논객)",
+          "titles": [
+            "旧宮家",
+            "JOC·IOC",
+            "TV·정치 미디어 노출"
+          ],
+          "country": [
+            "JP"
+          ],
+          "business": {
+            "count": 2,
+            "total_valuation_usd": 150000000,
+            "industries": [
+              "sports administration",
+              "media",
+              "publishing"
+            ],
+            "top": [
+              {
+                "name": "JOC · IOC 위원 활동 (恒和)",
+                "industry": "sports administration",
+                "country_hq": [
+                  "JP"
+                ],
+                "valuation_usd": 80000000,
+                "control_type": "career-based"
+              },
+              {
+                "name": "竹田研究所 + 출판·강연 (恒泰)",
+                "industry": "media · publishing",
+                "country_hq": [
+                  "JP"
+                ],
+                "valuation_usd": 70000000,
+                "control_type": "private-business"
+              }
+            ]
+          }
+        }
+      },
+      "relations": [
+        {
+          "with": "Imperial House of Japan (天皇家)",
+          "with_id": "Q186040",
+          "type": "blood",
+          "subtype": "imperial-cadet",
+          "year": 1947,
+          "active": true,
+          "summary": "근대 일본 황실 분가. 1947년 GHQ 개혁으로 신적강하되어 평민이 됐지만, 男系 혈통은 천황가와 동일."
+        },
+        {
+          "with": "東久邇家 (Higashikuni)",
+          "with_id": "royal-tree:overlay:higashikuni",
+          "type": "blood",
+          "subtype": "kyū-miyake-peer",
+          "year": 1947,
+          "active": false,
+          "summary": "1947년 GHQ 개혁으로 같이 신적강하된 旧宮家 11家 중 하나."
+        },
+        {
+          "with": "賀陽家 (Kaya)",
+          "with_id": "royal-tree:overlay:kaya",
+          "type": "blood",
+          "subtype": "kyū-miyake-peer",
+          "year": 1947,
+          "active": false,
+          "summary": "1947년 GHQ 개혁으로 같이 신적강하된 旧宮家 11家 중 하나."
+        },
+        {
+          "with": "久邇家 (Kuni)",
+          "with_id": "royal-tree:overlay:kuni",
+          "type": "blood",
+          "subtype": "kyū-miyake-peer",
+          "year": 1947,
+          "active": false,
+          "summary": "1947년 GHQ 개혁으로 같이 신적강하된 旧宮家 11家 중 하나."
+        }
+      ],
+      "notes": "1906년 창건. 시조 恒久 王은 메이지 천황 사위. 11 旧宮家 중 미디어 노출이 가장 높은 가문 — 3대 恒和(JOC·IOC), 4대 恒泰(헌법학자·TV). 恒泰는 男系 천황 보존론의 대표 주창자로 旧宮家 황실 復帰 논의를 적극 옹호.",
+      "sources": [
+        "manual:overlay:takeda",
+        "wikipedia:ja:竹田宮",
+        "wikipedia:ja:竹田恒泰"
+      ]
+    },
+    {
+      "id": "royal-tree:overlay:kuni",
+      "names": {
+        "en": "Kuni branch (former imperial cadet)",
+        "ja": "久邇宮家",
+        "ko": "쿠니 (旧宮家) — 香淳皇后 본가",
+        "zh": "久邇宮"
+      },
+      "country": [
+        "JP"
+      ],
+      "category": "noble",
+      "status": "active",
+      "head_current": "久邇邦昭 (Kuni Kunihide, b.1929) — 元 伊勢神宮 大宮司",
+      "tier": {
+        "past": "S",
+        "current": "A",
+        "past_reasons": [
+          "1875년 朝彦親王이 창건한 황실 분가",
+          "賀陽宮·梨本宮·朝香宮·東久邇宮 등 5개 분가의 母家"
+        ],
+        "current_reasons": [
+          "**香淳皇后 (良子)의 본가** — 昭和 천황 황후·아키히토 上皇·나루히토 천황의 母系",
+          "久邇邦昭 (b.1929) — 伊勢神宮 大宮司(1991–2007) 역임 — 일본 神道 최고위직",
+          "후예 朝建 등 銀行界 활동"
+        ],
+        "valuation_usd_total": 120000000,
+        "person_max_birth": 1944
+      },
+      "display": {
+        "origin": [
+          {
+            "id": "kuni:asahiko",
+            "name": "久邇宮朝彦親王 (Kuni Asahiko)",
+            "birth": "1824-03-27",
+            "death": "1891-10-25",
+            "titles": [
+              "久邇宮 창건 (1875)",
+              "伏見宮 邦家親王의 4남",
+              "明治 維新기 정치 활동"
+            ],
+            "children": [
+              "賀陽宮邦憲王",
+              "梨本宮守正王",
+              "朝香宮鳩彦王",
+              "東久邇宮稔彦王",
+              "邦彦 王 (久邇 2대)"
+            ]
+          }
+        ],
+        "middle_summary": "朝彦親王은 5개 분가(賀陽·梨本·朝香·東久邇·久邇 본가)의 母家 시조 — 旧宮家 가운데 가장 영향력 큰 줄기. 2대 邦彦의 장녀 良子가 1924년 히로히토 황태자와 결혼해 香淳皇后가 됨. 戰後 신적강하 후 후예는 神道·금융 분야 활동.",
+        "recent": [
+          {
+            "id": "kuni:kuniyoshi",
+            "name": "久邇宮邦彦王 (Kuni Kuniyoshi)",
+            "birth": "1873-07-23",
+            "death": "1929-01-27",
+            "titles": [
+              "久邇宮 2대",
+              "陸軍 大將",
+              "딸 良子가 香淳皇后"
+            ],
+            "children": [
+              "朝融 (3대)",
+              "良子 (香淳皇后)",
+              "邦久"
+            ]
+          },
+          {
+            "id": "kuni:nagako",
+            "name": "良子 (Nagako) → 香淳皇后",
+            "birth": "1903-03-06",
+            "death": "2000-06-16",
+            "titles": [
+              "邦彦 王의 장녀",
+              "1924 히로히토 황태자와 결혼",
+              "昭和 천황 황후",
+              "아키히토 上皇·常陸宮 마사히토 친왕의 母"
+            ],
+            "spouses": [
+              "昭和 천황 (히로히토)"
+            ],
+            "children": [
+              "照宮成子内親王",
+              "孝宮和子内親王",
+              "順宮厚子内親王",
+              "明仁 親王 (現 上皇)",
+              "義宮正仁 親王 (常陸宮)",
+              "清宮貴子内親王"
+            ]
+          },
+          {
+            "id": "kuni:kunihide",
+            "name": "久邇邦昭 (Kuni Kunihide)",
+            "birth": "1929-03-25",
+            "titles": [
+              "久邇 4대 (3대 朝融의 장남)",
+              "**伊勢神宮 大宮司 (1991–2007)** — 神道 최고위 神官",
+              "신적강하 후 평민으로 神道계 활동"
+            ],
+            "country": [
+              "JP"
+            ]
+          },
+          {
+            "id": "kuni:asaakira",
+            "name": "久邇朝建 (Kuni Asaakira)",
+            "birth": "1944",
+            "titles": [
+              "邦昭의 동생",
+              "前 도쿄증권거래소 임원",
+              "금융계 활동"
+            ],
+            "country": [
+              "JP"
+            ]
+          }
+        ],
+        "head_card": {
+          "name": "久邇邦昭 (Kuni Kunihide)",
+          "titles": [
+            "旧宮家 4대",
+            "元 伊勢神宮 大宮司",
+            "香淳皇后의 조카"
+          ],
+          "country": [
+            "JP"
+          ],
+          "business": {
+            "count": 2,
+            "total_valuation_usd": 120000000,
+            "industries": [
+              "shinto religious authority",
+              "finance"
+            ],
+            "top": [
+              {
+                "name": "伊勢神宮 大宮司직 (邦昭, 1991–2007)",
+                "industry": "shinto religious authority",
+                "country_hq": [
+                  "JP"
+                ],
+                "valuation_usd": 0,
+                "control_type": "religious-office"
+              },
+              {
+                "name": "久邇 가문 사적 자산 (금융계 경력)",
+                "industry": "finance / private",
+                "country_hq": [
+                  "JP"
+                ],
+                "valuation_usd": 120000000,
+                "control_type": "private-family"
+              }
+            ]
+          }
+        }
+      },
+      "spouses_lineage": [
+        {
+          "name": "良子 (香淳皇后, Empress Kōjun)",
+          "family_of_origin": "imperial-japan",
+          "family_name": "Imperial House of Japan (黃室)",
+          "summary": "久邇宮 2대 邦彦 王의 장녀. 1924년 히로히토 황태자와 결혼해 香淳皇后가 됨. 아키히토 上皇·常陸宮 마사히토 친왕의 어머니. 久邇家와 천황가를 잇는 핵심 다리."
+        }
+      ],
+      "relations": [
+        {
+          "with": "Imperial House of Japan (天皇家)",
+          "with_id": "Q186040",
+          "type": "blood",
+          "subtype": "imperial-cadet",
+          "year": 1947,
+          "active": true,
+          "summary": "근대 일본 황실 분가. 1947년 GHQ 개혁으로 신적강하되어 평민이 됐지만, 男系 혈통은 천황가와 동일."
+        },
+        {
+          "with": "東久邇家 (Higashikuni)",
+          "with_id": "royal-tree:overlay:higashikuni",
+          "type": "blood",
+          "subtype": "kyū-miyake-peer",
+          "year": 1947,
+          "active": false,
+          "summary": "1947년 GHQ 개혁으로 같이 신적강하된 旧宮家 11家 중 하나."
+        },
+        {
+          "with": "賀陽家 (Kaya)",
+          "with_id": "royal-tree:overlay:kaya",
+          "type": "blood",
+          "subtype": "kyū-miyake-peer",
+          "year": 1947,
+          "active": false,
+          "summary": "1947년 GHQ 개혁으로 같이 신적강하된 旧宮家 11家 중 하나."
+        },
+        {
+          "with": "竹田家 (Takeda)",
+          "with_id": "royal-tree:overlay:takeda",
+          "type": "blood",
+          "subtype": "kyū-miyake-peer",
+          "year": 1947,
+          "active": false,
+          "summary": "1947년 GHQ 개혁으로 같이 신적강하된 旧宮家 11家 중 하나."
+        }
+      ],
+      "notes": "1875년 창건. 朝彦親王을 시조로 賀陽·梨本·朝香·東久邇 등 5개 분가의 母家. 戰前 황실 분가 중 가장 큰 줄기였으며, 2대 邦彦의 장녀 良子가 香淳皇后로서 昭和 천황과 결혼해 현 황실의 모계 혈맥. 4대 邦昭는 伊勢神宮 大宮司로 神道 최고위직을 역임 — 일본 종교 권위의 핵심.",
+      "sources": [
+        "manual:overlay:kuni",
+        "wikipedia:ja:久邇宮",
+        "wikipedia:ja:久邇宮朝彦親王",
+        "wikipedia:ja:香淳皇后"
+      ]
+    },
+    {
+      "id": "royal-tree:manual:trump-family-donald-trump",
+      "names": {
+        "en": "Trump family (Donald Trump)",
+        "ko": "트럼프 가문",
+        "de": "Familie Trump (Drumpf)"
+      },
+      "country": [
+        "US",
+        "DE",
+        "GB-SCT"
+      ],
+      "category": "business",
+      "status": "active",
+      "head_current": "Donald J. Trump (b.1946) — 45 · 47대 미국 대통령",
+      "tier": {
+        "past": "C",
+        "current": "S",
+        "past_reasons": [
+          "1885년 독일 Kallstadt(팔츠) 이민 조부 Friedrich Drumpf — 평민",
+          "부친 Fred Trump가 뉴욕 부동산으로 자본 형성 ($300M 유산)"
+        ],
+        "current_reasons": [
+          "Donald J. Trump이 45·47대 미국 대통령",
+          "Trump Organization · Truth Social · 골프 리조트 (Turnberry, Aberdeen, Doral 등)",
+          "가족 합산 추정 자산 $6–8B (Forbes 2025)",
+          "2026 Daily Mail 계보 조사: King Charles III와 15촌"
+        ],
+        "valuation_usd_total": 7500000000,
+        "person_max_birth": 2014
+      },
+      "display": {
+        "origin": [
+          {
+            "id": "trump:friedrich",
+            "name": "Friedrich Drumpf → Frederick Trump",
+            "birth": "1869-03-14",
+            "death": "1918-05-30",
+            "titles": [
+              "독일 팔츠 Kallstadt 출신",
+              "1885 미국 이민 (16세)",
+              "캐나다 골드러시기 호텔·식당업으로 부 축적"
+            ],
+            "spouses": [
+              "Elisabeth Christ"
+            ],
+            "children": [
+              "Fred Trump",
+              "Elizabeth Trump",
+              "John G. Trump (MIT 교수)"
+            ]
+          }
+        ],
+        "middle_summary": "독일계 조부 Friedrich가 1885년 16세에 NY로 이민 → 부친 Fred Trump가 뉴욕 부동산으로 자본 형성 → Donald 대에 글로벌 부동산·미디어·정치로 확장. 모친 Mary Anne MacLeod(1912–2000, 스코틀랜드 헤브리디스 출신)와의 결합이 가문에 게일·노르웨이 혈맥을 더함.",
+        "recent": [
+          {
+            "id": "trump:fred",
+            "name": "Fred Trump",
+            "birth": "1905-10-11",
+            "death": "1999-06-25",
+            "titles": [
+              "뉴욕 부동산 개발업자",
+              "Trump Organization 창업"
+            ],
+            "spouses": [
+              "Mary Anne MacLeod (1912–2000, 스코틀랜드 Isle of Lewis 출생)"
+            ],
+            "children": [
+              "Maryanne Trump Barry",
+              "Fred Trump Jr.",
+              "Elizabeth Trump Grau",
+              "Donald J. Trump",
+              "Robert Trump"
+            ]
+          },
+          {
+            "id": "trump:donald",
+            "name": "Donald J. Trump",
+            "birth": "1946-06-14",
+            "titles": [
+              "45·47대 미국 대통령 (2017–21, 2025–)",
+              "Trump Organization 회장",
+              "추정 자산 $5B (Forbes 2025)"
+            ],
+            "spouses": [
+              "Ivana Zelníčková (체코, 이혼)",
+              "Marla Maples (이혼)",
+              "Melania Knauss (슬로베니아, 현 부인)"
+            ],
+            "children": [
+              "Donald Jr. (b.1977)",
+              "Ivanka (b.1981, 前 백악관 고문)",
+              "Eric (b.1984, Trump Org. 운영)",
+              "Tiffany (b.1993)",
+              "Barron (b.2006)"
+            ],
+            "country": [
+              "US"
+            ]
+          },
+          {
+            "id": "trump:ivanka",
+            "name": "Ivanka Trump",
+            "birth": "1981-10-30",
+            "titles": [
+              "前 백악관 고문(2017–21)",
+              "前 패션 브랜드",
+              "기업가"
+            ],
+            "spouses": [
+              "Jared Kushner"
+            ],
+            "children": [
+              "Arabella (b.2011)",
+              "Joseph (b.2013)",
+              "Theodore (b.2016)"
+            ],
+            "country": [
+              "US"
+            ]
+          }
+        ],
+        "head_card": {
+          "name": "Donald J. Trump",
+          "birth": "1946-06-14",
+          "titles": [
+            "45·47대 美 대통령",
+            "Trump Organization 회장"
+          ],
+          "spouses": [
+            "Melania Knauss"
+          ],
+          "children": [
+            "Donald Jr.",
+            "Ivanka",
+            "Eric",
+            "Tiffany",
+            "Barron"
+          ],
+          "country": [
+            "US"
+          ],
+          "business": {
+            "count": 5,
+            "total_valuation_usd": 7500000000,
+            "industries": [
+              "real estate",
+              "media",
+              "hospitality",
+              "golf resorts",
+              "political"
+            ],
+            "top": [
+              {
+                "name": "Trump Organization (부동산 지주)",
+                "industry": "real estate",
+                "country_hq": [
+                  "US"
+                ],
+                "valuation_usd": 4000000000,
+                "control_type": "founding-family"
+              },
+              {
+                "name": "Truth Social (Trump Media & Tech Group)",
+                "industry": "media · social platform",
+                "country_hq": [
+                  "US"
+                ],
+                "valuation_usd": 2000000000,
+                "control_type": "founder-controlled"
+              },
+              {
+                "name": "Trump Turnberry (스코틀랜드)",
+                "industry": "golf resort",
+                "country_hq": [
+                  "GB-SCT"
+                ],
+                "valuation_usd": 600000000,
+                "control_type": "family-owned"
+              },
+              {
+                "name": "Trump International Golf Links — Aberdeen (Mary Anne MacLeod 코스 2025 개장)",
+                "industry": "golf resort",
+                "country_hq": [
+                  "GB-SCT"
+                ],
+                "valuation_usd": 500000000,
+                "control_type": "family-owned"
+              },
+              {
+                "name": "Mar-a-Lago + Doral 등 美 골프·리조트",
+                "industry": "hospitality",
+                "country_hq": [
+                  "US"
+                ],
+                "valuation_usd": 400000000,
+                "control_type": "family-owned"
+              }
+            ]
+          }
+        }
+      },
+      "spouses_lineage": [
+        {
+          "name": "Mary Anne MacLeod (메리 앤 매클라우드, 트럼프 모친)",
+          "family_of_origin": "macleod-of-lewis",
+          "family_name": "Clan MacLeod of Lewis (스코틀랜드 헤브리디스)",
+          "summary": "1912.5.10 스코틀랜드 Outer Hebrides의 Isle of Lewis, Tong 마을 5번지 出生. 어부·소농 Malcolm MacLeod와 Mary Smith의 10남매 막내. 1930년 5월 18세에 NY 이민(가정부로 시작), 1936 Fred Trump와 결혼, 1942 美 시민권 취득. 2000.8.7 別世. **Donald Trump의 스코틀랜드 혈맥 입구**."
+        },
+        {
+          "name": "Melania Knauss (현 부인)",
+          "family_of_origin": "knavs-slovenia",
+          "family_name": "Knavs 가문 (슬로베니아)",
+          "summary": "前 모델, 슬로베니아 출신. 2005년 결혼 후 2006년 美 시민권."
+        },
+        {
+          "name": "Ivana Zelníčková (1대 부인)",
+          "family_of_origin": "zelnickova-czech",
+          "family_name": "Zelníček 가문 (체코)",
+          "summary": "前 스키 선수·모델, 1977 결혼, 1992 이혼. Donald Jr.·Ivanka·Eric의 母."
+        }
+      ],
+      "relations": [
+        {
+          "with": "Clan MacLeod (모친 본가)",
+          "with_id": "Q1094977",
+          "type": "marriage",
+          "subtype": "trump-maternal-line",
+          "year": 1936,
+          "active": true,
+          "summary": "Fred Trump이 1936년 스코틀랜드 헤브리디스 Isle of Lewis 출신 Mary Anne MacLeod와 결혼 → Trump 가문의 스코틀랜드 게일·노르웨이 혈맥 입구. Mary Anne의 부친 Malcolm MacLeod는 Clan MacLeod of Lewis(Siol Torquil 분파)의 일원, 모친 Mary Smith의 외가는 MacAulay 가문."
+        },
+        {
+          "with": "House of Windsor (영국 왕가)",
+          "with_id": "Q81589",
+          "type": "blood",
+          "subtype": "distant-cousin-via-stewart",
+          "year": 2026,
+          "active": true,
+          "summary": "**2026.4.30 Daily Mail 계보 조사: Donald Trump과 Charles 3세는 15촌**. 공통 조상은 16세기 스코틀랜드 귀족 **John Stewart, 3rd Earl of Lennox** (James II of Scotland의 증손). Lennox의 손자 Lord Darnley가 Mary Queen of Scots와 결혼해 그 아들이 잉글랜드 James 1세 → 현 Windsor. Trump 측은 Mary Anne MacLeod 모계로 Lennox 후예의 게일계 분파에 닿음. 트럼프는 Truth Social에 \"Buckingham Palace에 살아보고 싶었다 ㅋ\"로 반응."
+        }
+      ],
+      "notes": "**부계는 독일계** (Friedrich Drumpf, 1885 Kallstadt 이민), **모계는 스코틀랜드 헤브리디스 Clan MacLeod** (Mary Anne MacLeod, 1912 Isle of Lewis 출생). 2025년 7월 Trump이 대통령 자격으로 스코틀랜드 방문, 어머니의 故鄕에 새 골프 코스를 **Mary Anne MacLeod 코스**로 명명하며 Aberdeen에서 개장. 2026년 4월 Daily Mail 계보 조사에서 Charles 3세와 15촌(공통 조상: 3rd Earl of Lennox)으로 확인 — 실질적 의미는 medieval 영국·스코틀랜드 혈통 미국인 다수가 공유하는 수준이지만 화제성으로는 큰 사건.",
+      "sources": [
+        "manual:overlay:trump",
+        "wikipedia:en:Trump_family",
+        "wikipedia:en:Mary_Anne_MacLeod_Trump",
+        "wikipedia:en:John_Stewart,_3rd_Earl_of_Lennox",
+        "news:daily-mail:2026-04-30:trump-king-charles-15th-cousin",
+        "news:abcnews:2025-07-25:trump-scotland-visit-aberdeen",
+        "news:ibtimes:2026:trump-jokes-royal-ties"
+      ]
+    },
+    {
+      "id": "royal-tree:overlay:lee-singapore-lky",
+      "names": {
+        "en": "Lee family (Lee Kuan Yew, Singapore)",
+        "ko": "리콴유 가문 (싱가포르)",
+        "zh": "李光耀家族"
+      },
+      "country": [
+        "SG"
+      ],
+      "category": "political",
+      "status": "active",
+      "head_current": "Lee Hsien Loong (전 총리 2004–2024, 현 上級상),  Lawrence Wong이 후계 (가문 외)",
+      "tier": {
+        "past": "B",
+        "current": "A",
+        "past_reasons": [
+          "Lee Kuan Yew(1923–2015) — 1959 자치 총리, 1965 독립 후 31년간 총리(1990 사임)"
+        ],
+        "current_reasons": [
+          "장남 Lee Hsien Loong (b.1952) — 총리 2004–2024.5, 현 Senior Minister",
+          "차남 Lee Hsien Yang (b.1957) — 사업가, 형과 Oxley Road 38번지 父家 처분 분쟁 후 英 망명",
+          "딸 Lee Wei Ling (1955–2024) — 신경학자",
+          "Singapore GDP 1인당 세계 4위 — LKY 가문이 30년 통치 + 16년 장남 통치"
+        ],
+        "valuation_usd_total": 250000000,
+        "person_max_birth": 1989
+      },
+      "display": {
+        "origin": [
+          {
+            "id": "lee:lky",
+            "name": "Lee Kuan Yew (李光耀, 리콴유)",
+            "birth": "1923-09-16",
+            "death": "2015-03-23",
+            "titles": [
+              "싱가포르 인민행동당(PAP) 창건 (1954)",
+              "초대 총리 1959–1990 (31년)",
+              "1965 말레이연방에서 독립",
+              "Senior Minister 1990–2004, Minister Mentor 2004–2011"
+            ],
+            "spouses": [
+              "Kwa Geok Choo (柯玉芝, 1920–2010)"
+            ],
+            "children": [
+              "Lee Hsien Loong (李顯龍)",
+              "Lee Wei Ling (李瑋玲)",
+              "Lee Hsien Yang (李顯揚)"
+            ]
+          }
+        ],
+        "middle_summary": "李 가문은 客家계. LKY는 캠브리지 法대 출신 변호사로 1950년대 反식민·反공산 정치인으로 부상. 1965년 분리독립 후 권위주의적 개발국가 모델로 싱가포르를 1세대만에 1인당 GDP 세계 톱 도시국가로 끌어올림. 2024년 5월 장남 退陣 후 가문 정치 권력의 직접 세습은 종료, 그러나 영향력은 지속.",
+        "recent": [
+          {
+            "id": "lee:hsienloong",
+            "name": "Lee Hsien Loong (李顯龍, 리셴룽)",
+            "birth": "1952-02-10",
+            "titles": [
+              "싱가포르 총리 2004.8.12 – 2024.5.15 (20년)",
+              "현 Senior Minister (2024.5– )",
+              "前 부총리·재무·통상장관",
+              "Cambridge Math 1등 졸업"
+            ],
+            "spouses": [
+              "何晶 (Ho Ching, Temasek Holdings 전 CEO 2002–2021)",
+              "黃名揚 (Wong Ming Yang, 1982 사별)"
+            ],
+            "children": [
+              "Li Xiuqi (1985)",
+              "Li Hongyi (1987)",
+              "Li Haoyi (1989)",
+              "Li Yipeng"
+            ],
+            "country": [
+              "SG"
+            ]
+          },
+          {
+            "id": "lee:hsienyang",
+            "name": "Lee Hsien Yang (李顯揚, 리셴양)",
+            "birth": "1957-09-15",
+            "titles": [
+              "前 SingTel CEO 1995–2007, Fraser & Neave 회장",
+              "2017 父家 Oxley Road 38 처분 분쟁으로 형과 단절",
+              "2022 영국 망명, 2023 영국 정치적 망명자 신분",
+              "2024 싱가포르 대선 출마 시도"
+            ],
+            "spouses": [
+              "Lee Suet Fern (변호사)"
+            ],
+            "children": [
+              "Li Shengwu (1985, 하버드 경제학 교수)",
+              "Li Huanwu (1986)",
+              "Li Shaowu (1995)"
+            ],
+            "country": [
+              "SG",
+              "GB"
+            ]
+          },
+          {
+            "id": "lee:hoching",
+            "name": "Ho Ching (何晶) — 李顯龍의 부인",
+            "birth": "1953-03-27",
+            "titles": [
+              "Temasek Holdings CEO 2002–2021",
+              "운용자산 ~$300B (싱가포르 국부펀드)",
+              "Forbes 가장 영향력 있는 여성 30위권 단골"
+            ],
+            "country": [
+              "SG"
+            ]
+          }
+        ],
+        "head_card": {
+          "name": "Lee 家 (LKY 가문)",
+          "titles": [
+            "싱가포르 정치왕조 1965–2024",
+            "현재 Senior Minister 직위만 유지"
+          ],
+          "spouses": [],
+          "children": [],
+          "country": [
+            "SG"
+          ],
+          "business": {
+            "count": 2,
+            "total_valuation_usd": 250000000,
+            "industries": [
+              "정치 왕조",
+              "国父펀드(Temasek) 부인 운영"
+            ],
+            "top": [
+              {
+                "name": "Temasek Holdings (Ho Ching 운영 2002–2021)",
+                "industry": "sovereign wealth fund",
+                "country_hq": [
+                  "SG"
+                ],
+                "valuation_usd": 0,
+                "control_type": "spouse-run"
+              },
+              {
+                "name": "Lee 가문 사적 자산",
+                "industry": "private",
+                "country_hq": [
+                  "SG"
+                ],
+                "valuation_usd": 250000000,
+                "control_type": "private-family"
+              }
+            ]
+          }
+        }
+      },
+      "spouses_lineage": [],
+      "relations": [],
+      "notes": "싱가포르 정치왕조. LKY는 31년, 장남은 20년 총리 — 합쳐 51년간 가문 통치. 2024.5 가문 외 후계(Lawrence Wong)에 권력 이양, 그러나 영향력은 잔존. 차남 Lee Hsien Yang은 형과 결별 후 영국 망명 — 父家 처분 분쟁이 가문 균열의 핵심.",
+      "sources": [
+        "manual:overlay:lee-sg",
+        "wikipedia:en:Lee_Kuan_Yew",
+        "wikipedia:en:Lee_Hsien_Loong"
+      ]
+    },
+    {
+      "id": "royal-tree:overlay:hun-cambodia",
+      "names": {
+        "en": "Hun family (Hun Sen → Hun Manet, Cambodia)",
+        "ko": "훈센 가문 (캄보디아)",
+        "km": "ហ៊ុន"
+      },
+      "country": [
+        "KH"
+      ],
+      "category": "political",
+      "status": "active",
+      "head_current": "Hun Manet (b.1977) — 캄보디아 총리 2023.8.22 –",
+      "tier": {
+        "past": "C",
+        "current": "S",
+        "past_reasons": [
+          "Hun Sen (b.1952) — 1985년 이래 총리, 세계 최장수 정부 수반(38년)"
+        ],
+        "current_reasons": [
+          "장남 Hun Manet (b.1977, 美 West Point 졸업) — 2023.8 총리 세습",
+          "차남 Hun Manith (b.1981) — 국방부 정보국장 (정보 책임자)",
+          "삼남 Hun Many (b.1982) — 국회의원, 청년부 장관",
+          "가문 합산 자산 추정 $200M–1B (Pandora Papers: 키프로스 시민권 + 역외 자산)"
+        ],
+        "valuation_usd_total": 600000000,
+        "person_max_birth": 1990
+      },
+      "display": {
+        "origin": [
+          {
+            "id": "hun:sen",
+            "name": "Hun Sen (ហ៊ុន សែន, 훈센)",
+            "birth": "1952-08-05",
+            "titles": [
+              "캄보디아 총리 1985.1.14 – 2023.8.22 (38년 233일 — 세계 최장수)",
+              "2018 야당 CNRP 강제 해산 후 一黨 통치",
+              "前 크메르 루주 중대장(1970년대), 베트남 도주 후 親베트남 정권으로 복귀",
+              "現 캄보디아 인민당(CPP) 명예의장"
+            ],
+            "spouses": [
+              "Bun Rany (1953– , 캄보디아 적십자 회장)"
+            ],
+            "children": [
+              "Hun Manet (1977)",
+              "Hun Mana (딸)",
+              "Hun Manith (1981)",
+              "Hun Many (1982)",
+              "Hun Mali (딸)"
+            ]
+          }
+        ],
+        "middle_summary": "훈센은 베트남 점령기(1979–1989) 親베트남 정권의 외교부 장관으로 시작해 1985년 총리가 됨. 1991 파리평화협정 → 1993 UN 감독 선거에서 패배했으나 권력 분점 → 1997 쿠데타로 단독 통치 → 38년 집권. 2023.8 장남에게 형식적 정권 이양, 사실상 가문 통치 계속.",
+        "recent": [
+          {
+            "id": "hun:manet",
+            "name": "Hun Manet (ហ៊ុន ម៉ាណែត, 훈마넷)",
+            "birth": "1977-10-20",
+            "titles": [
+              "캄보디아 총리 (2023.8.22 –)",
+              "前 캄보디아 육군 부총사령관(2018–2023), 총사령관(2023)",
+              "미국 West Point 사관학교 졸업 (1999)",
+              "뉴욕대 경제학 석사 (Tisch School), 브리스톨대 박사"
+            ],
+            "spouses": [
+              "Pich Chanmony (피크 찬모니)"
+            ],
+            "children": [
+              "Hun Sothearith (2007)",
+              "Hun Sopheaktra (2008)",
+              "Hun Sothirath (2014)"
+            ],
+            "country": [
+              "KH"
+            ]
+          },
+          {
+            "id": "hun:manith",
+            "name": "Hun Manith (훈마니트)",
+            "birth": "1981-10-17",
+            "titles": [
+              "국방부 정보총국장 (군 정보 책임자)",
+              "前 副 정보국장",
+              "캄보디아 인민당 중앙위원회"
+            ],
+            "country": [
+              "KH"
+            ]
+          },
+          {
+            "id": "hun:many",
+            "name": "Hun Many (훈마니)",
+            "birth": "1982-10-20",
+            "titles": [
+              "現 국회의원, 부총리·공무원부 장관",
+              "캄보디아 청년연맹(UYFC) 위원장",
+              "미국 GWU·하버드 행정학"
+            ],
+            "country": [
+              "KH"
+            ]
+          }
+        ],
+        "head_card": {
+          "name": "Hun Manet (훈마넷)",
+          "birth": "1977-10-20",
+          "titles": [
+            "캄보디아 총리(2023.8– )",
+            "美 West Point 출신"
+          ],
+          "spouses": [
+            "Pich Chanmony"
+          ],
+          "children": [
+            "Hun Sothearith",
+            "Hun Sopheaktra",
+            "Hun Sothirath"
+          ],
+          "country": [
+            "KH"
+          ],
+          "business": {
+            "count": 1,
+            "total_valuation_usd": 600000000,
+            "industries": [
+              "정치 권력 + 가족 사기업 (군·통신·부동산)"
+            ],
+            "top": [
+              {
+                "name": "Hun 가문 사적 자산 (역외 + 국내 사업체 네트워크)",
+                "industry": "diversified · politically-connected",
+                "country_hq": [
+                  "KH"
+                ],
+                "valuation_usd": 600000000,
+                "control_type": "ruling-family"
+              }
+            ]
+          }
+        }
+      },
+      "spouses_lineage": [],
+      "relations": [],
+      "notes": "아시아 최장수 정치왕조 중 하나. Hun Sen은 38년 총리로 세계 최장수, 2023년 8월 장남 Manet에게 형식적 권력 이양했으나 부친은 上院 의장 + CPP 명예의장으로 실권 유지. 차남 Manith(군 정보), 삼남 Many(국회·청년부)가 군·정치를 분장 — 완벽한 가문 세습 체제. Pandora Papers·OCCRP 등이 가문의 키프로스 시민권·역외 자산을 보도.",
+      "sources": [
+        "manual:overlay:hun",
+        "wikipedia:en:Hun_Sen",
+        "wikipedia:en:Hun_Manet",
+        "pandora-papers:2021",
+        "occrp:2022:hun"
+      ]
+    },
+    {
+      "id": "royal-tree:overlay:marcos-philippines",
+      "names": {
+        "en": "Marcos family (Philippines)",
+        "ko": "마르코스 가문 (필리핀)",
+        "tl": "Pamilya Marcos"
+      },
+      "country": [
+        "PH"
+      ],
+      "category": "political",
+      "status": "active",
+      "head_current": "Bongbong Marcos Jr. (b.1957) — 17대 필리핀 대통령 2022.6.30 –",
+      "tier": {
+        "past": "S",
+        "current": "S",
+        "past_reasons": [
+          "Ferdinand Marcos Sr. (1917–1989) — 10대 대통령 1965–1986, 21년 통치 (1972–81 계엄통치)",
+          "Imelda Marcos (b.1929) — 영부인, 3,000켤레 신발·5,000톤 보석·런던/뉴욕 부동산 — 권력형 사치의 상징",
+          "이 가문이 약탈한 자산 추정 $5–10B (Marcos plunder)"
+        ],
+        "current_reasons": [
+          "Bongbong Marcos Jr. (b.1957) — 2022.5 대선 압승으로 36년만에 가문 복권",
+          "Sara Duterte와 '統一티켓'으로 당선 (Duterte 부녀와 연합)",
+          "여동생 Imee Marcos — 상원의원",
+          "아들 Sandro Marcos — 하원의원 (4세대 정계)"
+        ],
+        "valuation_usd_total": 1500000000,
+        "person_max_birth": 1994
+      },
+      "display": {
+        "origin": [
+          {
+            "id": "marcos:ferdinand",
+            "name": "Ferdinand E. Marcos Sr.",
+            "birth": "1917-09-11",
+            "death": "1989-09-28",
+            "titles": [
+              "10대 필리핀 대통령 1965–1986",
+              "1972–1981 계엄령 통치",
+              "1986 People Power 혁명으로 망명 (하와이)",
+              "사후 약탈자산 회수 위원회(PCGG) 추적 中"
+            ],
+            "spouses": [
+              "Imelda Romualdez Marcos (1929– )"
+            ],
+            "children": [
+              "Imee Marcos (1955)",
+              "Ferdinand 'Bongbong' Marcos Jr. (1957)",
+              "Irene Marcos (1960)"
+            ]
+          }
+        ],
+        "middle_summary": "Ferdinand는 1965년 대통령 당선 후 1972년 계엄령으로 절대권력 장악. 가족은 약탈정치(kleptocracy)의 상징 — 부인 Imelda는 사치 행위로 'shoes of Imelda'(3,000켤레)가 대명사. 1986 People Power 혁명 후 가문은 하와이로 망명, 1989 Ferdinand 사망. 그러나 1991 Imelda 귀국, 2001 Bongbong 상원 진입 → 2016 부통령 출마(낙선) → **2022.5 대선 압승으로 36년 만에 대통령직 가문 복권**.",
+        "recent": [
+          {
+            "id": "marcos:bongbong",
+            "name": "Ferdinand 'Bongbong' Marcos Jr.",
+            "birth": "1957-09-13",
+            "titles": [
+              "17대 필리핀 대통령 (2022.6.30 –)",
+              "前 상원의원 2010–2016",
+              "前 일로코스 노르테 주지사",
+              "옥스포드 정치학 (학위 논란 中)"
+            ],
+            "spouses": [
+              "Liza Araneta-Marcos (변호사)"
+            ],
+            "children": [
+              "Sandro Marcos (1994)",
+              "Simon Marcos (1996)",
+              "Vincent Marcos (1997)"
+            ],
+            "country": [
+              "PH"
+            ]
+          },
+          {
+            "id": "marcos:imelda",
+            "name": "Imelda Marcos",
+            "birth": "1929-07-02",
+            "titles": [
+              "前 영부인 1965–1986",
+              "前 메트로마닐라 주지사",
+              "前 하원의원 1995–1998, 2010–2019",
+              "약탈자산·뇌물·횡령 多건 유죄 (大半 사면)"
+            ],
+            "country": [
+              "PH"
+            ]
+          },
+          {
+            "id": "marcos:imee",
+            "name": "Imee Marcos",
+            "birth": "1955-11-12",
+            "titles": [
+              "現 상원의원 (2019– )",
+              "前 일로코스 노르테 주지사 2010–2019"
+            ],
+            "country": [
+              "PH"
+            ]
+          },
+          {
+            "id": "marcos:sandro",
+            "name": "Sandro Marcos",
+            "birth": "1994-04-12",
+            "titles": [
+              "現 하원의원 — 일로코스 노르테 1구 (2022– )",
+              "4세대 정계 진입"
+            ],
+            "country": [
+              "PH"
+            ]
+          }
+        ],
+        "head_card": {
+          "name": "Bongbong Marcos Jr.",
+          "birth": "1957-09-13",
+          "titles": [
+            "17대 필리핀 대통령(2022.6– )",
+            "1986 망명 후 36년 만의 가문 복권"
+          ],
+          "spouses": [
+            "Liza Araneta-Marcos"
+          ],
+          "children": [
+            "Sandro Marcos",
+            "Simon Marcos",
+            "Vincent Marcos"
+          ],
+          "country": [
+            "PH"
+          ],
+          "business": {
+            "count": 1,
+            "total_valuation_usd": 1500000000,
+            "industries": [
+              "정치 왕조",
+              "약탈자산 (대부분 회수 中)"
+            ],
+            "top": [
+              {
+                "name": "Marcos 가문 잔존 자산 (회수 미완 약탈재산 + 합법 자산)",
+                "industry": "political-legacy + private",
+                "country_hq": [
+                  "PH"
+                ],
+                "valuation_usd": 1500000000,
+                "control_type": "ruling-family"
+              }
+            ]
+          }
+        }
+      },
+      "spouses_lineage": [],
+      "relations": [
+        {
+          "with": "Duterte family (필리핀 부통령 가문)",
+          "with_id": "royal-tree:manual:duterte-family",
+          "type": "marriage",
+          "subtype": "uniteam-alliance",
+          "year": 2022,
+          "active": true,
+          "summary": "2022 대선 '統一팀(UniTeam)' 연합으로 Marcos(대통령) + Sara Duterte(부통령) 동반 당선. 2024년 연합 균열, 2025 양측 공개 분쟁 中."
+        }
+      ],
+      "notes": "필리핀 최대 정치왕조. 1986 망명 → 36년 후 2022 가문 복권 — 정치 왕조의 '회복력' 표본. 약탈자산 추정 $5–10B 중 일부만 회수, 가문은 여전히 부유. Sara Duterte와 2022 연합 → 2024 분쟁 → 2025년 Sara Duterte 탄핵 시도 中.",
+      "sources": [
+        "manual:overlay:marcos",
+        "wikipedia:en:Marcos_family"
+      ]
+    },
+    {
+      "id": "royal-tree:manual:duterte-family",
+      "names": {
+        "en": "Duterte family (Philippines)",
+        "ko": "두테르테 가문 (필리핀)"
+      },
+      "country": [
+        "PH"
+      ],
+      "category": "political",
+      "status": "active",
+      "head_current": "Sara Duterte (b.1978) — 14대 필리핀 부통령 2022.6.30 –",
+      "tier": {
+        "past": "B",
+        "current": "A",
+        "past_reasons": [
+          "Rodrigo Duterte (b.1945) — 16대 대통령 2016–2022, 두테르테 마약전쟁(extrajudicial killings) ICC 기소 中",
+          "다바오시 시장 22년 (1988–2010, 2013–2016) 가문 본거지"
+        ],
+        "current_reasons": [
+          "Sara Duterte-Carpio (b.1978) — 부통령 2022.6 –, Marcos와 연합으로 당선 후 분쟁",
+          "Paolo Duterte (b.1975) — 하원의원",
+          "Sebastian 'Baste' Duterte (b.1987) — 다바오 시장 (3代 시장직 세습)",
+          "2025년 Sara 부통령 탄핵 절차 시작 — 가문 vs Marcos 가문 대결"
+        ],
+        "valuation_usd_total": 800000000,
+        "person_max_birth": 1987
+      },
+      "display": {
+        "origin": [
+          {
+            "id": "duterte:rodrigo",
+            "name": "Rodrigo Roa Duterte",
+            "birth": "1945-03-28",
+            "titles": [
+              "16대 필리핀 대통령 2016.6.30 – 2022.6.30",
+              "다바오 시장 1988–1998, 2001–2010, 2013–2016",
+              "마약전쟁 — 사망자 추정 6,000–30,000명",
+              "**2025.3 ICC 체포·국제형사재판소 헤이그 송환** (반인도범죄 기소)"
+            ],
+            "spouses": [
+              "Elizabeth Zimmerman (이혼)",
+              "Honeylet Avanceña (동거)"
+            ],
+            "children": [
+              "Paolo Duterte (1975)",
+              "Sara Duterte-Carpio (1978)",
+              "Sebastian 'Baste' Duterte (1987)",
+              "Veronica Duterte (2003, with Honeylet)"
+            ]
+          }
+        ],
+        "middle_summary": "다바오 가문. Rodrigo가 다바오 시장 22년 → 2016 대통령 → 6년 단임 후 가문에 정치 권력 이양. 2025.3 ICC 체포는 가문 위기. 그러나 Sara가 부통령으로 권력 유지, 막내 Sebastian이 다바오 시장 세습.",
+        "recent": [
+          {
+            "id": "duterte:sara",
+            "name": "Sara Duterte-Carpio",
+            "birth": "1978-05-31",
+            "titles": [
+              "14대 필리핀 부통령 (2022.6.30 –)",
+              "교육부 장관 2022–2024 (사임)",
+              "前 다바오 시장 2010–2013, 2016–2022",
+              "2025년 하원에서 탄핵소추 가결 — 상원 심판 대기"
+            ],
+            "spouses": [
+              "Manases Carpio (변호사)"
+            ],
+            "children": [
+              "Sharky Carpio",
+              "Stingray Carpio",
+              "Marlin Carpio (쌍둥이)"
+            ],
+            "country": [
+              "PH"
+            ]
+          },
+          {
+            "id": "duterte:sebastian",
+            "name": "Sebastian 'Baste' Duterte",
+            "birth": "1987-11-28",
+            "titles": [
+              "다바오 시장 (2022 –) — 3代 가문 시장직"
+            ],
+            "country": [
+              "PH"
+            ]
+          }
+        ],
+        "head_card": {
+          "name": "Sara Duterte (부통령)",
+          "birth": "1978-05-31",
+          "titles": [
+            "필리핀 부통령",
+            "Marcos 가문과 2022 연합 후 2024–25 분쟁"
+          ],
+          "country": [
+            "PH"
+          ],
+          "business": {
+            "count": 1,
+            "total_valuation_usd": 800000000,
+            "industries": [
+              "정치 왕조",
+              "다바오 지역 사업·인맥"
+            ],
+            "top": [
+              {
+                "name": "Duterte 가문 자산 (다바오 부동산·정치 네트워크)",
+                "industry": "political-legacy",
+                "country_hq": [
+                  "PH"
+                ],
+                "valuation_usd": 800000000,
+                "control_type": "ruling-family"
+              }
+            ]
+          }
+        }
+      },
+      "spouses_lineage": [],
+      "relations": [
+        {
+          "with": "Marcos family",
+          "with_id": "royal-tree:overlay:marcos-philippines",
+          "type": "marriage",
+          "subtype": "uniteam-alliance-broken",
+          "year": 2025,
+          "active": true,
+          "summary": "2022 UniTeam 연합으로 대통령(Marcos)+부통령(Duterte) 당선. 2024 분쟁 시작, 2025.3 Rodrigo Duterte ICC 송환 후 가문 vs 가문 전면전. 2025년 Sara 탄핵소추."
+        }
+      ],
+      "notes": "다바오 정치왕조. 2025년 Rodrigo의 ICC 송환은 가문 사상 최대 위기 — 그러나 Sara가 부통령직으로 권력 잔존. Marcos 가문과의 연합 → 분쟁이 현 필리핀 정치의 핵심 축.",
+      "sources": [
+        "manual:overlay:duterte",
+        "wikipedia:en:Duterte_family",
+        "icc:2025-03-11:duterte-arrest"
+      ]
+    },
+    {
+      "id": "royal-tree:overlay:aquino-philippines",
+      "names": {
+        "en": "Aquino family (Philippines)",
+        "ko": "아키노 가문 (필리핀)",
+        "tl": "Pamilya Aquino"
+      },
+      "country": [
+        "PH"
+      ],
+      "category": "political",
+      "status": "active",
+      "head_current": "Bam Aquino (b.1977) — 前 상원의원, 가문 정치 계승자",
+      "tier": {
+        "past": "S",
+        "current": "C",
+        "past_reasons": [
+          "Benigno Aquino Sr. (1894–1947) — 일본 점령기 국회의장",
+          "Ninoy Aquino (1932–1983, 차남 Benigno Jr.) — 야당 지도자, 1983년 마닐라 공항 암살로 People Power 혁명 촉발",
+          "Corazon 'Cory' Aquino (1933–2009) — Ninoy 부인, 11대 대통령 1986–1992, 民主화 상징",
+          "Noynoy Aquino (1960–2021, Cory 아들) — 15대 대통령 2010–2016"
+        ],
+        "current_reasons": [
+          "현역은 사촌 등 분가 — 정치 영향력 잔존하나 가문 직계 권력 단절",
+          "2022 대선에서 Leni Robredo(Cory 사위 가문 후예)가 Marcos에 패배 → 정치적 회복 미완"
+        ],
+        "valuation_usd_total": 100000000,
+        "person_max_birth": 1977
+      },
+      "display": {
+        "origin": [
+          {
+            "id": "aquino:ninoy",
+            "name": "Ninoy Aquino (Benigno S. Aquino Jr.)",
+            "birth": "1932-11-27",
+            "death": "1983-08-21",
+            "titles": [
+              "前 상원의원",
+              "1972 계엄령 직후 마르코스에 체포·7년간 옥살이",
+              "1980 미국 망명, 1983.8.21 귀국 직후 마닐라 공항에서 암살",
+              "1986 People Power 혁명의 殉殉자"
+            ],
+            "spouses": [
+              "Corazon 'Cory' Aquino (1933–2009)"
+            ],
+            "children": [
+              "Maria Elena 'Ballsy'",
+              "Aurora 'Pinky'",
+              "Noynoy Aquino (1960)",
+              "Viel",
+              "Kris Aquino (1971, 배우·미디어)"
+            ]
+          }
+        ],
+        "middle_summary": "Aquino-Cojuangco는 필리핀 民主主義의 상징 가문. Ninoy 암살 → Cory 대통령 → Noynoy 대통령으로 2代 대통령. Marcos 가문의 대척점. 2010년대 후반 정치적 영향력 쇠퇴, 2022 Marcos 부활로 가문 재기 좌절. 막내 Kris Aquino는 필리핀 최고 인기 TV 진행자.",
+        "recent": [
+          {
+            "id": "aquino:cory",
+            "name": "Corazon 'Cory' Aquino",
+            "birth": "1933-01-25",
+            "death": "2009-08-01",
+            "titles": [
+              "11대 필리핀 대통령 1986.2.25 – 1992.6.30",
+              "1986 People Power 혁명으로 마르코스 축출",
+              "亞洲 첫 여성 대통령",
+              "TIME 1986 올해의 인물"
+            ]
+          },
+          {
+            "id": "aquino:noynoy",
+            "name": "Benigno 'Noynoy' Aquino III",
+            "birth": "1960-02-08",
+            "death": "2021-06-24",
+            "titles": [
+              "15대 필리핀 대통령 2010.6.30 – 2016.6.30",
+              "2016 남중국해 PCA 仲裁 승소 (中에 대한 외교 승리)",
+              "前 상원의원"
+            ]
+          },
+          {
+            "id": "aquino:kris",
+            "name": "Kris Aquino",
+            "birth": "1971-02-14",
+            "titles": [
+              "배우·TV 진행자 — '필리핀의 Queen of All Media'"
+            ],
+            "country": [
+              "PH"
+            ]
+          }
+        ],
+        "head_card": {
+          "name": "Aquino 가문 후예 (직계 권력 단절)",
+          "titles": [
+            "2代 대통령 가문 (Cory + Noynoy)",
+            "Marcos의 정치적 대척점"
+          ],
+          "country": [
+            "PH"
+          ],
+          "business": {
+            "count": 1,
+            "total_valuation_usd": 100000000,
+            "industries": [
+              "정치 유산",
+              "Hacienda Luisita (사탕수수 대농장)"
+            ],
+            "top": [
+              {
+                "name": "Hacienda Luisita (사탕수수 6,500 헥타르, Cojuangco-Aquino 분쟁 中)",
+                "industry": "agriculture · sugar",
+                "country_hq": [
+                  "PH"
+                ],
+                "valuation_usd": 100000000,
+                "control_type": "extended-family"
+              }
+            ]
+          }
+        }
+      },
+      "spouses_lineage": [],
+      "relations": [
+        {
+          "with": "Marcos family",
+          "with_id": "royal-tree:overlay:marcos-philippines",
+          "type": "succession",
+          "subtype": "political-rival",
+          "year": 1986,
+          "active": true,
+          "summary": "1986 People Power 혁명으로 Cory Aquino가 Marcos 축출. 그 후 35년간 정치적 대척점. 2022 Marcos Jr 대통령 당선으로 Aquino 가문은 직계 권력 단절."
+        }
+      ],
+      "notes": "필리핀 民主주의 상징 가문. Ninoy 암살(1983)·Cory 혁명(1986)·Noynoy 대통령(2010) → 2010년대 후반 가문 영향력 급격 쇠퇴, 2022 Marcos 부활로 정치적 회복 좌절.",
+      "sources": [
+        "manual:overlay:aquino",
+        "wikipedia:en:Aquino_family"
+      ]
+    },
+    {
+      "id": "royal-tree:manual:shinawatra-family-thaksin-shinawatra",
+      "names": {
+        "en": "Shinawatra family (Thailand)",
+        "ko": "친나왓 가문 (태국)",
+        "th": "ตระกูลชินวัตร"
+      },
+      "country": [
+        "TH"
+      ],
+      "category": "political",
+      "status": "active",
+      "head_current": "Paetongtarn Shinawatra (b.1986) — 31대 태국 총리 2024.8 – 2025.8 (탄핵)",
+      "tier": {
+        "past": "C",
+        "current": "S",
+        "past_reasons": [
+          "Thaksin Shinawatra (b.1949) — Shin Corp(이동통신)으로 자산 형성, 2001 총리",
+          "2006 軍 쿠데타로 축출, 15년 망명",
+          "여동생 Yingluck (b.1967) — 28대 총리 2011–2014, 다시 쿠데타로 축출",
+          "Shin Corp을 2006년 Temasek(싱가포르 국부펀드)에 $1.9B 매각"
+        ],
+        "current_reasons": [
+          "딸 Paetongtarn (b.1986) — 31대 총리 2024.8.16 – 2025.8.29",
+          "2025.6 캄보디아 훈센과의 통화 누설 → 헌법재판소 2025.8 탄핵·해임",
+          "Thaksin 2023.8 귀국 (15년 망명 종료) — 가족 정치 부활",
+          "추정 자산 $2.5B (Forbes 2024)"
+        ],
+        "valuation_usd_total": 2500000000,
+        "person_max_birth": 1986
+      },
+      "display": {
+        "origin": [
+          {
+            "id": "shin:thaksin",
+            "name": "Thaksin Shinawatra (ทักษิณ ชินวัตร, 탁신)",
+            "birth": "1949-07-26",
+            "titles": [
+              "23대 태국 총리 2001.2 – 2006.9 (쿠데타로 축출)",
+              "Shin Corp 창업 (이동통신·위성)",
+              "2006 가족이 Shin Corp을 Temasek(SG)에 ฿73B ($1.9B) 매각 → 정치 위기 촉발",
+              "前 警官, 警官生涯 후 통신 사업",
+              "2023.8 15년 망명 종료·귀국"
+            ],
+            "spouses": [
+              "Potjaman Damapong (1976 결혼, 2008 이혼)"
+            ],
+            "children": [
+              "Panthongtae 'Oak' Shinawatra (1979)",
+              "Pintongta 'Aim'",
+              "Paetongtarn 'Ung-Ing' Shinawatra (1986)"
+            ]
+          }
+        ],
+        "middle_summary": "치앙마이 客家계 상인 가문 출신. Thaksin이 1990년대 Shin Corp으로 자산 형성 후 2001 총리. 2006 쿠데타로 망명. 여동생 Yingluck(2011)·딸 Paetongtarn(2024)이 차례로 총리 — 三代 총리 가문이나 全員 임기 중 축출.",
+        "recent": [
+          {
+            "id": "shin:yingluck",
+            "name": "Yingluck Shinawatra (ยิ่งลักษณ์)",
+            "birth": "1967-06-21",
+            "titles": [
+              "28대 태국 총리 2011.8 – 2014.5 (쿠데타로 축출)",
+              "首位 여성 태국 총리",
+              "2017 망명 (쌀 보조금 비리 혐의)"
+            ]
+          },
+          {
+            "id": "shin:paetongtarn",
+            "name": "Paetongtarn Shinawatra (แพทองธาร, 패통탄)",
+            "birth": "1986-08-21",
+            "titles": [
+              "31대 태국 총리 2024.8.16 – 2025.8.29 (헌재 해임)",
+              "Phue Thai당 대표 2023.10 –",
+              "Thaksin 막내딸 — 38세 최연소 태국 총리",
+              "2025.6 캄보디아 Hun Sen과의 통화 녹음 누설 → 도덕성 위반으로 헌재 탄핵·해임"
+            ],
+            "spouses": [
+              "Pidok 'Peter' Sooksawas"
+            ],
+            "children": [
+              "Thasin",
+              "Thidaphan"
+            ],
+            "country": [
+              "TH"
+            ]
+          }
+        ],
+        "head_card": {
+          "name": "Thaksin · Yingluck · Paetongtarn (三代 총리)",
+          "titles": [
+            "태국 최대 정치 왕조",
+            "全員 임기 중 축출"
+          ],
+          "country": [
+            "TH"
+          ],
+          "business": {
+            "count": 2,
+            "total_valuation_usd": 2500000000,
+            "industries": [
+              "telecom (Shin Corp 매각 2006)",
+              "real estate",
+              "private equity"
+            ],
+            "top": [
+              {
+                "name": "Shin Corp 매각 잔여 자산 (2006 Temasek $1.9B)",
+                "industry": "telecom legacy",
+                "country_hq": [
+                  "TH"
+                ],
+                "valuation_usd": 1500000000,
+                "control_type": "private-family"
+              },
+              {
+                "name": "Rende Development + 부동산·금융 자산",
+                "industry": "real estate",
+                "country_hq": [
+                  "TH"
+                ],
+                "valuation_usd": 1000000000,
+                "control_type": "family-controlled"
+              }
+            ]
+          }
+        }
+      },
+      "spouses_lineage": [],
+      "relations": [
+        {
+          "with": "Hun family (Cambodia)",
+          "with_id": "royal-tree:overlay:hun-cambodia",
+          "type": "marriage",
+          "subtype": "personal-friendship",
+          "year": 2025,
+          "active": true,
+          "summary": "Thaksin과 Hun Sen은 20년 우정 관계. 2025.6 Paetongtarn이 Hun Sen에게 국경 분쟁 관련 사적 통화 → 누설로 친나왓 총리 해임의 직접 원인."
+        }
+      ],
+      "notes": "태국 최대 정치왕조. Thaksin → Yingluck → Paetongtarn 三代 총리이나 全員 軍 쿠데타·헌재 해임으로 임기 중 강제 종료. 2025.8 헌재의 Paetongtarn 해임으로 가문의 3차 정권 종료. Thaksin은 2023.8 귀국으로 가문 정치 부활 시도 中이나 사법 리스크 잔존.",
+      "sources": [
+        "manual:overlay:shinawatra",
+        "wikipedia:en:Shinawatra_family",
+        "news:2025-08-29:paetongtarn-removed"
+      ]
+    },
+    {
+      "id": "royal-tree:manual:suharto-family",
+      "names": {
+        "en": "Suharto family (Indonesia)",
+        "ko": "수하르토 가문 (인도네시아)",
+        "id": "Keluarga Soeharto"
+      },
+      "country": [
+        "ID"
+      ],
+      "category": "political",
+      "status": "active",
+      "head_current": "Tutut Suharto (b.1949), Tommy Suharto (b.1962) — 2代 정·재계 활동",
+      "tier": {
+        "past": "S",
+        "current": "B",
+        "past_reasons": [
+          "Suharto (1921–2008) — 32년 독재(1967–1998), 1998 IMF 위기로 失脚"
+        ],
+        "current_reasons": [
+          "Tommy Suharto (b.1962) — 사업가, 2002 판사 살해 의뢰 유죄 (10년 → 4년만에 가석방)",
+          "Tutut Suharto (b.1949, 장녀) — TPI 미디어 그룹",
+          "Bambang Trihatmodjo (b.1953) — Bimantara 그룹",
+          "Titiek Suharto — 정치인, 2019 골카르당 출마",
+          "가문 부패자산 추정 $15–35B (Transparency International)"
+        ],
+        "valuation_usd_total": 5000000000,
+        "person_max_birth": 1990
+      },
+      "display": {
+        "origin": [
+          {
+            "id": "suh:suharto",
+            "name": "Suharto (수하르토)",
+            "birth": "1921-06-08",
+            "death": "2008-01-27",
+            "titles": [
+              "2대 인도네시아 대통령 1967.3 – 1998.5.21 (31년)",
+              "1965–66 共産당 학살(50–100만명)로 권력 장악",
+              "1998 IMF 외환위기·자카르타 폭동으로 失脚",
+              "Transparency International 추정 약탈자산 $15–35B — 20세기 1위"
+            ],
+            "spouses": [
+              "Siti Hartinah 'Tien' (1923–1996)"
+            ],
+            "children": [
+              "Tutut (1949)",
+              "Sigit (1951)",
+              "Bambang (1953)",
+              "Titiek (1959)",
+              "Tommy (1962)",
+              "Mamiek (1964)"
+            ]
+          }
+        ],
+        "middle_summary": "자바 농민 출신, 1965 軍 사령관으로 共産당 학살 → 32년 절대권력. 가족 全員이 대규모 사업체 보유 — 통신·은행·항만·산림 등 독점 사업권. 1998 IMF 위기로 失脚, 사망 후 가족 재산 회수 거의 안 됨.",
+        "recent": [
+          {
+            "id": "suh:tommy",
+            "name": "Tommy Suharto (Hutomo Mandala Putra)",
+            "birth": "1962-07-15",
+            "titles": [
+              "사업가 — Humpuss 그룹",
+              "2002 대법원 판사 살해 의뢰 유죄 (10년형 → 2006 가석방)",
+              "2009 Berkarya당 창당",
+              "F1 페라리·자동차 사업 多"
+            ],
+            "country": [
+              "ID"
+            ]
+          },
+          {
+            "id": "suh:tutut",
+            "name": "Tutut Suharto (Siti Hardijanti Rukmana)",
+            "birth": "1949-01-23",
+            "titles": [
+              "前 사회복지부 장관 1998",
+              "TPI 방송 그룹 + 高速도로·통신 사업",
+              "Marsel Capital 회장"
+            ],
+            "country": [
+              "ID"
+            ]
+          },
+          {
+            "id": "suh:titiek",
+            "name": "Titiek Suharto",
+            "birth": "1959-04-14",
+            "titles": [
+              "前 Prabowo Subianto 부인 (1983–98 결혼)",
+              "골카르당 정치인",
+              "2024 인도네시아 부통령 후보 거론(Prabowo의 2024 대통령 당선)"
+            ]
+          }
+        ],
+        "head_card": {
+          "name": "Suharto 6남매 (2代)",
+          "titles": [
+            "20세기 최대 약탈정권 후예",
+            "$15–35B 추정 약탈자산"
+          ],
+          "country": [
+            "ID"
+          ],
+          "business": {
+            "count": 2,
+            "total_valuation_usd": 5000000000,
+            "industries": [
+              "diversified",
+              "media",
+              "private equity"
+            ],
+            "top": [
+              {
+                "name": "Suharto 가문 잔존 자산 (사업체 + 부동산)",
+                "industry": "diversified",
+                "country_hq": [
+                  "ID"
+                ],
+                "valuation_usd": 5000000000,
+                "control_type": "ruling-family-legacy"
+              }
+            ]
+          }
+        }
+      },
+      "spouses_lineage": [],
+      "relations": [],
+      "notes": "20세기 최대 약탈정권 가문. Transparency International이 Suharto를 20세기 약탈자산 1위로 선정. 2024년 Prabowo Subianto(Titiek Suharto의 전남편)가 인도네시아 대통령에 당선되며 가문 영향력 부분 복권.",
+      "sources": [
+        "manual:overlay:suharto",
+        "wikipedia:en:Suharto_family",
+        "transparency-international:2004"
+      ]
+    },
+    {
+      "id": "royal-tree:overlay:widodo-indonesia",
+      "names": {
+        "en": "Widodo family (Jokowi, Indonesia)",
+        "ko": "조코위 가문 (인도네시아)",
+        "id": "Keluarga Joko Widodo"
+      },
+      "country": [
+        "ID"
+      ],
+      "category": "political",
+      "status": "active",
+      "head_current": "Gibran Rakabuming Raka (b.1987) — 인도네시아 부통령 2024.10 –",
+      "tier": {
+        "past": "C",
+        "current": "S",
+        "past_reasons": [
+          "Joko 'Jokowi' Widodo (b.1961) — 7대 인도네시아 대통령 2014–2024, 평민(가구 사업자) 출신"
+        ],
+        "current_reasons": [
+          "장남 Gibran Rakabuming Raka (b.1987) — **2024.10 부통령** (Prabowo 정권)",
+          "차남 Kaesang Pangarep (b.1994) — 인도네시아 연대당(PSI) 대표 2023 –",
+          "사위 Bobby Nasution — 메단 시장 2021 –",
+          "딸 Kahiyang Ayu — 정치인 부인",
+          "**평민 → 1세대 만에 인도네시아 정치 왕조 형성** — 비판자들은 '亞洲의 새 Marcos'로 평가"
+        ],
+        "valuation_usd_total": 150000000,
+        "person_max_birth": 1994
+      },
+      "display": {
+        "origin": [
+          {
+            "id": "wid:jokowi",
+            "name": "Joko 'Jokowi' Widodo (조코위)",
+            "birth": "1961-06-21",
+            "titles": [
+              "7대 인도네시아 대통령 2014.10.20 – 2024.10.20",
+              "前 자카르타 주지사 2012–2014",
+              "前 솔로(Surakarta) 시장 2005–2012",
+              "前 가구 수출업자 — 평민 출신 첫 대통령"
+            ],
+            "spouses": [
+              "Iriana Widodo (1963–)"
+            ],
+            "children": [
+              "Gibran Rakabuming Raka (1987)",
+              "Kahiyang Ayu (1991)",
+              "Kaesang Pangarep (1994)"
+            ]
+          }
+        ],
+        "middle_summary": "평민 가구 사업자에서 시장 → 주지사 → 대통령. 임기 중 자녀를 대거 정계 진출시켜 '가족 왕조화'로 비판. 2024.10 임기 종료 직전 아들 Gibran을 부통령으로 만들고 정권을 Prabowo Subianto(국방장관 출신)에게 이양 — 사실상 후견 정치 구조 구축.",
+        "recent": [
+          {
+            "id": "wid:gibran",
+            "name": "Gibran Rakabuming Raka",
+            "birth": "1987-10-01",
+            "titles": [
+              "인도네시아 부통령 (2024.10.20 –)",
+              "前 솔로 시장 2021–2024",
+              "前 케이터링 사업자",
+              "**36세 — 인도네시아 최연소 부통령**"
+            ],
+            "spouses": [
+              "Selvi Ananda (2014 미스 솔로)"
+            ],
+            "children": [
+              "Jan Ethes Srinarendra (2016)",
+              "La Lembah Manah (2019)",
+              "Panembahan Al Nahyan Nasution (2023)"
+            ],
+            "country": [
+              "ID"
+            ]
+          },
+          {
+            "id": "wid:kaesang",
+            "name": "Kaesang Pangarep",
+            "birth": "1994-12-25",
+            "titles": [
+              "인도네시아 연대당(PSI) 대표 2023.9 –",
+              "**입당 2일만에 대표직 — 정치 王朝化의 상징**",
+              "사업가 (Sang Pisang, 케이터링)"
+            ],
+            "country": [
+              "ID"
+            ]
+          },
+          {
+            "id": "wid:bobby",
+            "name": "Bobby Nasution (사위)",
+            "birth": "1991-07-05",
+            "titles": [
+              "메단(Medan) 시장 2021.2 – 2024 (12.5월 임기)",
+              "Kahiyang Ayu의 남편"
+            ],
+            "country": [
+              "ID"
+            ]
+          }
+        ],
+        "head_card": {
+          "name": "Widodo 가문 (1세대 정치 왕조)",
+          "titles": [
+            "7대 대통령 + 부통령(아들) + 사위(시장) + 차남(당대표)"
+          ],
+          "country": [
+            "ID"
+          ],
+          "business": {
+            "count": 1,
+            "total_valuation_usd": 150000000,
+            "industries": [
+              "가구 (창업)",
+              "케이터링",
+              "정치 권력"
+            ],
+            "top": [
+              {
+                "name": "Widodo 가문 사업·자산",
+                "industry": "private",
+                "country_hq": [
+                  "ID"
+                ],
+                "valuation_usd": 150000000,
+                "control_type": "family"
+              }
+            ]
+          }
+        }
+      },
+      "spouses_lineage": [],
+      "relations": [],
+      "notes": "평민 → 1세대 정치 왕조. Jokowi의 임기 마지막 2년간 헌법재판소 판결로 아들 Gibran의 부통령 출마 연령 제한을 우회 → 2024.10 부통령 당선. 차남 Kaesang은 입당 2일만에 PSI 당대표 — 인도네시아 民主주의의 가족화에 대한 우려.",
+      "sources": [
+        "manual:overlay:widodo",
+        "wikipedia:en:Joko_Widodo",
+        "news:2024-10:gibran-vice-president"
+      ]
+    },
+    {
+      "id": "royal-tree:overlay:vingroup-vuong",
+      "names": {
+        "en": "Vuong family (Vingroup, Vietnam)",
+        "ko": "팜녓브엉 가문 (베트남)",
+        "vi": "Phạm Nhật Vượng"
+      },
+      "country": [
+        "VN"
+      ],
+      "category": "business",
+      "status": "active",
+      "head_current": "Phạm Nhật Vượng (b.1968) — Vingroup 회장",
+      "tier": {
+        "past": "D",
+        "current": "A",
+        "past_reasons": [
+          "1990년대 우크라이나에서 라면(Mivina) 사업으로 첫 수익",
+          "2000 베트남 귀국 후 Vinpearl로 호텔 진출"
+        ],
+        "current_reasons": [
+          "베트남 첫 빌리어네어 (2013 Forbes 등재)",
+          "**Forbes 2024: $8.4B — 동남아 최대 베트남 부호**",
+          "Vingroup이 베트남 GDP의 2–3% 점유 (부동산·자동차·교육·헬스·소매)",
+          "VinFast 美 나스닥 상장 (2023.8, 한때 시총 $200B)"
+        ],
+        "valuation_usd_total": 8400000000,
+        "person_max_birth": 1968
+      },
+      "display": {
+        "origin": [
+          {
+            "id": "vin:vuong",
+            "name": "Phạm Nhật Vượng (팜녓브엉)",
+            "birth": "1968-08-05",
+            "titles": [
+              "Vingroup JSC 회장",
+              "베트남 첫 빌리어네어",
+              "Forbes 2024 $8.4B (베트남 1위)",
+              "前 모스크바 지질학 박사과정"
+            ],
+            "spouses": [
+              "Phạm Thu Hương (b.1969, Vincom 부회장)"
+            ],
+            "children": [
+              "Phạm Nhật Quân Anh (1993, Vingroup 임원)",
+              "Phạm Nhật Minh Anh (1996, Vingroup 임원)",
+              "Phạm Nhật Minh Hoàng (2000)"
+            ]
+          }
+        ],
+        "middle_summary": "우크라이나 모스크바 지질학 박사과정 중 1990년대 라면 사업(Technocom — 우크라이나 라면 점유율 1위)으로 첫 자본 형성, 2009 Nestlé에 $150M 매각. 2000년 베트남 귀국 후 Vinpearl(호텔)·Vincom(부동산)·VinFast(자동차)·Vinmec(병원)·Vinhomes(주택) 帝國 구축.",
+        "recent": [
+          {
+            "id": "vin:hoang",
+            "name": "Phạm Nhật Minh Hoàng (장남)",
+            "birth": "2000",
+            "titles": [
+              "Vingroup 차세대 후계",
+              "스위스 유학 후 가업 합류"
+            ],
+            "country": [
+              "VN"
+            ]
+          },
+          {
+            "id": "vin:thu-huong",
+            "name": "Phạm Thu Hương (부인)",
+            "birth": "1969",
+            "titles": [
+              "Vincom 부회장",
+              "베트남 여성 부호 1위"
+            ],
+            "country": [
+              "VN"
+            ]
+          }
+        ],
+        "head_card": {
+          "name": "Phạm Nhật Vượng (팜녓브엉)",
+          "birth": "1968-08-05",
+          "titles": [
+            "Vingroup 회장",
+            "베트남 1위 부호 $8.4B"
+          ],
+          "spouses": [
+            "Phạm Thu Hương"
+          ],
+          "children": [
+            "Quân Anh",
+            "Minh Anh",
+            "Minh Hoàng"
+          ],
+          "country": [
+            "VN"
+          ],
+          "business": {
+            "count": 4,
+            "total_valuation_usd": 8400000000,
+            "industries": [
+              "real estate",
+              "automotive (EV)",
+              "retail",
+              "hospitality",
+              "healthcare",
+              "education"
+            ],
+            "top": [
+              {
+                "name": "Vingroup (지주회사)",
+                "industry": "conglomerate",
+                "country_hq": [
+                  "VN"
+                ],
+                "valuation_usd": 4000000000,
+                "control_type": "founding-family"
+              },
+              {
+                "name": "VinFast (전기차, 美 나스닥 상장 2023.8)",
+                "industry": "automotive · EV",
+                "country_hq": [
+                  "VN"
+                ],
+                "valuation_usd": 3000000000,
+                "control_type": "controlling-stake"
+              },
+              {
+                "name": "Vinhomes (주택)",
+                "industry": "real estate",
+                "country_hq": [
+                  "VN"
+                ],
+                "valuation_usd": 800000000,
+                "control_type": "family-controlled"
+              },
+              {
+                "name": "Vinpearl + Vinmec + Vinschool",
+                "industry": "hospitality · health · education",
+                "country_hq": [
+                  "VN"
+                ],
+                "valuation_usd": 600000000,
+                "control_type": "family"
+              }
+            ]
+          }
+        }
+      },
+      "spouses_lineage": [],
+      "relations": [],
+      "notes": "베트남 첫·최대 빌리어네어. 우크라이나 라면 사업 → 베트남 부동산·자동차 帝國. VinFast가 미국 시장 진입(2023.8 나스닥) — 베트남 첫 글로벌 EV 브랜드 시도. 자녀 3명 모두 사업 합류.",
+      "sources": [
+        "manual:overlay:vingroup",
+        "wikipedia:en:Pham_Nhat_Vuong",
+        "forbes:2024:vietnam-billionaires"
+      ]
+    },
+    {
+      "id": "royal-tree:overlay:salim-indonesia",
+      "names": {
+        "en": "Salim family (Indofood, Indonesia)",
+        "ko": "살림 가문 (인도네시아)",
+        "id": "Keluarga Salim",
+        "zh": "林紹良家族"
+      },
+      "country": [
+        "ID"
+      ],
+      "category": "business",
+      "status": "active",
+      "head_current": "Anthoni Salim (b.1949) — Salim Group 회장, Forbes 2024 $10.5B",
+      "tier": {
+        "past": "B",
+        "current": "S",
+        "past_reasons": [
+          "부친 Liem Sioe Liong (1916–2012) — 福建계 인도네시아 이민, Suharto의 친구로 1960–80년대 부 축적"
+        ],
+        "current_reasons": [
+          "장남 Anthoni Salim (b.1949) — 1998 IMF 위기로 부친의 BCA·BHCC 등 매각·구조조정 후 사업 재건",
+          "**Forbes 2024 $10.5B — 인도네시아 1위 부호 (Hartono 형제와 경쟁)**",
+          "Indofood (Indomie 라면) — 세계 라면 시장 #2",
+          "First Pacific(홍콩 상장) 지주 — 필리핀 PLDT, 인니 광산 多"
+        ],
+        "valuation_usd_total": 10500000000,
+        "person_max_birth": 1979
+      },
+      "display": {
+        "origin": [
+          {
+            "id": "sal:liem",
+            "name": "Liem Sioe Liong (林紹良)",
+            "birth": "1916-09-16",
+            "death": "2012-06-10",
+            "titles": [
+              "福建성 福清에서 1938 인도네시아 이민",
+              "Suharto의 1940년대 育英학교 친구",
+              "Suharto 정권기 BCA은행·시멘트·식품 등 사업 독점",
+              "1998 IMF 위기로 BCA 매각, 가족 망명·재건"
+            ],
+            "spouses": [
+              "Lie Las Nio"
+            ],
+            "children": [
+              "Albert Halim Salim",
+              "Andrée Halim",
+              "Mira Salim",
+              "Anthoni Salim (1949)"
+            ]
+          }
+        ],
+        "middle_summary": "Suharto 정권의 대표 客家계 chaebol. 1998 IMF 위기로 가족 망명 → 장남 Anthoni가 First Pacific(홍콩)·Indofood로 재건 → 2010년대 부활 → 2020년대 인도네시아 1위 부호.",
+        "recent": [
+          {
+            "id": "sal:anthoni",
+            "name": "Anthoni Salim (林逢生)",
+            "birth": "1949-10-25",
+            "titles": [
+              "Salim Group 회장",
+              "First Pacific Co. (HK 상장) 회장",
+              "Indofood (인도네시아 식품 1위) 회장",
+              "Forbes 2024 $10.5B — ID #1"
+            ],
+            "spouses": [
+              "Lina Halim"
+            ],
+            "children": [
+              "Axton Salim (1973)",
+              "Astrid Salim",
+              "Anderson Salim"
+            ],
+            "country": [
+              "ID",
+              "SG",
+              "HK"
+            ]
+          },
+          {
+            "id": "sal:axton",
+            "name": "Axton Salim",
+            "birth": "1973",
+            "titles": [
+              "Indofood 임원 (3대 후계자)",
+              "Indofood Sukses Makmur 임원"
+            ],
+            "country": [
+              "ID"
+            ]
+          }
+        ],
+        "head_card": {
+          "name": "Anthoni Salim",
+          "birth": "1949-10-25",
+          "titles": [
+            "Salim Group 회장",
+            "ID 1위 부호 $10.5B"
+          ],
+          "children": [
+            "Axton Salim",
+            "Astrid Salim",
+            "Anderson Salim"
+          ],
+          "country": [
+            "ID"
+          ],
+          "business": {
+            "count": 4,
+            "total_valuation_usd": 10500000000,
+            "industries": [
+              "food (Indomie)",
+              "telecom (PLDT)",
+              "infrastructure",
+              "energy"
+            ],
+            "top": [
+              {
+                "name": "Indofood Sukses Makmur (Indomie 라면)",
+                "industry": "food",
+                "country_hq": [
+                  "ID"
+                ],
+                "valuation_usd": 5000000000,
+                "control_type": "controlling-stake"
+              },
+              {
+                "name": "First Pacific Co. (HK 상장 지주)",
+                "industry": "investment holding",
+                "country_hq": [
+                  "HK"
+                ],
+                "valuation_usd": 3500000000,
+                "control_type": "controlling-stake"
+              },
+              {
+                "name": "PLDT (필리핀 통신, First Pacific 통해)",
+                "industry": "telecom",
+                "country_hq": [
+                  "PH"
+                ],
+                "valuation_usd": 1500000000,
+                "control_type": "controlling-via-FPC"
+              },
+              {
+                "name": "MPI (Metro Pacific Investments)",
+                "industry": "infrastructure",
+                "country_hq": [
+                  "PH"
+                ],
+                "valuation_usd": 500000000,
+                "control_type": "via-FPC"
+              }
+            ]
+          }
+        }
+      },
+      "spouses_lineage": [],
+      "relations": [],
+      "notes": "Suharto 정권의 대표 客家계 chaebol. 1998 IMF 위기 → 2대 Anthoni가 First Pacific으로 재건 → 2024 인도네시아 1위 부호. Indomie 라면이 세계 인스턴트 라면 시장 2위, 필리핀 PLDT까지 First Pacific 통해 지배.",
+      "sources": [
+        "manual:overlay:salim",
+        "wikipedia:en:Salim_Group",
+        "forbes:2024:anthoni-salim"
+      ]
+    },
+    {
+      "id": "royal-tree:manual:kuok-family-robert-kuok",
+      "names": {
+        "en": "Kuok family (Robert Kuok)",
+        "ko": "궈 가문 (로버트 궈)",
+        "zh": "郭氏家族",
+        "ms": "Keluarga Kuok"
+      },
+      "country": [
+        "MY",
+        "SG",
+        "HK"
+      ],
+      "category": "business",
+      "status": "active",
+      "head_current": "Robert Kuok (b.1923) — Kerry Group 명예회장, 손자 Kuok Khoon Hua 등이 사업 운영",
+      "tier": {
+        "past": "B",
+        "current": "S",
+        "past_reasons": [
+          "1949 Kuok Brothers 설립 (말레이시아 설탕 무역) → '亞洲 설탕왕' 칭호"
+        ],
+        "current_reasons": [
+          "**Forbes 2024 $11.8B — 동남아 노부호 1위**",
+          "Shangri-La Hotels & Resorts (亞洲 최대 럭셔리 호텔 체인)",
+          "South China Morning Post 소유 1993–2016 (Jack Ma에게 매각)",
+          "Wilmar International (세계 최대 팜오일 트레이더)",
+          "후예 다수가 홍콩·싱가폴·말레이시아 분리 운영"
+        ],
+        "valuation_usd_total": 11800000000,
+        "person_max_birth": 1978
+      },
+      "display": {
+        "origin": [
+          {
+            "id": "kuok:robert",
+            "name": "Robert Kuok Hock Nien (郭鶴年)",
+            "birth": "1923-10-06",
+            "titles": [
+              "Kerry Group 명예회장",
+              "Shangri-La Asia 창업 (1971)",
+              "1949 Kuok Brothers 무역상 시작 (말레이시아)",
+              "亞洲 설탕왕 (1970년대 亞洲 설탕 무역 80%)",
+              "1979 홍콩 이주, 中 본토 사업 본격화"
+            ],
+            "spouses": [
+              "Joyce Cheah Poh Lin (1차)",
+              "Pauline Loh (2차)"
+            ],
+            "children": [
+              "Beau Kuok",
+              "Kuok Khoon Chen",
+              "Kuok Khoon Ean",
+              "Kuok Khoon Hua",
+              "Hui Kwong Kuok",
+              "Su Hua Kuok"
+            ]
+          }
+        ],
+        "middle_summary": "福州系 客家계 말레이시아 화교. 부친의 설탕 무역을 1949 Kuok Brothers로 확장 → 동남아 설탕 시장 장악 → 1971 Shangri-La 호텔 → 1990년대 中 진출 (Coca-Cola·McDonald's 中 진출 협력자). 6남매가 분야별 분장.",
+        "recent": [
+          {
+            "id": "kuok:khoonhua",
+            "name": "Kuok Khoon Hua",
+            "birth": "1978",
+            "titles": [
+              "Kerry Logistics 회장 (前)",
+              "Kerry Group 차세대"
+            ],
+            "country": [
+              "HK",
+              "SG"
+            ]
+          },
+          {
+            "id": "kuok:khoonean",
+            "name": "Kuok Khoon Ean",
+            "titles": [
+              "Shangri-La Asia 회장"
+            ],
+            "country": [
+              "HK",
+              "SG"
+            ]
+          }
+        ],
+        "head_card": {
+          "name": "Robert Kuok + 6남매",
+          "birth": "1923-10-06",
+          "titles": [
+            "Kerry Group 명예회장",
+            "동남아 노부호 1위 $11.8B"
+          ],
+          "country": [
+            "MY",
+            "SG",
+            "HK"
+          ],
+          "business": {
+            "count": 4,
+            "total_valuation_usd": 11800000000,
+            "industries": [
+              "palm oil",
+              "hospitality",
+              "logistics",
+              "media (매각)"
+            ],
+            "top": [
+              {
+                "name": "Wilmar International (싱가폴 상장 팜오일 거인)",
+                "industry": "agribusiness · palm oil",
+                "country_hq": [
+                  "SG"
+                ],
+                "valuation_usd": 5000000000,
+                "control_type": "controlling-stake"
+              },
+              {
+                "name": "Shangri-La Asia (HK 상장 호텔)",
+                "industry": "hospitality",
+                "country_hq": [
+                  "HK"
+                ],
+                "valuation_usd": 3500000000,
+                "control_type": "controlling-stake"
+              },
+              {
+                "name": "Kerry Group (private)",
+                "industry": "diversified",
+                "country_hq": [
+                  "HK"
+                ],
+                "valuation_usd": 2500000000,
+                "control_type": "family-private"
+              },
+              {
+                "name": "Kerry Logistics (HK 상장)",
+                "industry": "logistics",
+                "country_hq": [
+                  "HK"
+                ],
+                "valuation_usd": 800000000,
+                "control_type": "controlling-stake"
+              }
+            ]
+          }
+        }
+      },
+      "spouses_lineage": [],
+      "relations": [],
+      "notes": "동남아 화교 1위 가문. 설탕 → 호텔(Shangri-La) → 팜오일(Wilmar) → 中 진출의 정통 화교 비즈니스 패턴. 100세 넘은 Robert Kuok이 아직 명예회장직 유지, 6남매가 분야 분장. 中 정부와의 관계가 핵심 자산.",
+      "sources": [
+        "manual:overlay:kuok",
+        "wikipedia:en:Robert_Kuok",
+        "forbes:2024"
+      ]
+    },
+    {
+      "id": "royal-tree:overlay:ng-far-east-singapore",
+      "names": {
+        "en": "Ng family (Far East Organization, Singapore)",
+        "ko": "응 가문 (Far East Org)",
+        "zh": "黃廷方家族"
+      },
+      "country": [
+        "SG",
+        "HK"
+      ],
+      "category": "business",
+      "status": "active",
+      "head_current": "Robert Ng (HK), Philip Ng (SG) — Ng Teng Fong의 2 아들",
+      "tier": {
+        "past": "C",
+        "current": "S",
+        "past_reasons": [
+          "Ng Teng Fong (黃廷方, 1928–2010) — 福建계 싱가포르 이민, Far East Organization 창업"
+        ],
+        "current_reasons": [
+          "**Forbes 2024 가족합산 $14.7B — 싱가포르 1위 부호**",
+          "Far East Organization — 싱가포르 최대 사적 부동산 개발사",
+          "Sino Group (HK) — 차남 Robert가 운영, 홍콩 5대 부동산 개발사",
+          "Yeo Hiap Seng (Yeo's 음료) 30%, 양조 사업"
+        ],
+        "valuation_usd_total": 14700000000,
+        "person_max_birth": 1957
+      },
+      "display": {
+        "origin": [
+          {
+            "id": "ngf:tengfong",
+            "name": "Ng Teng Fong (黃廷方)",
+            "birth": "1928-01-20",
+            "death": "2010-02-02",
+            "titles": [
+              "Far East Organization 창업 (1960)",
+              "Sino Group(HK) 창업 (1971)",
+              "싱가포르 부동산 王 1970–2000년대",
+              "福建성 출신 화교 이민 가족"
+            ],
+            "spouses": [
+              "Tan Kim Choo"
+            ],
+            "children": [
+              "Robert Ng Chee Siong (1952)",
+              "Philip Ng Chee Tat (1958)"
+            ]
+          }
+        ],
+        "middle_summary": "福建계 화교 1세대 이민자가 1960 Far East Organization으로 시작한 사적 부동산 개발사. 1971년 차남 Robert를 홍콩에 보내 Sino Group 창업 → 가문이 SG·HK 양대 시장 분장. 2010년 부친 사망 후 형제가 분리 운영, 그러나 가문 합산 자산은 동남아 부호 1위.",
+        "recent": [
+          {
+            "id": "ngf:robert",
+            "name": "Robert Ng Chee Siong (黃志祥)",
+            "birth": "1952-09-04",
+            "titles": [
+              "Sino Group 회장 (HK 부동산 5대 개발사)",
+              "Tsim Sha Tsui Properties (HK 상장)",
+              "Sino Land 회장"
+            ],
+            "spouses": [
+              "부인 Cho"
+            ],
+            "children": [
+              "Daryl Ng Win Kong (1978)",
+              "Nikki Ng",
+              "David Ng"
+            ],
+            "country": [
+              "HK"
+            ]
+          },
+          {
+            "id": "ngf:philip",
+            "name": "Philip Ng Chee Tat (黃志達)",
+            "birth": "1958-12-01",
+            "titles": [
+              "Far East Organization CEO (싱가포르)",
+              "전 싱가포르 富兮工會 회장",
+              "MIT 토목공학 박사",
+              "조용한 활동 — 미디어 노출 거의 없음"
+            ],
+            "children": [
+              "Meilin Ng",
+              "Geoffrey Ng"
+            ],
+            "country": [
+              "SG"
+            ]
+          },
+          {
+            "id": "ngf:daryl",
+            "name": "Daryl Ng (黃永光) — 3대",
+            "birth": "1978",
+            "titles": [
+              "Sino Group 부회장",
+              "차세대 후계자"
+            ],
+            "country": [
+              "HK"
+            ]
+          }
+        ],
+        "head_card": {
+          "name": "Robert Ng (HK) + Philip Ng (SG) 兄弟",
+          "titles": [
+            "가족합산 $14.7B — 싱가포르 1위",
+            "SG·HK 부동산 양대 가문"
+          ],
+          "country": [
+            "SG",
+            "HK"
+          ],
+          "business": {
+            "count": 3,
+            "total_valuation_usd": 14700000000,
+            "industries": [
+              "real estate",
+              "hospitality",
+              "F&B"
+            ],
+            "top": [
+              {
+                "name": "Far East Organization (싱가포르 최대 사적 개발사)",
+                "industry": "real estate",
+                "country_hq": [
+                  "SG"
+                ],
+                "valuation_usd": 7000000000,
+                "control_type": "founding-family"
+              },
+              {
+                "name": "Sino Group + Sino Land (HK 상장)",
+                "industry": "real estate",
+                "country_hq": [
+                  "HK"
+                ],
+                "valuation_usd": 6000000000,
+                "control_type": "founding-family"
+              },
+              {
+                "name": "Yeo Hiap Seng (Yeo's 음료) 30%",
+                "industry": "F&B",
+                "country_hq": [
+                  "SG"
+                ],
+                "valuation_usd": 700000000,
+                "control_type": "controlling-stake"
+              }
+            ]
+          }
+        }
+      },
+      "spouses_lineage": [],
+      "relations": [],
+      "notes": "싱가포르 1위 부호 가문. 福建계 화교 1세대 부친이 1960년 사적 부동산 개발사 창업, 1971년 차남을 HK로 보내 분가. 2010년 부친 사망 후 형제(Robert HK · Philip SG)가 분리 운영, 그러나 가족 자산 합산은 동남아 1위.",
+      "sources": [
+        "manual:overlay:ng-fareast",
+        "wikipedia:en:Ng_Teng_Fong",
+        "forbes:2024:singapore"
+      ]
+    },
+    {
+      "id": "royal-tree:overlay:quek-hong-leong-singapore",
+      "names": {
+        "en": "Quek/Kwek family (Hong Leong, Singapore/Malaysia)",
+        "ko": "꿱 가문 (Hong Leong)",
+        "zh": "郭氏 (鶴年 別系)"
+      },
+      "country": [
+        "SG",
+        "MY"
+      ],
+      "category": "business",
+      "status": "active",
+      "head_current": "Quek Leng Chan (b.1941, MY) + Kwek Leng Beng (b.1941, SG) — 사촌간 양국 분장",
+      "tier": {
+        "past": "C",
+        "current": "S",
+        "past_reasons": [
+          "부친 Kwek Hong Png (1909–1994) — 1941 Hong Leong 회사 창업"
+        ],
+        "current_reasons": [
+          "Quek Leng Chan (MY): **Forbes 2024 $14.2B — 말레이시아 2위 부호**",
+          "Kwek Leng Beng (SG): **Forbes 2024 $9.3B — 싱가포르 4위**",
+          "Hong Leong Group — 부동산·금융·호텔(City Developments) 양국 분장",
+          "Asia Pacific Breweries 일부, Hong Leong Bank (MY 5대)"
+        ],
+        "valuation_usd_total": 23500000000,
+        "person_max_birth": 1972
+      },
+      "display": {
+        "origin": [
+          {
+            "id": "quek:hongpng",
+            "name": "Kwek Hong Png (郭芳楓)",
+            "birth": "1909",
+            "death": "1994",
+            "titles": [
+              "Hong Leong Company 창업 1941 (싱가포르)",
+              "福建성 출신 화교 이민",
+              "건자재·고무 무역으로 시작"
+            ],
+            "children": [
+              "Kwek Leng Chan (= Quek Leng Chan)",
+              "Kwek Leng Beng",
+              "Kwek Leng Joo (1953–2014)",
+              "Kwek Leng Kee"
+            ]
+          }
+        ],
+        "middle_summary": "福建계 화교 1세대가 1941 Hong Leong 창업. 양국 사촌이 분장 — Quek Leng Chan(말레이시아)이 Hong Leong Group MY, Kwek Leng Beng(싱가포르)이 Hong Leong Group SG. 양국 가문 합산 $23.5B — 동남아 최상위.",
+        "recent": [
+          {
+            "id": "quek:lengchan",
+            "name": "Quek Leng Chan (郭令燦)",
+            "birth": "1941",
+            "titles": [
+              "Hong Leong Group Malaysia 회장",
+              "Hong Leong Bank (MY 5대 은행) 회장",
+              "Forbes 2024 $14.2B (MY #2)",
+              "런던 法대 출신"
+            ],
+            "country": [
+              "MY"
+            ]
+          },
+          {
+            "id": "quek:lengbeng",
+            "name": "Kwek Leng Beng (郭令明)",
+            "birth": "1941",
+            "titles": [
+              "Hong Leong Group Singapore 회장",
+              "City Developments Limited (CDL) 회장 — 싱가포르 최대 부동산 1위",
+              "Millennium & Copthorne Hotels (글로벌 호텔)",
+              "Forbes 2024 $9.3B (SG #4)"
+            ],
+            "spouses": [
+              "Cecilia Kwek"
+            ],
+            "children": [
+              "Sherman Kwek (CDL CEO 2018–)"
+            ],
+            "country": [
+              "SG"
+            ]
+          },
+          {
+            "id": "quek:sherman",
+            "name": "Sherman Kwek (3대)",
+            "birth": "1976",
+            "titles": [
+              "City Developments Limited CEO 2018–",
+              "3대 후계자"
+            ],
+            "country": [
+              "SG"
+            ]
+          }
+        ],
+        "head_card": {
+          "name": "Quek Leng Chan (MY) + Kwek Leng Beng (SG) 兄弟",
+          "titles": [
+            "Hong Leong Group MY·SG 兄弟 분장",
+            "가족 합산 $23.5B"
+          ],
+          "country": [
+            "MY",
+            "SG"
+          ],
+          "business": {
+            "count": 4,
+            "total_valuation_usd": 23500000000,
+            "industries": [
+              "banking",
+              "real estate",
+              "hotels",
+              "industrial"
+            ],
+            "top": [
+              {
+                "name": "Hong Leong Bank (MY 5대 은행)",
+                "industry": "banking",
+                "country_hq": [
+                  "MY"
+                ],
+                "valuation_usd": 10000000000,
+                "control_type": "controlling-stake"
+              },
+              {
+                "name": "City Developments Limited (CDL, SG 최대 개발사)",
+                "industry": "real estate",
+                "country_hq": [
+                  "SG"
+                ],
+                "valuation_usd": 7000000000,
+                "control_type": "controlling-stake"
+              },
+              {
+                "name": "Hong Leong Group MY (지주)",
+                "industry": "diversified",
+                "country_hq": [
+                  "MY"
+                ],
+                "valuation_usd": 4000000000,
+                "control_type": "founding-family"
+              },
+              {
+                "name": "Millennium & Copthorne Hotels (글로벌)",
+                "industry": "hospitality",
+                "country_hq": [
+                  "SG"
+                ],
+                "valuation_usd": 2500000000,
+                "control_type": "via-CDL"
+              }
+            ]
+          }
+        }
+      },
+      "spouses_lineage": [],
+      "relations": [],
+      "notes": "福建계 화교 1세대가 1941 창업, 2세대 사촌이 양국 분장. SG와 MY 각각의 최대급 부호 가문. Sherman Kwek(3대)이 2018년 CDL CEO로 후계 정비.",
+      "sources": [
+        "manual:overlay:quek-hong-leong",
+        "wikipedia:en:Hong_Leong_Company",
+        "forbes:2024"
+      ]
+    },
+    {
+      "id": "royal-tree:overlay:wee-uob-singapore",
+      "names": {
+        "en": "Wee family (UOB, Singapore)",
+        "ko": "위 가문 (UOB 은행)",
+        "zh": "黃祖耀家族"
+      },
+      "country": [
+        "SG"
+      ],
+      "category": "business",
+      "status": "active",
+      "head_current": "Wee Ee Cheong (b.1953) — UOB CEO 2007 –",
+      "tier": {
+        "past": "C",
+        "current": "A",
+        "past_reasons": [
+          "부친 Wee Kheng Chiang (1898–1995) — 1935 UOB 창업"
+        ],
+        "current_reasons": [
+          "Wee Cho Yaw (1929–2024) — UOB 명예회장, 가문 최대 영향력",
+          "Wee Ee Cheong (b.1953) — UOB CEO 2007.4 –, 2024.2 부친 사망 후 가문 대표",
+          "UOB(United Overseas Bank) — 싱가포르 3대 은행",
+          "Forbes 2024 가족 합산 $7.2B"
+        ],
+        "valuation_usd_total": 7200000000,
+        "person_max_birth": 1953
+      },
+      "display": {
+        "origin": [
+          {
+            "id": "wee:khengchiang",
+            "name": "Wee Kheng Chiang (黃慶昌)",
+            "birth": "1898",
+            "death": "1995",
+            "titles": [
+              "United Chinese Bank (現 UOB) 창업 1935",
+              "福建성 출신 화교"
+            ],
+            "children": [
+              "Wee Cho Yaw (1929)"
+            ]
+          }
+        ],
+        "middle_summary": "福建계 화교 1세대가 1935 United Chinese Bank 창업 → 1965 United Overseas Bank으로 개명 → 싱가포르 3대 은행으로 성장. 2대 Wee Cho Yaw가 1974–2007 사장으로 가문 사업 정비, 3대 Wee Ee Cheong가 2007년 CEO로 후계.",
+        "recent": [
+          {
+            "id": "wee:choyaw",
+            "name": "Wee Cho Yaw (黃祖耀)",
+            "birth": "1929-01-10",
+            "death": "2024-02-03",
+            "titles": [
+              "UOB 회장 1974–2007 (33년)",
+              "UOB 명예회장 2007–2024",
+              "前 싱가포르 차이나聖會 회장",
+              "**2024.2.3 95세 사망 → 가문 대표 Wee Ee Cheong에게 이전**"
+            ],
+            "children": [
+              "Wee Ee Cheong (1953)",
+              "Wee Ee Lim",
+              "Wee Ee Chao"
+            ],
+            "country": [
+              "SG"
+            ]
+          },
+          {
+            "id": "wee:eecheong",
+            "name": "Wee Ee Cheong (黃一宗)",
+            "birth": "1953-11-23",
+            "titles": [
+              "UOB CEO 2007.4 –",
+              "前 UOB 부회장 2000–2007",
+              "MIT MBA"
+            ],
+            "country": [
+              "SG"
+            ]
+          }
+        ],
+        "head_card": {
+          "name": "Wee Ee Cheong",
+          "birth": "1953-11-23",
+          "titles": [
+            "UOB CEO 2007– ",
+            "2024.2 부친 Wee Cho Yaw 사망 후 가문 대표"
+          ],
+          "country": [
+            "SG"
+          ],
+          "business": {
+            "count": 2,
+            "total_valuation_usd": 7200000000,
+            "industries": [
+              "banking",
+              "real estate"
+            ],
+            "top": [
+              {
+                "name": "United Overseas Bank (UOB)",
+                "industry": "banking",
+                "country_hq": [
+                  "SG"
+                ],
+                "valuation_usd": 6500000000,
+                "control_type": "controlling-stake (~18%)"
+              },
+              {
+                "name": "Haw Par Corporation (Tiger Balm) 일부",
+                "industry": "consumer health",
+                "country_hq": [
+                  "SG"
+                ],
+                "valuation_usd": 700000000,
+                "control_type": "controlling-via-UOB"
+              }
+            ]
+          }
+        }
+      },
+      "spouses_lineage": [],
+      "relations": [],
+      "notes": "싱가포르 3대 은행 UOB의 창업 가문, 90년 3대 세습. 2024.2 Wee Cho Yaw 95세 사망 후 Wee Ee Cheong가 가문 대표. Haw Par(Tiger Balm 호랑이 연고) 일부 소유.",
+      "sources": [
+        "manual:overlay:wee",
+        "wikipedia:en:Wee_Cho_Yaw",
+        "forbes:2024"
+      ]
+    },
+    {
+      "id": "royal-tree:overlay:khoo-singapore",
+      "names": {
+        "en": "Khoo family (Khoo Teck Puat, Singapore)",
+        "ko": "쿠 가문 (Khoo Teck Puat)",
+        "zh": "邱德拔家族"
+      },
+      "country": [
+        "SG",
+        "GB"
+      ],
+      "category": "business",
+      "status": "active",
+      "head_current": "Goodwood Park Hotel + Standard Chartered 13% — Khoo Teck Puat의 후예 14남매",
+      "tier": {
+        "past": "C",
+        "current": "A",
+        "past_reasons": [
+          "Khoo Teck Puat (1917–2004) — 호텔·은행으로 동남아 최대 富 축적"
+        ],
+        "current_reasons": [
+          "**Forbes 2024 가족 합산 $7.5B — 싱가포르 5위**",
+          "Standard Chartered Bank 13% 지분 (가족 최대 자산 — 2006년 부친 사망 후 자녀 14명이 분할 상속)",
+          "Goodwood Park Hotel + 14개 호텔",
+          "Khoo Teck Puat Hospital (자선 기금)"
+        ],
+        "valuation_usd_total": 7500000000,
+        "person_max_birth": 1950
+      },
+      "display": {
+        "origin": [
+          {
+            "id": "khoo:teckpuat",
+            "name": "Khoo Teck Puat (邱德拔)",
+            "birth": "1917-11-13",
+            "death": "2004-06-21",
+            "titles": [
+              "Maybank(말레이시아 은행) 부행장 1959–1966",
+              "Brunei Investment Agency 컨설턴트",
+              "Standard Chartered Bank 13% 지분 매입",
+              "**2004 사망 시 동남아 최대 부호 — 14명 자녀에 분할 상속**"
+            ],
+            "spouses": [
+              "Khoo Yang Chye (4 아들·10 딸)"
+            ],
+            "children": [
+              "Khoo Ai Lim",
+              "Khoo Ai Su",
+              "Khoo Eng Khim",
+              "Khoo Eng Choo",
+              "Khoo Chwee Hua",
+              "기타 10명"
+            ]
+          }
+        ],
+        "middle_summary": "福建계 화교 2세대로 말레이시아 Maybank 부행장 → 1980년대 Brunei Investment Agency 컨설팅 → Standard Chartered 13% 매입으로 영국 진출. 2004 사망 시 동남아 최대 부 → 14명 자녀에 분할 상속되어 개별 자산은 줄었으나 합산은 여전히 SG #5.",
+        "recent": [
+          {
+            "id": "khoo:aiboon",
+            "name": "Khoo Aibon (장남)",
+            "titles": [
+              "Goodwood Park Hotel 회장 (싱가포르 최고급 호텔)"
+            ],
+            "country": [
+              "SG"
+            ]
+          }
+        ],
+        "head_card": {
+          "name": "Khoo Teck Puat의 14남매 (분할 상속)",
+          "titles": [
+            "Standard Chartered 13% 가족 분할 보유",
+            "Goodwood Park 등 14개 호텔"
+          ],
+          "country": [
+            "SG",
+            "GB"
+          ],
+          "business": {
+            "count": 2,
+            "total_valuation_usd": 7500000000,
+            "industries": [
+              "banking equity",
+              "hospitality"
+            ],
+            "top": [
+              {
+                "name": "Standard Chartered Bank 13% (가족 합산 지분, 영국 상장)",
+                "industry": "banking equity",
+                "country_hq": [
+                  "GB"
+                ],
+                "valuation_usd": 5500000000,
+                "control_type": "family-stake"
+              },
+              {
+                "name": "Goodwood Park Hotel + 14 호텔",
+                "industry": "hospitality",
+                "country_hq": [
+                  "SG"
+                ],
+                "valuation_usd": 2000000000,
+                "control_type": "family-owned"
+              }
+            ]
+          }
+        }
+      },
+      "spouses_lineage": [],
+      "relations": [],
+      "notes": "2004 부친 사망 시 동남아 최대 富였으나 14남매에 분할 → 개별 부호는 아님. 그러나 가족 합산은 SG 5위. Standard Chartered 13% 지분은 영국 4대 글로벌 은행 최대 사적 가문 보유분.",
+      "sources": [
+        "manual:overlay:khoo",
+        "wikipedia:en:Khoo_Teck_Puat",
+        "forbes:2024"
+      ]
+    },
+    {
+      "id": "royal-tree:overlay:ng-sermiang-singapore",
+      "names": {
+        "en": "Ng Ser Miang family (Singapore)",
+        "ko": "응 셀미앙 가문 (싱가포르)",
+        "zh": "黃思綿"
+      },
+      "country": [
+        "SG"
+      ],
+      "category": "business",
+      "status": "active",
+      "head_current": "Ng Ser Miang (b.1949) — IOC 위원, 사업가",
+      "tier": {
+        "past": "D",
+        "current": "B",
+        "past_reasons": [
+          "1980년대 NTUC FairPrice 이사 → 1990년대 후반 정치·체육 외교 전환"
+        ],
+        "current_reasons": [
+          "**Ng Ser Miang (b.1949) — IOC 위원 2005–, 2010 싱가포르 청소년 올림픽 조직위원장**",
+          "**2009–2013 IOC 부위원장 (싱가포르 첫 부위원장)**",
+          "2013 IOC 위원장 선거 후보 (Thomas Bach에게 패배 — 5명 중 4위)",
+          "前 NTUC FairPrice 이사장, NTUC Income 이사",
+          "Tibsbo Holdings(가족 사업, 와인·부동산) 회장 — 추정 자산 $200M"
+        ],
+        "valuation_usd_total": 200000000,
+        "person_max_birth": 1949
+      },
+      "display": {
+        "origin": [],
+        "middle_summary": "가문보다 개인 영향력으로 등재. Ng Ser Miang은 IOC 부위원장(2009–2013)으로 싱가포르의 첫 글로벌 체육 거버넌스 진출, 2013 IOC 위원장 선거에 출마했으나 Thomas Bach에 패배.",
+        "recent": [
+          {
+            "id": "ngsm:miang",
+            "name": "Ng Ser Miang (黃思綿)",
+            "birth": "1949-06-19",
+            "titles": [
+              "IOC 위원 (2005 –)",
+              "**IOC 부위원장 2009–2013**",
+              "2010 싱가포르 청소년 올림픽 조직위원장",
+              "2013 IOC 위원장 선거 후보 (5명 중 4위)",
+              "前 노르웨이·싱가포르 駐 대사 1991–1999",
+              "前 NTUC FairPrice 이사장",
+              "International Sailing Federation 부회장"
+            ],
+            "country": [
+              "SG",
+              "NO"
+            ]
+          }
+        ],
+        "head_card": {
+          "name": "Ng Ser Miang (黃思綿)",
+          "birth": "1949-06-19",
+          "titles": [
+            "IOC 위원·前 부위원장",
+            "2013 IOC 위원장 후보 4위"
+          ],
+          "country": [
+            "SG"
+          ],
+          "business": {
+            "count": 1,
+            "total_valuation_usd": 200000000,
+            "industries": [
+              "sports governance",
+              "private equity",
+              "wine·real estate"
+            ],
+            "top": [
+              {
+                "name": "Tibsbo Holdings + IOC 영향력",
+                "industry": "private + sports diplomacy",
+                "country_hq": [
+                  "SG"
+                ],
+                "valuation_usd": 200000000,
+                "control_type": "private"
+              }
+            ]
+          }
+        }
+      },
+      "spouses_lineage": [],
+      "relations": [],
+      "notes": "싱가포르의 IOC 진출 핵심 인물. 2010년 청소년 올림픽 유치·운영, 2013 위원장 선거 출마로 亞洲 체육 외교 정점. 가족이라기보다 개인 영향력으로 등재.",
+      "sources": [
+        "manual:overlay:ng-sermiang",
+        "wikipedia:en:Ng_Ser_Miang"
       ]
     }
   ]

@@ -48,7 +48,7 @@ body {
   color: var(--ink);
   font-family: var(--sans);
   font-weight: 400;
-  font-size: 15px;
+  font-size: 17px;
   line-height: 1.55;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -122,7 +122,7 @@ a { color: inherit; text-decoration: none; }
   background: transparent;
   font-family: var(--kr);
   font-weight: 400;
-  font-size: 14px;
+  font-size: 15px;
   padding: 0;
   color: var(--ink);
   outline: none;
@@ -133,7 +133,7 @@ a { color: inherit; text-decoration: none; }
   border: none;
   background: var(--mid);
   color: var(--paper);
-  font-size: 15px;
+  font-size: 17px;
   line-height: 1;
   width: 18px;
   height: 18px;
@@ -150,7 +150,7 @@ a { color: inherit; text-decoration: none; }
 .clear-x:hover { background: var(--ink); }
 .kbd-hint {
   font-family: var(--sans);
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 500;
   color: var(--sub);
   background: var(--paper);
@@ -326,7 +326,7 @@ main { padding-bottom: 0; }
 }
 .featured-sub {
   font-family: var(--sans);
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 500;
   letter-spacing: 0.18em;
   text-transform: uppercase;
@@ -378,7 +378,7 @@ main { padding-bottom: 0; }
 .feat-card .fc-headline {
   font-family: var(--kr);
   font-weight: 400;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.55;
   color: var(--ink-2);
   margin-top: 4px;
@@ -388,7 +388,7 @@ main { padding-bottom: 0; }
   justify-content: space-between;
   align-items: baseline;
   font-family: var(--sans);
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 500;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -398,7 +398,7 @@ main { padding-bottom: 0; }
   color: var(--bordeaux);
   font-family: var(--display);
   font-style: italic;
-  font-size: 15px;
+  font-size: 17px;
   letter-spacing: 0;
   text-transform: none;
   font-weight: 400;
@@ -416,7 +416,7 @@ main { padding-bottom: 0; }
 }
 .kicker {
   font-family: var(--sans);
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 500;
   letter-spacing: 0.22em;
   text-transform: uppercase;
@@ -596,7 +596,7 @@ main { padding-bottom: 0; }
 .region-tile:hover { background: var(--paper-2); }
 .region-tile .rt-label {
   font-family: var(--sans);
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 600;
   letter-spacing: 0.18em;
   text-transform: uppercase;
@@ -670,7 +670,7 @@ main { padding-bottom: 0; }
 .sector-tile:hover { background: var(--paper-2); }
 .sector-tile .st-label {
   font-family: var(--sans);
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.22em;
   text-transform: uppercase;
@@ -706,7 +706,7 @@ main { padding-bottom: 0; }
 .sector-tile .st-count {
   font-family: var(--display);
   font-style: italic;
-  font-size: 15px;
+  font-size: 17px;
   color: var(--ink);
 }
 .sector-tile .st-arrow {
@@ -792,7 +792,7 @@ main { padding-bottom: 0; }
 }
 .sf-label {
   font-family: var(--sans);
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 600;
   letter-spacing: 0.2em;
   text-transform: uppercase;
@@ -829,6 +829,65 @@ main { padding-bottom: 0; }
   margin: 0 8px;
 }
 
+/* Country filter row (second row of chips) */
+.browse-countrybar {
+  margin-top: -20px;          /* tighten gap with main subfilter row */
+  padding-top: 4px;
+  border-bottom: 1px solid var(--hair);
+}
+.sf-country { display: inline-flex; align-items: center; gap: 6px; }
+.sf-flag {
+  font-family: "Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif;
+  font-size: 15px;
+  line-height: 1;
+}
+.sf-count {
+  color: var(--sub);
+  font-size: 13px;
+  margin-left: 2px;
+  font-variant-numeric: tabular-nums;
+}
+.sf-chip.active .sf-count { color: var(--paper); opacity: 0.78; }
+
+/* Country group headers inside browse-grid (when sortBy=country) */
+.browse-cgroup {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  padding: 18px 0 6px;
+  margin-top: 18px;
+  border-bottom: 1px solid var(--hair);
+  font-family: var(--display);
+}
+.browse-cgroup:first-child { margin-top: 0; }
+.cg-flag {
+  font-family: "Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif;
+  font-size: 18px;
+  line-height: 1;
+}
+.cg-name {
+  font-size: 18px;
+  font-style: italic;
+  color: var(--ink);
+  letter-spacing: 0.01em;
+}
+.cg-count {
+  font-size: 12px;
+  color: var(--sub);
+  font-family: var(--sans);
+  font-style: normal;
+  margin-left: auto;
+}
+
+/* Country + flag inline on cards */
+.fc-country { display: inline-flex; align-items: center; gap: 5px; }
+.fc-flag {
+  font-family: "Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif;
+  font-size: 13px;
+  line-height: 1;
+}
+
 .browse-grid { border-top: 1px solid var(--hair); }
 
 /* ============================================================
@@ -852,7 +911,7 @@ main { padding-bottom: 0; }
 .hint-left { max-width: 540px; }
 .hint-kicker {
   font-family: var(--sans);
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 500;
   letter-spacing: 0.22em;
   text-transform: uppercase;
@@ -883,7 +942,7 @@ main { padding-bottom: 0; }
   font-family: var(--classic);
   font-style: italic;
   color: var(--sub);
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 400;
   margin: 0;
 }
@@ -1013,7 +1072,7 @@ main { padding-bottom: 0; }
 .dd-head { text-align: center; padding: 0 0 28px; margin-bottom: 36px; border-bottom: 1px solid var(--hair); }
 .dd-tag {
   font-family: var(--sans);
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 500;
   letter-spacing: 0.22em;
   text-transform: uppercase;
@@ -1048,7 +1107,7 @@ main { padding-bottom: 0; }
 }
 .dd-meta {
   font-family: var(--sans);
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 500;
   letter-spacing: 0.18em;
   text-transform: uppercase;
@@ -1070,7 +1129,7 @@ main { padding-bottom: 0; }
 .dd-narrative {
   font-family: var(--kr);
   font-weight: 300;
-  font-size: 15px;
+  font-size: 17px;
   color: var(--ink-2);
   line-height: 1.9;
   margin: 26px auto 0;
@@ -1081,7 +1140,7 @@ main { padding-bottom: 0; }
 .dd-section { margin-top: 44px; }
 .dd-section h3 {
   font-family: var(--sans);
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 600;
   letter-spacing: 0.3em;
   text-transform: uppercase;
@@ -1112,14 +1171,14 @@ main { padding-bottom: 0; }
 .dd-row {
   font-family: var(--kr);
   font-weight: 400;
-  font-size: 14px;
+  font-size: 15px;
   color: var(--ink-2);
   margin-top: 8px;
   line-height: 1.55;
 }
 .dd-row .lbl {
   font-family: var(--sans);
-  font-size: 9px;
+  font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.24em;
   text-transform: uppercase;
@@ -1137,7 +1196,7 @@ main { padding-bottom: 0; }
   font-family: var(--display);
   font-style: italic;
   color: var(--sub);
-  font-size: 15px;
+  font-size: 17px;
   margin-top: 4px;
   line-height: 1.5;
 }
@@ -1184,7 +1243,7 @@ main { padding-bottom: 0; }
 .person-row:last-child { border-bottom: none; }
 .person-era {
   font-family: var(--sans);
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.22em;
   color: var(--bordeaux);
@@ -1202,14 +1261,14 @@ main { padding-bottom: 0; }
   font-family: var(--display);
   font-style: italic;
   color: var(--sub);
-  font-size: 14px;
+  font-size: 15px;
   margin-left: 8px;
 }
 .person-titles {
   font-family: var(--display);
   font-style: italic;
   color: var(--sub);
-  font-size: 14px;
+  font-size: 15px;
   margin-top: 2px;
 }
 
@@ -1244,7 +1303,7 @@ main { padding-bottom: 0; }
 .traverse-card:hover::before { width: 5px; }
 .traverse-card .type-tag {
   font-family: var(--sans);
-  font-size: 9px;
+  font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.28em;
   text-transform: uppercase;
@@ -1283,7 +1342,7 @@ main { padding-bottom: 0; }
 
 .active-pill {
   font-family: var(--sans);
-  font-size: 9px;
+  font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.26em;
   padding: 3px 9px;
@@ -1310,13 +1369,13 @@ main { padding-bottom: 0; }
   border-top: 1px solid var(--hair);
   font-family: var(--kr);
   font-weight: 300;
-  font-size: 11px;
+  font-size: 13px;
   color: var(--sub);
   line-height: 1.7;
 }
 .dd-foot code {
   font-family: "JetBrains Mono", "Menlo", monospace;
-  font-size: 10px;
+  font-size: 12px;
   color: var(--sub);
   border-bottom: 1px dotted var(--mid);
 }
@@ -1360,13 +1419,13 @@ main { padding-bottom: 0; }
 }
 
 @media (max-width: 640px) {
-  body { font-size: 14px; }
+  body { font-size: 15px; }
   .topbar { height: 54px; }
   :root { --topbar-h: 54px; }
   .hero { padding: 56px 22px 40px; }
   .hero-band { padding-bottom: 48px; }
   .hero-title { font-size: clamp(44px, 13vw, 64px); letter-spacing: -0.025em; }
-  .hero-lede { font-size: 15px; }
+  .hero-lede { font-size: 16px; }
   .featured { padding-top: 48px; }
   .featured-grid { grid-template-columns: 1fr; }
   .feat-card { border-right: none !important; padding: 24px 22px; min-height: 180px; }

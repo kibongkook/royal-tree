@@ -61,3 +61,6 @@ data/by_category/*.tmp
 # Phase-5 backups (recreated by scripts on each run)
 data/master/*.pre_*.jsonl
 .claude/
+
+# Sibling project parked here by mistake (Naver listing 작업물)
+naver_application/
