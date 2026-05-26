@@ -9,56 +9,56 @@
 
 | 순위 | 가문 | 국가 | tier(past→now) | 자산 | head |
 |---:|---|---|---|---:|---|
-| 1 | Ortega family (Amancio Ortega) | ES | D→S | $400.0B | - |
-| 2 | Walton Enterprises | US | D→S | $400.0B | [Rob Walton / Jim Walton / Alice Walton] |
-| 3 | Wang Chuanfu family / BYD | CN | D→S | $400.0B | - |
-| 4 | Zhang Juzheng family | CN | D→S | $400.0B | - |
-| 5 | Djarum Hartono family | ID | D→S | $353.3B | - |
-| 6 | Dell family (Michael Dell) | US | D→S | $331.8B | - |
-| 7 | Solow family (Sheldon Solow) | US | D→S | $316.7B | - |
-| 8 | Cheriton family (David Cheriton) | CA | D→S | $311.5B | - |
-| 9 | Ma Yun (Jack Ma) family / Alibaba | CN | D→S | $309.5B | - |
-| 10 | Sun Chuanfang family | CN | D→S | $300.7B | - |
-| 11 | Rubin family (Stephen Rubin) | GB | D→S | $299.0B | - |
-| 12 | Schmidt family (Eric Schmidt) | US | D→S | $298.6B | - |
-| 13 | Lee Kum Kee | CN,HK | D→S | $293.9B | [Lee Man-Tat heirs] |
-| 14 | Moskovitz family (Dustin Moskovitz) | US | D→S | $283.5B | Cari Tuna |
-| 15 | Hongjia family (Gong Hongjia) | HK | D→S | $276.7B | - |
-| 16 | Jiang family | CN | D→S | $276.0B | - |
-| 17 | Lui family (Great Eagle) | HK | D→S | $272.1B | - |
-| 18 | Chearavanont family (CP) | TH | D→S | $268.4B | - |
-| 19 | Icahn family (Carl Icahn) | US | D→S | $268.3B | - |
-| 20 | Chen Daihe family | CN | D→S | $259.1B | - |
-| 21 | Meyers family (Francoise Bettencourt Meyers) | FR | D→S | $257.5B | - |
-| 22 | Zhou Hongyi family / 360 Security | CN | D→S | $249.2B | - |
-| 23 | Li Shufu family / Geely | CN | D→S | $247.4B | - |
-| 24 | Saverin family (Eduardo Saverin) | BR | D→S | $241.6B | - |
-| 25 | Carvalho-Heineken family (Charlene de Carvalho-Heineken) | NL | D→S | $240.8B | Raymundo Carvalho dos Santos |
-| 26 | Frist family (Thomas Frist) | US | D→S | $224.5B | - |
-| 27 | Hyundai Chung Family | KR | D→S | $221.5B | Park Won-jae |
-| 28 | Liang Jianzhang family / Trip.com | CN | D→S | $218.1B | - |
-| 29 | Bonnie Sin family / Cheng Tak-fai | CN | D→S | $215.0B | - |
-| 30 | Hastings family (Reed Hastings) | US | D→S | $200.2B | - |
-| 31 | MediaTek Tsai family | TW | D→S | $198.4B | - |
-| 32 | Ellison family (Larry Ellison) | US | D→S | $194.6B | Ray Ellison |
-| 33 | Nanxun Pang family | CN | D→S | $190.5B | - |
-| 34 | Adani family | IN | D→S | $189.0B | - |
-| 35 | Huang Zheng (Colin Huang) family / Pinduoduo | CN | D→S | $185.4B | - |
-| 36 | Liu Cangling family / Taiwan plastic | CN | D→S | $179.7B | Geoffrey Rose |
-| 37 | Pessina family (Stefano Pessina) | IT | D→S | $178.1B | - |
-| 38 | Bezos family (Jeff Bezos) | US | D→S | $177.1B | - |
-| 39 | Guo Guangchang family / Fosun | CN | D→S | $176.1B | - |
-| 40 | Meister family (Siegfried Meister) | DE | D→S | $174.9B | Simon Meister |
-| 41 | Gates family (Bill Gates) | US | D→S | $172.5B | - |
-| 42 | Doerr family (John Doerr) | US | D→S | $169.4B | - |
-| 43 | Ergen family (Charles Ergen) | US | D→S | $165.1B | - |
-| 44 | Bechtolsheim family (Andreas von Bechtolsheim) | DE | D→S | $157.0B | - |
-| 45 | Hui family (Evergrande) | HK | D→S | $156.8B | - |
-| 46 | Lemann family (Jorge Paulo Lemann) | BR | D→S | $155.3B | - |
-| 47 | Buffett family (Warren Buffett) | US | D→S | $153.3B | - |
-| 48 | Pan Gang family / Yili | CN | D→S | $151.5B | - |
-| 49 | Breyer family (Jim Breyer) | US | D→S | $148.0B | - |
-| 50 | Britannia / Wadia family | IN | D→S | $146.1B | - |
+| 1 | Walton Enterprises | US | D→S | $337.3B | [Rob Walton / Jim Walton / Alice Walton] |
+| 2 | Bezos family (Jeff Bezos) | US | D→S | $314.6B | - |
+| 3 | Gates family (Bill Gates) | US | D→S | $267.8B | - |
+| 4 | Buffett family (Warren Buffett) | US | D→S | $234.4B | - |
+| 5 | Carlos Hank González | MX | D→S | $203.1B | [Carlos Hank Rhon / Jorge Hank Rhon] |
+| 6 | Ortega family (Amancio Ortega) | ES | D→S | $185.3B | - |
+| 7 | Koch family (Charles Koch) | US | D→S | $184.0B | - |
+| 8 | Ellison family (Larry Ellison) | US | D→S | $165.5B | Ray Ellison |
+| 9 | Zuckerberg family (Mark Zuckerberg) | US | D→S | $146.2B | - |
+| 10 | Page family (Larry Page) | US | D→S | $132.1B | - |
+| 11 | Brin family (Sergey Brin) | US | D→S | $128.9B | - |
+| 12 | Breyer family (Jim Breyer) | US | D→S | $116.8B | - |
+| 13 | Ballmer family (Steve Ballmer) | US | D→S | $113.9B | - |
+| 14 | Mukesh Ambani | IN,JP | D→S | $108.8B | [Mukesh Ambani / Anil Ambani] |
+| 15 | Mars family (Jacqueline Mars) | US | D→S | $108.1B | - |
+| 16 | Lee Shau-kee family | CN | D→S | $107.1B | - |
+| 17 | Solow family (Sheldon Solow) | US | D→S | $105.5B | - |
+| 18 | Ma Yun (Jack Ma) family / Alibaba | CN | D→S | $95.7B | - |
+| 19 | Bonderman family (David Bonderman) | US | D→S | $95.5B | - |
+| 20 | Knight family (Phil Knight) | US | D→S | $95.1B | - |
+| 21 | Ka-shing family (Li Ka-shing) | HK | D→S | $94.3B | - |
+| 22 | Arnold family (John Arnold) | US | D→S | $90.9B | - |
+| 23 | Meyers family (Francoise Bettencourt Meyers) | FR | D→S | $90.3B | - |
+| 24 | Schwartz family (Alice Schwartz) | US | D→S | $90.1B | - |
+| 25 | Pony Ma (Ma Huateng) family / Tencent | CN | D→S | $87.2B | - |
+| 26 | Rausing family (Hans Rausing) | SE | D→S | $86.4B | Sigrid Rausing |
+| 27 | Wertheimer family (Alain Wertheimer) | FR | D→S | $82.3B | - |
+| 28 | Bloomberg family (Michael Bloomberg) | US | D→S | $80.6B | Bang Si-hyuk |
+| 29 | Bren family (Donald Bren) | US | D→S | $79.5B | - |
+| 30 | Dell family (Michael Dell) | US | D→S | $76.8B | - |
+| 31 | Albrecht family (Beate Heister & Karl Albrecht Jr.) | DE | D→S | $76.7B | - |
+| 32 | Djarum Hartono family | ID | D→S | $76.3B | - |
+| 33 | Forrest Mars family (Forrest Mars, Jr.) | US | D→S | $75.7B | - |
+| 34 | Feuillet family (Francois Feuillet) | FR | D→S | $73.1B | - |
+| 35 | Cheriton family (David Cheriton) | CA | D→S | $72.7B | - |
+| 36 | Fast Retailing Yanai family | JP | D→S | $71.3B | Ian Cheshire |
+| 37 | Lemann family (Jorge Paulo Lemann) | BR | D→S | $70.8B | - |
+| 38 | Xu Jiayin (Hui Ka Yan) family / Evergrande | CN | D→S | $69.5B | - |
+| 39 | Adani family | IN | D→S | $68.7B | - |
+| 40 | Murdoch family (Rupert Murdoch) | US | D→S | $66.2B | Eleanor Murdoch Johnson |
+| 41 | Schnabel family (Dieter Schnabel) | DE | D→S | $66.1B | Cy Twombly |
+| 42 | Wang Jianlin family / Wanda | CN | D→S | $65.0B | - |
+| 43 | Quandt family (Stefan Quandt) | DE | D→S | $64.9B | - |
+| 44 | Persson family (Stefan Persson) | SE | D→S | $64.2B | Karl-Johan Persson |
+| 45 | Kwok family (SHK) | HK | D→S | $62.8B | - |
+| 46 | Casa Del Vecchio | IT | D→S | $62.3B | Carlos Vecchio |
+| 47 | Musk family (Elon Musk) | US | D→S | $59.9B | - |
+| 48 | Icahn family (Carl Icahn) | US | D→S | $59.1B | - |
+| 49 | Klatten family (Susanne Klatten) | DE | D→S | $57.6B | - |
+| 50 | Azim Premji | IN | D→S | $57.3B | [Azim Premji / Rishad Premji] |
 
 ## 글로벌 정치 영향력 (통치 royal · 旧宮家 · 폐위 황실)
 
@@ -131,21 +131,21 @@
 
 | 순위 | 가문 | 카테고리 | tier_now | 자산 | head |
 |---:|---|---|---|---:|---|
-| 1 | Walton Enterprises | business | S | $400.0B | [Rob Walton / Jim Walton / Alice Walton] |
-| 2 | Dell family (Michael Dell) | business | S | $331.8B | - |
-| 3 | Solow family (Sheldon Solow) | business | S | $316.7B | - |
-| 4 | Schmidt family (Eric Schmidt) | business | S | $298.6B | - |
-| 5 | Moskovitz family (Dustin Moskovitz) | business | S | $283.5B | Cari Tuna |
-| 6 | Icahn family (Carl Icahn) | business | S | $268.3B | - |
-| 7 | Frist family (Thomas Frist) | business | S | $224.5B | - |
-| 8 | Hastings family (Reed Hastings) | business | S | $200.2B | - |
-| 9 | Ellison family (Larry Ellison) | business | S | $194.6B | Ray Ellison |
-| 10 | Bezos family (Jeff Bezos) | business | S | $177.1B | - |
-| 11 | Gates family (Bill Gates) | business | S | $172.5B | - |
-| 12 | Doerr family (John Doerr) | business | S | $169.4B | - |
-| 13 | Ergen family (Charles Ergen) | business | S | $165.1B | - |
-| 14 | Buffett family (Warren Buffett) | business | S | $153.3B | - |
-| 15 | Breyer family (Jim Breyer) | business | S | $148.0B | - |
+| 1 | Walton Enterprises | business | S | $337.3B | [Rob Walton / Jim Walton / Alice Walton] |
+| 2 | Bezos family (Jeff Bezos) | business | S | $314.6B | - |
+| 3 | Gates family (Bill Gates) | business | S | $267.8B | - |
+| 4 | Buffett family (Warren Buffett) | business | S | $234.4B | - |
+| 5 | Koch family (Charles Koch) | business | S | $184.0B | - |
+| 6 | Ellison family (Larry Ellison) | business | S | $165.5B | Ray Ellison |
+| 7 | Zuckerberg family (Mark Zuckerberg) | business | S | $146.2B | - |
+| 8 | Page family (Larry Page) | business | S | $132.1B | - |
+| 9 | Brin family (Sergey Brin) | business | S | $128.9B | - |
+| 10 | Breyer family (Jim Breyer) | business | S | $116.8B | - |
+| 11 | Ballmer family (Steve Ballmer) | business | S | $113.9B | - |
+| 12 | Mars family (Jacqueline Mars) | business | S | $108.1B | - |
+| 13 | Solow family (Sheldon Solow) | business | S | $105.5B | - |
+| 14 | Bonderman family (David Bonderman) | business | S | $95.5B | - |
+| 15 | Knight family (Phil Knight) | business | S | $95.1B | - |
 
 ### JP (총 6,915개)
 
@@ -153,61 +153,61 @@
 
 | 순위 | 가문 | 카테고리 | tier_now | 자산 | head |
 |---:|---|---|---|---:|---|
-| 1 | Rakuten Mikitani family | business | S | $96.4B | Shinichiro Koyama |
-| 2 | Mittal Steel Company | business | S | $95.6B | [Lakshmi Mittal] |
-| 3 | Maezawa family (Yusaku Maezawa) | business | S | $92.0B | - |
-| 4 | Shigeta family (Yasumitsu Shigeta) | business | S | $72.9B | - |
-| 5 | Mukesh Ambani | business | S | $63.9B | [Mukesh Ambani / Anil Ambani] |
-| 6 | Uno family (Masateru Uno) | business | S | $55.0B | - |
-| 7 | SoftBank Son family | business | S | $52.1B | Ayatsugu Yamashita |
-| 8 | Fast Retailing Yanai family | business | A | $46.5B | Ian Cheshire |
-| 9 | Suzuki family (Suzuki Motor) | business | A | $43.5B | - |
-| 10 | Fukushima family (Yasuhiro Fukushima) | business | A | $37.0B | - |
-| 11 | Yasuda family | business | A | $30.0B | - |
-| 12 | Noda family (Masahiro Noda) | business | A | $26.0B | - |
-| 13 | Takizaki family (Takemitsu Takizaki) | business | A | $22.3B | - |
-| 14 | Kozuki family (Kagemasa Kozuki) | business | A | $18.0B | - |
-| 15 | Bridgestone Ishibashi family | business | A | $14.0B | Abram Yampolsky |
+| 1 | Mukesh Ambani | business | S | $108.8B | [Mukesh Ambani / Anil Ambani] |
+| 2 | Fast Retailing Yanai family | business | S | $71.3B | Ian Cheshire |
+| 3 | SoftBank Son family | business | A | $47.4B | Ayatsugu Yamashita |
+| 4 | Takizaki family (Takemitsu Takizaki) | business | A | $37.3B | - |
+| 5 | Rakuten Mikitani family | business | A | $18.5B | Shinichiro Koyama |
+| 6 | Mittal Steel Company | business | A | $15.2B | [Lakshmi Mittal] |
+| 7 | Nagamori family (Shigenobu Nagamori) | business | A | $12.1B | - |
+| 8 | Ito family (Masatoshi Ito) | business | A | $12.0B | - |
+| 9 | Shigeta family (Yasumitsu Shigeta) | business | B | $9.6B | - |
+| 10 | Mori family (Mori Building) | business | B | $9.4B | - |
+| 11 | Lotte Shin Family | business | B | $8.4B | - |
+| 12 | Miki family (Masahiro Miki) | business | B | $6.9B | - |
+| 13 | Chang-Woo family (Han Chang-Woo) | business | B | $6.2B | - |
+| 14 | Busujima family (Kunio Busujima) | business | B | $5.8B | - |
+| 15 | Takahara family (Keiichiro Takahara) | business | B | $5.6B | - |
 
 ### KR (총 10,845개)
 
 | 순위 | 가문 | 카테고리 | tier_now | 자산 | head |
 |---:|---|---|---|---:|---|
-| 1 | Hyundai Chung Family | business | S | $221.5B | Park Won-jae |
-| 2 | Samsung Lee Family | business | S | $94.0B | Geoffrey Cain |
-| 3 | Tae-Won family (Chey Tae-Won) | business | S | $89.5B | - |
-| 4 | Shinsegae Lee Family | business | S | $52.0B | - |
-| 5 | Ki-Won family (Chey Ki-Won) | business | A | $36.5B | - |
-| 6 | Booyoung Lee Family | business | A | $27.0B | - |
-| 7 | Boryung Kim Family | business | A | $25.8B | - |
-| 8 | LF Koo Family | business | A | $23.0B | - |
-| 9 | Hanjin Cho Family | business | A | $20.0B | - |
-| 10 | Doosan Park Family | business | A | $18.5B | - |
-| 11 | Amorepacific Suh Family | business | B | $7.2B | - |
-| 12 | Lotte Shin Family | business | B | $5.9B | - |
-| 13 | Hyuk-Bin family (Kwon Hyuk-Bin) | business | B | $5.0B | - |
-| 14 | LG Koo Family | business | B | $5.0B | - |
-| 15 | Hanwha Kim Family | business | B | $3.5B | - |
+| 1 | Samsung Lee Family | business | S | $50.7B | Geoffrey Cain |
+| 2 | Booyoung Lee Family | business | A | $28.7B | - |
+| 3 | Hyundai Chung Family | business | A | $17.5B | Park Won-jae |
+| 4 | Amorepacific Suh Family | business | A | $11.2B | - |
+| 5 | Lotte Shin Family | business | B | $8.4B | - |
+| 6 | Hyuk-Bin family (Kwon Hyuk-Bin) | business | B | $8.1B | - |
+| 7 | Celltrion Seo Family | business | B | $7.9B | - |
+| 8 | Boryung Kim Family | business | B | $7.5B | - |
+| 9 | Tae-Won family (Chey Tae-Won) | business | B | $6.7B | - |
+| 10 | Doosan Park Family | business | B | $6.0B | - |
+| 11 | LG Koo Family | business | B | $5.0B | - |
+| 12 | CJ Lee Family | business | B | $4.5B | - |
+| 13 | Hanjin Cho Family | business | B | $4.2B | - |
+| 14 | Hanwha Kim Family | business | B | $3.5B | - |
+| 15 | Sung-Ki family (Lim Sung-Ki) | business | B | $2.8B | - |
 
 ### CN (총 1,359개)
 
 | 순위 | 가문 | 카테고리 | tier_now | 자산 | head |
 |---:|---|---|---|---:|---|
-| 1 | Wang Chuanfu family / BYD | business | S | $400.0B | - |
-| 2 | Zhang Juzheng family | business | S | $400.0B | - |
-| 3 | Ma Yun (Jack Ma) family / Alibaba | business | S | $309.5B | - |
-| 4 | Sun Chuanfang family | business | S | $300.7B | - |
-| 5 | Lee Kum Kee | business | S | $293.9B | [Lee Man-Tat heirs] |
-| 6 | Jiang family | business | S | $276.0B | - |
-| 7 | Chen Daihe family | business | S | $259.1B | - |
-| 8 | Zhou Hongyi family / 360 Security | business | S | $249.2B | - |
-| 9 | Li Shufu family / Geely | business | S | $247.4B | - |
-| 10 | Liang Jianzhang family / Trip.com | business | S | $218.1B | - |
-| 11 | Bonnie Sin family / Cheng Tak-fai | business | S | $215.0B | - |
-| 12 | Nanxun Pang family | business | S | $190.5B | - |
-| 13 | Huang Zheng (Colin Huang) family / Pinduoduo | business | S | $185.4B | - |
-| 14 | Liu Cangling family / Taiwan plastic | business | S | $179.7B | Geoffrey Rose |
-| 15 | Guo Guangchang family / Fosun | business | S | $176.1B | - |
+| 1 | Lee Shau-kee family | business | S | $107.1B | - |
+| 2 | Ma Yun (Jack Ma) family / Alibaba | business | S | $95.7B | - |
+| 3 | Pony Ma (Ma Huateng) family / Tencent | business | S | $87.2B | - |
+| 4 | Xu Jiayin (Hui Ka Yan) family / Evergrande | business | S | $69.5B | - |
+| 5 | Wang Jianlin family / Wanda | business | S | $65.0B | - |
+| 6 | He Xiangjian family / Midea | business | A | $44.0B | - |
+| 7 | Yang Huiyan family / Country Garden | business | A | $41.7B | - |
+| 8 | Robin Li / Baidu family | business | A | $39.4B | - |
+| 9 | Li family (William Li) | business | A | $37.3B | - |
+| 10 | Lei Jun family / Xiaomi | business | A | $33.6B | - |
+| 11 | Nanxun Pang family | business | A | $32.4B | - |
+| 12 | Zong Qinghou / Wahaha family | business | A | $23.0B | - |
+| 13 | Cheng Yu-tung family | business | A | $22.0B | - |
+| 14 | Li Hejun family / Hanergy | business | A | $21.1B | - |
+| 15 | Wu Yajun family / Longfor | business | A | $20.6B | - |
 
 ### GB (총 2,194개)
 
@@ -215,81 +215,81 @@
 
 | 순위 | 가문 | 카테고리 | tier_now | 자산 | head |
 |---:|---|---|---|---:|---|
-| 1 | Rubin family (Stephen Rubin) | business | S | $299.0B | - |
-| 2 | Mittal Steel Company | business | S | $95.6B | [Lakshmi Mittal] |
-| 3 | Hinduja Group | business | S | $53.4B | [Gopichand Hinduja / Prakash Hinduja heirs] |
+| 1 | Hinduja Group | business | A | $46.6B | [Gopichand Hinduja / Prakash Hinduja heirs] |
+| 2 | Barclay family (David & Frederick Barclay) | business | A | $44.1B | - |
+| 3 | Dyson family (James Dyson) | business | A | $31.3B | - |
 | 4 | Grosvenor family (Gerald Cavendish Grosvenor) | business | A | $25.0B | Thomas Harrison |
-| 5 | Barclay family (David & Frederick Barclay) | business | A | $24.9B | - |
-| 6 | John and Richard Marriot | business | A | $24.1B | - |
-| 7 | McMurtry family (David McMurtry) | business | A | $17.0B | George McMurtry |
-| 8 | Oppenheimer family | business | A | $15.5B | - |
-| 9 | Cadogan family (Charles Cadogan) | business | A | $15.2B | - |
-| 10 | Dyson family (James Dyson) | business | A | $15.1B | - |
+| 5 | Cadogan family (Charles Cadogan) | business | A | $22.2B | - |
+| 6 | Oppenheimer family | business | A | $20.8B | - |
+| 7 | Lewis family (Joe Lewis) | business | A | $16.1B | - |
+| 8 | Mittal Steel Company | business | A | $15.2B | [Lakshmi Mittal] |
+| 9 | Graff family (Laurence Graff) | business | A | $15.0B | - |
+| 10 | Schroder family (Bruno Schroder) | business | A | $14.4B | - |
 | 11 | Ratcliffe family (Jim Ratcliffe) | business | A | $13.2B | - |
-| 12 | Lewis family (Joe Lewis) | business | A | $13.1B | - |
-| 13 | Ashley family (Michael Ashley) | business | A | $11.9B | - |
-| 14 | Schroder family (Bruno Schroder) | business | B | $9.8B | - |
-| 15 | Graff family (Laurence Graff) | business | B | $9.4B | - |
+| 12 | Wood family (Ian Wood) | business | A | $11.6B | - |
+| 13 | Hargreaves family (Peter Hargreaves) | business | A | $10.7B | Georgie Stone |
+| 14 | Coates family (Denise Coates) | business | A | $10.5B | - |
+| 15 | Green family (Philip & Cristina Green) | business | B | $9.6B | - |
 
 ### DE (총 5,077개)
 
 | 순위 | 가문 | 카테고리 | tier_now | 자산 | head |
 |---:|---|---|---|---:|---|
-| 1 | Meister family (Siegfried Meister) | business | S | $174.9B | Simon Meister |
-| 2 | Bechtolsheim family (Andreas von Bechtolsheim) | business | S | $157.0B | - |
-| 3 | Schaeffler family (Georg Schaeffler) | business | S | $145.9B | - |
-| 4 | Plattner family (Hasso Plattner) | business | S | $144.3B | Karl Plattner |
-| 5 | Tschira family (Klaus Tschira) | business | S | $123.7B | Carsten Könneker |
-| 6 | Hopp family (Dietmar Hopp) | business | S | $106.7B | - |
-| 7 | Merckle family (Ludwig Merckle) | business | S | $76.2B | - |
-| 8 | Quandt family (Stefan Quandt) | business | S | $54.3B | - |
-| 9 | Nemetschek family (Georg Nemetschek) | business | S | $53.0B | - |
-| 10 | Klatten family (Susanne Klatten) | business | A | $44.8B | - |
-| 11 | Schnabel family (Dieter Schnabel) | business | A | $42.5B | Cy Twombly |
-| 12 | Albrecht family (Beate Heister & Karl Albrecht Jr.) | business | A | $40.3B | - |
-| 13 | Schaeffler-Thumann family (Maria-Elisabeth Schaeffler-Thumann) | business | A | $33.7B | - |
-| 14 | Herz family (Michael Herz) | business | A | $27.2B | - |
-| 15 | Theo Albrecht family (Theo Albrecht, Jr.) | business | A | $25.9B | - |
+| 1 | Albrecht family (Beate Heister & Karl Albrecht Jr.) | business | S | $76.7B | - |
+| 2 | Schnabel family (Dieter Schnabel) | business | S | $66.1B | Cy Twombly |
+| 3 | Quandt family (Stefan Quandt) | business | S | $64.9B | - |
+| 4 | Klatten family (Susanne Klatten) | business | S | $57.6B | - |
+| 5 | Schaeffler family (Georg Schaeffler) | business | S | $51.9B | - |
+| 6 | Theo Albrecht family (Theo Albrecht, Jr.) | business | A | $46.8B | - |
+| 7 | Herz family (Michael Herz) | business | A | $42.1B | - |
+| 8 | Thiele family (Heinz Hermann Thiele) | business | A | $39.0B | - |
+| 9 | Kuehne family (Klaus-Michael Kuehne) | business | A | $37.2B | - |
+| 10 | Plattner family (Hasso Plattner) | business | A | $33.9B | Karl Plattner |
+| 11 | Wuerth family (Reinhold Wuerth) | business | A | $30.6B | - |
+| 12 | Tschira family (Klaus Tschira) | business | A | $29.2B | Carsten Könneker |
+| 13 | Finck family (August von Finck) | business | A | $26.8B | - |
+| 14 | Marguerre family (Wolfgang Marguerre) | business | A | $26.5B | Eleonore Marguerre |
+| 15 | Hopp family (Dietmar Hopp) | business | A | $24.7B | - |
 
 ### FR (총 3,430개)
 
 | 순위 | 가문 | 카테고리 | tier_now | 자산 | head |
 |---:|---|---|---|---:|---|
-| 1 | Meyers family (Francoise Bettencourt Meyers) | business | S | $257.5B | - |
-| 2 | Fraisse family (Bernard Fraisse) | business | S | $108.8B | - |
-| 3 | Beaufour family (Anne Beaufour) | business | S | $68.0B | - |
-| 4 | Wertheimer family (Alain Wertheimer) | business | S | $56.2B | - |
-| 5 | Feuillet family (Francois Feuillet) | business | A | $44.9B | - |
-| 6 | Bettencourt family (Liliane Bettencourt) | business | A | $40.1B | - |
-| 7 | Merieux family (Alain Merieux) | business | A | $34.6B | - |
-| 8 | Puech family (Nicolas Puech) | business | A | $33.0B | - |
-| 9 | Besnier family (Emmanuel Besnier) | business | A | $31.5B | Lucien Jacquet |
-| 10 | Drahi family (Patrick Drahi) | business | A | $22.4B | - |
-| 11 | Martin family (Gilles Martin) | business | A | $18.6B | - |
-| 12 | Beauvalot family (Marie Besnier Beauvalot) | business | A | $17.0B | - |
-| 13 | Edelstenne family (Charles Edelstenne) | business | A | $17.0B | - |
-| 14 | Dassault family (Serge Dassault) | business | A | $15.3B | - |
-| 15 | Niel family (Xavier Niel) | business | A | $14.2B | - |
+| 1 | Meyers family (Francoise Bettencourt Meyers) | business | S | $90.3B | - |
+| 2 | Wertheimer family (Alain Wertheimer) | business | S | $82.3B | - |
+| 3 | Feuillet family (Francois Feuillet) | business | S | $73.1B | - |
+| 4 | Bettencourt family (Liliane Bettencourt) | business | A | $40.1B | - |
+| 5 | Besnier family (Emmanuel Besnier) | business | A | $28.3B | Lucien Jacquet |
+| 6 | Drahi family (Patrick Drahi) | business | A | $24.9B | - |
+| 7 | Castel family (Pierre Castel) | business | A | $23.2B | - |
+| 8 | Niel family (Xavier Niel) | business | A | $18.7B | - |
+| 9 | Bollore family (Vincent Bollore) | business | A | $16.9B | - |
+| 10 | Perrodo family (Carrie Perrodo) | business | A | $15.7B | - |
+| 11 | Dassault family (Serge Dassault) | business | A | $15.3B | - |
+| 12 | Beauvalot family (Marie Besnier Beauvalot) | business | A | $15.3B | - |
+| 13 | Bellon family (Pierre Bellon) | business | A | $14.7B | - |
+| 14 | Merieux family (Alain Merieux) | business | A | $12.4B | - |
+| 15 | Martin family (Gilles Martin) | business | B | $9.0B | - |
 
 ### IT (총 2,940개)
 
 | 순위 | 가문 | 카테고리 | tier_now | 자산 | head |
 |---:|---|---|---|---:|---|
-| 1 | Pessina family (Stefano Pessina) | business | S | $178.1B | - |
-| 2 | De'Longhi family (Giuseppe De'Longhi) | business | S | $71.9B | - |
-| 3 | Benetton family (Carlo Benetton) | business | S | $55.6B | Edoardo Iachizzi |
-| 4 | Casa Del Vecchio | business | A | $41.3B | Carlos Vecchio |
-| 5 | Silvio Berlusconi | business | A | $38.6B | [Marina Berlusconi / Pier Silvio Berlusconi] |
-| 6 | Denegri family (Gustavo Denegri) | business | A | $34.0B | - |
-| 7 | Fondazione Bertarelli Concert Hall | business | A | $29.0B | Achille Bertarelli |
-| 8 | Fissolo family (Maria Franca Fissolo) | business | A | $23.4B | - |
-| 9 | Ferrero family (Giovanni Ferrero) | business | A | $22.6B | - |
-| 10 | Cucinelli family (Brunello Cucinelli) | business | A | $19.0B | - |
-| 11 | Ferrari family (Piero Ferrari) | business | A | $19.0B | Lucas Ferrari |
-| 12 | Rocca family (Paolo & Gianfelice Mario Rocca) | business | A | $14.8B | - |
-| 13 | Armani family (Giorgio Armani) | business | A | $13.6B | - |
-| 14 | Aleotti family (Massimiliana Landini Aleotti) | business | A | $10.4B | - |
-| 15 | Saputo | business | B | $9.6B | [Lino Saputo Jr.] |
+| 1 | Casa Del Vecchio | business | S | $62.3B | Carlos Vecchio |
+| 2 | Ferrero family (Giovanni Ferrero) | business | A | $45.3B | - |
+| 3 | Fondazione Bertarelli Concert Hall | business | A | $41.9B | Achille Bertarelli |
+| 4 | Fissolo family (Maria Franca Fissolo) | business | A | $25.3B | - |
+| 5 | Pessina family (Stefano Pessina) | business | A | $24.3B | - |
+| 6 | Silvio Berlusconi | business | A | $21.3B | [Marina Berlusconi / Pier Silvio Berlusconi] |
+| 7 | Armani family (Giorgio Armani) | business | A | $21.2B | - |
+| 8 | Rocca family (Paolo & Gianfelice Mario Rocca) | business | A | $18.6B | - |
+| 9 | Aleotti family (Massimiliana Landini Aleotti) | business | A | $18.0B | - |
+| 10 | Benetton family (Carlo Benetton) | business | A | $17.1B | Edoardo Iachizzi |
+| 11 | Saputo | business | A | $14.6B | [Lino Saputo Jr.] |
+| 12 | Perfetti family (Augusto & Giorgio Perfetti) | business | A | $12.0B | Egidio Perfetti |
+| 13 | Prada family (Miuccia Prada) | business | B | $8.5B | - |
+| 14 | De'Longhi family (Giuseppe De'Longhi) | business | B | $7.0B | - |
+| 15 | Bertelli family (Patrizio Bertelli) | business | B | $6.5B | Simone Scattolin |
 
 ### RU (총 4,286개)
 
@@ -297,41 +297,41 @@
 
 | 순위 | 가문 | 카테고리 | tier_now | 자산 | head |
 |---:|---|---|---|---:|---|
-| 1 | Vekselberg family (Viktor Vekselberg) | business | S | $73.2B | - |
-| 2 | Deripaska family (Oleg Deripaska) | business | S | $58.2B | - |
-| 3 | Fridman family (Mikhail Fridman) | business | S | $55.6B | - |
-| 4 | Khan family (German Khan) | business | A | $35.5B | - |
-| 5 | Gutseriev family (Mikhail Gutseriev) | business | A | $35.4B | - |
-| 6 | Mikhelson family (Leonid Mikhelson) | business | A | $32.7B | - |
-| 7 | Timchenko family (Gennady Timchenko) | business | A | $30.7B | - |
-| 8 | Kuzmichev family (Alexei Kuzmichev) | business | A | $27.3B | - |
-| 9 | Melnichenko family (Andrey Melnichenko) | business | A | $21.1B | - |
-| 10 | Guriev family (Andrei Guriev) | business | A | $18.5B | - |
-| 11 | Moshkovich family (Vadim Moshkovich) | business | A | $18.0B | - |
-| 12 | Potanin family (Vladimir Potanin) | business | A | $15.4B | - |
-| 13 | Prokhorov family (Mikhail Prokhorov) | business | A | $14.9B | - |
-| 14 | Usmanov family (Alisher Usmanov) | business | A | $14.4B | - |
-| 15 | Aven family (Pyotr Aven) | business | A | $14.1B | - |
+| 1 | Mikhelson family (Leonid Mikhelson) | business | A | $35.1B | - |
+| 2 | Alekperov family (Vagit Alekperov) | business | A | $31.9B | - |
+| 3 | Potanin family (Vladimir Potanin) | business | A | $31.9B | - |
+| 4 | Timchenko family (Gennady Timchenko) | business | A | $30.4B | - |
+| 5 | Lisin family (Vladimir Lisin) | business | A | $30.1B | - |
+| 6 | Mordashov family (Alexey Mordashov) | business | A | $29.8B | - |
+| 7 | Fridman family (Mikhail Fridman) | business | A | $29.7B | - |
+| 8 | Usmanov family (Alisher Usmanov) | business | A | $26.5B | - |
+| 9 | Vekselberg family (Viktor Vekselberg) | business | A | $26.4B | - |
+| 10 | Melnichenko family (Andrey Melnichenko) | business | A | $22.1B | - |
+| 11 | Abramovich family (Roman Abramovich) | business | A | $20.5B | Alena Abramovich |
+| 12 | Khan family (German Khan) | business | A | $19.2B | - |
+| 13 | Prokhorov family (Mikhail Prokhorov) | business | A | $19.2B | - |
+| 14 | Rybolovlev family (Dmitry Rybolovlev) | business | A | $15.3B | - |
+| 15 | Kuzmichev family (Alexei Kuzmichev) | business | A | $14.8B | - |
 
 ### IN (총 1,931개)
 
 | 순위 | 가문 | 카테고리 | tier_now | 자산 | head |
 |---:|---|---|---|---:|---|
-| 1 | Adani family | business | S | $189.0B | - |
-| 2 | Britannia / Wadia family | business | S | $146.1B | - |
-| 3 | HCL Shiv Nadar | business | S | $140.9B | - |
-| 4 | Jindal family | business | S | $114.3B | - |
-| 5 | DLF Singh family | business | S | $103.1B | - |
-| 6 | Mittal Steel Company | business | S | $95.6B | [Lakshmi Mittal] |
-| 7 | Kalsi family (Ajay Kalsi) | business | S | $94.8B | - |
-| 8 | Essel / Subhash Chandra (Goenka, dup) | business | S | $64.2B | Kailash Chandra Meher |
-| 9 | Mukesh Ambani | business | S | $63.9B | [Mukesh Ambani / Anil Ambani] |
-| 10 | Bhatia family (Kapil & Rahul Bhatia) | business | S | $58.1B | - |
-| 11 | Reliance ADAG / Anil Ambani branch | business | S | $57.0B | Achille Baquet |
-| 12 | Narayana Murthy family (Infosys) | business | S | $56.1B | Ramakrishna Badiga |
-| 13 | Bajaj Family | business | S | $56.0B | [Rahul Bajaj heirs] |
-| 14 | Reddy Aurobindo Pharma / PV Ramprasad Reddy | business | S | $55.3B | Pannalal Bhattacharya |
-| 15 | Raheja family | business | S | $54.8B | - |
+| 1 | Mukesh Ambani | business | S | $108.8B | [Mukesh Ambani / Anil Ambani] |
+| 2 | Adani family | business | S | $68.7B | - |
+| 3 | Azim Premji | business | S | $57.3B | [Azim Premji / Rishad Premji] |
+| 4 | Hinduja Group | business | A | $46.6B | [Gopichand Hinduja / Prakash Hinduja heirs] |
+| 5 | Lakshmi Mittal family / ArcelorMittal | business | A | $41.5B | - |
+| 6 | HCL Shiv Nadar | business | A | $41.1B | - |
+| 7 | Sun Pharma / Shanghvi | business | A | $37.0B | - |
+| 8 | Kotak family | business | A | $29.5B | - |
+| 9 | Cognizant Kumar (semi) | business | A | $28.6B | - |
+| 10 | Pune Poonawalla family | business | A | $22.5B | - |
+| 11 | DLF Singh family | business | A | $21.5B | - |
+| 12 | Damani family (DMart) | business | A | $19.2B | - |
+| 13 | Jindal family | business | A | $18.9B | - |
+| 14 | Adi Godrej family (Industries) | business | A | $17.8B | - |
+| 15 | Bhatia family (Kapil & Rahul Bhatia) | business | A | $15.5B | - |
 
 ### SA (총 368개)
 
@@ -340,15 +340,15 @@
 | 순위 | 가문 | 카테고리 | tier_now | 자산 | head |
 |---:|---|---|---|---:|---|
 | 1 | Kingdom Holding (Al Waleed) | business | A | $22.6B | - |
-| 2 | Al-Amoudi family (Mohammed Al-Amoudi) | business | A | $19.6B | - |
+| 2 | Al-Amoudi family (Mohammed Al-Amoudi) | business | A | $20.7B | - |
 | 3 | Saud family (Alwaleed Al Saud) | business | A | $14.8B | - |
 | 4 | Olayan family | business | A | $12.0B | - |
 | 5 | Kabeer family (Sultan Al Kabeer) | business | B | $9.4B | - |
 | 6 | Jaber family (Mohamed Al Jaber) | business | B | $7.2B | - |
-| 7 | Bin Mahfouz family | business | B | $5.0B | - |
-| 8 | Issa family (Mohammed Al Issa) | business | B | $3.5B | - |
-| 9 | Kamel family (Saleh Kamel) | business | B | $2.8B | - |
-| 10 | Hariri family | business | B | $2.3B | - |
+| 7 | Hariri family | business | B | $7.0B | - |
+| 8 | Bin Mahfouz family | business | B | $5.0B | - |
+| 9 | Issa family (Mohammed Al Issa) | business | B | $3.5B | - |
+| 10 | Kamel family (Saleh Kamel) | business | B | $2.8B | - |
 | 11 | Al Rajhi family | business | B | $2.1B | - |
 
 ### AE (총 111개)
@@ -359,302 +359,324 @@ _(공개된 valuation 데이터 없음)_
 
 | 순위 | 가문 | 카테고리 | tier_now | 자산 | head |
 |---:|---|---|---|---:|---|
-| 1 | Saverin family (Eduardo Saverin) | business | S | $241.6B | - |
-| 2 | Lemann family (Jorge Paulo Lemann) | business | S | $155.3B | - |
-| 3 | Telles family (Marcel Herrmann Telles) | business | S | $76.9B | - |
-| 4 | Sicupira family (Carlos Alberto Sicupira) | business | S | $65.3B | - |
-| 5 | Safra family (Joseph Safra) | business | A | $34.4B | - |
-| 6 | Roberto Marinho | business | A | $29.0B | [João Roberto Marinho] |
-| 7 | Moreira Salles Institute collection catalog | business | A | $26.8B | Francisco Edson Moreira da Silva |
-| 8 | Frias family (Luis Frias) | business | A | $19.0B | - |
-| 9 | Faria family (Walter Faria) | business | A | $16.7B | - |
-| 10 | Filho family (Jose Joao Abdalla Filho) | business | A | $13.3B | - |
-| 11 | Chung family (Liu Ming Chung) | business | A | $12.0B | - |
-| 12 | Peres family (Jose Isaac Peres) | business | A | $11.0B | - |
-| 13 | Esteves family (Andre Esteves) | business | B | $7.9B | Luís Araújo |
-| 14 | Ermírio de Moraes family | business | B | $7.6B | - |
-| 15 | Aguiar family (Lina Maria Aguiar) | business | B | $7.6B | - |
+| 1 | Lemann family (Jorge Paulo Lemann) | business | S | $70.8B | - |
+| 2 | Safra family (Joseph Safra) | business | S | $57.2B | - |
+| 3 | Moreira Salles Institute collection catalog | business | A | $39.3B | Francisco Edson Moreira da Silva |
+| 4 | Roberto Marinho | business | A | $36.7B | [João Roberto Marinho] |
+| 5 | Telles family (Marcel Herrmann Telles) | business | A | $33.7B | - |
+| 6 | Sicupira family (Carlos Alberto Sicupira) | business | A | $29.5B | - |
+| 7 | Saverin family (Eduardo Saverin) | business | A | $21.4B | - |
+| 8 | Faria family (Walter Faria) | business | A | $21.2B | - |
+| 9 | Filho family (Jose Joao Abdalla Filho) | business | A | $17.7B | - |
+| 10 | Aguiar family (Lina Maria Aguiar) | business | A | $11.2B | - |
+| 11 | Ermírio de Moraes family | business | B | $9.8B | - |
+| 12 | Abilio Diniz | business | B | $7.2B | [Abilio Diniz] |
+| 13 | Camargo | business | B | $6.0B | Lucas Gomes Arcanjo |
+| 14 | Esteves family (Andre Esteves) | business | B | $5.3B | Luís Araújo |
+| 15 | Bartelle family (Alexandre Grendene Bartelle) | business | B | $4.5B | - |
 
 ### MX (총 66개)
 
 | 순위 | 가문 | 카테고리 | tier_now | 자산 | head |
 |---:|---|---|---|---:|---|
-| 1 | Carlos Hank González | business | S | $138.5B | [Carlos Hank Rhon / Jorge Hank Rhon] |
-| 2 | Alberto Baillères | business | S | $89.0B | [Alejandro Bailleres] |
-| 3 | Larrea train station | business | A | $37.3B | [Germán Larrea] |
-| 4 | Alanis family (David Penaloza Alanis) | business | A | $27.0B | - |
-| 5 | Pliego family (Ricardo Salinas Pliego) | business | A | $18.7B | - |
-| 6 | Ramirez family (Roberto Hernandez Ramirez) | business | A | $18.0B | - |
-| 7 | Jean family (Emilio Azcarraga Jean) | business | A | $17.1B | - |
-| 8 | Rivera family (Eva Gonda de Rivera) | business | B | $8.7B | - |
-| 9 | Ruiz family (Antonio Del Valle Ruiz) | business | B | $8.7B | - |
-| 10 | Arango family (Jeronimo Arango) | business | B | $6.3B | - |
-| 11 | Vidal family (Juan Francisco Beckmann Vidal) | business | B | $6.0B | - |
-| 12 | Aramburuzabala family (Maria Asuncion Aramburuzabala) | business | B | $5.6B | - |
-| 13 | Rojas family (Jose and Francisco Jose Calderon Rojas) | business | B | $4.1B | - |
-| 14 | Helu family (Alfredo Harp Helu) | business | B | $1.0B | - |
+| 1 | Carlos Hank González | business | S | $203.1B | [Carlos Hank Rhon / Jorge Hank Rhon] |
+| 2 | Larrea train station | business | A | $36.6B | [Germán Larrea] |
+| 3 | Alberto Baillères | business | A | $29.7B | [Alejandro Bailleres] |
+| 4 | Pliego family (Ricardo Salinas Pliego) | business | A | $29.6B | - |
+| 5 | Rivera family (Eva Gonda de Rivera) | business | A | $13.3B | - |
+| 6 | Aramburuzabala family (Maria Asuncion Aramburuzabala) | business | A | $11.5B | - |
+| 7 | Arango family (Jeronimo Arango) | business | B | $8.7B | - |
+| 8 | Ruiz family (Antonio Del Valle Ruiz) | business | B | $6.6B | - |
+| 9 | Jean family (Emilio Azcarraga Jean) | business | B | $4.3B | - |
+| 10 | Vidal family (Juan Francisco Beckmann Vidal) | business | B | $4.3B | - |
+| 11 | Rojas family (Jose and Francisco Jose Calderon Rojas) | business | B | $4.3B | - |
+| 12 | Ramirez family (Roberto Hernandez Ramirez) | business | B | $1.8B | - |
+| 13 | Gonzalez family (Rufino Vigil Gonzalez) | business | B | $1.4B | Regla Gracia |
+| 14 | Alanis family (David Penaloza Alanis) | business | B | $1.3B | - |
+| 15 | Helu family (Alfredo Harp Helu) | business | B | $1.2B | - |
 
 ### CA (총 287개)
 
 | 순위 | 가문 | 카테고리 | tier_now | 자산 | head |
 |---:|---|---|---|---:|---|
-| 1 | Cheriton family (David Cheriton) | business | S | $311.5B | - |
-| 2 | Tsai family (Joseph Tsai) | business | S | $97.3B | - |
-| 3 | Lutke family (Tobi Lutke) | business | A | $42.0B | - |
-| 4 | Weston family (Galen Weston) | business | A | $36.9B | - |
-| 5 | Godin family (Serge Godin) | business | A | $28.0B | - |
-| 6 | Irving family (James Irving) | business | A | $22.6B | - |
-| 7 | Bouchard family (Alain Bouchard) | business | A | $15.5B | Lucien Bouchard |
-| 8 | Pattison | business | A | $14.2B | [Jim Pattison] |
-| 9 | Saputo | business | B | $9.6B | [Lino Saputo Jr.] |
-| 10 | Edwards family (N. Murray Edwards) | business | B | $9.0B | - |
-| 11 | Camp family (Garrett Camp) | business | B | $9.0B | - |
-| 12 | Wilson family (Chip Wilson) | business | B | $8.2B | - |
-| 13 | Brydson family (Sherry Brydson) | business | B | $7.1B | - |
-| 14 | D'Amours family (Jacques D'Amours) | business | B | $6.0B | - |
-| 15 | Robinson family (Loretta Robinson) | business | B | $5.8B | - |
+| 1 | Cheriton family (David Cheriton) | business | S | $72.7B | - |
+| 2 | Irving family (James Irving) | business | A | $33.2B | - |
+| 3 | Weston family (Galen Weston) | business | A | $24.8B | - |
+| 4 | Tsai family (Joseph Tsai) | business | A | $24.1B | - |
+| 5 | Pattison | business | A | $20.1B | [Jim Pattison] |
+| 6 | Saputo | business | A | $14.6B | [Lino Saputo Jr.] |
+| 7 | Camp family (Garrett Camp) | business | A | $13.8B | - |
+| 8 | Scheinberg family (Mark Scheinberg) | business | B | $8.9B | - |
+| 9 | Gilgan family (Peter Gilgan) | business | B | $7.5B | - |
+| 10 | Brydson family (Sherry Brydson) | business | B | $7.1B | - |
+| 11 | Katz family (Daryl Katz) | business | B | $6.3B | - |
+| 12 | Bouchard family (Alain Bouchard) | business | B | $6.1B | Lucien Bouchard |
+| 13 | Wilson family (Chip Wilson) | business | B | $6.0B | - |
+| 14 | Robinson family (Loretta Robinson) | business | B | $5.8B | - |
+| 15 | Stroll family (Lawrence Stroll) | business | B | $5.1B | - |
 
 ### AU (총 121개)
 
 | 순위 | 가문 | 카테고리 | tier_now | 자산 | head |
 |---:|---|---|---|---:|---|
-| 1 | Cannon-Brookes family (Mike Cannon-Brookes) | business | S | $104.3B | Edward Cross |
-| 2 | Farquhar family (Scott Farquhar) | business | S | $104.3B | Edward Arthur Maund |
-| 3 | Stokes family (Kerry Stokes) | business | S | $55.0B | - |
-| 4 | Rinehart & Company | business | A | $27.3B | [Gina Rinehart] |
-| 5 | Forrest County | business | A | $25.2B | Thomas Bickerton |
-| 6 | Teoh family (David Teoh) | business | A | $22.0B | - |
-| 7 | Gandel family (John Gandel) | business | A | $16.6B | - |
-| 8 | Triguboff family (Harry Triguboff) | business | A | $14.6B | - |
-| 9 | Lowy family (Frank Lowy) | business | A | $12.4B | - |
-| 10 | Pratt family (Anthony Pratt) | business | A | $11.2B | - |
-| 11 | Packer family (James Packer) | business | A | $10.2B | - |
-| 12 | Sehgal family (Vivek Chaand Sehgal) | business | B | $9.2B | - |
-| 13 | Neilson family (Kerr Neilson) | business | B | $3.2B | - |
-| 14 | Fox family (Lindsay Fox) | business | B | $2.8B | - |
-| 15 | Geminder family (Fiona Geminder) | business | B | $2.0B | - |
+| 1 | Rinehart & Company | business | A | $44.6B | [Gina Rinehart] |
+| 2 | Triguboff family (Harry Triguboff) | business | A | $23.6B | - |
+| 3 | Pratt family (Anthony Pratt) | business | A | $16.8B | - |
+| 4 | Lowy family (Frank Lowy) | business | A | $15.9B | - |
+| 5 | Sehgal family (Vivek Chaand Sehgal) | business | A | $14.4B | - |
+| 6 | Cannon-Brookes family (Mike Cannon-Brookes) | business | A | $12.6B | Edward Cross |
+| 7 | Farquhar family (Scott Farquhar) | business | A | $12.6B | Edward Arthur Maund |
+| 8 | Gandel family (John Gandel) | business | A | $11.7B | - |
+| 9 | Packer family (James Packer) | business | A | $10.5B | - |
+| 10 | Forrest County | business | B | $6.5B | Thomas Bickerton |
+| 11 | Fox family (Lindsay Fox) | business | B | $6.4B | - |
+| 12 | Neilson family (Kerr Neilson) | business | B | $4.3B | - |
+| 13 | Geminder family (Fiona Geminder) | business | B | $4.3B | - |
+| 14 | Hains family (David Hains) | business | B | $3.9B | - |
+| 15 | Stokes family (Kerry Stokes) | business | B | $3.0B | - |
 
 ### ES (총 1,198개)
 
 | 순위 | 가문 | 카테고리 | tier_now | 자산 | head |
 |---:|---|---|---|---:|---|
-| 1 | Ortega family (Amancio Ortega) | business | S | $400.0B | - |
-| 2 | Mera family (Sandra Ortega Mera) | business | A | $32.6B | - |
-| 3 | Botin Leobele | business | A | $16.0B | [Ana Botín] |
-| 4 | Aristrain family (Jose Maria Aristrain) | business | A | $10.0B | - |
-| 5 | Abello family (Juan Abello) | business | B | $8.0B | - |
-| 6 | Calvo-Sotelo family (Rafael Del Pino y Calvo-Sotelo) | business | B | $6.0B | - |
-| 7 | Daurella family (Sol Daurella) | business | B | $6.0B | - |
-| 8 | Mir family (Juan-Miguel Villar Mir) | business | B | $5.7B | - |
-| 9 | Roig family (Juan Roig) | business | B | $5.4B | - |
-| 10 | Koplowitz family (Alicia Koplowitz) | business | B | $5.3B | - |
-| 11 | Andic family (Isak Andic) | business | B | $4.8B | - |
-| 12 | Mate family (Daniel Mate) | business | B | $4.1B | - |
-| 13 | Fernandez-Urrutia family (Jose Llado Fernandez-Urrutia) | business | B | $3.0B | Edmundo González |
-| 14 | Herrero family (Hortensia Herrero) | business | B | $2.8B | Lucía Rodríguez |
-| 15 | Hernandez family (Manuel Lao Hernandez) | business | B | $2.2B | Cécile Hernandez-Cervellon |
+| 1 | Ortega family (Amancio Ortega) | business | S | $185.3B | - |
+| 2 | Mera family (Sandra Ortega Mera) | business | A | $18.6B | - |
+| 3 | Calvo-Sotelo family (Rafael Del Pino y Calvo-Sotelo) | business | A | $12.5B | - |
+| 4 | Roig family (Juan Roig) | business | A | $10.9B | - |
+| 5 | Mir family (Juan-Miguel Villar Mir) | business | B | $7.1B | - |
+| 6 | Andic family (Isak Andic) | business | B | $5.9B | - |
+| 7 | Herrero family (Hortensia Herrero) | business | B | $5.1B | Lucía Rodríguez |
+| 8 | Koplowitz family (Alicia Koplowitz) | business | B | $5.0B | - |
+| 9 | Hernandez family (Manuel Lao Hernandez) | business | B | $4.3B | Cécile Hernandez-Cervellon |
+| 10 | Revoredo family (Helena Revoredo) | business | B | $4.2B | - |
+| 11 | Mate family (Daniel Mate) | business | B | $4.2B | - |
+| 12 | Perez family (Florentino Perez) | business | B | $4.1B | - |
+| 13 | Jove family (Manuel Jove) | business | B | $4.0B | - |
+| 14 | Abello family (Juan Abello) | business | B | $3.8B | - |
+| 15 | Rossello family (Miguel Fluxa Rossello) | business | B | $3.4B | - |
 
 ### SE (총 1,851개)
 
 | 순위 | 가문 | 카테고리 | tier_now | 자산 | head |
 |---:|---|---|---|---:|---|
-| 1 | Lorentzon family (Martin Lorentzon) | business | S | $84.0B | - |
-| 2 | Rausing family (Hans Rausing) | business | S | $73.7B | Sigrid Rausing |
-| 3 | Ek family (Daniel Ek) | business | S | $64.0B | - |
-| 4 | Schorling family (Melker Schorling) | business | S | $58.9B | - |
-| 5 | Persson family (Stefan Persson) | business | A | $48.3B | Karl-Johan Persson |
-| 6 | Bennet family (Carl Bennet) | business | A | $41.6B | - |
-| 7 | Lundberg family (Fredrik Lundberg) | business | A | $37.5B | Katarina Martinson |
-| 8 | Douglas family (Gustaf Douglas) | business | A | $17.2B | - |
-| 9 | Hult family (Bertil Hult) | business | A | $13.1B | - |
-| 10 | Ax:son Johnson family | business | A | $11.7B | Estelle Ax:son Johnson |
-| 11 | Paulsen family (Frederik Paulsen) | business | A | $11.7B | Geir Borgan Paulsen |
-| 12 | Lindh family (Louise Lindh) | business | A | $10.0B | - |
-| 13 | Martinson family (Katarina Martinson) | business | A | $10.0B | Karl-Birger Blomdahl |
-| 14 | Olsson family (Dan Olsson) | business | B | $5.1B | - |
-| 15 | Tham family (Lottie Tham) | business | B | $4.3B | - |
+| 1 | Rausing family (Hans Rausing) | business | S | $86.4B | Sigrid Rausing |
+| 2 | Persson family (Stefan Persson) | business | S | $64.2B | Karl-Johan Persson |
+| 3 | Schorling family (Melker Schorling) | business | A | $20.5B | - |
+| 4 | Paulsen family (Frederik Paulsen) | business | A | $19.2B | Geir Borgan Paulsen |
+| 5 | Hult family (Bertil Hult) | business | A | $17.6B | - |
+| 6 | Ax:son Johnson family | business | A | $17.5B | Estelle Ax:son Johnson |
+| 7 | Douglas family (Gustaf Douglas) | business | A | $16.5B | - |
+| 8 | Lundberg family (Fredrik Lundberg) | business | A | $11.4B | Katarina Martinson |
+| 9 | Olsson family (Dan Olsson) | business | B | $9.5B | - |
+| 10 | Bennet family (Carl Bennet) | business | B | $8.0B | - |
+| 11 | Tham family (Lottie Tham) | business | B | $6.5B | - |
+| 12 | Tornqvist family (Torbjorn Tornqvist) | business | B | $4.7B | - |
+| 13 | Soderstrom family (Charlotte Soderstrom) | business | B | $4.3B | - |
+| 14 | Kamprad family (Ingvar Kamprad) | business | B | $3.5B | - |
+| 15 | Lorentzon family (Martin Lorentzon) | business | B | $2.8B | - |
 
 ### NL (총 282개)
 
 | 순위 | 가문 | 카테고리 | tier_now | 자산 | head |
 |---:|---|---|---|---:|---|
-| 1 | Carvalho-Heineken family (Charlene de Carvalho-Heineken) | business | S | $240.8B | Raymundo Carvalho dos Santos |
-| 2 | Melchers family (Hans Melchers) | business | A | $19.2B | - |
-| 3 | Goldschmeding family (Frits Goldschmeding) | business | A | $19.1B | - |
-| 4 | Van der Vorm Kapel | business | B | $2.1B | - |
+| 1 | Carvalho-Heineken family (Charlene de Carvalho-Heineken) | business | A | $39.4B | Raymundo Carvalho dos Santos |
+| 2 | Goldschmeding family (Frits Goldschmeding) | business | A | $12.0B | - |
+| 3 | Melchers family (Hans Melchers) | business | B | $4.7B | - |
+| 4 | Sonnenberg family (Ralph Sonnenberg) | business | B | $2.3B | - |
+| 5 | Wessels family (Dik Wessels) | business | B | $2.3B | - |
+| 6 | Van der Vorm Kapel | business | B | $2.1B | - |
+| 7 | Mol family (John de Mol) | business | B | $1.9B | - |
+| 8 | Bamberger family (Lesley Bamberger) | business | B | $1.6B | George III of Limpurg |
+| 9 | Defares family (Robert Defares) | business | B | $1.5B | - |
+| 10 | Damen family (Kommer Damen) | business | B | $1.3B | - |
 
 ### TH (총 67개)
 
 | 순위 | 가문 | 카테고리 | tier_now | 자산 | head |
 |---:|---|---|---|---:|---|
-| 1 | Chearavanont family (CP) | business | S | $268.4B | - |
-| 2 | Sirivadhanabhakdi family | business | S | $134.2B | - |
-| 3 | Chiaravanont family (Jaran Chiaravanont) | business | S | $133.1B | - |
-| 4 | Jiaravanon family (CP-overseas) | business | S | $79.2B | - |
-| 5 | Jiaravanont family (Montri Jiaravanont) | business | S | $58.1B | - |
-| 6 | Chiaravanond family (Manas Chiaravanond) | business | A | $44.0B | - |
-| 7 | Chiravanond family (Prathip Chiravanond) | business | A | $22.0B | - |
-| 8 | Prasarttong-Osoth family (Prasert Prasarttong-Osoth) | business | A | $17.8B | - |
-| 9 | Chaiyawan family (Vanich Chaiyawan) | business | B | $5.7B | - |
-| 10 | Thirakomen family (Rit Thirakomen) | business | B | $5.0B | - |
-| 11 | Vijitpongpun family (Thongma Vijitpongpun) | business | B | $4.0B | - |
-| 12 | Ratanarak family (Bank of Ayudhya) | business | B | $3.8B | - |
-| 13 | Srivaddhanaprabha family (Vichai Srivaddhanaprabha) | business | B | $2.6B | - |
-| 14 | Lamsam family (KBank) | business | B | $2.0B | - |
-| 15 | Osathanugrah family (Osotspa) | business | B | $1.0B | - |
+| 1 | Sirivadhanabhakdi family | business | A | $39.4B | - |
+| 2 | Chearavanont family (CP) | business | A | $32.5B | - |
+| 3 | Chiaravanont family (Jaran Chiaravanont) | business | A | $11.6B | - |
+| 4 | Jiaravanon family (CP-overseas) | business | B | $8.6B | - |
+| 5 | Jiaravanont family (Montri Jiaravanont) | business | B | $8.3B | - |
+| 6 | Ratanarak family (Bank of Ayudhya) | business | B | $6.7B | - |
+| 7 | Chaiyawan family (Vanich Chaiyawan) | business | B | $6.6B | - |
+| 8 | Prasarttong-Osoth family (Prasert Prasarttong-Osoth) | business | B | $6.0B | - |
+| 9 | Ratanavadi family (Sarath Ratanavadi) | business | B | $4.0B | - |
+| 10 | Srivaddhanaprabha family (Vichai Srivaddhanaprabha) | business | B | $2.6B | - |
+| 11 | Chiaravanond family (Manas Chiaravanond) | business | B | $2.4B | - |
+| 12 | Ahunai family (Somphote Ahunai) | business | B | $2.3B | - |
+| 13 | Petaumpai family (Chuchat & Daonapa Petaumpai) | business | B | $2.2B | - |
+| 14 | Thongtang family (Wichai Thongtang) | business | B | $1.8B | - |
+| 15 | Shinawatra family (Thaksin Shinawatra) | business | B | $1.8B | - |
 
 ### HK (총 82개)
 
 | 순위 | 가문 | 카테고리 | tier_now | 자산 | head |
 |---:|---|---|---|---:|---|
-| 1 | Lee Kum Kee | business | S | $293.9B | [Lee Man-Tat heirs] |
-| 2 | Hongjia family (Gong Hongjia) | business | S | $276.7B | - |
-| 3 | Lui family (Great Eagle) | business | S | $272.1B | - |
-| 4 | Hui family (Evergrande) | business | S | $156.8B | - |
-| 5 | Woo Kwong Ching Peter | business | S | $142.4B | [Peter Woo] |
-| 6 | Yi family (Huang Yi) | business | S | $97.8B | - |
-| 7 | Lau family (Chinese Estates) | business | S | $83.2B | - |
-| 8 | Ka-shing family (Li Ka-shing) | business | S | $63.4B | - |
-| 9 | Kadoorie family (Michael Kadoorie) | business | S | $59.4B | - |
-| 10 | Kaiting family (Wu Kaiting) | business | S | $54.0B | - |
-| 11 | Kwok family (SHK) | business | A | $46.3B | - |
-| 12 | Wong family (Cho Tak Wong) | business | A | $44.9B | - |
-| 13 | Ho family (Pansy Ho) | business | A | $42.6B | - |
-| 14 | Lim family (Li Sze Lim) | business | A | $35.0B | - |
-| 15 | Cheng Yu-tung | business | A | $31.5B | [Henry Cheng / Adrian Cheng] |
+| 1 | Ka-shing family (Li Ka-shing) | business | S | $94.3B | - |
+| 2 | Kwok family (SHK) | business | S | $62.8B | - |
+| 3 | Lui family (Great Eagle) | business | A | $42.4B | - |
+| 4 | Lau family (Chinese Estates) | business | A | $36.9B | - |
+| 5 | Cheng Yu-tung | business | A | $29.8B | [Henry Cheng / Adrian Cheng] |
+| 6 | Woo Kwong Ching Peter | business | A | $29.6B | [Peter Woo] |
+| 7 | Kadoorie family (Michael Kadoorie) | business | A | $25.6B | - |
+| 8 | Hui family (Evergrande) | business | A | $21.7B | - |
+| 9 | Lee Kum Kee | business | A | $18.1B | [Lee Man-Tat heirs] |
+| 10 | Choi family (Francis Choi) | business | A | $14.8B | - |
+| 11 | Leong family (Edwin Leong) | business | A | $14.0B | - |
+| 12 | Ho family (Pansy Ho) | business | A | $13.9B | - |
+| 13 | Sutong family (Pan Sutong) | business | A | $13.6B | - |
+| 14 | McAulay family (Ronald McAulay) | business | A | $13.4B | Carys McAulay |
+| 15 | Li family (Richard Li) | business | A | $13.3B | - |
 
 ### TW (총 102개)
 
 | 순위 | 가문 | 카테고리 | tier_now | 자산 | head |
 |---:|---|---|---|---:|---|
-| 1 | MediaTek Tsai family | business | S | $198.4B | - |
-| 2 | Foxconn Gou family | business | S | $110.8B | - |
-| 3 | Hwa family (Chin Jong Hwa) | business | S | $80.0B | - |
-| 4 | Cheng family (Bruce Cheng) | business | S | $55.0B | - |
-| 5 | Jye family (Luo Jye) | business | A | $43.3B | - |
-| 6 | Chen family (CC Clique) | business | A | $43.0B | - |
-| 7 | Lam family (Barry Lam) | business | A | $31.8B | - |
-| 8 | Liu family (K.C. Liu) | business | A | $29.0B | - |
-| 9 | Lin family (Banciao) | business | A | $24.9B | - |
-| 10 | Koo family (Taiwan) | business | A | $21.0B | - |
-| 11 | Ing-Chou family (Wei Ing-Chou) | business | A | $13.1B | - |
-| 12 | Wei family (Yin-Chun Wei) | business | A | $13.0B | - |
-| 13 | Yin-Heng family (Wei Yin-Heng) | business | A | $13.0B | - |
-| 14 | Ying-Chiao family (Wei Ying-Chiao) | business | A | $13.0B | - |
-| 15 | Yin family (Samuel Yin) | business | A | $11.5B | - |
+| 1 | Lin family (Banciao) | business | A | $17.9B | - |
+| 2 | Foxconn Gou family | business | A | $17.1B | - |
+| 3 | Lam family (Barry Lam) | business | A | $11.5B | - |
+| 4 | Yin family (Samuel Yin) | business | A | $11.1B | - |
+| 5 | Chen family (CC Clique) | business | B | $8.6B | - |
+| 6 | Jye family (Luo Jye) | business | B | $7.2B | - |
+| 7 | Ing-Chou family (Wei Ing-Chou) | business | B | $3.5B | - |
+| 8 | Wei family (Yin-Chun Wei) | business | B | $3.4B | - |
+| 9 | Yin-Heng family (Wei Yin-Heng) | business | B | $3.4B | - |
+| 10 | Ying-Chiao family (Wei Ying-Chiao) | business | B | $3.3B | - |
+| 11 | Hwa family (Chin Jong Hwa) | business | B | $1.8B | - |
+| 12 | Koo family (Taiwan) | business | B | $1.7B | - |
+| 13 | Hsu family (Far Eastern) | business | B | $1.6B | - |
+| 14 | Teng-hsiung family (Chao Teng-hsiung) | business | B | $1.4B | - |
+| 15 | Hwang family (Archie Hwang) | business | B | $1.3B | - |
 
 ### SG (총 35개)
 
 | 순위 | 가문 | 카테고리 | tier_now | 자산 | head |
 |---:|---|---|---|---:|---|
-| 1 | Wee family (Cho Yaw Wee) | business | S | $101.8B | - |
-| 2 | Chang family (Jason Chang) | business | S | $50.2B | - |
-| 3 | Ng family (Robert & Philip Ng) | business | A | $29.2B | - |
-| 4 | Poh family (Chua Thian Poh) | business | A | $21.0B | - |
-| 5 | Liang family (Goh Cheng Liang) | business | A | $14.1B | - |
-| 6 | Kuok | business | A | $13.0B | [Robert Kuok] |
-| 7 | Tao family (Zhao Tao) | business | A | $13.0B | - |
+| 1 | Ng family (Robert & Philip Ng) | business | A | $32.1B | - |
+| 2 | Liang family (Goh Cheng Liang) | business | A | $21.0B | - |
+| 3 | Wee family (Cho Yaw Wee) | business | A | $20.0B | - |
+| 4 | brothers family (Kwee brothers) | business | A | $10.5B | - |
+| 5 | Chang family (Jason Chang) | business | B | $5.9B | - |
+| 6 | Beng family (Kwek Leng Beng) | business | B | $5.6B | - |
+| 7 | RK family (Raj Kumar & Kishin RK) | business | B | $5.3B | - |
 | 8 | Choo family (Tan Kim Choo) | business | B | $5.1B | - |
-| 9 | brothers family (Kwee brothers) | business | B | $4.9B | - |
-| 10 | Ping family (Shu Ping) | business | B | $3.9B | - |
-| 11 | Yong family (Zhang Yong) | business | B | $3.9B | - |
-| 12 | Goi family (Sam Goi) | business | B | $3.1B | - |
-| 13 | Beng family (Kwek Leng Beng) | business | B | $2.6B | - |
-| 14 | Chung family (Chang Yun Chung) | business | B | $2.4B | - |
-| 15 | Leong family (Oei Hong Leong) | business | B | $2.3B | - |
+| 9 | Lim family (Peter Lim) | business | B | $4.5B | - |
+| 10 | Chung family (Chang Yun Chung) | business | B | $4.5B | - |
+| 11 | Goi family (Sam Goi) | business | B | $3.9B | - |
+| 12 | Ping family (Shu Ping) | business | B | $3.9B | - |
+| 13 | Yong family (Zhang Yong) | business | B | $3.9B | - |
+| 14 | Leong family (Oei Hong Leong) | business | B | $3.8B | - |
+| 15 | Ngen family (Choo Chong Ngen) | business | B | $2.4B | - |
 
 ### ID (총 137개)
 
 | 순위 | 가문 | 카테고리 | tier_now | 자산 | head |
 |---:|---|---|---|---:|---|
-| 1 | Djarum Hartono family | business | S | $353.3B | - |
-| 2 | Tedja family (Alexander Tedja) | business | A | $23.0B | - |
-| 3 | Rachmat family (Theodore Rachmat) | business | A | $20.0B | Kartolo |
-| 4 | Lohia family (Sri Prakash Lohia) | business | A | $11.2B | - |
-| 5 | Tjien family (Tan Siok Tjien) | business | A | $10.3B | - |
-| 6 | Elizabeth A. Widjaja | business | B | $8.9B | [Eka Tjipta Widjaja heirs] |
-| 7 | Ciputra family (Ciputra) | business | B | $6.0B | - |
-| 8 | Tanjung family (Chairul Tanjung) | business | B | $4.3B | - |
-| 9 | Salim | business | B | $4.2B | [Anthoni Salim] |
-| 10 | Lippo Riady family | business | B | $2.6B | - |
-| 11 | Sondakh family (Peter Sondakh) | business | B | $2.3B | Sientje Sondakh Mandey |
+| 1 | Djarum Hartono family | business | S | $76.3B | - |
+| 2 | Lohia family (Sri Prakash Lohia) | business | A | $18.5B | - |
+| 3 | Tjien family (Tan Siok Tjien) | business | A | $10.3B | - |
+| 4 | Elizabeth A. Widjaja | business | B | $8.9B | [Eka Tjipta Widjaja heirs] |
+| 5 | Tanjung family (Chairul Tanjung) | business | B | $7.9B | - |
+| 6 | Lippo Riady family | business | B | $4.9B | - |
+| 7 | Tahir family (Mayapada) | business | B | $4.5B | - |
+| 8 | Salim | business | B | $4.2B | [Anthoni Salim] |
+| 9 | Sondakh family (Peter Sondakh) | business | B | $4.0B | Sientje Sondakh Mandey |
+| 10 | Prajogo Pangestu family (Barito Pacific) | business | B | $3.4B | - |
+| 11 | Kwong family (Low Tuck Kwong) | business | B | $2.3B | - |
 | 12 | Karim family (Bachtiar Karim) | business | B | $2.0B | - |
-| 13 | Sitorus family (Martua Sitorus) | business | B | $2.0B | - |
-| 14 | Tanoto family (RGE) | business | B | $2.0B | - |
+| 13 | Rachmat family (Theodore Rachmat) | business | B | $1.7B | Kartolo |
+| 14 | Sitorus family (Martua Sitorus) | business | B | $1.7B | - |
+| 15 | Tedja family (Alexander Tedja) | business | B | $1.6B | - |
 
 ### TR (총 400개)
 
 | 순위 | 가문 | 카테고리 | tier_now | 자산 | head |
 |---:|---|---|---|---:|---|
-| 1 | Arsel family (Semahat Sevim Arsel) | business | A | $10.6B | - |
-| 2 | Rahmi M. Koc branch | business | B | $9.5B | - |
-| 3 | Kirac family (Suna Kirac) | business | B | $9.2B | - |
-| 4 | Dogus family (Sahenk) | business | B | $4.7B | - |
-| 5 | Ulker family (Murat Ulker) | business | B | $4.4B | - |
-| 6 | Ozyegin family | business | B | $2.7B | - |
-| 7 | Tara family (Sarik Tara) | business | B | $2.4B | - |
-| 8 | Ilicak family (Erman Ilicak) | business | B | $2.2B | - |
-| 9 | Ciner family (Turgay Ciner) | business | B | $1.0B | - |
-| 10 | Vargi family (Murat Vargi) | business | B | $1.0B | - |
+| 1 | Ulker family (Murat Ulker) | business | B | $7.5B | - |
+| 2 | Dogus family (Sahenk) | business | B | $7.2B | - |
+| 3 | Ilicak family (Erman Ilicak) | business | B | $5.9B | - |
+| 4 | Ozyegin family | business | B | $4.9B | - |
+| 5 | Arsel family (Semahat Sevim Arsel) | business | B | $4.3B | - |
+| 6 | Rahmi M. Koc branch | business | B | $4.1B | - |
+| 7 | Kirac family (Suna Kirac) | business | B | $3.6B | - |
+| 8 | Tosyali family (Ayhan Tosyali) | business | B | $3.5B | - |
+| 9 | Tara family (Sarik Tara) | business | B | $2.4B | - |
+| 10 | Ulukaya family (Hamdi Ulukaya) | business | B | $1.7B | - |
+| 11 | Kucuk family (Mustafa Kucuk) | business | B | $1.6B | - |
+| 12 | Abdulhayoglu family (Melih Abdulhayoglu) | business | B | $1.6B | - |
+| 13 | Bacaksiz family (Sezai Bacaksiz) | business | B | $1.5B | - |
+| 14 | Ozdemir family (Nihat Ozdemir) | business | B | $1.5B | - |
+| 15 | Zorlu family (Ahmet Nazif Zorlu) | business | B | $1.3B | - |
 
 ### AT (총 1,796개)
 
 | 순위 | 가문 | 카테고리 | tier_now | 자산 | head |
 |---:|---|---|---|---:|---|
-| 1 | Mateschitz family (Dietrich Mateschitz) | business | A | $24.4B | - |
-| 2 | Leitner family (Wolfgang Leitner) | business | A | $16.0B | Georg Hackl |
-| 3 | Graf family (Johann Graf) | business | A | $12.6B | - |
+| 1 | Mateschitz family (Dietrich Mateschitz) | business | A | $47.1B | - |
+| 2 | Graf family (Johann Graf) | business | A | $18.3B | - |
+| 3 | Horten family (Heidi Horten) | business | B | $5.9B | - |
 | 4 | Wlaschek family (Karl Wlaschek) | business | B | $4.2B | - |
-| 5 | Horten family (Heidi Horten) | business | B | $2.7B | - |
-| 6 | Sohmen family (Helmut Sohmen) | business | B | $2.1B | - |
+| 5 | Sohmen family (Helmut Sohmen) | business | B | $3.7B | - |
+| 6 | Stumpf family (Georg Stumpf) | business | B | $2.7B | - |
+| 7 | Leitner family (Wolfgang Leitner) | business | B | $1.8B | Georg Hackl |
+| 8 | Geiger family (Reinold Geiger) | business | B | $1.5B | - |
+| 9 | Stronach | business | B | $1.5B | [Frank Stronach / Belinda Stronach] |
 
 ### CH (총 2,332개)
 
 | 순위 | 가문 | 카테고리 | tier_now | 자산 | head |
 |---:|---|---|---|---:|---|
-| 1 | Ebner family (Martin Ebner) | business | A | $49.0B | - |
-| 2 | Blocher family (Rahel Blocher) | business | A | $48.8B | - |
-| 3 | Martullo-Blocher family (Magdalena Martullo-Blocher) | business | A | $40.8B | - |
-| 4 | Erni family (Marcel Erni) | business | A | $40.0B | - |
-| 5 | Gantner family (Alfred Gantner) | business | A | $40.0B | - |
-| 6 | Wietlisbach family (Urs Wietlisbach) | business | A | $40.0B | - |
-| 7 | Fondazione Bertarelli Concert Hall | business | A | $29.0B | Achille Bertarelli |
-| 8 | Oeri family (Maja Oeri) | business | A | $27.5B | - |
-| 9 | Schmidheiny family (Thomas Schmidheiny) | business | A | $24.1B | - |
-| 10 | Diethelm family (Beda Diethelm) | business | A | $23.0B | Pascal Diethelm |
-| 11 | Wyss family (Hansjoerg Wyss) | business | A | $21.0B | - |
-| 12 | Pieper family (Michael Pieper) | business | A | $20.3B | - |
-| 13 | Aponte family (Gianluigi & Rafaela Aponte) | business | A | $15.7B | - |
-| 14 | Rupert family | business | A | $13.8B | - |
-| 15 | Louis-Dreyfus family (Margarita Louis-Dreyfus) | business | A | $13.5B | - |
+| 1 | Fondazione Bertarelli Concert Hall | business | A | $41.9B | Achille Bertarelli |
+| 2 | Aponte family (Gianluigi & Rafaela Aponte) | business | A | $23.1B | - |
+| 3 | Schmidheiny family (Thomas Schmidheiny) | business | A | $19.8B | - |
+| 4 | Rupert family | business | A | $19.4B | - |
+| 5 | Wyss family (Hansjoerg Wyss) | business | A | $18.9B | - |
+| 6 | Louis-Dreyfus family (Margarita Louis-Dreyfus) | business | A | $18.2B | - |
+| 7 | Blocher family (Rahel Blocher) | business | A | $13.0B | - |
+| 8 | Liebherr Group | business | A | $12.7B | - |
+| 9 | Martullo-Blocher family (Magdalena Martullo-Blocher) | business | A | $12.0B | - |
+| 10 | Glasenberg family (Ivan Glasenberg) | business | A | $10.2B | - |
+| 11 | Oeri family (Maja Oeri) | business | B | $8.9B | - |
+| 12 | Spuhler family (Peter Spuhler) | business | B | $6.9B | Silvio Denz |
+| 13 | Pieper family (Michael Pieper) | business | B | $6.4B | - |
+| 14 | Mantegazza family (Sergio Mantegazza) | business | B | $5.7B | - |
+| 15 | Hoffmann Family of Companies | business | B | $4.2B | [André Hoffmann] |
 
 ### BE (총 777개)
 
 | 순위 | 가문 | 카테고리 | tier_now | 자산 | head |
 |---:|---|---|---|---:|---|
 | 1 | Frere family (Albert Frere) | business | B | $4.9B | - |
-| 2 | Chodiev family (Patokh Chodiev) | business | B | $2.0B | - |
+| 2 | Chodiev family (Patokh Chodiev) | business | B | $4.1B | - |
 
 ### DK (총 252개)
 
 | 순위 | 가문 | 카테고리 | tier_now | 자산 | head |
 |---:|---|---|---|---:|---|
-| 1 | Kristiansen family (Kjeld Kirk Kristiansen) | business | A | $26.6B | Thomas Kirk Kristiansen |
-| 2 | Povlsen family (Anders Holch Povlsen) | business | B | $9.9B | - |
-| 3 | Louis-Hansen family (Niels Peter Louis-Hansen) | business | B | $9.5B | - |
-| 4 | Thinggaard family (Agnete Thinggaard) | business | B | $5.6B | - |
-| 5 | Larsen family (Lars Larsen) | business | B | $3.9B | - |
-| 6 | Kasprzak family (Hanni Toosbuy Kasprzak) | business | B | $2.7B | - |
+| 1 | Kristiansen family (Kjeld Kirk Kristiansen) | business | A | $38.9B | Thomas Kirk Kristiansen |
+| 2 | Louis-Hansen family (Niels Peter Louis-Hansen) | business | A | $14.7B | - |
+| 3 | Povlsen family (Anders Holch Povlsen) | business | A | $14.7B | - |
+| 4 | Thinggaard family (Agnete Thinggaard) | business | B | $9.7B | - |
+| 5 | Larsen family (Lars Larsen) | business | B | $6.7B | - |
+| 6 | Kasprzak family (Hanni Toosbuy Kasprzak) | business | B | $5.1B | - |
+| 7 | Nielsen family (Martin Moller Nielsen) | business | B | $2.1B | Thomas Juel-Nielsen |
 
 ### NO (총 496개)
 
 | 순위 | 가문 | 카테고리 | tier_now | 자산 | head |
 |---:|---|---|---|---:|---|
-| 1 | Rokke family (Kjell Inge Rokke) | business | S | $50.0B | - |
-| 2 | Reitan family (Odd Reitan) | business | B | $9.7B | - |
-| 3 | Witzoe family (Gustav Magnar Witzoe) | business | B | $9.0B | - |
-| 4 | Hagen family (Stein Erik Hagen) | business | B | $8.5B | - |
-| 5 | Thon family (Olav Thon) | business | B | $4.5B | - |
-| 6 | Johannson family (Johan Johannson) | business | B | $3.1B | - |
-| 7 | Halvorsen family (Andreas Halvorsen) | business | B | $2.8B | Einfrid Halvorsen |
-| 8 | Wilhelmsen family (Arne Wilhelmsen) | business | B | $2.4B | - |
+| 1 | Reitan family (Odd Reitan) | business | A | $15.5B | - |
+| 2 | Hagen family (Stein Erik Hagen) | business | A | $13.1B | - |
+| 3 | Rokke family (Kjell Inge Rokke) | business | B | $8.1B | - |
+| 4 | Johannson family (Johan Johannson) | business | B | $7.1B | - |
+| 5 | Halvorsen family (Andreas Halvorsen) | business | B | $6.5B | Einfrid Halvorsen |
+| 6 | Wilhelmsen family (Arne Wilhelmsen) | business | B | $5.5B | - |
+| 7 | Thon family (Olav Thon) | business | B | $4.5B | - |
+| 8 | Witzoe family (Gustav Magnar Witzoe) | business | B | $3.0B | - |
+| 9 | Andresen family (Alexandra Andresen) | business | B | $2.9B | Egil Gjelland |
+| 10 | Kjos family (Caroline Hagen Kjos) | business | B | $2.3B | - |
+| 11 | Stordalen family (Petter Stordalen) | business | B | $1.6B | - |
+| 12 | Tollefsen family (Ivar Tollefsen) | business | B | $1.1B | Signe Tollefsen |
+| 13 | Vik family (Alexander Vik) | business | B | $1.0B | - |

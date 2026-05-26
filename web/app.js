@@ -224,7 +224,7 @@ function regionOf(countries) {
 /* ============ load ============ */
 
 async function loadIndex() {
-  const res = await fetch("families.index.json?v=14");
+  const res = await fetch("families.index.json?v=15");
   STATE.index = await res.json();
   // Drop blacklisted (data-pollution) families before any indexing.
   STATE.index.families = STATE.index.families.filter(f => !BLACKLIST_IDS.has(f.id));
@@ -283,7 +283,7 @@ async function loadIndex() {
 async function loadDetail() {
   if (STATE.detail) return STATE.detail;
   if (STATE.detailPromise) return STATE.detailPromise;
-  STATE.detailPromise = fetch("families.detail.json?v=14").then(r => r.json()).then(d => { STATE.detail = d; return d; });
+  STATE.detailPromise = fetch("families.detail.json?v=15").then(r => r.json()).then(d => { STATE.detail = d; return d; });
   return STATE.detailPromise;
 }
 

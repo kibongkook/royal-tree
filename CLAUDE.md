@@ -149,6 +149,7 @@ Royal-Tree/
 | Fok 가문 enrichment + tier classifier 날짜파싱 버그 수정 (current:X -493) | ✅ 2026-05-24 |
 | **Phase 7 ranking — 100,108 가문 점수화 / 880 국가별 / Top-50 글로벌** | ✅ 2026-05-24 |
 | **Phase 7b 데이터 정제 — valuation 단위 정정(×1e9) · forbes-2019 owner→family 매핑 fix · cap $400B** | ✅ 2026-05-24 |
+| **Phase 7c 데이터 노이즈 정정 — forbes-2019 realTimeWorth 재산정(1,968 row) · 동성씨 dedup 19개 가문 정리(223 row orphan + 3 row Arnault remap)** | ✅ 2026-05-26 |
 
 ### 최종 산출물 (Phase 1-4 + 후속)
 
