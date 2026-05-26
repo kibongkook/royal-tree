@@ -325,6 +325,19 @@ def main():
                 for s in (d.get("spouses_lineage") or [])
             ][:6],
             "relations": merged_rels,
+            "advisors": [
+                {
+                    "id": a.get("id"),
+                    "name": a.get("name"),
+                    "role": a.get("role"),
+                    "firm": a.get("firm"),
+                    "country": a.get("country"),
+                    "relationship": a.get("relationship"),
+                    "since": a.get("since"),
+                    "until": a.get("until"),
+                }
+                for a in (d.get("advisors") or [])
+            ],
         }
 
     index_rows.sort(key=lambda x: (

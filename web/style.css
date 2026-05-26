@@ -1337,6 +1337,57 @@ main { padding-bottom: 0; }
 .traverse-card.muted { cursor: default; opacity: 0.55; }
 .traverse-card.muted::before { background: var(--mid); }
 .traverse-card.muted:hover { background: var(--paper-2); padding-left: 22px; }
+
+/* Advisor cards — 업무를 봐주는 사람들 */
+.adv-card {
+  padding: 14px 18px;
+  background: var(--paper-2);
+  border-left: 2px solid var(--bordeaux);
+  margin-bottom: 8px;
+  border-radius: 1px;
+}
+.adv-row1 {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.adv-role {
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--bordeaux);
+  flex-shrink: 0;
+}
+.adv-name {
+  font-family: var(--kr);
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--ink);
+}
+.adv-period {
+  font-family: var(--sans);
+  font-size: 12px;
+  color: var(--sub);
+  margin-left: auto;
+}
+.adv-firm {
+  font-family: var(--display);
+  font-style: italic;
+  font-size: 15px;
+  color: var(--ink-2);
+  margin-top: 4px;
+}
+.adv-rel {
+  font-family: var(--kr);
+  font-weight: 300;
+  font-size: 13px;
+  color: var(--ink-2);
+  margin-top: 6px;
+  line-height: 1.6;
+}
 .traverse-card.muted:hover::before { width: 3px; }
 .traverse-card.muted .arrow { display: none; }
 

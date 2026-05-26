@@ -224,7 +224,7 @@ function regionOf(countries) {
 /* ============ load ============ */
 
 async function loadIndex() {
-  const res = await fetch("families.index.json?v=15");
+  const res = await fetch("families.index.json?v=16");
   STATE.index = await res.json();
   // Drop blacklisted (data-pollution) families before any indexing.
   STATE.index.families = STATE.index.families.filter(f => !BLACKLIST_IDS.has(f.id));
@@ -283,7 +283,7 @@ async function loadIndex() {
 async function loadDetail() {
   if (STATE.detail) return STATE.detail;
   if (STATE.detailPromise) return STATE.detailPromise;
-  STATE.detailPromise = fetch("families.detail.json?v=15").then(r => r.json()).then(d => { STATE.detail = d; return d; });
+  STATE.detailPromise = fetch("families.detail.json?v=16").then(r => r.json()).then(d => { STATE.detail = d; return d; });
   return STATE.detailPromise;
 }
 
@@ -608,6 +608,37 @@ function renderDetail(f, d) {
     })).join("");
   }
 
+  // Advisors — 가문 업무를 봐주는 사람들 (banker·lawyer·family-office PM·lobbyist 등)
+  const ROLE_LABEL = {
+    m_and_a_banker: "M&A 자문",
+    family_office_pm: "Family Office",
+    lawyer: "법무",
+    board_director: "이사회",
+    foundation_chair: "재단",
+    political_advisor: "정치 자문",
+    lobbyist: "로비스트",
+    fixer: "중개인",
+    art_advisor: "아트 자문",
+  };
+  let advSec = "";
+  if (d.advisors?.length) {
+    advSec = d.advisors.map(a => {
+      const period = a.since
+        ? (a.until ? `${a.since}–${a.until}` : `${a.since}–`)
+        : "";
+      return `
+        <article class="adv-card">
+          <div class="adv-row1">
+            <span class="adv-role">${escapeHtml(ROLE_LABEL[a.role] || a.role || "")}</span>
+            <span class="adv-name">${escapeHtml(a.name || "")}</span>
+            ${period ? `<span class="adv-period">${period}</span>` : ""}
+          </div>
+          ${a.firm ? `<div class="adv-firm">${escapeHtml(a.firm)}${a.country ? ` · ${escapeHtml(a.country)}` : ""}</div>` : ""}
+          ${a.relationship ? `<div class="adv-rel">${escapeHtml(a.relationship)}</div>` : ""}
+        </article>`;
+    }).join("");
+  }
+
   return `
     <div class="dd-head">
       <div class="dd-tag">${escapeHtml(tag)}</div>
@@ -628,6 +659,7 @@ function renderDetail(f, d) {
     ${bizSec ? `<div class="dd-section"><h3>사업체 <span class="count">${biz.count || biz.top?.length || ""}</span></h3>${bizSec}</div>` : ""}
     ${spouseSec ? `<div class="dd-section"><h3>혼인으로 이어진 가문</h3>${spouseSec}</div>` : ""}
     ${relSec ? `<div class="dd-section"><h3>가문 간 관계</h3>${relSec}</div>` : ""}
+    ${advSec ? `<div class="dd-section"><h3>업무를 봐주는 사람들 <span class="count">${d.advisors.length}</span></h3>${advSec}</div>` : ""}
     ${personSec ? `<div class="dd-section"><h3>혈맥</h3>${personSec}</div>` : ""}
     ${d.notes ? `<div class="dd-section"><h3>비고</h3><div style="font-family:var(--kr);font-weight:300;color:var(--ink-2);line-height:1.75">${escapeHtml(d.notes)}</div></div>` : ""}
     ${d.sources?.length ? `<div class="dd-foot">출처 — ${d.sources.map(s => `<code>${escapeHtml(s)}</code>`).join(" · ")}</div>` : ""}

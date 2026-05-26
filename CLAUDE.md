@@ -12,7 +12,8 @@
 | Phase 4 | 가문 보유/지배 사업체 매핑 (지분·이사회·재단) |
 | Phase 5 | tier(과거/현재) + display payload(origin/middle/recent 2-3대) + 부인 족보 + relations 최근성 |
 | Phase 6 | SAB-tier QID 가문 인물 그래프 BFS 확장 (SPARQL P53 시드 + wbgetentities 3-hop 상하 + spouse) |
-| **Phase 7 (현재)** | 가문 영향력 ranking — **국가별 부호 순(경제) + 통치/旧宮家 별도 섹션(정치)** |
+| Phase 7 | 가문 영향력 ranking — 국가별 부호 순(경제) + 통치/旧宮家 별도 섹션(정치) |
+| **Phase 8 (현재)** | advisors — 가문 업무를 봐주는 사람들(banker·lawyer·family-office·lobbyist)을 person↔가문 edge로 매핑 |
 
 ## 수집 범위 (Phase 1)
 
@@ -150,6 +151,7 @@ Royal-Tree/
 | **Phase 7 ranking — 100,108 가문 점수화 / 880 국가별 / Top-50 글로벌** | ✅ 2026-05-24 |
 | **Phase 7b 데이터 정제 — valuation 단위 정정(×1e9) · forbes-2019 owner→family 매핑 fix · cap $400B** | ✅ 2026-05-24 |
 | **Phase 7c 데이터 노이즈 정정 — forbes-2019 realTimeWorth 재산정(1,968 row) · 동성씨 dedup 19개 가문 정리(223 row orphan + 3 row Arnault remap)** | ✅ 2026-05-26 |
+| **Phase 8 advisors — 가문 업무를 봐주는 사람들(banker·lawyer·family-office·lobbyist) 37명 manual seed → 27개 가문에 join** | ✅ 2026-05-26 |
 
 ### 최종 산출물 (Phase 1-4 + 후속)
 
