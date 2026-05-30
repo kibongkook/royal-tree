@@ -23,7 +23,12 @@ import { dirname, resolve } from "path";
 
 const CDP = "http://localhost:9224";
 const ACCOUNT_ID = "4a2baf562a18cf27a58db76b05e72cc6";
-const REPO_ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..", "..");
+// Resolve REPO_ROOT from script location when run in-tree; fall back to absolute
+// when this file has been copied elsewhere (e.g. /tmp for playwright deps).
+let REPO_ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..", "..");
+if (!REPO_ROOT.endsWith("royal-tree")) {
+  REPO_ROOT = "/Users/sidewalkai2/Claude/royal-tree";
+}
 
 const PAGES_WRITE = { id: "8d28297797f24fb8a0c332fe0866ec89", name: "Pages Write" };
 const USER_READ   = { id: "8acbe5bb0d54464ab867149d7f7cf8ac", name: "User Details Read" };
