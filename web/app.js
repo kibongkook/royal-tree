@@ -808,7 +808,16 @@ function renderBrowseInner() {
       if (c && !c.startsWith("q:")) countryCounts.set(c, (countryCounts.get(c) || 0) + 1);
     }
   }
-  const topCountries = [...countryCounts.entries()].sort((a,b) => b[1]-a[1]).slice(0, 10);
+  // Korean-first service: always surface KR + JP + CN if they have any entries,
+  // even when they'd fall outside the natural top-10 by count.
+  const PRIORITY_CCS = ["KR", "JP", "CN"];
+  const top = [...countryCounts.entries()].sort((a,b) => b[1]-a[1]);
+  const priorityEntries = PRIORITY_CCS
+    .map(cc => countryCounts.has(cc) ? [cc, countryCounts.get(cc)] : null)
+    .filter(Boolean);
+  const seen = new Set(priorityEntries.map(([cc]) => cc));
+  const rest = top.filter(([cc]) => !seen.has(cc));
+  const topCountries = [...priorityEntries, ...rest].slice(0, 10);
   const view = $("#browse-view");
   view.innerHTML = `
     <div class="browse-inner">

@@ -42,6 +42,9 @@
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 
+html, body { overflow-x: hidden; max-width: 100vw; }
+.topbar-inner > * { min-width: 0; }
+
 body {
   margin: 0;
   background: var(--paper);
