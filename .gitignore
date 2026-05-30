@@ -67,3 +67,6 @@ naver_application/
 
 # wrangler local build cache
 .wrangler/
+
+# Backup files
+*.bak
