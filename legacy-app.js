@@ -71,12 +71,12 @@ function lifeSpan(p) {
 function era(p) {
   const y = p.birth ? parseInt(String(p.birth).slice(0,4)) : null;
   if (!y) return "·";
-  if (y < 1500) return "中世";
-  if (y < 1800) return "近世";
-  if (y < 1900) return "19c";
-  if (y < 1945) return "20c前";
-  if (y < 1980) return "20c中";
-  return "現代";
+  if (y < 1500) return "중세";
+  if (y < 1800) return "근세";
+  if (y < 1900) return "19세기";
+  if (y < 1945) return "20세기 초";
+  if (y < 1980) return "20세기 중";
+  return "현대";
 }
 
 /* ============ load ============ */
@@ -362,7 +362,7 @@ async function openDetail(id) {
 
   const idxF = STATE.byId.get(id);
   if (!idxF) { content.innerHTML = `<div class="empty">자료를 찾지 못했습니다.</div>`; return; }
-  content.innerHTML = `<div class="empty">族譜를 펴는 중…</div>`;
+  content.innerHTML = `<div class="empty">족보를 펴는 중…</div>`;
   drawer.querySelector(".drawer-panel").scrollTop = 0;
 
   const detail = await loadDetail();

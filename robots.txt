@@ -1,0 +1,25 @@
+# RoyalTree (로열트리) — robots.txt
+# 살아있는 가문의 색인 · https://royal-tree.pages.dev/
+
+User-agent: *
+Allow: /
+
+# 대형 데이터 JSON은 크롤링 불필요 (검색 결과에 노출될 필요 없음)
+Disallow: /families.detail.json
+Disallow: /families.index.json
+Disallow: /indexes.cross.json
+
+# 주요 검색엔진 명시 허용
+User-agent: Googlebot
+Allow: /
+
+User-agent: Yeti
+Allow: /
+
+User-agent: Daum
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+Sitemap: https://royal-tree.pages.dev/sitemap.xml

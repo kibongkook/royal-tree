@@ -31,7 +31,7 @@ const COUNTRY_NAMES = {
 // billionaire data via faulty dedup. Hidden from web until source dedup is fixed.
 // (See memory/feedback_data_quality.md)
 const BLACKLIST_IDS = new Set([
-  "royal-tree:manual:zhang-juzheng-family",   // 张居正 (Ming politician) ← ByteDance/TAL/Weiqiao Zhang
+  "royal-tree:manual:zhang-juzheng-family",   // Zhang Juzheng (Ming politician) ← ByteDance/TAL/Weiqiao Zhang
 ]);
 
 const CAT_LABEL = { royal:"왕가", noble:"귀족", clan:"씨족", business:"기업", political:"정치", religious:"종교", tribal:"부족", unknown:"불명" };
@@ -40,7 +40,7 @@ const PANTHEON_LABEL = {
   sovereign: "통치 · Reigning Houses",
   capital:   "자본 · Houses of Capital",
   quiet:     "조용한 부 · Quiet Wealth",
-  rule:      "政權 · Political Dynasties",
+  rule:      "정권 · Political Dynasties",
 };
 const TIER_ORDER = ["S","A","B","C","D","X"];
 
@@ -205,12 +205,12 @@ function lifeSpan(p) {
 function era(p) {
   const y = p.birth ? parseInt(String(p.birth).slice(0,4)) : null;
   if (!y) return "·";
-  if (y < 1500) return "中世";
-  if (y < 1800) return "近世";
-  if (y < 1900) return "19c";
-  if (y < 1945) return "20c前";
-  if (y < 1980) return "20c中";
-  return "現代";
+  if (y < 1500) return "중세";
+  if (y < 1800) return "근세";
+  if (y < 1900) return "19세기";
+  if (y < 1945) return "20세기 초";
+  if (y < 1980) return "20세기 중";
+  return "현대";
 }
 function regionOf(countries) {
   for (const c of countries || []) {
@@ -326,7 +326,7 @@ function renderPathCounts() {
   for (const p of ["sovereign", "capital", "quiet", "rule"]) {
     const n = STATE.index.families.filter(f => f.pantheon === p).length;
     const el = document.querySelector(`[data-count="${p}"]`);
-    if (el) el.textContent = `${n}家 →`;
+    if (el) el.textContent = `${n}가문 →`;
   }
 }
 
@@ -334,7 +334,7 @@ function renderCategoryCounts() {
   for (const cat of ["business","royal","noble","clan","political","religious","tribal","unknown"]) {
     const n = (STATE.byCategory.get(cat) || []).length;
     const el = document.querySelector(`[data-cat-count="${cat}"]`);
-    if (el) el.textContent = n ? `${n.toLocaleString()}家` : "";
+    if (el) el.textContent = n ? `${n.toLocaleString()}가문` : "";
   }
 }
 
@@ -350,7 +350,7 @@ function renderRegions() {
       <h3 class="rt-name">${REGIONS[k].ko.split('').map((c,i)=>i===1?`<em>${c}</em>`:c).join('')}</h3>
       <div class="rt-meta">
         <span>${REGIONS[k].codes.length} 국가</span>
-        <span class="rt-count">${list.length.toLocaleString()}家</span>
+        <span class="rt-count">${list.length.toLocaleString()}가문</span>
       </div>
     </a>`;
   }).join("");
@@ -369,7 +369,7 @@ function renderSectors() {
         <h3 class="st-name">${SECTORS[k].ko}</h3>
         ${top ? `<p class="st-top">${top}</p>` : `<p class="st-top muted">—</p>`}
         <div class="st-meta">
-          <span class="st-count">${list.length.toLocaleString()}家</span>
+          <span class="st-count">${list.length.toLocaleString()}가문</span>
           <span class="st-arrow">→</span>
         </div>
       </a>`;
@@ -427,7 +427,7 @@ function runAutocomplete(q) {
     pop.innerHTML = `
       <li class="sp-empty">
         <strong>“${escapeHtml(q)}”</strong>에 일치하는 가문이 없습니다.<br>
-        시도: <em>Windsor · Bezos · 사우디 · LVMH · 삼성 · 霍 · Rothschild · Mars</em>
+        시도: <em>Windsor · Bezos · 사우디 · LVMH · 삼성 · 록펠러 · Rothschild · Mars</em>
       </li>`;
     pop.hidden = false;
     return;
@@ -715,7 +715,7 @@ function browseTitle(type, value) {
       sovereign: { ko:"통치", en:"Reigning Houses" },
       capital:   { ko:"자본", en:"Houses of Capital" },
       quiet:     { ko:"조용한 부", en:"Quiet Wealth" },
-      rule:      { ko:"政權", en:"Political Dynasties" },
+      rule:      { ko:"정권", en:"Political Dynasties" },
     };
     const def = labels[value];
     return def ? { eyebrow: def.en, title: def.ko, sub: "세 가지 길" } : null;
@@ -822,7 +822,7 @@ function renderBrowseInner() {
           <p class="kicker" style="text-align:left;margin-bottom:10px">${escapeHtml(title.sub)} · ${escapeHtml(title.eyebrow)}</p>
           <h1 class="browse-title">${escapeHtml(title.title)}</h1>
         </div>
-        <div class="browse-count"><strong>${list.length.toLocaleString()}</strong>家</div>
+        <div class="browse-count"><strong>${list.length.toLocaleString()}</strong>가문</div>
       </header>
 
       <div class="browse-subfilter">
@@ -856,7 +856,7 @@ function renderBrowseInner() {
         ? `<div class="empty" style="padding:80px 0">조건에 맞는 가문이 없습니다.</div>`
         : `<div class="featured-grid browse-grid">${slice.map(browseCardHTML).join("")}</div>`}
 
-      ${shown < list.length ? `<div style="text-align:center;margin-top:40px"><button id="browse-more" class="archive-btn">→ 다음 ${Math.min(BROWSE_LIMIT_STEP, list.length-shown)}家 (총 ${list.length})</button></div>` : ""}
+      ${shown < list.length ? `<div style="text-align:center;margin-top:40px"><button id="browse-more" class="archive-btn">→ 다음 ${Math.min(BROWSE_LIMIT_STEP, list.length-shown)}가문 (총 ${list.length})</button></div>` : ""}
     </div>
   `;
   $$(".sf-chip").forEach(b => b.addEventListener("click", () => {
@@ -990,7 +990,34 @@ function wire() {
 
 /* ============ boot ============ */
 
+function setupKbdHint() {
+  // Show platform-appropriate shortcut hint, hide on touch devices.
+  const kbd = document.getElementById("kbd-hint");
+  if (!kbd) return;
+  const isTouch = matchMedia("(hover: none) and (pointer: coarse)").matches;
+  if (isTouch) { kbd.hidden = true; return; }
+  const isMac = /Mac|iPhone|iPad|iPod/.test(navigator.platform || "")
+             || /Mac/.test(navigator.userAgent || "");
+  kbd.textContent = isMac ? "⌘ K" : "Ctrl K";
+  kbd.hidden = false;
+}
+
+// Deep-link search entry — supports JSON-LD SearchAction (?q=...) and shared search URLs.
+function applyQueryParam() {
+  const term = new URLSearchParams(location.search).get("q");
+  if (!term) return;
+  const q = $("#q");
+  if (!q) return;
+  q.value = term;
+  const clear = $("#clear-q");
+  if (clear) clear.hidden = false;
+  q.focus();
+  runAutocomplete(term);
+  q.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
 async function boot() {
+  setupKbdHint();
   try {
     await loadIndex();
     renderFeatured();
@@ -1000,6 +1027,7 @@ async function boot() {
     renderRegions();
     wire();
     route();
+    applyQueryParam();
   } catch (err) {
     console.error(err);
     $("#featured-grid").innerHTML = `<div class="empty">자료를 불러오지 못했습니다.</div>`;

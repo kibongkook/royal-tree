@@ -3,12 +3,78 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <title>RoyalTree — 살아있는 가문의 색인</title>
-  <meta name="description" content="오늘 세상을 움직이는 가문을 한 권의 색인으로 정리한 명문지(名門誌)." />
+
+  <!-- ===== Primary SEO ===== -->
+  <title>로열트리 (RoyalTree) — 살아있는 가문의 색인</title>
+  <meta name="description" content="로열트리(RoyalTree)는 오늘 세상을 움직이는 가문을 한 권에 담은 색인입니다. 통치 왕가·자본 가문·조용한 부·정치 가문을 국가별·자산순·HOT순으로 탐색하세요." />
+  <meta name="keywords" content="로열트리, RoyalTree, 가문, 왕가, 명문가, 재벌가문, 귀족가문, 왕실, 가계도, 족보, 가문 계보, 세계 명문가, 부자 가문, 정치 가문, royal family, noble houses, dynasties" />
+  <meta name="author" content="RoyalTree" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1" />
+  <meta name="theme-color" content="#140e1c" />
+  <link rel="canonical" href="https://royal-tree.pages.dev/" />
+  <link rel="alternate" hreflang="ko" href="https://royal-tree.pages.dev/" />
+  <link rel="alternate" hreflang="x-default" href="https://royal-tree.pages.dev/" />
+
+  <!-- ===== Icons / Manifest ===== -->
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="/icon-192.png" sizes="192x192" type="image/png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+
+  <!-- ===== Open Graph ===== -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="로열트리 · RoyalTree" />
+  <meta property="og:title" content="로열트리 (RoyalTree) — 살아있는 가문의 색인" />
+  <meta property="og:description" content="오늘 세상을 움직이는 가문 — 통치 왕가·자본·조용한 부·정치 가문을 한 권의 색인으로." />
+  <meta property="og:url" content="https://royal-tree.pages.dev/" />
+  <meta property="og:image" content="https://royal-tree.pages.dev/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="로열트리 — 살아있는 가문의 색인" />
+  <meta property="og:locale" content="ko_KR" />
+
+  <!-- ===== Twitter ===== -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="로열트리 (RoyalTree) — 살아있는 가문의 색인" />
+  <meta name="twitter:description" content="오늘 세상을 움직이는 가문 — 통치 왕가·자본·조용한 부·정치 가문." />
+  <meta name="twitter:image" content="https://royal-tree.pages.dev/og-image.png" />
+
+  <!-- ===== Structured data (JSON-LD) ===== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "로열트리",
+    "alternateName": ["RoyalTree", "Royal Tree", "로열 트리", "로얄트리"],
+    "url": "https://royal-tree.pages.dev/",
+    "description": "오늘 세상을 움직이는 가문을 한 권에 담은 색인 — 통치 왕가·자본 가문·조용한 부·정치 가문.",
+    "inLanguage": "ko",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://royal-tree.pages.dev/?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "로열트리 · RoyalTree",
+    "url": "https://royal-tree.pages.dev/",
+    "logo": "https://royal-tree.pages.dev/icon-512.png",
+    "description": "전 세계 왕가·귀족·기업·정치 가문의 계보와 관계를 추적하는 살아있는 색인."
+  }
+  </script>
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@1,400;1,500&family=Noto+Serif+KR:wght@300;400;500;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css?v=16" />
+  <link rel="stylesheet" href="style.css?v=17" />
 </head>
 <body>
 
@@ -24,7 +90,7 @@
         </svg>
         <input id="q" type="text" placeholder="가문 · 인물 · 브랜드 · 회사 · 국가 — 무엇이든" aria-label="검색" />
         <button type="button" id="clear-q" class="clear-x" aria-label="검색 지우기" hidden>×</button>
-        <kbd class="kbd-hint">⌘ K</kbd>
+        <kbd class="kbd-hint" id="kbd-hint" hidden></kbd>
         <ul class="search-pop" id="search-pop" hidden role="listbox"></ul>
       </form>
 
@@ -54,20 +120,20 @@
     <!-- ================= HERO ================= -->
     <section class="hero">
       <div class="hero-band">
-        <p class="eyebrow"><span>Anno MMXXVI</span> · <span>오늘, 세상을 움직이는 가문</span></p>
+        <p class="eyebrow"><span>2026</span> · <span>오늘, 세상을 움직이는 가문</span></p>
         <h1 class="hero-title">
           The Living Houses<br>
           <em>of Our Age.</em>
         </h1>
         <p class="hero-lede">
-          왕좌에 앉아 있는, 자본을 일군, 침묵 속에서 권력을 이어가는 가문 — 한 권의 살아있는 색인.
+          <strong>로열트리</strong>는 왕좌에 앉아 있는, 자본을 일군, 침묵 속에서 권력을 이어가는 가문을 한 권에 담은 살아있는 색인입니다.
         </p>
       </div>
 
       <div class="featured" id="featured">
         <header class="featured-head">
           <h2>오늘의 명문</h2>
-          <span class="featured-sub">globally recognised · 9家</span>
+          <span class="featured-sub">globally recognised · 9가문</span>
         </header>
         <div class="featured-grid" id="featured-grid">
           <!-- 9 cards injected by JS -->
@@ -120,7 +186,7 @@
         <a class="path-card" href="#pantheon/rule">
           <span class="path-roman">IV.</span>
           <div>
-            <h3 class="path-title">政權</h3>
+            <h3 class="path-title">정권</h3>
             <p class="path-sub">선거로 정권을 세습한 정치 왕조</p>
           </div>
           <span class="path-count" data-count="rule"></span>
@@ -164,12 +230,12 @@
     <section class="hint">
       <div class="hint-inner">
         <div class="hint-left">
-          <p class="hint-kicker">In the margin · 한 마디</p>
+          <p class="hint-kicker">한 마디</p>
           <p class="hint-quote">
-            <em>“Nomen est omen.”</em>
+            <em>“이름이 곧 운명이다.”</em>
           </p>
-          <p class="hint-trans">이름이 곧 운명이다.</p>
-          <p class="hint-attr">— Plautus, <i>Persa</i> (BC 4세기)</p>
+          <p class="hint-trans">— Nomen est omen.</p>
+          <p class="hint-attr">플라우투스, 『페르사』 (기원전 4세기)</p>
         </div>
         <div class="hint-right" aria-hidden="true">
           <svg viewBox="0 0 120 160" class="crest">
@@ -190,7 +256,7 @@
       <header class="section-head">
         <p class="kicker">전체 색인 · The Archive</p>
         <h2 class="section-title">전체 가문 색인</h2>
-        <p class="section-lede">데이터에 수록된 살아있는 가문 9,840家. 어느 지역이든 같은 출발선에서 시작합니다.</p>
+        <p class="section-lede">데이터에 수록된 살아있는 가문 9,840가문. 어느 지역이든 같은 출발선에서 시작합니다.</p>
       </header>
       <div class="archive-actions">
         <a class="archive-btn primary" href="legacy.html?v=5">국가별 · 위계별 색인 →</a>
@@ -207,7 +273,7 @@
       <div class="foot-left">
         <span class="foot-brand">RoyalTree</span>
         <span class="foot-sep">·</span>
-        <span>Anno MMXXVI · 名門誌</span>
+        <span>로열트리 · 2026 · 명문지</span>
       </div>
       <div class="foot-right">
         <a href="legacy.html">옛 색인</a>
@@ -226,6 +292,6 @@
     </div>
   </aside>
 
-  <script src="app.js?v=16" defer></script>
+  <script src="app.js?v=17" defer></script>
 </body>
 </html>

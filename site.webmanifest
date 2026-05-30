@@ -1,0 +1,16 @@
+{
+  "name": "로열트리 — 살아있는 가문의 색인",
+  "short_name": "로열트리",
+  "description": "오늘 세상을 움직이는 가문을 한 권의 색인. 통치 왕가·자본 가문·조용한 부·정치 가문.",
+  "lang": "ko",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#140e1c",
+  "theme_color": "#140e1c",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
