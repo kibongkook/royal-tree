@@ -127,18 +127,45 @@ def render_page(f: dict, detail: dict | None) -> str:
     desc = " · ".join(desc_bits)[:300]
 
     # Keywords — pack Korean-first
-    kw = {name, name_ko, name_en, "로열트리", "RoyalTree", "가문", "가문 정보",
-          "가문 순위", "명문가", cat}
+    kw = {name, name_ko, name_en, "로열트리", "RoyalTree", "Royal Tree",
+          "가문", "가문 정보", "가문 순위", "가문 계보", "가계도", "족보",
+          "명문가", "세계 명문가", cat, f"{cat} 순위", f"{cat} 정보"}
     if cc_label:
-        kw.add(cc_label)
-        kw.add(f"{cc_label} {cat}")
-        kw.add(f"{cc_label} 부자")
-    if rank and rank <= 100:
-        kw.add(f"세계 부자 가문")
-        kw.add(f"부자 순위")
-    for ind in inds[:5]:
+        kw.update({
+            cc_label, f"{cc_label} {cat}", f"{cc_label} 부자",
+            f"{cc_label} 명문가", f"{cc_label} 가문", f"{cc_label} 재벌",
+            f"{cc_label} 부호",
+        })
+    if rank:
+        if rank <= 50:
+            kw.update({"세계 부자 가문", "세계 부자 순위", "글로벌 부자",
+                       "글로벌 가문 순위", "세계 가문"})
+        if rank <= 200:
+            kw.update({"부자 순위", "세계 부호"})
+        kw.add(f"세계 #{rank} 가문")
+    if name:
+        # 한국어 검색어 "<name> 가족", "<name> 가문" 직접 매칭
+        kw.update({f"{name} 가문", f"{name} 가족", f"{name} 자산",
+                   f"{name} 순위", f"{name} 회사"})
+    if name_ko and name_ko != name:
+        kw.update({f"{name_ko} 가문", f"{name_ko} 가족",
+                   f"{name_ko} 자산", f"{name_ko} 순위"})
+    if head:
+        kw.update({f"{head}", f"{head} 가족", f"{head} 가문",
+                   f"{head} 자산", f"{head} 부인", f"{head} 자녀"})
+    if f.get("pantheon") == "sovereign":
+        kw.update({"왕실", "왕가", "현존 왕가", "왕가 순위", "왕실 가계도"})
+    if f.get("pantheon") == "capital":
+        kw.update({"재벌", "재벌가문", "재벌 순위", "기업 가문 순위"})
+    if f.get("pantheon") == "quiet":
+        kw.update({"숨은 부자", "조용한 부자", "비공개 자산가"})
+    if f.get("pantheon") == "rule":
+        kw.update({"정치 가문", "정치 왕조", "세습 정권", "정권 가문"})
+    for ind in inds[:8]:
         kw.add(ind)
-    kw_str = ", ".join(k for k in kw if k)
+    # Drop blanks/duplicates and cap length (Google ignores keywords meta but
+    # other engines / on-page text matching still benefits)
+    kw_str = ", ".join(k for k in kw if k)[:1000]
 
     canonical_url = f"{PROD_BASE}/f/{slugify(fid)}.html"
 
@@ -166,6 +193,26 @@ def render_page(f: dict, detail: dict | None) -> str:
         body_parts.append(f'<p class="headline">{html_escape(headline)}</p>')
     if narrative:
         body_parts.append(f'<p class="narrative">{html_escape(narrative)}</p>')
+
+    # 자연어 한 문장 — 검색엔진 본문 일치도에 결정적 (Google·Naver)
+    natural_bits = []
+    if rank and cc_label:
+        natural_bits.append(f"{name}은(는) {cc_label}을(를) 대표하는 {cat} 가운데 하나로, "
+                            f"전세계 가문 영향력 순위 #{rank}위에 자리합니다.")
+    elif cc_label:
+        natural_bits.append(f"{name}은(는) {cc_label}의 {cat}입니다.")
+    if val_s and cc_label:
+        natural_bits.append(f"가족 합산 자산은 약 {val_s} 규모로 추정되며, "
+                            f"{cc_label} 내에서도 손꼽히는 명문가로 분류됩니다.")
+    if head:
+        natural_bits.append(f"현재 가주는 {head}이며, 가문의 사업과 영향력을 이어가고 있습니다.")
+    if pn:
+        natural_bits.append(f"로열트리의 {pn} 전당에 등재된 가문입니다.")
+    if natural_bits:
+        body_parts.append('<section class="ko-natural">')
+        for s in natural_bits:
+            body_parts.append(f'<p>{html_escape(s)}</p>')
+        body_parts.append('</section>')
 
     if biz:
         body_parts.append('<h2>주요 사업체</h2><ul class="biz">')
@@ -245,7 +292,7 @@ def render_page(f: dict, detail: dict | None) -> str:
 
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
   <link rel="manifest" href="/site.webmanifest" />
-  <link rel="stylesheet" href="/style.css?v=17" />
+  <link rel="stylesheet" href="/style.css?v=18" />
   <style>
     /* Lightweight stub typography; main app.js may take over */
     .stub-page {{ max-width: 760px; margin: 56px auto; padding: 0 24px; font-family: var(--kr, "Noto Serif KR", serif); line-height: 1.7; }}
@@ -309,11 +356,11 @@ def main():
     targets = []
     seen = set()
 
-    # 1. Top 500 by rank_global
+    # 1. Top 2,000 by rank_global (long-tail SEO 폭 확장)
     ranked = sorted(
         (f for f in fams if f.get("rank_global")),
         key=lambda f: f["rank_global"],
-    )[:500]
+    )[:2000]
     for f in ranked:
         if f["id"] not in seen:
             targets.append(f)
@@ -379,12 +426,10 @@ def main():
     url(f"{PROD_BASE}/", "1.0", "weekly")
     url(f"{PROD_BASE}/legacy.html", "0.6", "monthly")
     url(f"{PROD_BASE}/f/", "0.8", "weekly")
-    # Pantheon hash routes (deep-link)
-    for p in ["sovereign", "capital", "quiet", "rule"]:
-        url(f"{PROD_BASE}/#pantheon/{p}", "0.7", "weekly")
-    # Category hash routes
-    for c in ["business", "royal", "noble", "clan", "political", "religious", "tribal"]:
-        url(f"{PROD_BASE}/#cat/{c}", "0.7", "weekly")
+    # NOTE: hash URLs (#pantheon/…, #cat/…) intentionally excluded.
+    # Google ignores fragments and treats them as the bare URL → would mark
+    # the whole sitemap as “couldn't fetch” (가져올 수 없음). Use static /f/
+    # pages + the home page as the indexable surface instead.
     # Static family pages
     for slug, f in written_slugs:
         rk = f.get("rank_global") or 9999
