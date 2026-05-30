@@ -64,3 +64,6 @@ data/master/*.pre_*.jsonl
 
 # Sibling project parked here by mistake (Naver listing 작업물)
 naver_application/
+
+# wrangler local build cache
+.wrangler/
