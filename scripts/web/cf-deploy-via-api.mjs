@@ -91,9 +91,12 @@ async function main() {
   if (r.stderr) console.log("stderr:", r.stderr.trim().slice(-300));
 
   console.log("\n[4] wrangler pages deploy web");
+  // Explicit ASCII commit message — wrangler rejects non-ASCII (Korean) git
+  // commit messages with [code: 8000111] "Invalid commit message".
   r = spawnSync("npx", ["wrangler", "pages", "deploy", "web",
                         "--project-name", "royal-tree", "--branch", "main",
-                        "--commit-dirty=true"],
+                        "--commit-dirty=true",
+                        "--commit-message", "RoyalTree deploy"],
                 { env, cwd: REPO_ROOT, encoding: "utf8", timeout: 300000 });
   console.log("stdout:", (r.stdout||"").trim().slice(-1500));
   if (r.stderr) console.log("stderr:", r.stderr.trim().slice(-300));
